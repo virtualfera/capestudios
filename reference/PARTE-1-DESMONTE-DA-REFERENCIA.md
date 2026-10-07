@@ -69,7 +69,7 @@ Year 167 → 1.059 em ~5 s. Ou seja, **cada ordem de grandeza de tempo ocupa ~10
 
 1. Plano **único, contínuo, câmera fixa** — sem cortes.
 2. Contador acelerando de forma não-linear; HUD de 3 linhas sempre no mesmo lugar.
-3. Exatamente **7 legendas curtas** + título inicial + cartão final.
+3. **11 legendas curtas** (a referência tem 11, uma por "capítulo") + título inicial + cartão final.
 4. Virada dramática no ~76% do vídeo (ponto de "RAIN STOPPED" → "O ABALO PAROU") com queda de áudio.
 5. Epílogo de **"natureza retoma"** com luz quente, depois fade para preto e cartão final.
 6. Sem narração; só texto + som ambiente.

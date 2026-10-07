@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>E se tremesse por 1000 dias</title>
+<style>
+@font-face{font-family:"EB Garamond";font-weight:400;font-style:normal;src:url(/fonts/eb-garamond-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"EB Garamond";font-weight:400;font-style:italic;src:url(/fonts/eb-garamond-latin-400-italic.woff2) format("woff2")}
+@font-face{font-family:"Inter";font-weight:500;src:url(/fonts/inter-latin-500-normal.woff2) format("woff2")}
+@font-face{font-family:"Inter";font-weight:600;src:url(/fonts/inter-latin-600-normal.woff2) format("woff2")}
+:root{--u:1px} /* 1u = H/1024 px, definido por JS */
+html,body{margin:0;background:#000;overflow:hidden}
+#stage{position:relative;transform-origin:0 0}
+canvas{display:block}
+.hud,.legend,.titlecard,.endcard,#black{position:absolute;color:#fff;pointer-events:none}
+.hud{left:calc(37*var(--u));top:calc(437*var(--u));opacity:0;text-shadow:0 0 calc(10*var(--u)) rgba(0,0,0,.45)}
+.hud .state{font:600 calc(10.5*var(--u))/1 "Inter",sans-serif;letter-spacing:.17em;opacity:.88;margin-bottom:calc(7*var(--u))}
+.hud .count{font:400 calc(38*var(--u))/1 "EB Garamond",serif;letter-spacing:-.005em}
+.hud .metric{font:500 calc(8.2*var(--u))/1 "Inter",sans-serif;letter-spacing:.2em;opacity:.62;margin-top:calc(9*var(--u))}
+.legend{left:0;right:0;top:calc(655*var(--u));text-align:center;font:italic 400 calc(19.5*var(--u))/1.2 "EB Garamond",serif;opacity:0;text-shadow:0 0 calc(12*var(--u)) rgba(0,0,0,.7)}
+.titlecard{left:0;right:0;top:calc(238*var(--u));text-align:center;font:400 calc(35*var(--u))/1.22 "EB Garamond",serif;opacity:0;text-shadow:0 0 calc(14*var(--u)) rgba(0,0,0,.6)}
+#black{inset:0;background:#000;opacity:0}
+.endcard{inset:0;background:#0f1110;opacity:0}
+.endcard .t{position:absolute;left:0;right:0;top:calc(460*var(--u));text-align:center;font:400 calc(35*var(--u))/1.22 "EB Garamond",serif}
+.endcard .s{position:absolute;left:0;right:0;top:calc(558*var(--u));text-align:center;font:500 calc(9.3*var(--u))/1 "Inter",sans-serif;letter-spacing:.2em;opacity:.55}
+</style>
+</head>
+<body>
+<div id="stage">
+  <canvas id="c"></canvas>
+  <div class="titlecard" id="titlecard"></div>
+  <div class="hud" id="hud"><div class="state" id="h-state"></div><div class="count" id="h-count"></div><div class="metric" id="h-metric"></div></div>
+  <div class="legend" id="legend"></div>
+  <div id="black"></div>
+  <div class="endcard" id="endcard"><div class="t" id="e-t"></div><div class="s" id="e-s"></div></div>
+</div>
+<script type="importmap">{"imports":{"three":"/three/build/three.module.js","three/addons/":"/three/examples/jsm/"}}</script>
+<script type="module" src="/main.js"></script>
+</body>
+</html>
