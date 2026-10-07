@@ -1,5 +1,6 @@
 node_modules/
 video/node_modules/
-video/frames/
+video/frames1080/
 video/render_*.log
 video/out/
+video/frames1080/

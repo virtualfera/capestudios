@@ -550,5 +550,5 @@ export function buildWorld(SB, scene, camera) {
     const rv = sstep(70.4, 74, t) * (1 - sstep(80, 86, t)); rayMat.opacity = rv * 0.1; rays.forEach((r) => (r.visible = rv > 0.01));
     birds.forEach((b) => { const k = t - 78.5; b.m.visible = k > 0 && k < 9; if (!b.m.visible) return; b.m.position.set(b.o.x + k * 3.2 - 14, b.o.y + Math.sin(k * 1.2 + b.ph) * 1.5, b.o.z); b.m.rotation.z = Math.sin(t * 9 + b.ph) * 0.35; b.m.scale.setScalar(1.6); });
   }
-  return { update, EVENTS, buildings, camera };
+  return { update, EVENTS, buildings, camera, quakeAmp, spikeAt };
 }

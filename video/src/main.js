@@ -22,7 +22,8 @@ const world = buildWorld(SB, scene, camera);
 
 // ---------------------------------------------------------------- HUD
 const el = (id) => document.getElementById(id);
-const hud = el('hud'), hState = el('h-state'), hCount = el('h-count'), hMetric = el('h-metric'), legend = el('legend');
+const hud = el('hud'), hState = el('h-state'), hCount = el('h-count'), hMetric = el('h-metric'), hMetric2 = el('h-metric2'), legend = el('legend'), shade = el('shade'), seismo = el('seismo');
+const SW = Math.round(W * 0.74), SH = Math.round(H * 0.055); seismo.width = SW; seismo.height = SH; seismo.style.width = SW + 'px'; seismo.style.height = SH + 'px'; const sg = seismo.getContext('2d');
 const title = el('titlecard'), black = el('black'), endcard = el('endcard');
 title.innerHTML = 'E se a terra tremesse<br>por 1.000 dias seguidos?';
 el('e-t').innerHTML = 'E se a terra tremesse<br>por 1.000 dias seguidos?';
@@ -55,7 +56,29 @@ function setHUD(t) {
     const st = SB.states.find((s) => t >= s.from && t < s.to) || SB.states[SB.states.length - 1];
     hState.textContent = st.label; hCount.textContent = c;
     const pct = t < TL.quakeStart ? 100 : world.update.standingPct;
-    hMetric.textContent = 'MAGNITUDE ' + magnitude(t).toFixed(1).replace('.', ',') + '  ·  PRÉDIOS EM PÉ ' + pct + '%';
+    if (t < TL.quakeStop) {
+      const days = interp(SB.counter.quake, t);
+      const n = t < TL.quakeStart ? 0 : Math.max(1, Math.round(1440 * days));
+      hMetric.textContent = fmt(n) + ' ABALOS ACUMULADOS';
+    } else {
+      const g = Math.round(100 * sstep(72, 86.5, t));
+      hMetric.textContent = 'ÁREA VERDE RETOMADA ' + g + '%';
+    }
+    hMetric2.textContent = 'PRÉDIOS EM PÉ ' + pct + '%';
+  }
+  // sismógrafo (elemento próprio)
+  const sa = c ? sstep(TL.hudIn, TL.hudIn + 0.6, t) * (1 - sstep(TL.fadeToBlack - 1.2, TL.fadeToBlack, t)) : 0;
+  shade.style.opacity = String(sa); seismo.style.opacity = String(sa * 0.9);
+  if (sa > 0) {
+    sg.clearRect(0, 0, SW, SH); sg.lineWidth = Math.max(1.5, H / 640); sg.strokeStyle = 'rgba(255,255,255,.88)'; sg.shadowColor = 'rgba(0,0,0,.7)'; sg.shadowBlur = 4;
+    sg.beginPath();
+    for (let x = 0; x <= SW; x++) {
+      const tt = t - 6 * (1 - x / SW);
+      const amp = tt < 0 ? 0 : (world.quakeAmp(tt) * 0.5 + world.spikeAt(tt) * 0.9);
+      const y = SH / 2 + Math.sin(tt * 37 + x * 0.9) * amp * SH * 0.22 * (0.6 + 0.4 * Math.sin(tt * 91 + x * 0.31)) * (1 + 0.8 * Math.sin(x * 0.07 + tt * 5));
+      x ? sg.lineTo(x, Math.max(1, Math.min(SH - 1, y))) : sg.moveTo(x, y);
+    }
+    sg.stroke();
   }
   // legenda
   let a = 0, txt = '';
