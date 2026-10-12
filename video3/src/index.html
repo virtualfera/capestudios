@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Terremoto Rio — teste 10s</title>
+<style>
+@font-face{font-family:"EB Garamond";font-weight:400;font-style:normal;src:url(/fonts/eb-garamond-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"EB Garamond";font-weight:500;font-style:normal;src:url(/fonts/eb-garamond-latin-500-normal.woff2) format("woff2")}
+@font-face{font-family:"EB Garamond";font-weight:400;font-style:italic;src:url(/fonts/eb-garamond-latin-400-italic.woff2) format("woff2")}
+@font-face{font-family:"EB Garamond";font-weight:500;font-style:italic;src:url(/fonts/eb-garamond-latin-500-italic.woff2) format("woff2")}
+@font-face{font-family:"Inter";font-weight:500;src:url(/fonts/inter-latin-500-normal.woff2) format("woff2")}
+@font-face{font-family:"Inter";font-weight:600;src:url(/fonts/inter-latin-600-normal.woff2) format("woff2")}
+:root{--u:1px}
+html,body{margin:0;background:#000;overflow:hidden}
+#stage{position:relative}
+canvas{display:block}
+.ov{position:absolute;left:0;right:0;color:#fff;text-align:center;pointer-events:none;opacity:0}
+#title{top:calc(300*var(--u))}
+#title .a{font:italic 400 calc(30*var(--u))/1 "EB Garamond",serif;opacity:.92}
+#title .b{font:500 calc(46*var(--u))/1.08 "EB Garamond",serif;margin-top:calc(8*var(--u))}
+#title,#cap,#hud{text-shadow:0 calc(2*var(--u)) calc(18*var(--u)) rgba(0,0,0,.75),0 0 calc(4*var(--u)) rgba(0,0,0,.6)}
+#cap{top:calc(655*var(--u));font:italic 500 calc(30*var(--u))/1.18 "EB Garamond",serif;padding:0 calc(40*var(--u))}
+#cap .w{opacity:.0;display:inline-block;transform:translateY(calc(6*var(--u)))}
+#hud{top:calc(58*var(--u))}
+#hud .l{font:600 calc(11*var(--u))/1 "Inter",sans-serif;letter-spacing:.24em;opacity:.85}
+#hud .n{font:400 calc(58*var(--u))/1 "EB Garamond",serif;margin-top:calc(8*var(--u))}
+#hud .n small{font:500 calc(17*var(--u))/1 "Inter",sans-serif;letter-spacing:.06em;opacity:.8;margin-left:calc(4*var(--u))}
+#hud .s{font:600 calc(10*var(--u))/1 "Inter",sans-serif;letter-spacing:.22em;opacity:.72;margin-top:calc(10*var(--u))}
+#hud .s b{color:#ff6a4d;font-weight:600}
+#flash{position:absolute;inset:0;background:#fff;opacity:0;pointer-events:none}
+</style>
+</head>
+<body>
+<div id="stage">
+  <canvas id="c"></canvas>
+  <div class="ov" id="hud"><div class="l">ABALOS ACUMULADOS</div><div class="n" id="hn">0</div><div class="s" id="hs"></div></div>
+  <div class="ov" id="title"><div class="a">E se</div><div class="b">a terra tremesse<br>por 1.000 dias?</div></div>
+  <div class="ov" id="cap"></div>
+  <div id="flash"></div>
+</div>
+<script type="importmap">{"imports":{"three":"/three/build/three.module.js","three/addons/":"/three/examples/jsm/"}}</script>
+<script type="module" src="/main.js"></script>
+</body>
+</html>

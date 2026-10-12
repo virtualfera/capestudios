@@ -4,3 +4,8 @@ video/frames1080/
 video/render_*.log
 video/out/
 video/frames1080/
+video3/frames/
+video3/r_*.log
+video3/node_modules
+video3/out/
+video3/*.wav
