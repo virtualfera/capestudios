@@ -1,0 +1,26 @@
+[
+ {
+  "t": 4.6,
+  "type": "quake_start"
+ },
+ {
+  "t": 7.3,
+  "type": "facade"
+ },
+ {
+  "t": 8.6,
+  "type": "jolt"
+ },
+ {
+  "t": 4.8,
+  "type": "birds"
+ },
+ {
+  "t": 3.6,
+  "type": "cut"
+ },
+ {
+  "t": 6.8,
+  "type": "cut"
+ }
+]
