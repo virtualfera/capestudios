@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Encarte Aí — Reel</title>
+<style>
+  html, body { margin: 0; background: #000; height: 100%; overflow: hidden; }
+  #stage { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; }
+  #stage canvas { display: block; }
+  body:not(.render) #stage canvas { height: 100vh; width: auto; }
+  #play { display: none; position: absolute; inset: 0; align-items: center; justify-content: center; background: rgba(0,0,0,.45);
+          color: #F4F7F2; font: 700 22px/1 Inter, system-ui, sans-serif; letter-spacing: .08em; cursor: pointer; border: 0; }
+</style>
+<script type="importmap">{ "imports": { "three": "/anim/node_modules/three/build/three.module.js", "three/addons/": "/anim/node_modules/three/examples/jsm/" } }</script>
+</head>
+<body>
+<div id="stage"></div>
+<button id="play">▶ TOCAR PRÉVIA</button>
+<script>if (location.search.includes('render')) document.body.classList.add('render');</script>
+<script type="module" src="/anim/src/main.js"></script>
+</body>
+</html>
