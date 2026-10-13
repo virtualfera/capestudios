@@ -1,0 +1,1512 @@
+[
+ {
+  "id": "L1",
+  "text": "Petropolitano não faz mercado.",
+  "file": "voice/vo/br-masc/L1.wav",
+  "duration_s": 1.74,
+  "cer": 0.0,
+  "cer_whisper_raw": 0.0,
+  "wer_whisper_raw": 0.0,
+  "asr_lm_bias_check": null,
+  "settings": {
+   "engine": "chatterbox-multilingual (tts.py ChatterboxEngine)",
+   "language_id": "pt",
+   "voice": "br-masc",
+   "reference": "voice/refs/br-masc.wav",
+   "exaggeration": 0.55,
+   "cfg": 0.5,
+   "temperature": 0.8,
+   "seed": 22,
+   "speed": 1.0,
+   "synth_text": "Petropolitano não faz mercado.",
+   "method": "direct",
+   "cut_from_raw_s": [
+    0.065,
+    1.805
+   ],
+   "raw_take": "br-masc/L1_d_s22"
+  },
+  "words": [
+   {
+    "w": "Petropolitano",
+    "t0": 0.04,
+    "t1": 0.86
+   },
+   {
+    "w": "não",
+    "t0": 0.86,
+    "t1": 1.025
+   },
+   {
+    "w": "faz",
+    "t0": 1.06,
+    "t1": 1.205
+   },
+   {
+    "w": "mercado.",
+    "t0": 1.24,
+    "t1": 1.66
+   }
+  ],
+  "words_whisper": [
+   {
+    "w": "Petropolitano",
+    "t0": 0.0,
+    "t1": 0.84
+   },
+   {
+    "w": "não",
+    "t0": 0.84,
+    "t1": 1.06
+   },
+   {
+    "w": "faz",
+    "t0": 1.06,
+    "t1": 1.26
+   },
+   {
+    "w": "mercado.",
+    "t0": 1.26,
+    "t1": 1.64
+   }
+  ],
+  "transcript": "Petropolitano não faz mercado.",
+  "target_window_s": [
+   0.1,
+   1.8
+  ],
+  "speech_span_s": 1.624,
+  "metrics": {
+   "pitch_std_st": 2.557,
+   "pitch_range_st_p5_p95": 8.7,
+   "median_f0_hz": 144.4,
+   "syll_per_s": 6.773,
+   "mos_utmos_proxy": 3.812,
+   "key_terms_heard": {
+    "petropolitano": true
+   },
+   "clicks": 0,
+   "truncated_suspect": false,
+   "peak_dbfs": -1.0,
+   "spectral_flatness": 0.0103
+  },
+  "gate_failures": [],
+  "word_timing": "ctc_forced_alignment+energy_refine (whisper words in words_whisper)"
+ },
+ {
+  "id": "L2",
+  "text": "Faz trilha.",
+  "file": "voice/vo/br-masc/L2.wav",
+  "duration_s": 0.705,
+  "cer": 0.0,
+  "cer_whisper_raw": 0.0,
+  "wer_whisper_raw": 0.0,
+  "asr_lm_bias_check": null,
+  "settings": {
+   "engine": "chatterbox-multilingual (tts.py ChatterboxEngine)",
+   "language_id": "pt",
+   "voice": "br-masc",
+   "reference": "voice/refs/br-masc.wav",
+   "exaggeration": 0.5,
+   "cfg": 0.5,
+   "temperature": 0.75,
+   "seed": 303,
+   "speed": 1.0,
+   "synth_text": "Petropolitano não faz mercado. Faz trilha.",
+   "method": "carrier cut (tail)",
+   "cut_from_raw_s": [
+    2.145,
+    2.85
+   ],
+   "raw_take": "br-masc/C12_s303"
+  },
+  "words": [
+   {
+    "w": "Faz",
+    "t0": 0.035,
+    "t1": 0.23
+   },
+   {
+    "w": "trilha.",
+    "t0": 0.28,
+    "t1": 0.62
+   }
+  ],
+  "words_whisper": [
+   {
+    "w": "faz",
+    "t0": 0.0,
+    "t1": 0.32
+   },
+   {
+    "w": "trilha.",
+    "t0": 0.32,
+    "t1": 0.68
+   }
+  ],
+  "transcript": "faz trilha.",
+  "target_window_s": [
+   2.05,
+   2.75
+  ],
+  "speech_span_s": 0.584,
+  "metrics": {
+   "pitch_std_st": 2.95,
+   "pitch_range_st_p5_p95": 8.47,
+   "median_f0_hz": 124.6,
+   "syll_per_s": 5.137,
+   "mos_utmos_proxy": 3.754,
+   "key_terms_heard": {
+    "trilha": true
+   },
+   "clicks": 0,
+   "truncated_suspect": false,
+   "peak_dbfs": -1.0,
+   "spectral_flatness": 0.0134
+  },
+  "gate_failures": [],
+  "word_timing": "ctc_forced_alignment+energy_refine (whisper words in words_whisper)"
+ },
+ {
+  "id": "L3",
+  "text": "Encarte no grupo do zap.",
+  "file": "voice/vo/br-masc/L3.wav",
+  "duration_s": 1.545,
+  "cer": 0.0,
+  "cer_whisper_raw": 0.0,
+  "wer_whisper_raw": 0.0,
+  "asr_lm_bias_check": null,
+  "settings": {
+   "engine": "chatterbox-multilingual (tts.py ChatterboxEngine)",
+   "language_id": "pt",
+   "voice": "br-masc",
+   "reference": "voice/refs/br-masc.wav",
+   "exaggeration": 0.55,
+   "cfg": 0.5,
+   "temperature": 0.8,
+   "seed": 11,
+   "speed": 1.0,
+   "synth_text": "Encarte no grupo do zap.",
+   "method": "direct",
+   "cut_from_raw_s": [
+    0.055,
+    1.6
+   ],
+   "raw_take": "br-masc/L3_d_s11"
+  },
+  "words": [
+   {
+    "w": "Encarte",
+    "t0": 0.045,
+    "t1": 0.62
+   },
+   {
+    "w": "no",
+    "t0": 0.62,
+    "t1": 0.735
+   },
+   {
+    "w": "grupo",
+    "t0": 0.74,
+    "t1": 1.02
+   },
+   {
+    "w": "do",
+    "t0": 1.02,
+    "t1": 1.18
+   },
+   {
+    "w": "zap.",
+    "t0": 1.18,
+    "t1": 1.535
+   }
+  ],
+  "words_whisper": [
+   {
+    "w": "Encarte",
+    "t0": 0.0,
+    "t1": 0.6
+   },
+   {
+    "w": "no",
+    "t0": 0.6,
+    "t1": 0.76
+   },
+   {
+    "w": "grupo",
+    "t0": 0.76,
+    "t1": 1.02
+   },
+   {
+    "w": "do",
+    "t0": 1.02,
+    "t1": 1.24
+   },
+   {
+    "w": "Zap.",
+    "t0": 1.24,
+    "t1": 1.52
+   }
+  ],
+  "transcript": "Encarte no grupo do Zap.",
+  "target_window_s": [
+   3.05,
+   4.5
+  ],
+  "speech_span_s": 1.504,
+  "metrics": {
+   "pitch_std_st": 2.63,
+   "pitch_range_st_p5_p95": 8.96,
+   "median_f0_hz": 139.4,
+   "syll_per_s": 5.319,
+   "mos_utmos_proxy": 4.073,
+   "key_terms_heard": {
+    "zap": true
+   },
+   "clicks": 0,
+   "truncated_suspect": false,
+   "peak_dbfs": -1.0,
+   "spectral_flatness": 0.0174
+  },
+  "gate_failures": [],
+  "word_timing": "ctc_forced_alignment+energy_refine (whisper words in words_whisper)"
+ },
+ {
+  "id": "L4",
+  "text": "Você roda três mercados. Haja ladeira.",
+  "file": "voice/vo/br-masc/L4.wav",
+  "duration_s": 2.535,
+  "cer": 0.0,
+  "cer_whisper_raw": 0.0323,
+  "wer_whisper_raw": 0.1667,
+  "asr_lm_bias_check": {
+   "whisper_heard": "Você roda três mercados. Haja a ladeira.",
+   "rejected_alternatives": [
+    "Você roda três mercados. Haja a ladeira."
+   ],
+   "detail": [
+    {
+     "alt": "Você roda três mercados. Haja a ladeira.",
+     "dnll": 4.31,
+     "script_preferred": true
+    }
+   ]
+  },
+  "settings": {
+   "engine": "chatterbox-multilingual (tts.py ChatterboxEngine)",
+   "language_id": "pt",
+   "voice": "br-masc",
+   "reference": "voice/refs/br-masc.wav",
+   "exaggeration": 0.55,
+   "cfg": 0.4,
+   "temperature": 0.8,
+   "seed": 11,
+   "speed": 1.0,
+   "synth_text": "Você roda três mercados. Haja ladeira!",
+   "method": "direct",
+   "cut_from_raw_s": [
+    0.05,
+    2.585
+   ],
+   "raw_take": "br-masc/L4x1_s11"
+  },
+  "words": [
+   {
+    "w": "Você",
+    "t0": 0.045,
+    "t1": 0.34
+   },
+   {
+    "w": "roda",
+    "t0": 0.34,
+    "t1": 0.575
+   },
+   {
+    "w": "três",
+    "t0": 0.68,
+    "t1": 0.92
+   },
+   {
+    "w": "mercados.",
+    "t0": 0.96,
+    "t1": 1.615
+   },
+   {
+    "w": "Haja",
+    "t0": 1.78,
+    "t1": 2.02
+   },
+   {
+    "w": "ladeira.",
+    "t0": 2.02,
+    "t1": 2.455
+   }
+  ],
+  "words_whisper": [
+   {
+    "w": "Você",
+    "t0": 0.0,
+    "t1": 0.36
+   },
+   {
+    "w": "roda",
+    "t0": 0.36,
+    "t1": 0.7
+   },
+   {
+    "w": "três",
+    "t0": 0.7,
+    "t1": 0.98
+   },
+   {
+    "w": "mercados.",
+    "t0": 0.98,
+    "t1": 1.66
+   },
+   {
+    "w": "Haja",
+    "t0": 1.82,
+    "t1": 2.06
+   },
+   {
+    "w": "a",
+    "t0": 2.06,
+    "t1": 2.14
+   },
+   {
+    "w": "ladeira.",
+    "t0": 2.14,
+    "t1": 2.42
+   }
+  ],
+  "transcript": "Você roda três mercados. Haja a ladeira.",
+  "target_window_s": [
+   4.85,
+   7.45
+  ],
+  "speech_span_s": 2.424,
+  "metrics": {
+   "pitch_std_st": 2.992,
+   "pitch_range_st_p5_p95": 10.6,
+   "median_f0_hz": 141.1,
+   "syll_per_s": 5.363,
+   "mos_utmos_proxy": 4.104,
+   "key_terms_heard": {
+    "ladeira": true
+   },
+   "clicks": 0,
+   "truncated_suspect": false,
+   "peak_dbfs": -1.0,
+   "spectral_flatness": 0.0191
+  },
+  "gate_failures": [],
+  "note": "Engine text was 'Você roda três mercados. Haja ladeira!' (exclamation). With the plain period, 2 of 3 takes were heard as 'a geladeira'.",
+  "word_timing": "ctc_forced_alignment+energy_refine (whisper words in words_whisper)"
+ },
+ {
+  "id": "L5",
+  "text": "E o mais barato era o primeiro.",
+  "file": "voice/vo/br-masc/L5.wav",
+  "duration_s": 2.06,
+  "cer": 0.0,
+  "cer_whisper_raw": 0.0,
+  "wer_whisper_raw": 0.0,
+  "asr_lm_bias_check": null,
+  "settings": {
+   "engine": "chatterbox-multilingual (tts.py ChatterboxEngine)",
+   "language_id": "pt",
+   "voice": "br-masc",
+   "reference": "voice/refs/br-masc.wav",
+   "exaggeration": 0.3,
+   "cfg": 0.3,
+   "temperature": 0.7,
+   "seed": 11,
+   "speed": 1.0,
+   "synth_text": "E o mais barato era o primeiro.",
+   "method": "direct",
+   "cut_from_raw_s": [
+    0.05,
+    2.11
+   ],
+   "raw_take": "br-masc/L5slow_s11"
+  },
+  "words": [
+   {
+    "w": "E",
+    "t0": 0.045,
+    "t1": 0.16
+   },
+   {
+    "w": "o",
+    "t0": 0.16,
+    "t1": 0.3
+   },
+   {
+    "w": "mais",
+    "t0": 0.3,
+    "t1": 0.6
+   },
+   {
+    "w": "barato",
+    "t0": 0.6,
+    "t1": 1.135
+   },
+   {
+    "w": "era",
+    "t0": 1.14,
+    "t1": 1.36
+   },
+   {
+    "w": "o",
+    "t0": 1.36,
+    "t1": 1.405
+   },
+   {
+    "w": "primeiro.",
+    "t0": 1.46,
+    "t1": 1.975
+   }
+  ],
+  "words_whisper": [
+   {
+    "w": "e",
+    "t0": 0.0,
+    "t1": 0.26
+   },
+   {
+    "w": "o",
+    "t0": 0.26,
+    "t1": 0.38
+   },
+   {
+    "w": "mais",
+    "t0": 0.38,
+    "t1": 0.66
+   },
+   {
+    "w": "barato",
+    "t0": 0.66,
+    "t1": 1.12
+   },
+   {
+    "w": "era",
+    "t0": 1.12,
+    "t1": 1.38
+   },
+   {
+    "w": "o",
+    "t0": 1.38,
+    "t1": 1.58
+   },
+   {
+    "w": "primeiro.",
+    "t0": 1.58,
+    "t1": 1.9
+   }
+  ],
+  "transcript": "e o mais barato era o primeiro.",
+  "target_window_s": [
+   7.7,
+   9.7
+  ],
+  "speech_span_s": 1.944,
+  "metrics": {
+   "pitch_std_st": 2.396,
+   "pitch_range_st_p5_p95": 6.95,
+   "median_f0_hz": 125.7,
+   "syll_per_s": 6.173,
+   "mos_utmos_proxy": 4.293,
+   "key_terms_heard": {},
+   "clicks": 0,
+   "truncated_suspect": false,
+   "peak_dbfs": -1.0,
+   "spectral_flatness": 0.0026
+  },
+  "gate_failures": [],
+  "note": "Slower deadpan setting (exaggeration 0.3 / cfg 0.3): the first-pass takes ran 6.9-8.4 syllables/s.",
+  "word_timing": "ctc_forced_alignment+energy_refine (whisper words in words_whisper)"
+ },
+ {
+  "id": "L6",
+  "text": "Calma.",
+  "file": "voice/vo/br-masc/L6.wav",
+  "duration_s": 0.495,
+  "cer": 0.0,
+  "cer_whisper_raw": 0.0,
+  "wer_whisper_raw": 0.0,
+  "asr_lm_bias_check": null,
+  "settings": {
+   "engine": "chatterbox-multilingual (tts.py ChatterboxEngine)",
+   "language_id": "pt",
+   "voice": "br-masc",
+   "reference": "voice/refs/br-masc.wav",
+   "exaggeration": 0.35,
+   "cfg": 0.4,
+   "temperature": 0.7,
+   "seed": 202,
+   "speed": 1.0,
+   "synth_text": "E o mais barato era o primeiro. Calma.",
+   "method": "carrier cut (tail)",
+   "cut_from_raw_s": [
+    1.98,
+    2.475
+   ],
+   "raw_take": "br-masc/C56_s202"
+  },
+  "words": [
+   {
+    "w": "Calma.",
+    "t0": 0.04,
+    "t1": 0.41
+   }
+  ],
+  "words_whisper": [
+   {
+    "w": "Calma!",
+    "t0": 0.0,
+    "t1": 0.42
+   }
+  ],
+  "transcript": "Calma!",
+  "target_window_s": [
+   10.25,
+   10.65
+  ],
+  "speech_span_s": 0.392,
+  "metrics": {
+   "pitch_std_st": 1.773,
+   "pitch_range_st_p5_p95": 4.7,
+   "median_f0_hz": 94.2,
+   "syll_per_s": 5.102,
+   "mos_utmos_proxy": 3.602,
+   "key_terms_heard": {
+    "calma": true
+   },
+   "clicks": 0,
+   "truncated_suspect": false,
+   "peak_dbfs": -1.0,
+   "spectral_flatness": 0.0053
+  },
+  "gate_failures": [],
+  "note": "Cut from the end of 'E o mais barato era o primeiro. Calma.': lower pitch than the sentence before it (94 vs 127 Hz).",
+  "word_timing": "ctc_forced_alignment+energy_refine (whisper words in words_whisper)"
+ },
+ {
+  "id": "L7",
+  "text": "Agora tem o Encarte Aí.",
+  "file": "voice/vo/br-masc/L7.wav",
+  "duration_s": 1.655,
+  "cer": 0.0,
+  "cer_whisper_raw": 0.0,
+  "wer_whisper_raw": 0.0,
+  "asr_lm_bias_check": null,
+  "settings": {
+   "engine": "chatterbox-multilingual (tts.py ChatterboxEngine)",
+   "language_id": "pt",
+   "voice": "br-masc",
+   "reference": "voice/refs/br-masc.wav",
+   "exaggeration": 0.35,
+   "cfg": 0.4,
+   "temperature": 0.7,
+   "seed": 202,
+   "speed": 1.0,
+   "synth_text": "Calma. Agora tem o Encarte Aí.",
+   "method": "carrier cut (tail)",
+   "cut_from_raw_s": [
+    0.905,
+    2.56
+   ],
+   "raw_take": "br-masc/C67_s202"
+  },
+  "words": [
+   {
+    "w": "Agora",
+    "t0": 0.045,
+    "t1": 0.435
+   },
+   {
+    "w": "tem",
+    "t0": 0.5,
+    "t1": 0.68
+   },
+   {
+    "w": "o",
+    "t0": 0.68,
+    "t1": 0.72
+   },
+   {
+    "w": "Encarte",
+    "t0": 0.72,
+    "t1": 1.26
+   },
+   {
+    "w": "Aí.",
+    "t0": 1.26,
+    "t1": 1.58
+   }
+  ],
+  "words_whisper": [
+   {
+    "w": "Agora",
+    "t0": 0.0,
+    "t1": 0.46
+   },
+   {
+    "w": "tem",
+    "t0": 0.46,
+    "t1": 0.68
+   },
+   {
+    "w": "o",
+    "t0": 0.68,
+    "t1": 0.86
+   },
+   {
+    "w": "encarte",
+    "t0": 0.86,
+    "t1": 1.28
+   },
+   {
+    "w": "aí.",
+    "t0": 1.28,
+    "t1": 1.48
+   }
+  ],
+  "transcript": "Agora tem o encarte aí.",
+  "target_window_s": [
+   10.95,
+   12.75
+  ],
+  "speech_span_s": 1.536,
+  "metrics": {
+   "pitch_std_st": 4.014,
+   "pitch_range_st_p5_p95": 12.4,
+   "median_f0_hz": 136.3,
+   "syll_per_s": 5.859,
+   "mos_utmos_proxy": 4.116,
+   "key_terms_heard": {
+    "encarte ai": true
+   },
+   "clicks": 0,
+   "truncated_suspect": false,
+   "peak_dbfs": -1.0,
+   "spectral_flatness": 0.0056,
+   "ai_stress_check": {
+    "a_dur": 0.11,
+    "i_dur": 0.13,
+    "i_share": 0.542,
+    "f2_a_hz": 1862,
+    "f2_i_hz": 2756,
+    "level_i_minus_a_db": -2.8,
+    "t_a": 1.245,
+    "t_i": 1.355,
+    "ai_score": 0.486,
+    "stressed_i_ok": true
+   }
+  },
+  "gate_failures": [],
+  "note": "Cut from the carrier 'Calma. Agora tem o Encarte Aí.' rendered with the soft L6 settings; it scored best on expressiveness and the 'Aí' check.",
+  "word_timing": "ctc_forced_alignment+energy_refine (whisper words in words_whisper)"
+ },
+ {
+  "id": "L8",
+  "text": "Os mercados da cidade, num lugar só.",
+  "file": "voice/vo/br-masc/L8.wav",
+  "duration_s": 2.365,
+  "cer": 0.0,
+  "cer_whisper_raw": 0.0,
+  "wer_whisper_raw": 0.0,
+  "asr_lm_bias_check": null,
+  "settings": {
+   "engine": "chatterbox-multilingual (tts.py ChatterboxEngine)",
+   "language_id": "pt",
+   "voice": "br-masc",
+   "reference": "voice/refs/br-masc.wav",
+   "exaggeration": 0.5,
+   "cfg": 0.5,
+   "temperature": 0.8,
+   "seed": 33,
+   "speed": 1.0,
+   "synth_text": "Os mercados da cidade, num lugar só.",
+   "method": "direct",
+   "cut_from_raw_s": [
+    0.055,
+    2.42
+   ],
+   "raw_take": "br-masc/L8_d_s33"
+  },
+  "words": [
+   {
+    "w": "Os",
+    "t0": 0.035,
+    "t1": 0.22
+   },
+   {
+    "w": "mercados",
+    "t0": 0.22,
+    "t1": 0.68
+   },
+   {
+    "w": "da",
+    "t0": 0.68,
+    "t1": 0.82
+   },
+   {
+    "w": "cidade,",
+    "t0": 0.82,
+    "t1": 1.355
+   },
+   {
+    "w": "num",
+    "t0": 1.5,
+    "t1": 1.64
+   },
+   {
+    "w": "lugar",
+    "t0": 1.64,
+    "t1": 2.04
+   },
+   {
+    "w": "só.",
+    "t0": 2.04,
+    "t1": 2.285
+   }
+  ],
+  "words_whisper": [
+   {
+    "w": "os",
+    "t0": 0.0,
+    "t1": 0.34
+   },
+   {
+    "w": "mercados",
+    "t0": 0.34,
+    "t1": 0.7
+   },
+   {
+    "w": "da",
+    "t0": 0.7,
+    "t1": 0.86
+   },
+   {
+    "w": "cidade",
+    "t0": 0.86,
+    "t1": 1.34
+   },
+   {
+    "w": "num",
+    "t0": 1.34,
+    "t1": 1.64
+   },
+   {
+    "w": "lugar",
+    "t0": 1.64,
+    "t1": 2.02
+   },
+   {
+    "w": "só.",
+    "t0": 2.02,
+    "t1": 2.24
+   }
+  ],
+  "transcript": "os mercados da cidade num lugar só.",
+  "target_window_s": [
+   13.15,
+   15.45
+  ],
+  "speech_span_s": 2.264,
+  "metrics": {
+   "pitch_std_st": 2.234,
+   "pitch_range_st_p5_p95": 7.33,
+   "median_f0_hz": 123.5,
+   "syll_per_s": 5.3,
+   "mos_utmos_proxy": 3.955,
+   "key_terms_heard": {},
+   "clicks": 0,
+   "truncated_suspect": false,
+   "peak_dbfs": -1.0,
+   "spectral_flatness": 0.0204
+  },
+  "gate_failures": [],
+  "word_timing": "ctc_forced_alignment+energy_refine (whisper words in words_whisper)"
+ },
+ {
+  "id": "L9",
+  "text": "Digita banana. Pronto.",
+  "file": "voice/vo/br-masc/L9.wav",
+  "duration_s": 1.54,
+  "cer": 0.0,
+  "cer_whisper_raw": 0.0,
+  "wer_whisper_raw": 0.0,
+  "asr_lm_bias_check": null,
+  "settings": {
+   "engine": "chatterbox-multilingual (tts.py ChatterboxEngine)",
+   "language_id": "pt",
+   "voice": "br-masc",
+   "reference": "voice/refs/br-masc.wav",
+   "exaggeration": 0.55,
+   "cfg": 0.45,
+   "temperature": 0.8,
+   "seed": 101,
+   "speed": 1.0,
+   "synth_text": "Digita banana. Pronto. Ele te mostra onde tá mais barato.",
+   "method": "carrier cut (head)",
+   "cut_from_raw_s": [
+    0.05,
+    1.59
+   ],
+   "raw_take": "br-masc/C910_s101"
+  },
+  "words": [
+   {
+    "w": "Digita",
+    "t0": 0.045,
+    "t1": 0.52
+   },
+   {
+    "w": "banana.",
+    "t0": 0.52,
+    "t1": 0.96
+   },
+   {
+    "w": "Pronto.",
+    "t0": 1.12,
+    "t1": 1.465
+   }
+  ],
+  "words_whisper": [
+   {
+    "w": "Digita",
+    "t0": 0.0,
+    "t1": 0.54
+   },
+   {
+    "w": "banana,",
+    "t0": 0.54,
+    "t1": 0.94
+   },
+   {
+    "w": "pronto!",
+    "t0": 1.24,
+    "t1": 1.44
+   }
+  ],
+  "transcript": "Digita banana, pronto!",
+  "target_window_s": [
+   15.75,
+   17.45
+  ],
+  "speech_span_s": 1.44,
+  "metrics": {
+   "pitch_std_st": 3.197,
+   "pitch_range_st_p5_p95": 10.6,
+   "median_f0_hz": 147.7,
+   "syll_per_s": 5.556,
+   "mos_utmos_proxy": 3.857,
+   "key_terms_heard": {
+    "banana": true,
+    "pronto": true
+   },
+   "clicks": 0,
+   "truncated_suspect": false,
+   "peak_dbfs": -1.0,
+   "spectral_flatness": 0.0079
+  },
+  "gate_failures": [],
+  "note": "Isolated renders of this line were heard as 'Dígita' (wrong stress) every time, so it is cut from the carrier 'Digita banana. Pronto. Ele te mostra onde tá mais barato.'",
+  "word_timing": "ctc_forced_alignment+energy_refine (whisper words in words_whisper)"
+ },
+ {
+  "id": "L10",
+  "text": "Ele te mostra onde tá mais barato.",
+  "file": "voice/vo/br-masc/L10.wav",
+  "duration_s": 1.835,
+  "cer": 0.0,
+  "cer_whisper_raw": 0.0,
+  "wer_whisper_raw": 0.0,
+  "asr_lm_bias_check": null,
+  "settings": {
+   "engine": "chatterbox-multilingual (tts.py ChatterboxEngine)",
+   "language_id": "pt",
+   "voice": "br-masc",
+   "reference": "voice/refs/br-masc.wav",
+   "exaggeration": 0.55,
+   "cfg": 0.45,
+   "temperature": 0.8,
+   "seed": 202,
+   "speed": 1.0,
+   "synth_text": "Digita banana. Pronto. Ele te mostra onde tá mais barato.",
+   "method": "carrier cut (tail)",
+   "cut_from_raw_s": [
+    1.845,
+    3.68
+   ],
+   "raw_take": "br-masc/C910_s202"
+  },
+  "words": [
+   {
+    "w": "Ele",
+    "t0": 0.04,
+    "t1": 0.24
+   },
+   {
+    "w": "te",
+    "t0": 0.28,
+    "t1": 0.42
+   },
+   {
+    "w": "mostra",
+    "t0": 0.42,
+    "t1": 0.76
+   },
+   {
+    "w": "onde",
+    "t0": 0.76,
+    "t1": 0.95
+   },
+   {
+    "w": "tá",
+    "t0": 1.0,
+    "t1": 1.135
+   },
+   {
+    "w": "mais",
+    "t0": 1.14,
+    "t1": 1.33
+   },
+   {
+    "w": "barato.",
+    "t0": 1.34,
+    "t1": 1.745
+   }
+  ],
+  "words_whisper": [
+   {
+    "w": "Ele",
+    "t0": 0.0,
+    "t1": 0.26
+   },
+   {
+    "w": "te",
+    "t0": 0.26,
+    "t1": 0.48
+   },
+   {
+    "w": "mostra",
+    "t0": 0.48,
+    "t1": 0.78
+   },
+   {
+    "w": "onde",
+    "t0": 0.78,
+    "t1": 0.96
+   },
+   {
+    "w": "tá",
+    "t0": 0.96,
+    "t1": 1.14
+   },
+   {
+    "w": "mais",
+    "t0": 1.14,
+    "t1": 1.4
+   },
+   {
+    "w": "barato.",
+    "t0": 1.4,
+    "t1": 1.74
+   }
+  ],
+  "transcript": "Ele te mostra onde tá mais barato.",
+  "target_window_s": [
+   17.7,
+   19.85
+  ],
+  "speech_span_s": 1.728,
+  "metrics": {
+   "pitch_std_st": 1.585,
+   "pitch_range_st_p5_p95": 5.0,
+   "median_f0_hz": 136.3,
+   "syll_per_s": 6.944,
+   "mos_utmos_proxy": 3.876,
+   "key_terms_heard": {},
+   "clicks": 0,
+   "truncated_suspect": false,
+   "peak_dbfs": -1.0,
+   "spectral_flatness": 0.0217
+  },
+  "gate_failures": [],
+  "word_timing": "ctc_forced_alignment+energy_refine (whisper words in words_whisper)"
+ },
+ {
+  "id": "L11",
+  "text": "E qual mercado fica mais perto de você.",
+  "file": "voice/vo/br-masc/L11.wav",
+  "duration_s": 2.31,
+  "cer": 0.0,
+  "cer_whisper_raw": 0.0,
+  "wer_whisper_raw": 0.0,
+  "asr_lm_bias_check": null,
+  "settings": {
+   "engine": "chatterbox-multilingual (tts.py ChatterboxEngine)",
+   "language_id": "pt",
+   "voice": "br-masc",
+   "reference": "voice/refs/br-masc.wav",
+   "exaggeration": 0.5,
+   "cfg": 0.5,
+   "temperature": 0.8,
+   "seed": 22,
+   "speed": 1.0,
+   "synth_text": "E qual mercado fica mais perto de você.",
+   "method": "direct",
+   "cut_from_raw_s": [
+    0.07,
+    2.38
+   ],
+   "raw_take": "br-masc/L11_d_s22"
+  },
+  "words": [
+   {
+    "w": "E",
+    "t0": 0.04,
+    "t1": 0.12
+   },
+   {
+    "w": "qual",
+    "t0": 0.2,
+    "t1": 0.48
+   },
+   {
+    "w": "mercado",
+    "t0": 0.48,
+    "t1": 0.95
+   },
+   {
+    "w": "fica",
+    "t0": 1.0,
+    "t1": 1.22
+   },
+   {
+    "w": "mais",
+    "t0": 1.22,
+    "t1": 1.415
+   },
+   {
+    "w": "perto",
+    "t0": 1.48,
+    "t1": 1.78
+   },
+   {
+    "w": "de",
+    "t0": 1.78,
+    "t1": 1.88
+   },
+   {
+    "w": "você.",
+    "t0": 1.88,
+    "t1": 2.225
+   }
+  ],
+  "words_whisper": [
+   {
+    "w": "e",
+    "t0": 0.0,
+    "t1": 0.34
+   },
+   {
+    "w": "qual",
+    "t0": 0.34,
+    "t1": 0.48
+   },
+   {
+    "w": "mercado",
+    "t0": 0.48,
+    "t1": 0.96
+   },
+   {
+    "w": "fica",
+    "t0": 0.96,
+    "t1": 1.2
+   },
+   {
+    "w": "mais",
+    "t0": 1.2,
+    "t1": 1.46
+   },
+   {
+    "w": "perto",
+    "t0": 1.46,
+    "t1": 1.76
+   },
+   {
+    "w": "de",
+    "t0": 1.76,
+    "t1": 2.0
+   },
+   {
+    "w": "você.",
+    "t0": 2.0,
+    "t1": 2.2
+   }
+  ],
+  "transcript": "e qual mercado fica mais perto de você.",
+  "target_window_s": [
+   20.15,
+   22.5
+  ],
+  "speech_span_s": 2.192,
+  "metrics": {
+   "pitch_std_st": 2.174,
+   "pitch_range_st_p5_p95": 7.125,
+   "median_f0_hz": 127.5,
+   "syll_per_s": 5.931,
+   "mos_utmos_proxy": 4.063,
+   "key_terms_heard": {},
+   "clicks": 0,
+   "truncated_suspect": false,
+   "peak_dbfs": -1.0,
+   "spectral_flatness": 0.0186
+  },
+  "gate_failures": [],
+  "word_timing": "ctc_forced_alignment+energy_refine (whisper words in words_whisper)"
+ },
+ {
+  "id": "L12",
+  "text": "É só ir direto no que compensa.",
+  "file": "voice/vo/br-masc/L12.wav",
+  "duration_s": 2.05,
+  "cer": 0.0,
+  "cer_whisper_raw": 0.0,
+  "wer_whisper_raw": 0.0,
+  "asr_lm_bias_check": null,
+  "settings": {
+   "engine": "chatterbox-multilingual (tts.py ChatterboxEngine)",
+   "language_id": "pt",
+   "voice": "br-masc",
+   "reference": "voice/refs/br-masc.wav",
+   "exaggeration": 0.5,
+   "cfg": 0.4,
+   "temperature": 0.75,
+   "seed": 22,
+   "speed": 1.0,
+   "synth_text": "É só ir direto no que compensa.",
+   "method": "direct",
+   "cut_from_raw_s": [
+    0.05,
+    2.1
+   ],
+   "raw_take": "br-masc/L12_d_s22"
+  },
+  "words": [
+   {
+    "w": "É",
+    "t0": 0.045,
+    "t1": 0.28
+   },
+   {
+    "w": "só",
+    "t0": 0.28,
+    "t1": 0.52
+   },
+   {
+    "w": "ir",
+    "t0": 0.52,
+    "t1": 0.68
+   },
+   {
+    "w": "direto",
+    "t0": 0.68,
+    "t1": 1.12
+   },
+   {
+    "w": "no",
+    "t0": 1.12,
+    "t1": 1.22
+   },
+   {
+    "w": "que",
+    "t0": 1.22,
+    "t1": 1.325
+   },
+   {
+    "w": "compensa.",
+    "t0": 1.36,
+    "t1": 1.96
+   }
+  ],
+  "words_whisper": [
+   {
+    "w": "É",
+    "t0": 0.0,
+    "t1": 0.26
+   },
+   {
+    "w": "só",
+    "t0": 0.26,
+    "t1": 0.5
+   },
+   {
+    "w": "ir",
+    "t0": 0.5,
+    "t1": 0.66
+   },
+   {
+    "w": "direto",
+    "t0": 0.66,
+    "t1": 1.14
+   },
+   {
+    "w": "no",
+    "t0": 1.14,
+    "t1": 1.28
+   },
+   {
+    "w": "que",
+    "t0": 1.28,
+    "t1": 1.44
+   },
+   {
+    "w": "compensa.",
+    "t0": 1.44,
+    "t1": 1.96
+   }
+  ],
+  "transcript": "É só ir direto no que compensa.",
+  "target_window_s": [
+   22.8,
+   24.8
+  ],
+  "speech_span_s": 1.936,
+  "metrics": {
+   "pitch_std_st": 2.213,
+   "pitch_range_st_p5_p95": 6.83,
+   "median_f0_hz": 125.0,
+   "syll_per_s": 5.682,
+   "mos_utmos_proxy": 4.027,
+   "key_terms_heard": {
+    "compensa": true
+   },
+   "clicks": 0,
+   "truncated_suspect": false,
+   "peak_dbfs": -1.0,
+   "spectral_flatness": 0.0177
+  },
+  "gate_failures": [],
+  "word_timing": "ctc_forced_alignment+energy_refine (whisper words in words_whisper)"
+ },
+ {
+  "id": "L13",
+  "text": "Baixa aí. Link na bio.",
+  "file": "voice/vo/br-masc/L13.wav",
+  "duration_s": 1.665,
+  "cer": 0.0,
+  "cer_whisper_raw": 0.0625,
+  "wer_whisper_raw": 0.2,
+  "asr_lm_bias_check": {
+   "whisper_heard": "Baixe aí link na bio.",
+   "rejected_alternatives": [
+    "Baixe aí. Link na bio."
+   ],
+   "detail": [
+    {
+     "alt": "Baixe aí. Link na bio.",
+     "dnll": 2.28,
+     "script_preferred": true
+    }
+   ]
+  },
+  "settings": {
+   "engine": "chatterbox-multilingual (tts.py ChatterboxEngine)",
+   "language_id": "pt",
+   "voice": "br-masc",
+   "reference": "voice/refs/br-masc.wav",
+   "exaggeration": 0.7,
+   "cfg": 0.3,
+   "temperature": 0.8,
+   "seed": 101,
+   "speed": 1.0,
+   "synth_text": "É só ir direto no que compensa. Baixa aí. Link na bio.",
+   "method": "carrier cut (tail)",
+   "cut_from_raw_s": [
+    1.93,
+    3.595
+   ],
+   "raw_take": "br-masc/C1213_s101"
+  },
+  "words": [
+   {
+    "w": "Baixa",
+    "t0": 0.045,
+    "t1": 0.54
+   },
+   {
+    "w": "aí.",
+    "t0": 0.54,
+    "t1": 0.615
+   },
+   {
+    "w": "Link",
+    "t0": 0.88,
+    "t1": 1.18
+   },
+   {
+    "w": "na",
+    "t0": 1.18,
+    "t1": 1.335
+   },
+   {
+    "w": "bio.",
+    "t0": 1.34,
+    "t1": 1.58
+   }
+  ],
+  "words_whisper": [
+   {
+    "w": "Baixe",
+    "t0": 0.0,
+    "t1": 0.52
+   },
+   {
+    "w": "aí",
+    "t0": 0.52,
+    "t1": 0.74
+   },
+   {
+    "w": "link",
+    "t0": 0.74,
+    "t1": 1.14
+   },
+   {
+    "w": "na",
+    "t0": 1.14,
+    "t1": 1.36
+   },
+   {
+    "w": "bio.",
+    "t0": 1.36,
+    "t1": 1.58
+   }
+  ],
+  "transcript": "Baixe aí link na bio.",
+  "target_window_s": [
+   25.1,
+   26.55
+  ],
+  "speech_span_s": 1.552,
+  "metrics": {
+   "pitch_std_st": 4.433,
+   "pitch_range_st_p5_p95": 13.355,
+   "median_f0_hz": 124.6,
+   "syll_per_s": 4.51,
+   "mos_utmos_proxy": 4.37,
+   "key_terms_heard": {
+    "link na bio": true,
+    "baixa ai": false
+   },
+   "clicks": 0,
+   "truncated_suspect": false,
+   "peak_dbfs": -1.0,
+   "spectral_flatness": 0.0106,
+   "ai_stress_check": {
+    "a_dur": 0.095,
+    "i_dur": 0.12,
+    "i_share": 0.558,
+    "f2_a_hz": 1628,
+    "f2_i_hz": 2606,
+    "level_i_minus_a_db": -1.1,
+    "t_a": 0.415,
+    "t_i": 0.51,
+    "ai_score": 0.536,
+    "stressed_i_ok": true
+   }
+  },
+  "gate_failures": [],
+  "word_timing": "ctc_forced_alignment+energy_refine (whisper words in words_whisper)"
+ },
+ {
+  "id": "L14",
+  "text": "Encarte Aí.",
+  "file": "voice/vo/br-masc/L14.wav",
+  "duration_s": 0.91,
+  "cer": 0.0,
+  "cer_whisper_raw": 0.0,
+  "wer_whisper_raw": 0.0,
+  "asr_lm_bias_check": null,
+  "settings": {
+   "engine": "chatterbox-multilingual (tts.py ChatterboxEngine)",
+   "language_id": "pt",
+   "voice": "br-masc",
+   "reference": "voice/refs/br-masc.wav",
+   "exaggeration": 0.55,
+   "cfg": 0.35,
+   "temperature": 0.6,
+   "seed": 606,
+   "speed": 1.0,
+   "synth_text": "Encarte Aí. Link na bio.",
+   "method": "carrier cut (head)",
+   "cut_from_raw_s": [
+    0.07,
+    0.98
+   ],
+   "raw_take": "br-masc/C14L_s606"
+  },
+  "words": [
+   {
+    "w": "Encarte",
+    "t0": 0.045,
+    "t1": 0.6
+   },
+   {
+    "w": "Aí.",
+    "t0": 0.6,
+    "t1": 0.84
+   }
+  ],
+  "words_whisper": [
+   {
+    "w": "Encarte",
+    "t0": 0.0,
+    "t1": 0.64
+   },
+   {
+    "w": "aí.",
+    "t0": 0.64,
+    "t1": 0.82
+   }
+  ],
+  "transcript": "Encarte aí.",
+  "target_window_s": [
+   27.5,
+   28.2
+  ],
+  "speech_span_s": 0.816,
+  "metrics": {
+   "pitch_std_st": 3.699,
+   "pitch_range_st_p5_p95": 11.0,
+   "median_f0_hz": 113.3,
+   "syll_per_s": 4.902,
+   "mos_utmos_proxy": 3.813,
+   "key_terms_heard": {
+    "encarte ai": true
+   },
+   "clicks": 0,
+   "truncated_suspect": false,
+   "peak_dbfs": -1.0,
+   "spectral_flatness": 0.0148,
+   "ai_stress_check": {
+    "a_dur": 0.09,
+    "i_dur": 0.16,
+    "i_share": 0.64,
+    "f2_a_hz": 1690,
+    "f2_i_hz": 2540,
+    "level_i_minus_a_db": -1.2,
+    "t_a": 0.57,
+    "t_i": 0.66,
+    "ai_score": 0.616,
+    "stressed_i_ok": true
+   }
+  },
+  "gate_failures": [],
+  "word_timing": "ctc_forced_alignment+energy_refine (whisper words in words_whisper)"
+ }
+]
