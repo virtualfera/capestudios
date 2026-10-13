@@ -1,0 +1,2753 @@
+[
+ {
+  "wav": "voice/samples/chatterbox_builtin_ex05-cfg03_A.wav",
+  "text": "Fazer mercado em Petrópolis é um desafio. Cada mercado com seu encarte, sua oferta, seu horário. O Encarte Aí junta tudo num lugar só: você compara os preços e vai direto na melhor oferta.",
+  "duration_s": 9.72,
+  "sample_rate": 24000,
+  "artifacts": {
+   "clip_ratio": 1.2860082304526749e-05,
+   "peak_dbfs": -0.0,
+   "spectral_flatness_speech": 0.0199,
+   "tail_rms_db_rel": -38.86,
+   "truncated_suspect": false
+  },
+  "lang_id": {
+   "top": "pt",
+   "top_prob": 0.9982,
+   "pt_prob": 0.9982
+  },
+  "asr": {
+   "model": "medium",
+   "transcript": "Fazer mercado em Petrópolis é um desafio. Cada mercado com seu encarte e sua oferta a seu horário. O encarte aí junta tudo num lugar só, você compara os preços e vai direto na melhor oferta.",
+   "ref_norm": "fazer mercado em petropolis e um desafio cada mercado com seu encarte sua oferta seu horario o encarte ai junta tudo num lugar so voce compara os precos e vai direto na melhor oferta",
+   "hyp_norm": "fazer mercado em petropolis e um desafio cada mercado com seu encarte e sua oferta a seu horario o encarte ai junta tudo num lugar so voce compara os precos e vai direto na melhor oferta",
+   "cer": 0.0134,
+   "cer_with_spaces": 0.022,
+   "wer": 0.0588,
+   "key_terms": {
+    "encarte ai": 1.0,
+    "petropolis": 1.0,
+    "oferta": 1.0
+   },
+   "last_word_heard": true
+  },
+  "pauses": {
+   "lead_s": 0.12,
+   "tail_s": 0.128,
+   "count": 1,
+   "total_s": 0.56,
+   "max_s": 0.56,
+   "long_pauses_over_1s": 0
+  },
+  "rate": {
+   "words": 34,
+   "syllables_est": 68,
+   "speech_span_s": 9.472,
+   "words_per_s": 3.59,
+   "syll_per_s": 7.179,
+   "articulation_syll_per_s": 7.63
+  },
+  "pitch": {
+   "median_hz": 185.1,
+   "std_st": 5.443,
+   "range_st_p5_p95": 17.1,
+   "voiced_ratio": 0.593
+  },
+  "mos_utmos": 3.618,
+  "accent": {
+   "phones": "f ɐ z e ɾ m e ɾ k a d eɪ ŋ p ɛ t ɾ ɔ p ʊ l i ʃ ɛ ʊ ŋ d e z ɐ f i ʊ k a d ɐ m e ɾ k a d ʊ k u ŋ s ɨ w eɪ ŋ k a t ɨ s w ɐ f ɛ ɾ t ɐ s eɪ w o ɾ a ɾ j ʊ u i ŋ k a ɾ t ɐ i ʒ ɨ m ʊ d ɐ t u d ʊ m ʊ l ʊ ɡ a s ɔ v o s e k ʊ m p a ɾ ʊ ʃ p e s ʊ z i b aɪ d i ɾ ɛ t ʊ n ɐ m ɨ ʎ ɔ ɾ ɐ f ɛ ɾ t ɐ",
+   "affricates": 0,
+   "expected_br_sites": 3,
+   "affricate_ratio": 0.0,
+   "close_central_vowel_ɨ": 4
+  },
+  "raw_name": "chatterbox_default_ex05_cfg03_A",
+  "rtf_cpu": 10.211234058372277
+ },
+ {
+  "wav": "voice/samples/chatterbox_builtin_ex05-cfg03_B.wav",
+  "text": "Banana prata com quarenta e um por cento de desconto, a um quilômetro e meio de você. Baixa o Encarte Aí. O link tá na bio!",
+  "duration_s": 6.48,
+  "sample_rate": 24000,
+  "artifacts": {
+   "clip_ratio": 0.0,
+   "peak_dbfs": -0.02,
+   "spectral_flatness_speech": 0.0111,
+   "tail_rms_db_rel": -17.12,
+   "truncated_suspect": false
+  },
+  "lang_id": {
+   "top": "pt",
+   "top_prob": 0.9982,
+   "pt_prob": 0.9982
+  },
+  "asr": {
+   "model": "medium",
+   "transcript": "Banana Prata com 41% de desconto a 1,5 km de você. Baixe o enkart aí, o link tá na bio.",
+   "ref_norm": "banana prata com quarenta e um por cento de desconto a um quilometro e meio de voce baixa o encarte ai o link ta na bio",
+   "hyp_norm": "banana prata com quarenta e um por cento de desconto a um quilometro e meio de voce baixe o enkart ai o link ta na bio",
+   "cer": 0.0319,
+   "cer_with_spaces": 0.0252,
+   "wer": 0.0769,
+   "key_terms": {
+    "encarte ai": 0.778,
+    "quilometro": 1.0,
+    "desconto": 1.0,
+    "baixa": 0.8
+   },
+   "last_word_heard": true
+  },
+  "pauses": {
+   "lead_s": 0.088,
+   "tail_s": 0.0,
+   "count": 1,
+   "total_s": 0.736,
+   "max_s": 0.736,
+   "long_pauses_over_1s": 0
+  },
+  "rate": {
+   "words": 26,
+   "syllables_est": 43,
+   "speech_span_s": 6.392,
+   "words_per_s": 4.068,
+   "syll_per_s": 6.727,
+   "articulation_syll_per_s": 7.603
+  },
+  "pitch": {
+   "median_hz": 172.7,
+   "std_st": 3.723,
+   "range_st_p5_p95": 11.435,
+   "voiced_ratio": 0.669
+  },
+  "mos_utmos": 4.123,
+  "accent": {
+   "phones": "b n a n ɐ b ɾ æ t t ð ə k ʊ m k w a ɾ ɛ n t i u m p ɚ s ɛ n t d d ɪ ʃ k oː t aʊ ŋ k ɪ l ɔ m ɪ n t ʊ iː m eɪ dʒ i v ə s eː v aɪ ʃ ɹ ɪ ŋ k aɪ t eɪ w ʊ l iː ŋ k t a n a b iː uː o l iː n k i t",
+   "affricates": 1,
+   "expected_br_sites": 3,
+   "affricate_ratio": 0.333,
+   "close_central_vowel_ɨ": 0
+  },
+  "raw_name": "chatterbox_default_ex05_cfg03_B",
+  "rtf_cpu": 16.989838193964076
+ },
+ {
+  "wav": "voice/samples/chatterbox_builtin_ex05-cfg05_A.wav",
+  "text": "Fazer mercado em Petrópolis é um desafio. Cada mercado com seu encarte, sua oferta, seu horário. O Encarte Aí junta tudo num lugar só: você compara os preços e vai direto na melhor oferta.",
+  "duration_s": 10.24,
+  "sample_rate": 24000,
+  "artifacts": {
+   "clip_ratio": 3.255208333333333e-05,
+   "peak_dbfs": -0.0,
+   "spectral_flatness_speech": 0.0194,
+   "tail_rms_db_rel": -30.53,
+   "truncated_suspect": false
+  },
+  "lang_id": {
+   "top": "pt",
+   "top_prob": 0.9993,
+   "pt_prob": 0.9993
+  },
+  "asr": {
+   "model": "medium",
+   "transcript": "Fazer mercado em Petrópolis é um desafio, cada mercado com seu encarte, sua oferta, seu horário. O encarte aí junta tudo num lugar só, você compara os preços e vai direto na melhor oferta.",
+   "ref_norm": "fazer mercado em petropolis e um desafio cada mercado com seu encarte sua oferta seu horario o encarte ai junta tudo num lugar so voce compara os precos e vai direto na melhor oferta",
+   "hyp_norm": "fazer mercado em petropolis e um desafio cada mercado com seu encarte sua oferta seu horario o encarte ai junta tudo num lugar so voce compara os precos e vai direto na melhor oferta",
+   "cer": 0.0,
+   "cer_with_spaces": 0.0,
+   "wer": 0.0,
+   "key_terms": {
+    "encarte ai": 1.0,
+    "petropolis": 1.0,
+    "oferta": 1.0
+   },
+   "last_word_heard": true
+  },
+  "pauses": {
+   "lead_s": 0.12,
+   "tail_s": 0.872,
+   "count": 2,
+   "total_s": 0.472,
+   "max_s": 0.248,
+   "long_pauses_over_1s": 0
+  },
+  "rate": {
+   "words": 34,
+   "syllables_est": 68,
+   "speech_span_s": 9.248,
+   "words_per_s": 3.676,
+   "syll_per_s": 7.353,
+   "articulation_syll_per_s": 7.748
+  },
+  "pitch": {
+   "median_hz": 172.2,
+   "std_st": 4.713,
+   "range_st_p5_p95": 14.475,
+   "voiced_ratio": 0.618
+  },
+  "mos_utmos": 3.317,
+  "accent": {
+   "phones": "f ɐ z e ɾ m e ɾ k a d eɪ ŋ p e t ɹ ɔ p ʊ l i s ɛ ʊ d e z ɐ f i ʊ k a d ɐ m e ɾ k a d ʊ k u s e w eɪ ŋ k a t s u ɐ f ɛ ɾ t ɐ s e w o ɾ a ɾ j ʊ u eɪ ŋ k a t ɐ i ʒ ʊ ŋ t ɐ t u d ʊ n ʊ v u ɡ a ɾ s ɔ v o s e k u m p a ɾ ʊ ʃ p l e s ʊ s i v aɪ d i ɾ ɛ t ʊ n ɔ m i ɾ a ɾ ɐ f ɛ ɾ t ɐ",
+   "affricates": 0,
+   "expected_br_sites": 3,
+   "affricate_ratio": 0.0,
+   "close_central_vowel_ɨ": 0
+  },
+  "raw_name": "chatterbox_default_ex05_cfg05_A",
+  "rtf_cpu": 9.383771265856922
+ },
+ {
+  "wav": "voice/samples/chatterbox_builtin_ex05-cfg05_B.wav",
+  "text": "Banana prata com quarenta e um por cento de desconto, a um quilômetro e meio de você. Baixa o Encarte Aí. O link tá na bio!",
+  "duration_s": 6.76,
+  "sample_rate": 24000,
+  "artifacts": {
+   "clip_ratio": 6.16370808678501e-06,
+   "peak_dbfs": -0.0,
+   "spectral_flatness_speech": 0.011,
+   "tail_rms_db_rel": -20.29,
+   "truncated_suspect": false
+  },
+  "lang_id": {
+   "top": "pt",
+   "top_prob": 0.9988,
+   "pt_prob": 0.9988
+  },
+  "asr": {
+   "model": "medium",
+   "transcript": "Banana Prata com 41% de desconto a 1,5 km de você. Baixe o encarte aí, o link tá na bio.",
+   "ref_norm": "banana prata com quarenta e um por cento de desconto a um quilometro e meio de voce baixa o encarte ai o link ta na bio",
+   "hyp_norm": "banana prata com quarenta e um por cento de desconto a um quilometro e meio de voce baixe o encarte ai o link ta na bio",
+   "cer": 0.0106,
+   "cer_with_spaces": 0.0084,
+   "wer": 0.0385,
+   "key_terms": {
+    "encarte ai": 1.0,
+    "quilometro": 1.0,
+    "desconto": 1.0,
+    "baixa": 0.8
+   },
+   "last_word_heard": true
+  },
+  "pauses": {
+   "lead_s": 0.088,
+   "tail_s": 0.016,
+   "count": 1,
+   "total_s": 1.04,
+   "max_s": 1.04,
+   "long_pauses_over_1s": 1
+  },
+  "rate": {
+   "words": 26,
+   "syllables_est": 43,
+   "speech_span_s": 6.656,
+   "words_per_s": 3.906,
+   "syll_per_s": 6.46,
+   "articulation_syll_per_s": 7.657
+  },
+  "pitch": {
+   "median_hz": 152.9,
+   "std_st": 4.388,
+   "range_st_p5_p95": 14.02,
+   "voiced_ratio": 0.63
+  },
+  "mos_utmos": 4.146,
+  "accent": {
+   "phones": "b ɐ n a n ɐ p ɾ a t ɐ k o ŋ k w ɐ ɾ ɛ n t i u m p ɚ ɹ s ɛ n t ʊ d ɨ d ɪ s k ɔ̃ t ɐ u ŋ k i l ɔ m ɪ t ɹ i m eɪ j ʊ dʒ ɨ v ʊ s i b aɪ ʃ u ɪ ŋ k aɪ tʃ aɪ iː u l i ŋ k i t a n ɐ b iː ʊ",
+   "affricates": 2,
+   "expected_br_sites": 3,
+   "affricate_ratio": 0.667,
+   "close_central_vowel_ɨ": 2
+  },
+  "raw_name": "chatterbox_default_ex05_cfg05_B",
+  "rtf_cpu": 6.362444620866042
+ },
+ {
+  "wav": "voice/samples/chatterbox_builtin_ex07-cfg03_A.wav",
+  "text": "Fazer mercado em Petrópolis é um desafio. Cada mercado com seu encarte, sua oferta, seu horário. O Encarte Aí junta tudo num lugar só: você compara os preços e vai direto na melhor oferta.",
+  "duration_s": 9.88,
+  "sample_rate": 24000,
+  "artifacts": {
+   "clip_ratio": 1.2651821862348178e-05,
+   "peak_dbfs": -0.0,
+   "spectral_flatness_speech": 0.0153,
+   "tail_rms_db_rel": -47.48,
+   "truncated_suspect": false
+  },
+  "lang_id": {
+   "top": "pt",
+   "top_prob": 0.9994,
+   "pt_prob": 0.9994
+  },
+  "asr": {
+   "model": "medium",
+   "transcript": "Fazer mercado em Petrópolis é um desafio, cada mercado com seu encate, sua oferta, seu horário, o encarte aí junta tudo num lugar só, você compara os preços e vai direto na melhor oferta.",
+   "ref_norm": "fazer mercado em petropolis e um desafio cada mercado com seu encarte sua oferta seu horario o encarte ai junta tudo num lugar so voce compara os precos e vai direto na melhor oferta",
+   "hyp_norm": "fazer mercado em petropolis e um desafio cada mercado com seu encate sua oferta seu horario o encarte ai junta tudo num lugar so voce compara os precos e vai direto na melhor oferta",
+   "cer": 0.0067,
+   "cer_with_spaces": 0.0055,
+   "wer": 0.0294,
+   "key_terms": {
+    "encarte ai": 1.0,
+    "petropolis": 1.0,
+    "oferta": 1.0
+   },
+   "last_word_heard": true
+  },
+  "pauses": {
+   "lead_s": 0.12,
+   "tail_s": 0.704,
+   "count": 0,
+   "total_s": 0,
+   "max_s": 0.0,
+   "long_pauses_over_1s": 0
+  },
+  "rate": {
+   "words": 34,
+   "syllables_est": 68,
+   "speech_span_s": 9.056,
+   "words_per_s": 3.754,
+   "syll_per_s": 7.509,
+   "articulation_syll_per_s": 7.509
+  },
+  "pitch": {
+   "median_hz": 151.2,
+   "std_st": 5.043,
+   "range_st_p5_p95": 16.145,
+   "voiced_ratio": 0.508
+  },
+  "mos_utmos": 3.755,
+  "accent": {
+   "phones": "f a z e ɹ m e ɾ k a d eɪ ŋ p e t ɾ ɹ ɔ p ʊ l i s ɛ u n d i z ɐ f i ʊ k a d ɐ m e ɾ k a d ʊ k o m s e w i ŋ k a tʃ s u ɔ f ɛ ɾ t ɐ s e w ɐ ɾ a ɾ j ʊ w eɪ ŋ k a tʃ aɪ iː ʒ u ŋ t ɐ t u d ʊ n ʊ l ʊ ɡ a ɾ s ɔ v o s ɨ k ʊ m p a ɾ ʊ ʃ p ɾ e s ʊ s i v aɪ d i ɾ ɛ t ʊ n ɐ m e ʎ ɔ ɾ ʊ f ɛ ɾ t ɐ",
+   "affricates": 2,
+   "expected_br_sites": 3,
+   "affricate_ratio": 0.667,
+   "close_central_vowel_ɨ": 1
+  },
+  "raw_name": "chatterbox_default_ex07_cfg03_A",
+  "rtf_cpu": 19.843220252257126
+ },
+ {
+  "wav": "voice/samples/chatterbox_builtin_ex07-cfg03_B.wav",
+  "text": "Banana prata com quarenta e um por cento de desconto, a um quilômetro e meio de você. Baixa o Encarte Aí. O link tá na bio!",
+  "duration_s": 6.64,
+  "sample_rate": 24000,
+  "artifacts": {
+   "clip_ratio": 0.0,
+   "peak_dbfs": -0.06,
+   "spectral_flatness_speech": 0.0107,
+   "tail_rms_db_rel": -76.13,
+   "truncated_suspect": false
+  },
+  "lang_id": {
+   "top": "pt",
+   "top_prob": 0.9988,
+   "pt_prob": 0.9988
+  },
+  "asr": {
+   "model": "medium",
+   "transcript": "Banana Prata com 41% de desconto a 1km e meio de você. Baixe o encarte aí, o link tá na bio.",
+   "ref_norm": "banana prata com quarenta e um por cento de desconto a um quilometro e meio de voce baixa o encarte ai o link ta na bio",
+   "hyp_norm": "banana prata com quarenta e um por cento de desconto a um quilometros e meio de voce baixe o encarte ai o link ta na bio",
+   "cer": 0.0213,
+   "cer_with_spaces": 0.0168,
+   "wer": 0.0769,
+   "key_terms": {
+    "encarte ai": 1.0,
+    "quilometro": 1.0,
+    "desconto": 1.0,
+    "baixa": 0.8
+   },
+   "last_word_heard": true
+  },
+  "pauses": {
+   "lead_s": 0.088,
+   "tail_s": 0.216,
+   "count": 1,
+   "total_s": 0.736,
+   "max_s": 0.736,
+   "long_pauses_over_1s": 0
+  },
+  "rate": {
+   "words": 26,
+   "syllables_est": 43,
+   "speech_span_s": 6.336,
+   "words_per_s": 4.104,
+   "syll_per_s": 6.787,
+   "articulation_syll_per_s": 7.679
+  },
+  "pitch": {
+   "median_hz": 169.7,
+   "std_st": 5.76,
+   "range_st_p5_p95": 14.39,
+   "voiced_ratio": 0.67
+  },
+  "mos_utmos": 3.84,
+  "accent": {
+   "phones": "b a n a n ɐ p ɹ a t ɐ k o ŋ k w a ɾ ɛ n t i ʊ m p ɹ s ɛ n t ə d i d i s k oː t a h u n k i l ɔ m ɪ t ə ɹ iː m eɪ j d ɨ v o s e b aɪ ʃ u ɪ ŋ k aɪ tʃ aɪ j iː u l i ŋ k i t a n a b iː ʊ",
+   "affricates": 1,
+   "expected_br_sites": 3,
+   "affricate_ratio": 0.333,
+   "close_central_vowel_ɨ": 1
+  },
+  "raw_name": "chatterbox_default_ex07_cfg03_B",
+  "rtf_cpu": 10.532188846404294
+ },
+ {
+  "wav": "voice/samples/chatterbox_builtin_ex07-cfg05_A.wav",
+  "text": "Fazer mercado em Petrópolis é um desafio. Cada mercado com seu encarte, sua oferta, seu horário. O Encarte Aí junta tudo num lugar só: você compara os preços e vai direto na melhor oferta.",
+  "duration_s": 9.88,
+  "sample_rate": 24000,
+  "artifacts": {
+   "clip_ratio": 0.0,
+   "peak_dbfs": -0.08,
+   "spectral_flatness_speech": 0.0175,
+   "tail_rms_db_rel": -42.04,
+   "truncated_suspect": false
+  },
+  "lang_id": {
+   "top": "pt",
+   "top_prob": 0.9993,
+   "pt_prob": 0.9993
+  },
+  "asr": {
+   "model": "medium",
+   "transcript": "Fazer mercado em Petrópolis é um desafio, cada mercado com seu encarte e sua oferta seu horário. O encarte aí junta tudo num lugar só, você compara os preços e vai direto na melhor oferta.",
+   "ref_norm": "fazer mercado em petropolis e um desafio cada mercado com seu encarte sua oferta seu horario o encarte ai junta tudo num lugar so voce compara os precos e vai direto na melhor oferta",
+   "hyp_norm": "fazer mercado em petropolis e um desafio cada mercado com seu encarte e sua oferta seu horario o encarte ai junta tudo num lugar so voce compara os precos e vai direto na melhor oferta",
+   "cer": 0.0067,
+   "cer_with_spaces": 0.011,
+   "wer": 0.0294,
+   "key_terms": {
+    "encarte ai": 1.0,
+    "petropolis": 1.0,
+    "oferta": 1.0
+   },
+   "last_word_heard": true
+  },
+  "pauses": {
+   "lead_s": 0.112,
+   "tail_s": 0.912,
+   "count": 0,
+   "total_s": 0,
+   "max_s": 0.0,
+   "long_pauses_over_1s": 0
+  },
+  "rate": {
+   "words": 34,
+   "syllables_est": 68,
+   "speech_span_s": 8.856,
+   "words_per_s": 3.839,
+   "syll_per_s": 7.678,
+   "articulation_syll_per_s": 7.678
+  },
+  "pitch": {
+   "median_hz": 152.9,
+   "std_st": 5.391,
+   "range_st_p5_p95": 16.73,
+   "voiced_ratio": 0.605
+  },
+  "mos_utmos": 3.665,
+  "accent": {
+   "phones": "f ɐ z e ɾ m ɾ k a d w eɪ ŋ p ɛ t ɾ ɔ p ʊ l i z eɪ ŋ n d e z ɐ f i ʊ k a d ɐ m e ɾ k a d ʊ k ʊ ŋ s eɪ w eɪ ŋ k a ɾ t i s u ɐ f ɛ ɾ t ɐ s ɨ w ɔ ɾ a ɾ j ʊ u eɪ ŋ k a ɾ t ɐ i ʒ ŋ t ɐ t u t ʊ n ʊ ŋ l ʊ ɡ a s ɔ v o s e k ʊ m p a ɾ ʊ ʃ p ɾ e s ʊ z i b aɪ d i ɾ ɛ t ʊ n ɐ m e ʎ ɔ ɾ ɔ f ɛ ɾ t ɐ",
+   "affricates": 0,
+   "expected_br_sites": 3,
+   "affricate_ratio": 0.0,
+   "close_central_vowel_ɨ": 1
+  },
+  "raw_name": "chatterbox_default_ex07_cfg05_A",
+  "rtf_cpu": 10.855604303993193
+ },
+ {
+  "wav": "voice/samples/chatterbox_builtin_ex07-cfg05_B.wav",
+  "text": "Banana prata com quarenta e um por cento de desconto, a um quilômetro e meio de você. Baixa o Encarte Aí. O link tá na bio!",
+  "duration_s": 6.64,
+  "sample_rate": 24000,
+  "artifacts": {
+   "clip_ratio": 0.0,
+   "peak_dbfs": -0.07,
+   "spectral_flatness_speech": 0.0122,
+   "tail_rms_db_rel": -53.08,
+   "truncated_suspect": false
+  },
+  "lang_id": {
+   "top": "pt",
+   "top_prob": 0.9985,
+   "pt_prob": 0.9985
+  },
+  "asr": {
+   "model": "medium",
+   "transcript": "Banana Prata com 41% de desconto a um quilômetro e meio de você. Baixe o encarte aí, o link tá na bio.",
+   "ref_norm": "banana prata com quarenta e um por cento de desconto a um quilometro e meio de voce baixa o encarte ai o link ta na bio",
+   "hyp_norm": "banana prata com quarenta e um por cento de desconto a um quilometro e meio de voce baixe o encarte ai o link ta na bio",
+   "cer": 0.0106,
+   "cer_with_spaces": 0.0084,
+   "wer": 0.0385,
+   "key_terms": {
+    "encarte ai": 1.0,
+    "quilometro": 1.0,
+    "desconto": 1.0,
+    "baixa": 0.8
+   },
+   "last_word_heard": true
+  },
+  "pauses": {
+   "lead_s": 0.008,
+   "tail_s": 0.992,
+   "count": 0,
+   "total_s": 0,
+   "max_s": 0.0,
+   "long_pauses_over_1s": 0
+  },
+  "rate": {
+   "words": 26,
+   "syllables_est": 43,
+   "speech_span_s": 5.64,
+   "words_per_s": 4.61,
+   "syll_per_s": 7.624,
+   "articulation_syll_per_s": 7.624
+  },
+  "pitch": {
+   "median_hz": 169.2,
+   "std_st": 4.251,
+   "range_st_p5_p95": 13.135,
+   "voiced_ratio": 0.584
+  },
+  "mos_utmos": 3.553,
+  "accent": {
+   "phones": "b a n a n a p r a t ɐ k o ŋ k w a ɾ ɛ n t eɪ j u p eɪ s ɛ n t ə d i d e ʃ k o ŋ t ʊ aʊ k i l o m ɪ t ɹ ə iː m eɪ j ʊ d i v o s i b aɪ ʃ u ɪ ŋ k aɪ tʃ a iː u l i ŋ k i t a n a b iː ʊ",
+   "affricates": 1,
+   "expected_br_sites": 3,
+   "affricate_ratio": 0.333,
+   "close_central_vowel_ɨ": 0
+  },
+  "raw_name": "chatterbox_default_ex07_cfg05_B",
+  "rtf_cpu": 26.00569294159671
+ },
+ {
+  "wav": "voice/samples/kokoro_pf-dora_A.wav",
+  "text": "Fazer mercado em Petrópolis é um desafio. Cada mercado com seu encarte, sua oferta, seu horário. O Encarte Aí junta tudo num lugar só: você compara os preços e vai direto na melhor oferta.",
+  "duration_s": 11.0,
+  "sample_rate": 24000,
+  "artifacts": {
+   "clip_ratio": 0.0,
+   "peak_dbfs": -4.44,
+   "spectral_flatness_speech": 0.0089,
+   "tail_rms_db_rel": -90.24,
+   "truncated_suspect": false
+  },
+  "lang_id": {
+   "top": "pt",
+   "top_prob": 0.9953,
+   "pt_prob": 0.9953
+  },
+  "asr": {
+   "model": "medium",
+   "transcript": "Fazer mercado em Petrópolis é um desafio. Cada mercado com seu encarte sua oferta seu horário. O encarte aí junta tudo num lugar só, você compara os preços e vai direto na melhor oferta.",
+   "ref_norm": "fazer mercado em petropolis e um desafio cada mercado com seu encarte sua oferta seu horario o encarte ai junta tudo num lugar so voce compara os precos e vai direto na melhor oferta",
+   "hyp_norm": "fazer mercado em petropolis e um desafio cada mercado com seu encarte sua oferta seu horario o encarte ai junta tudo num lugar so voce compara os precos e vai direto na melhor oferta",
+   "cer": 0.0,
+   "cer_with_spaces": 0.0,
+   "wer": 0.0,
+   "key_terms": {
+    "encarte ai": 1.0,
+    "petropolis": 1.0,
+    "oferta": 1.0
+   },
+   "last_word_heard": true
+  },
+  "pauses": {
+   "lead_s": 0.2,
+   "tail_s": 0.216,
+   "count": 3,
+   "total_s": 1.024,
+   "max_s": 0.376,
+   "long_pauses_over_1s": 0
+  },
+  "rate": {
+   "words": 34,
+   "syllables_est": 68,
+   "speech_span_s": 10.584,
+   "words_per_s": 3.212,
+   "syll_per_s": 6.425,
+   "articulation_syll_per_s": 7.113
+  },
+  "pitch": {
+   "median_hz": 172.7,
+   "std_st": 2.919,
+   "range_st_p5_p95": 9.39,
+   "voiced_ratio": 0.657
+  },
+  "mos_utmos": 3.533,
+  "accent": {
+   "phones": "f ɐ z e ɾ m ɾ k a d ʊ eɪ ŋ p e t ɾ ɔ p ʊ l i z ɛ ʊ ŋ d i z ɐ f i ʊ k a d ɐ m e ɾ k a d ʊ k o ŋ s eɪ w i ŋ k a ɾ t ɨ s u ʊ f ɛ ɾ t ɐ s e o ɾ a ɾ j ʊ u eɪ ŋ k a ɾ tʃ ɐ i ʒ u ŋ t ɐ t u d ʊ n l u ɡ a r s ɔ v o s e k o m p a ɾ ʊ ʊ ʃ p ɾ e s ʊ z i v aɪ d i ɾ ɛ t ʊ n ɐ m e ʎ ɔ ɾ o f ɛ ɾ t ɐ",
+   "affricates": 1,
+   "expected_br_sites": 3,
+   "affricate_ratio": 0.333,
+   "close_central_vowel_ɨ": 1
+  },
+  "raw_name": "kokoro_pf_dora_A",
+  "rtf_cpu": 1.538792696866122
+ },
+ {
+  "wav": "voice/samples/kokoro_pf-dora_B.wav",
+  "text": "Banana prata com quarenta e um por cento de desconto, a um quilômetro e meio de você. Baixa o Encarte Aí. O link tá na bio!",
+  "duration_s": 7.0,
+  "sample_rate": 24000,
+  "artifacts": {
+   "clip_ratio": 0.0,
+   "peak_dbfs": -4.45,
+   "spectral_flatness_speech": 0.0083,
+   "tail_rms_db_rel": -86.44,
+   "truncated_suspect": false
+  },
+  "lang_id": {
+   "top": "pt",
+   "top_prob": 0.9977,
+   "pt_prob": 0.9977
+  },
+  "asr": {
+   "model": "medium",
+   "transcript": "Banana prata com 41% de desconto a 1,5 km de você. Baixe o encarte aí, o link tá na bio.",
+   "ref_norm": "banana prata com quarenta e um por cento de desconto a um quilometro e meio de voce baixa o encarte ai o link ta na bio",
+   "hyp_norm": "banana prata com quarenta e um por cento de desconto a um quilometro e meio de voce baixe o encarte ai o link ta na bio",
+   "cer": 0.0106,
+   "cer_with_spaces": 0.0084,
+   "wer": 0.0385,
+   "key_terms": {
+    "encarte ai": 1.0,
+    "quilometro": 1.0,
+    "desconto": 1.0,
+    "baixa": 0.8
+   },
+   "last_word_heard": true
+  },
+  "pauses": {
+   "lead_s": 0.2,
+   "tail_s": 0.28,
+   "count": 2,
+   "total_s": 0.504,
+   "max_s": 0.28,
+   "long_pauses_over_1s": 0
+  },
+  "rate": {
+   "words": 26,
+   "syllables_est": 43,
+   "speech_span_s": 6.52,
+   "words_per_s": 3.988,
+   "syll_per_s": 6.595,
+   "articulation_syll_per_s": 7.148
+  },
+  "pitch": {
+   "median_hz": 174.7,
+   "std_st": 2.599,
+   "range_st_p5_p95": 8.235,
+   "voiced_ratio": 0.587
+  },
+  "mos_utmos": 3.781,
+  "accent": {
+   "phones": "b ɐ n a n ɐ p ɾ a t ɐ k o ŋ k w a ɾ ɛ ŋ t ɐ i u ŋ p ʊ ɾ s ɛ n t ʊ d d i s k o ŋ t ʊ a u ŋ k i l o m e t ɹ i m eɪ j ʊ d i v o s e b aɪ ʃ ʊ w i ŋ k a ɾ t j aɪ u l i ŋ k t a n ɐ b i",
+   "affricates": 0,
+   "expected_br_sites": 3,
+   "affricate_ratio": 0.0,
+   "close_central_vowel_ɨ": 0
+  },
+  "raw_name": "kokoro_pf_dora_B",
+  "rtf_cpu": 1.0826695305960519
+ },
+ {
+  "wav": "voice/samples/kokoro_pm-alex_A.wav",
+  "text": "Fazer mercado em Petrópolis é um desafio. Cada mercado com seu encarte, sua oferta, seu horário. O Encarte Aí junta tudo num lugar só: você compara os preços e vai direto na melhor oferta.",
+  "duration_s": 10.975,
+  "sample_rate": 24000,
+  "artifacts": {
+   "clip_ratio": 0.0,
+   "peak_dbfs": -4.89,
+   "spectral_flatness_speech": 0.0111,
+   "tail_rms_db_rel": -88.92,
+   "truncated_suspect": false
+  },
+  "lang_id": {
+   "top": "pt",
+   "top_prob": 0.9958,
+   "pt_prob": 0.9958
+  },
+  "asr": {
+   "model": "medium",
+   "transcript": "Fazer mercado em Petrópolis é um desafio. Cada mercado com seu encarte, sua oferta, seu horário. O encarte aí junta tudo num lugar só. Você compara os preços e vai direto na melhor oferta.",
+   "ref_norm": "fazer mercado em petropolis e um desafio cada mercado com seu encarte sua oferta seu horario o encarte ai junta tudo num lugar so voce compara os precos e vai direto na melhor oferta",
+   "hyp_norm": "fazer mercado em petropolis e um desafio cada mercado com seu encarte sua oferta seu horario o encarte ai junta tudo num lugar so voce compara os precos e vai direto na melhor oferta",
+   "cer": 0.0,
+   "cer_with_spaces": 0.0,
+   "wer": 0.0,
+   "key_terms": {
+    "encarte ai": 1.0,
+    "petropolis": 1.0,
+    "oferta": 1.0
+   },
+   "last_word_heard": true
+  },
+  "pauses": {
+   "lead_s": 0.2,
+   "tail_s": 0.239,
+   "count": 3,
+   "total_s": 0.784,
+   "max_s": 0.36,
+   "long_pauses_over_1s": 0
+  },
+  "rate": {
+   "words": 34,
+   "syllables_est": 68,
+   "speech_span_s": 10.536,
+   "words_per_s": 3.227,
+   "syll_per_s": 6.454,
+   "articulation_syll_per_s": 6.973
+  },
+  "pitch": {
+   "median_hz": 130.9,
+   "std_st": 3.373,
+   "range_st_p5_p95": 10.26,
+   "voiced_ratio": 0.544
+  },
+  "mos_utmos": 3.284,
+  "accent": {
+   "phones": "f ɐ z e ɾ m e ɾ k a d ʊ eɪ ŋ p e t ɾ ɔ p ʊ l i z ɛ ũ ŋ d i z ɐ f i ʊ k a d ɐ m e ɾ k a d ʊ k o ŋ s eɪ w i ŋ k a r t ɨ s u ʊ f ɛ ɾ t ɐ s ɨ o ɾ a ɾ j ʊ u i ŋ k a r t j ɐ i ʒ u ŋ t ɐ t u d ʊ n ŋ l u ɡ a r s ɔ v o s e k o m p a ɾ ʊ ʃ p ɾ e s ʊ z i v aɪ d i ɾ ɛ t ʊ n ɐ m e ʎ ɔ ɾ o f ɛ ɾ t ɐ",
+   "affricates": 0,
+   "expected_br_sites": 3,
+   "affricate_ratio": 0.0,
+   "close_central_vowel_ɨ": 2
+  },
+  "raw_name": "kokoro_pm_alex_A",
+  "rtf_cpu": 1.5110996915430577
+ },
+ {
+  "wav": "voice/samples/kokoro_pm-alex_B.wav",
+  "text": "Banana prata com quarenta e um por cento de desconto, a um quilômetro e meio de você. Baixa o Encarte Aí. O link tá na bio!",
+  "duration_s": 7.15,
+  "sample_rate": 24000,
+  "artifacts": {
+   "clip_ratio": 0.0,
+   "peak_dbfs": -5.32,
+   "spectral_flatness_speech": 0.0115,
+   "tail_rms_db_rel": -86.21,
+   "truncated_suspect": false
+  },
+  "lang_id": {
+   "top": "pt",
+   "top_prob": 0.9993,
+   "pt_prob": 0.9993
+  },
+  "asr": {
+   "model": "medium",
+   "transcript": "Banana prata com 41% de desconto a 1,5 km de você. Baixe o encarte aí, o link tá na bio.",
+   "ref_norm": "banana prata com quarenta e um por cento de desconto a um quilometro e meio de voce baixa o encarte ai o link ta na bio",
+   "hyp_norm": "banana prata com quarenta e um por cento de desconto a um quilometro e meio de voce baixe o encarte ai o link ta na bio",
+   "cer": 0.0106,
+   "cer_with_spaces": 0.0084,
+   "wer": 0.0385,
+   "key_terms": {
+    "encarte ai": 1.0,
+    "quilometro": 1.0,
+    "desconto": 1.0,
+    "baixa": 0.8
+   },
+   "last_word_heard": true
+  },
+  "pauses": {
+   "lead_s": 0.2,
+   "tail_s": 0.27,
+   "count": 2,
+   "total_s": 0.432,
+   "max_s": 0.24,
+   "long_pauses_over_1s": 0
+  },
+  "rate": {
+   "words": 26,
+   "syllables_est": 43,
+   "speech_span_s": 6.68,
+   "words_per_s": 3.892,
+   "syll_per_s": 6.437,
+   "articulation_syll_per_s": 6.882
+  },
+  "pitch": {
+   "median_hz": 129.7,
+   "std_st": 3.546,
+   "range_st_p5_p95": 12.2,
+   "voiced_ratio": 0.575
+  },
+  "mos_utmos": 3.546,
+  "accent": {
+   "phones": "b ɐ n ɔ n ɐ p ɾ a t ɐ k o ŋ k w a ɾ ɛ ŋ t ɐ i u ŋ p u r s eɪ ŋ n t ʊ d ɨ d i ʃ k o ŋ t ʊ a u ŋ k i l o m e t ɹ ʊ i m eɪ j ʊ d ɨ v o s e b aɪ ʃ ʊ i ŋ k a r t j aɪ u l i ŋ k t a n a b i",
+   "affricates": 0,
+   "expected_br_sites": 3,
+   "affricate_ratio": 0.0,
+   "close_central_vowel_ɨ": 2
+  },
+  "raw_name": "kokoro_pm_alex_B",
+  "rtf_cpu": 1.1673852280303314
+ },
+ {
+  "wav": "voice/samples/kokoro_pm-santa_A.wav",
+  "text": "Fazer mercado em Petrópolis é um desafio. Cada mercado com seu encarte, sua oferta, seu horário. O Encarte Aí junta tudo num lugar só: você compara os preços e vai direto na melhor oferta.",
+  "duration_s": 11.05,
+  "sample_rate": 24000,
+  "artifacts": {
+   "clip_ratio": 0.0,
+   "peak_dbfs": -6.29,
+   "spectral_flatness_speech": 0.0156,
+   "tail_rms_db_rel": -84.94,
+   "truncated_suspect": false
+  },
+  "lang_id": {
+   "top": "pt",
+   "top_prob": 0.9933,
+   "pt_prob": 0.9933
+  },
+  "asr": {
+   "model": "medium",
+   "transcript": "Fazer mercado em Petrópolis é um desafio. Cada mercado com seu encarte, sua oferta, seu horário. O encarte aí junta tudo num lugar só. Você compara os preços e vai direto na melhor oferta.",
+   "ref_norm": "fazer mercado em petropolis e um desafio cada mercado com seu encarte sua oferta seu horario o encarte ai junta tudo num lugar so voce compara os precos e vai direto na melhor oferta",
+   "hyp_norm": "fazer mercado em petropolis e um desafio cada mercado com seu encarte sua oferta seu horario o encarte ai junta tudo num lugar so voce compara os precos e vai direto na melhor oferta",
+   "cer": 0.0,
+   "cer_with_spaces": 0.0,
+   "wer": 0.0,
+   "key_terms": {
+    "encarte ai": 1.0,
+    "petropolis": 1.0,
+    "oferta": 1.0
+   },
+   "last_word_heard": true
+  },
+  "pauses": {
+   "lead_s": 0.2,
+   "tail_s": 0.226,
+   "count": 0,
+   "total_s": 0,
+   "max_s": 0.0,
+   "long_pauses_over_1s": 0
+  },
+  "rate": {
+   "words": 34,
+   "syllables_est": 68,
+   "speech_span_s": 10.624,
+   "words_per_s": 3.2,
+   "syll_per_s": 6.401,
+   "articulation_syll_per_s": 6.401
+  },
+  "pitch": {
+   "median_hz": 134.7,
+   "std_st": 4.703,
+   "range_st_p5_p95": 17.57,
+   "voiced_ratio": 0.456
+  },
+  "mos_utmos": 2.657,
+  "accent": {
+   "phones": "f a z e r m e r k a d o i n p e t r ɔ p o l i z aɪ u n d i z a f i ʊ k a d ɐ m e r k a d ʊ k o n s e w i ŋ k a r tʃ e s u o f ɛ r t a s e o r a ɾ j o w i n k a r tʃ aɪ i ʒ u n t a t u d u n u l u ɡ a r s o v o s e k o m p a ɾ u s p ɾ e s u z i v aɪ dʒ i ɾ ɛ t u n a m e ʎ o r o f ɛ r t a",
+   "affricates": 3,
+   "expected_br_sites": 3,
+   "affricate_ratio": 1.0,
+   "close_central_vowel_ɨ": 0
+  },
+  "raw_name": "kokoro_pm_santa_A",
+  "rtf_cpu": 1.3933284250319813
+ },
+ {
+  "wav": "voice/samples/kokoro_pm-santa_B.wav",
+  "text": "Banana prata com quarenta e um por cento de desconto, a um quilômetro e meio de você. Baixa o Encarte Aí. O link tá na bio!",
+  "duration_s": 7.15,
+  "sample_rate": 24000,
+  "artifacts": {
+   "clip_ratio": 0.0,
+   "peak_dbfs": -5.69,
+   "spectral_flatness_speech": 0.0145,
+   "tail_rms_db_rel": -81.17,
+   "truncated_suspect": false
+  },
+  "lang_id": {
+   "top": "pt",
+   "top_prob": 0.9941,
+   "pt_prob": 0.9941
+  },
+  "asr": {
+   "model": "medium",
+   "transcript": "Banana Prata com 41% de desconto a 1,5 km de você. Baixe o encarte aí, o link tá na bio.",
+   "ref_norm": "banana prata com quarenta e um por cento de desconto a um quilometro e meio de voce baixa o encarte ai o link ta na bio",
+   "hyp_norm": "banana prata com quarenta e um por cento de desconto a um quilometro e meio de voce baixe o encarte ai o link ta na bio",
+   "cer": 0.0106,
+   "cer_with_spaces": 0.0084,
+   "wer": 0.0385,
+   "key_terms": {
+    "encarte ai": 1.0,
+    "quilometro": 1.0,
+    "desconto": 1.0,
+    "baixa": 0.8
+   },
+   "last_word_heard": true
+  },
+  "pauses": {
+   "lead_s": 0.2,
+   "tail_s": 0.238,
+   "count": 0,
+   "total_s": 0,
+   "max_s": 0.0,
+   "long_pauses_over_1s": 0
+  },
+  "rate": {
+   "words": 26,
+   "syllables_est": 43,
+   "speech_span_s": 6.712,
+   "words_per_s": 3.874,
+   "syll_per_s": 6.406,
+   "articulation_syll_per_s": 6.406
+  },
+  "pitch": {
+   "median_hz": 132.4,
+   "std_st": 4.6,
+   "range_st_p5_p95": 16.51,
+   "voiced_ratio": 0.466
+  },
+  "mos_utmos": 2.8,
+  "accent": {
+   "phones": "b a n a n a p r a t a k o n k w a r ɛ n t a j u m p u r s ɛ n t ʊ d i d i s k o n t u aʊ n k i l o m e t r i m e j u dʒ v o s e b a ʃ o i ŋ k a r tʃ aɪ u l i ŋ k t a n a b iː",
+   "affricates": 2,
+   "expected_br_sites": 3,
+   "affricate_ratio": 0.667,
+   "close_central_vowel_ɨ": 0
+  },
+  "raw_name": "kokoro_pm_santa_B",
+  "rtf_cpu": 1.0846087649151994
+ },
+ {
+  "wav": "voice/samples/piper_cadu_A.wav",
+  "text": "Fazer mercado em Petrópolis é um desafio. Cada mercado com seu encarte, sua oferta, seu horário. O Encarte Aí junta tudo num lugar só: você compara os preços e vai direto na melhor oferta.",
+  "duration_s": 13.224,
+  "sample_rate": 22050,
+  "artifacts": {
+   "clip_ratio": 1.0288630377524144e-05,
+   "peak_dbfs": -0.0,
+   "spectral_flatness_speech": 0.0276,
+   "tail_rms_db_rel": -64.55,
+   "truncated_suspect": false
+  },
+  "lang_id": {
+   "top": "pt",
+   "top_prob": 0.9989,
+   "pt_prob": 0.9989
+  },
+  "asr": {
+   "model": "medium",
+   "transcript": "Fazer mercado em Petrópolis é um desafio. Cada mercado com seu encate, sua oferta, seu horário. O encate aí junta tudo num lugar só. Você compara os preços e vai direto na melhor oferta.",
+   "ref_norm": "fazer mercado em petropolis e um desafio cada mercado com seu encarte sua oferta seu horario o encarte ai junta tudo num lugar so voce compara os precos e vai direto na melhor oferta",
+   "hyp_norm": "fazer mercado em petropolis e um desafio cada mercado com seu encate sua oferta seu horario o encate ai junta tudo num lugar so voce compara os precos e vai direto na melhor oferta",
+   "cer": 0.0134,
+   "cer_with_spaces": 0.011,
+   "wer": 0.0588,
+   "key_terms": {
+    "encarte ai": 0.889,
+    "petropolis": 1.0,
+    "oferta": 1.0
+   },
+   "last_word_heard": true
+  },
+  "pauses": {
+   "lead_s": 0.464,
+   "tail_s": 0.416,
+   "count": 5,
+   "total_s": 2.048,
+   "max_s": 0.792,
+   "long_pauses_over_1s": 0
+  },
+  "rate": {
+   "words": 34,
+   "syllables_est": 68,
+   "speech_span_s": 12.344,
+   "words_per_s": 2.754,
+   "syll_per_s": 5.509,
+   "articulation_syll_per_s": 6.605
+  },
+  "pitch": {
+   "median_hz": 129.4,
+   "std_st": 2.381,
+   "range_st_p5_p95": 7.135,
+   "voiced_ratio": 0.504
+  },
+  "mos_utmos": 3.707,
+  "accent": {
+   "phones": "f ɐ z e ɾ m e ɾ k a d ʊ eɪ ŋ p e t ɾ ɔ p ʊ l i z ɛ ũ ŋ d i z ɐ f i ʊ k a d ɐ m e ɾ k a d ʊ k o n s eɪ i ŋ k a t i s u o f ɛ t ɐ s e o ɾ a ɾ j ʊ u i ŋ k a t j ɐ i ʒ u n t ɐ t u d ʊ n u n l u ɡ a ɾ s o v o s e k u m p a ɾ ʊ ʃ p ɾ e s ʊ z i v aɪ d i ɾ ɛ t ʊ n ɐ m eɪ ɔ ɾ o f ɛ t ɐ",
+   "affricates": 0,
+   "expected_br_sites": 3,
+   "affricate_ratio": 0.0,
+   "close_central_vowel_ɨ": 0
+  },
+  "raw_name": "piper_cadu_A",
+  "rtf_cpu": 0.1885083333946457
+ },
+ {
+  "wav": "voice/samples/piper_cadu_B.wav",
+  "text": "Banana prata com quarenta e um por cento de desconto, a um quilômetro e meio de você. Baixa o Encarte Aí. O link tá na bio!",
+  "duration_s": 9.636,
+  "sample_rate": 22050,
+  "artifacts": {
+   "clip_ratio": 1.4118975903614458e-05,
+   "peak_dbfs": -0.0,
+   "spectral_flatness_speech": 0.0185,
+   "tail_rms_db_rel": -50.65,
+   "truncated_suspect": false
+  },
+  "lang_id": {
+   "top": "pt",
+   "top_prob": 0.9964,
+   "pt_prob": 0.9964
+  },
+  "asr": {
+   "model": "medium",
+   "transcript": "Banana Prata com 40% e 1% de desconto a 1,5 km de você. Baixe o encarte aí. O link tá na bio.",
+   "ref_norm": "banana prata com quarenta e um por cento de desconto a um quilometro e meio de voce baixa o encarte ai o link ta na bio",
+   "hyp_norm": "banana prata com quarenta por cento e um por cento de desconto a um quilometro e meio de voce baixe o encarte ai o link ta na bio",
+   "cer": 0.0957,
+   "cer_with_spaces": 0.0924,
+   "wer": 0.1154,
+   "key_terms": {
+    "encarte ai": 1.0,
+    "quilometro": 1.0,
+    "desconto": 1.0,
+    "baixa": 0.8
+   },
+   "last_word_heard": true
+  },
+  "pauses": {
+   "lead_s": 0.616,
+   "tail_s": 0.26,
+   "count": 3,
+   "total_s": 1.944,
+   "max_s": 0.904,
+   "long_pauses_over_1s": 0
+  },
+  "rate": {
+   "words": 26,
+   "syllables_est": 43,
+   "speech_span_s": 8.76,
+   "words_per_s": 2.968,
+   "syll_per_s": 4.909,
+   "articulation_syll_per_s": 6.309
+  },
+  "pitch": {
+   "median_hz": 131.6,
+   "std_st": 2.99,
+   "range_st_p5_p95": 9.75,
+   "voiced_ratio": 0.543
+  },
+  "mos_utmos": 3.696,
+  "accent": {
+   "phones": "b ɐ n ɐ̃ n ɐ p ɾ a t ɐ k o ŋ k w a ɾ ɛ ŋ n t ɐ i u ŋ p o s eɪ n t ʊ d ɨ d ɨ s k o ŋ n t ʊ a u ŋ k i l o m e t ɹ u d ɨ m eɪ ʊ d ɨ v o s e b aɪ ʃ ʊ eɪ ŋ k a ɾ t j a i u l i ŋ k t a n ɐ b i ʊ",
+   "affricates": 0,
+   "expected_br_sites": 3,
+   "affricate_ratio": 0.0,
+   "close_central_vowel_ɨ": 4
+  },
+  "raw_name": "piper_cadu_B",
+  "rtf_cpu": 0.22217006551617957
+ },
+ {
+  "wav": "voice/samples/piper_edresson_A.wav",
+  "text": "Fazer mercado em Petrópolis é um desafio. Cada mercado com seu encarte, sua oferta, seu horário. O Encarte Aí junta tudo num lugar só: você compara os preços e vai direto na melhor oferta.",
+  "duration_s": 13.936,
+  "sample_rate": 16000,
+  "artifacts": {
+   "clip_ratio": 1.3454362801377726e-05,
+   "peak_dbfs": -0.0,
+   "spectral_flatness_speech": 0.0001,
+   "tail_rms_db_rel": -47.73,
+   "truncated_suspect": false
+  },
+  "lang_id": {
+   "top": "pt",
+   "top_prob": 0.9897,
+   "pt_prob": 0.9897
+  },
+  "asr": {
+   "model": "medium",
+   "transcript": "Fazer mercado em Petrópolis é um desafio, cada mercado por seu encate, sua oferta, seu horário. O encate aí junta tudo em um lugar só você compara os preços e vai direto uma melhor oferta.",
+   "ref_norm": "fazer mercado em petropolis e um desafio cada mercado com seu encarte sua oferta seu horario o encarte ai junta tudo num lugar so voce compara os precos e vai direto na melhor oferta",
+   "hyp_norm": "fazer mercado em petropolis e um desafio cada mercado por seu encate sua oferta seu horario o encate ai junta tudo em um lugar so voce compara os precos e vai direto uma melhor oferta",
+   "cer": 0.0537,
+   "cer_with_spaces": 0.0495,
+   "wer": 0.1765,
+   "key_terms": {
+    "encarte ai": 0.889,
+    "petropolis": 1.0,
+    "oferta": 1.0
+   },
+   "last_word_heard": true
+  },
+  "pauses": {
+   "lead_s": 0.056,
+   "tail_s": 0.12,
+   "count": 2,
+   "total_s": 0.608,
+   "max_s": 0.416,
+   "long_pauses_over_1s": 0
+  },
+  "rate": {
+   "words": 34,
+   "syllables_est": 68,
+   "speech_span_s": 13.76,
+   "words_per_s": 2.471,
+   "syll_per_s": 4.942,
+   "articulation_syll_per_s": 5.17
+  },
+  "pitch": {
+   "median_hz": 153.8,
+   "std_st": 1.756,
+   "range_st_p5_p95": 5.7,
+   "voiced_ratio": 0.689
+  },
+  "mos_utmos": 2.598,
+  "accent": {
+   "phones": "p a z e ɾ m e k a d ʊ eɪ ŋ p e t ɹ ɔ p o l i z e ũ ŋ d e z ɐ f i k a d ɐ m e k a d ʊ k o s e ʁ i ŋ k a t i s u o f ɛ t ɐ s ɨ o ɾ a l ʊ u eɪ ŋ k aɪ t ɐ i ʒ u ŋ t ɐ t u d ʊ m u b u ɡ a ɾ s ɔ v o s e k u m p a ɾ ʊ u ʃ p ɹ ɾ e s ʊ ʒ i v aɪ d i t ʊ m ɐ m i v ɔ ɾ o f e ɛ t ɐ",
+   "affricates": 0,
+   "expected_br_sites": 3,
+   "affricate_ratio": 0.0,
+   "close_central_vowel_ɨ": 1
+  },
+  "raw_name": "piper_edresson_A",
+  "rtf_cpu": 0.15905480639395292
+ },
+ {
+  "wav": "voice/samples/piper_edresson_B.wav",
+  "text": "Banana prata com quarenta e um por cento de desconto, a um quilômetro e meio de você. Baixa o Encarte Aí. O link tá na bio!",
+  "duration_s": 10.416,
+  "sample_rate": 16000,
+  "artifacts": {
+   "clip_ratio": 1.800115207373272e-05,
+   "peak_dbfs": -0.0,
+   "spectral_flatness_speech": 0.0,
+   "tail_rms_db_rel": -35.75,
+   "truncated_suspect": false
+  },
+  "lang_id": {
+   "top": "pt",
+   "top_prob": 0.9931,
+   "pt_prob": 0.9931
+  },
+  "asr": {
+   "model": "medium",
+   "transcript": "Banana trata com 40% e 1% de desconto a 1km, e meio de você, baixa um encate aí, o link tá na bio",
+   "ref_norm": "banana prata com quarenta e um por cento de desconto a um quilometro e meio de voce baixa o encarte ai o link ta na bio",
+   "hyp_norm": "banana trata com quarenta por cento e um por cento de desconto a um quilometros e meio de voce baixa um encate ai o link ta na bio",
+   "cer": 0.1383,
+   "cer_with_spaces": 0.1261,
+   "wer": 0.2308,
+   "key_terms": {
+    "encarte ai": 0.889,
+    "quilometro": 1.0,
+    "desconto": 1.0,
+    "baixa": 1.0
+   },
+   "last_word_heard": true
+  },
+  "pauses": {
+   "lead_s": 0.12,
+   "tail_s": 0.096,
+   "count": 4,
+   "total_s": 1.368,
+   "max_s": 0.592,
+   "long_pauses_over_1s": 0
+  },
+  "rate": {
+   "words": 26,
+   "syllables_est": 43,
+   "speech_span_s": 10.2,
+   "words_per_s": 2.549,
+   "syll_per_s": 4.216,
+   "articulation_syll_per_s": 4.869
+  },
+  "pitch": {
+   "median_hz": 149.5,
+   "std_st": 2.83,
+   "range_st_p5_p95": 10.0,
+   "voiced_ratio": 0.712
+  },
+  "mos_utmos": 2.425,
+  "accent": {
+   "phones": "b o n ɐ̃ n ɐ p ɾ a t ɐ k o ŋ k w a ɾ e n t ɐ i u ŋ p o ɾ s e ŋ t ʊ d ɨ d e ʃ k o ŋ t ʊ ɐ u ŋ p i l o m e t f u e m eɪ ʊ d ɨ v o s e b aɪ ʃ ɐ ʊ ŋ k a tʃ ɐ i u v i ŋ k t a n a b i",
+   "affricates": 1,
+   "expected_br_sites": 3,
+   "affricate_ratio": 0.333,
+   "close_central_vowel_ɨ": 2
+  },
+  "raw_name": "piper_edresson_B",
+  "rtf_cpu": 0.15190257454797418
+ },
+ {
+  "wav": "voice/samples/piper_faber_A.wav",
+  "text": "Fazer mercado em Petrópolis é um desafio. Cada mercado com seu encarte, sua oferta, seu horário. O Encarte Aí junta tudo num lugar só: você compara os preços e vai direto na melhor oferta.",
+  "duration_s": 10.182,
+  "sample_rate": 22050,
+  "artifacts": {
+   "clip_ratio": 1.3362314709236032e-05,
+   "peak_dbfs": -0.0,
+   "spectral_flatness_speech": 0.0246,
+   "tail_rms_db_rel": -58.04,
+   "truncated_suspect": false
+  },
+  "lang_id": {
+   "top": "pt",
+   "top_prob": 0.9982,
+   "pt_prob": 0.9982
+  },
+  "asr": {
+   "model": "medium",
+   "transcript": "Fazer mercado em Petrópolis é um desafio. Cada mercado com seu encarte, sua oferta e seu horário. O encarte aí junta tudo num lugar só, você compara os preços e vai direto na melhor oferta.",
+   "ref_norm": "fazer mercado em petropolis e um desafio cada mercado com seu encarte sua oferta seu horario o encarte ai junta tudo num lugar so voce compara os precos e vai direto na melhor oferta",
+   "hyp_norm": "fazer mercado em petropolis e um desafio cada mercado com seu encarte sua oferta e seu horario o encarte ai junta tudo num lugar so voce compara os precos e vai direto na melhor oferta",
+   "cer": 0.0067,
+   "cer_with_spaces": 0.011,
+   "wer": 0.0294,
+   "key_terms": {
+    "encarte ai": 1.0,
+    "petropolis": 1.0,
+    "oferta": 1.0
+   },
+   "last_word_heard": true
+  },
+  "pauses": {
+   "lead_s": 0.016,
+   "tail_s": 0.134,
+   "count": 2,
+   "total_s": 0.312,
+   "max_s": 0.16,
+   "long_pauses_over_1s": 0
+  },
+  "rate": {
+   "words": 34,
+   "syllables_est": 68,
+   "speech_span_s": 10.032,
+   "words_per_s": 3.389,
+   "syll_per_s": 6.778,
+   "articulation_syll_per_s": 6.996
+  },
+  "pitch": {
+   "median_hz": 166.8,
+   "std_st": 2.672,
+   "range_st_p5_p95": 9.7,
+   "voiced_ratio": 0.795
+  },
+  "mos_utmos": 3.218,
+  "accent": {
+   "phones": "f ɐ z e ɾ m e ɾ k a d ʊ i ŋ p e t ɹ ɔ p ʊ l i z ʊ ŋ d e z ɐ f i ʊ k a d ɐ m e ɾ k a d ʊ k u ŋ s ɨ i ŋ k a t ɨ s u ɐ f ɛ t ɐ d s ɨ o ɾ a ɾ j ʊ u i ŋ k a tʃ ɐ i ʒ u ŋ t ɐ t u d ʊ n ʊ ŋ l u ɡ a ɾ s ɔ v o s e k u m p a ɾ ʊ ʃ p ɹ e s ʊ z i v ɐ d i ɾ ɛ t ʊ n ɐ m eɪ ɔ ɾ ʊ f ɛ t ɐ",
+   "affricates": 1,
+   "expected_br_sites": 3,
+   "affricate_ratio": 0.333,
+   "close_central_vowel_ɨ": 3
+  },
+  "raw_name": "piper_faber_A",
+  "rtf_cpu": 0.2748498256650659
+ },
+ {
+  "wav": "voice/samples/piper_faber_B.wav",
+  "text": "Banana prata com quarenta e um por cento de desconto, a um quilômetro e meio de você. Baixa o Encarte Aí. O link tá na bio!",
+  "duration_s": 6.908,
+  "sample_rate": 22050,
+  "artifacts": {
+   "clip_ratio": 2.6260504201680674e-05,
+   "peak_dbfs": -0.0,
+   "spectral_flatness_speech": 0.0158,
+   "tail_rms_db_rel": -52.88,
+   "truncated_suspect": false
+  },
+  "lang_id": {
+   "top": "pt",
+   "top_prob": 0.999,
+   "pt_prob": 0.999
+  },
+  "asr": {
+   "model": "medium",
+   "transcript": "Dananoprata com 41% de desconto a 1,5 km de você. Baixa o encate aí. O link tá na bio.",
+   "ref_norm": "banana prata com quarenta e um por cento de desconto a um quilometro e meio de voce baixa o encarte ai o link ta na bio",
+   "hyp_norm": "dananoprata com quarenta e um por cento de desconto a um quilometro e meio de voce baixa o encate ai o link ta na bio",
+   "cer": 0.0319,
+   "cer_with_spaces": 0.0336,
+   "wer": 0.1154,
+   "key_terms": {
+    "encarte ai": 0.889,
+    "quilometro": 1.0,
+    "desconto": 1.0,
+    "baixa": 1.0
+   },
+   "last_word_heard": true
+  },
+  "pauses": {
+   "lead_s": 0.024,
+   "tail_s": 0.116,
+   "count": 2,
+   "total_s": 0.424,
+   "max_s": 0.216,
+   "long_pauses_over_1s": 0
+  },
+  "rate": {
+   "words": 26,
+   "syllables_est": 43,
+   "speech_span_s": 6.768,
+   "words_per_s": 3.842,
+   "syll_per_s": 6.353,
+   "articulation_syll_per_s": 6.778
+  },
+  "pitch": {
+   "median_hz": 170.7,
+   "std_st": 3.354,
+   "range_st_p5_p95": 10.94,
+   "voiced_ratio": 0.827
+  },
+  "mos_utmos": 3.289,
+  "accent": {
+   "phones": "b ɐ n d ɔ n ʊ p ɾ a t ʊ k o ŋ k w ɐ ɾ e n t ɐ i u ŋ p o ɾ s e n t ʊ d ɨ d ɨ ʃ k o n t ʊ ɐ u ŋ k i l o m e t ɹ ʊ i m eɪ j ʊ d ɨ v o s e b aɪ ʃ oː i ŋ k a tʃ ɐ i u l i ŋ k t a n ɐ b i ʊ",
+   "affricates": 1,
+   "expected_br_sites": 3,
+   "affricate_ratio": 0.333,
+   "close_central_vowel_ɨ": 3
+  },
+  "raw_name": "piper_faber_B",
+  "rtf_cpu": 0.241778782733223
+ },
+ {
+  "wav": "voice/samples/piper_jeff_A.wav",
+  "text": "Fazer mercado em Petrópolis é um desafio. Cada mercado com seu encarte, sua oferta, seu horário. O Encarte Aí junta tudo num lugar só: você compara os preços e vai direto na melhor oferta.",
+  "duration_s": 12.69,
+  "sample_rate": 22050,
+  "artifacts": {
+   "clip_ratio": 1.072163769441903e-05,
+   "peak_dbfs": -0.0,
+   "spectral_flatness_speech": 0.0137,
+   "tail_rms_db_rel": -39.07,
+   "truncated_suspect": false
+  },
+  "lang_id": {
+   "top": "pt",
+   "top_prob": 0.9922,
+   "pt_prob": 0.9922
+  },
+  "asr": {
+   "model": "medium",
+   "transcript": "Fazer mercado em Petrópolis é um desafio. Cada mercado conta seu encate, sua oferta, seu horário. O encate é injunto a tudo num lugar só. Você compara os preços e vai direto na melhor oferta.",
+   "ref_norm": "fazer mercado em petropolis e um desafio cada mercado com seu encarte sua oferta seu horario o encarte ai junta tudo num lugar so voce compara os precos e vai direto na melhor oferta",
+   "hyp_norm": "fazer mercado em petropolis e um desafio cada mercado conta seu encate sua oferta seu horario o encate e injunto a tudo num lugar so voce compara os precos e vai direto na melhor oferta",
+   "cer": 0.0537,
+   "cer_with_spaces": 0.0549,
+   "wer": 0.1765,
+   "key_terms": {
+    "encarte ai": 0.667,
+    "petropolis": 1.0,
+    "oferta": 1.0
+   },
+   "last_word_heard": true
+  },
+  "pauses": {
+   "lead_s": 0.448,
+   "tail_s": 0.434,
+   "count": 5,
+   "total_s": 2.24,
+   "max_s": 0.736,
+   "long_pauses_over_1s": 0
+  },
+  "rate": {
+   "words": 34,
+   "syllables_est": 68,
+   "speech_span_s": 11.808,
+   "words_per_s": 2.879,
+   "syll_per_s": 5.759,
+   "articulation_syll_per_s": 7.107
+  },
+  "pitch": {
+   "median_hz": 145.2,
+   "std_st": 2.267,
+   "range_st_p5_p95": 7.9,
+   "voiced_ratio": 0.596
+  },
+  "mos_utmos": 2.232,
+  "accent": {
+   "phones": "f ɐ z e ɾ m e ɾ k a d ɨ eɪ ŋ p ɨ t ɹ o p ʊ v i z o d i z ɐ f i l ʊ k a d ɐ m ɾ k a d k o ŋ s i m k a tʃ ɨ s u f ɛ t ɐ s i o ɾ a ɾ ʊ u eɪ ŋ k a t ʊ i ʒ u ŋ t ɐ t u m u ŋ b ʊ ɡ a ɐ s o v ɨ s ɨ k u ʊ p a ɾ ʊ ʃ p ɹ e s ʊ ʃ i v aɪ ʒ i ɾ ɛ t ʊ n ɐ m ɨ ɔ ɾ ʊ f ɛ t",
+   "affricates": 1,
+   "expected_br_sites": 3,
+   "affricate_ratio": 0.333,
+   "close_central_vowel_ɨ": 6
+  },
+  "raw_name": "piper_jeff_A",
+  "rtf_cpu": 0.1955768987723888
+ },
+ {
+  "wav": "voice/samples/piper_jeff_B.wav",
+  "text": "Banana prata com quarenta e um por cento de desconto, a um quilômetro e meio de você. Baixa o Encarte Aí. O link tá na bio!",
+  "duration_s": 9.242,
+  "sample_rate": 22050,
+  "artifacts": {
+   "clip_ratio": 1.4722047738693467e-05,
+   "peak_dbfs": -0.0,
+   "spectral_flatness_speech": 0.0119,
+   "tail_rms_db_rel": -40.49,
+   "truncated_suspect": false
+  },
+  "lang_id": {
+   "top": "pt",
+   "top_prob": 0.9874,
+   "pt_prob": 0.9874
+  },
+  "asr": {
+   "model": "medium",
+   "transcript": "Banano Prato com 40% e 1% de desconto, a 1km e meio de você. Baixa a carta aí, o link tá na bio.",
+   "ref_norm": "banana prata com quarenta e um por cento de desconto a um quilometro e meio de voce baixa o encarte ai o link ta na bio",
+   "hyp_norm": "banano prato com quarenta por cento e um por cento de desconto a um quilometros e meio de voce baixa a carta ai o link ta na bio",
+   "cer": 0.1596,
+   "cer_with_spaces": 0.1429,
+   "wer": 0.2692,
+   "key_terms": {
+    "encarte ai": 0.667,
+    "quilometro": 1.0,
+    "desconto": 1.0,
+    "baixa": 1.0
+   },
+   "last_word_heard": true
+  },
+  "pauses": {
+   "lead_s": 0.592,
+   "tail_s": 0.258,
+   "count": 3,
+   "total_s": 2.136,
+   "max_s": 1.032,
+   "long_pauses_over_1s": 1
+  },
+  "rate": {
+   "words": 26,
+   "syllables_est": 43,
+   "speech_span_s": 8.392,
+   "words_per_s": 3.098,
+   "syll_per_s": 5.124,
+   "articulation_syll_per_s": 6.873
+  },
+  "pitch": {
+   "median_hz": 143.5,
+   "std_st": 1.614,
+   "range_st_p5_p95": 5.3,
+   "voiced_ratio": 0.513
+  },
+  "mos_utmos": 2.386,
+  "accent": {
+   "phones": "b ɐ n o n d ʊ p ɹ a t ɐ k u ŋ k w ɐ ɾ e ŋ t ʊ i u m p u s eɪ ŋ t ʊ d ɨ d i ʃ p o n ɐ ŋ k l i o m i t ʊ i m e j ʊ d ɨ v o s i b a ʃ o ŋ k a tʃ e i u l i ŋ k i t a n a b i u",
+   "affricates": 1,
+   "expected_br_sites": 3,
+   "affricate_ratio": 0.333,
+   "close_central_vowel_ɨ": 2
+  },
+  "raw_name": "piper_jeff_B",
+  "rtf_cpu": 0.170919043596965
+ },
+ {
+  "wav": "voice/samples/rapido_default_A.wav",
+  "text": "Fazer mercado em Petrópolis é um desafio. Cada mercado com seu encarte, sua oferta, seu horário. O Encarte Aí junta tudo num lugar só: você compara os preços e vai direto na melhor oferta.",
+  "duration_s": 12.6,
+  "sample_rate": 48000,
+  "artifacts": {
+   "clip_ratio": 0.0,
+   "peak_dbfs": -0.08,
+   "spectral_flatness_speech": 0.0081,
+   "tail_rms_db_rel": -42.02,
+   "truncated_suspect": false
+  },
+  "lang_id": {
+   "top": "pt",
+   "top_prob": 0.9947,
+   "pt_prob": 0.9947
+  },
+  "asr": {
+   "model": "medium",
+   "transcript": "Fazer mercado em Petrópolis é um desafio. Cada mercado com seu encarte, sua oferta, seu horário. O encarte aí junta tudo num lugar só. Você compara os preços e vai direto na melhor oferta.",
+   "ref_norm": "fazer mercado em petropolis e um desafio cada mercado com seu encarte sua oferta seu horario o encarte ai junta tudo num lugar so voce compara os precos e vai direto na melhor oferta",
+   "hyp_norm": "fazer mercado em petropolis e um desafio cada mercado com seu encarte sua oferta seu horario o encarte ai junta tudo num lugar so voce compara os precos e vai direto na melhor oferta",
+   "cer": 0.0,
+   "cer_with_spaces": 0.0,
+   "wer": 0.0,
+   "key_terms": {
+    "encarte ai": 1.0,
+    "petropolis": 1.0,
+    "oferta": 1.0
+   },
+   "last_word_heard": true
+  },
+  "pauses": {
+   "lead_s": 0.32,
+   "tail_s": 0.464,
+   "count": 3,
+   "total_s": 1.512,
+   "max_s": 0.576,
+   "long_pauses_over_1s": 0
+  },
+  "rate": {
+   "words": 34,
+   "syllables_est": 68,
+   "speech_span_s": 11.816,
+   "words_per_s": 2.877,
+   "syll_per_s": 5.755,
+   "articulation_syll_per_s": 6.599
+  },
+  "pitch": {
+   "median_hz": 221.4,
+   "std_st": 5.886,
+   "range_st_p5_p95": 18.7,
+   "voiced_ratio": 0.32
+  },
+  "mos_utmos": 1.923,
+  "accent": {
+   "phones": "f ɐ z e ɾ m e ɾ k a d ʊ eɪ ŋ p ɨ t ɹ ɔ p ʊ l i z ɛ ŋ d i z ɐ f i ʊ k a d ɐ m e ɾ k a d ʊ k u ŋ s ɨ w eɪ ŋ k a ɾ t ɨ s u ɐ ʊ f ɛ ɾ t ɐ s ɨ o ɾ a ɾ j ʊ w eɪ ŋ k a ɾ t ɐ i ʒ u ŋ t ɐ t u d ʊ n u ŋ l u ɡ a ɾ s ɔ v o s e k o m p a ɾ ʊ ʃ p ɹ e s ʊ z i v aɪ d i ɾ ɛ t ʊ n ɐ m e ʎ ɔ ɾ ʊ f ɛ ɾ t ɐ",
+   "affricates": 0,
+   "expected_br_sites": 3,
+   "affricate_ratio": 0.0,
+   "close_central_vowel_ɨ": 4
+  },
+  "raw_name": "rapido_default_A",
+  "rtf_cpu": 1.7996326325431704
+ },
+ {
+  "wav": "voice/samples/rapido_default_B.wav",
+  "text": "Banana prata com quarenta e um por cento de desconto, a um quilômetro e meio de você. Baixa o Encarte Aí. O link tá na bio!",
+  "duration_s": 8.92,
+  "sample_rate": 48000,
+  "artifacts": {
+   "clip_ratio": 0.0,
+   "peak_dbfs": -0.06,
+   "spectral_flatness_speech": 0.0123,
+   "tail_rms_db_rel": -40.57,
+   "truncated_suspect": false
+  },
+  "lang_id": {
+   "top": "pt",
+   "top_prob": 0.9909,
+   "pt_prob": 0.9909
+  },
+  "asr": {
+   "model": "medium",
+   "transcript": "Banana Prata com 41% de desconto a um quilômetro e meio de você. Baixa o encarte aí. O link tá na bio.",
+   "ref_norm": "banana prata com quarenta e um por cento de desconto a um quilometro e meio de voce baixa o encarte ai o link ta na bio",
+   "hyp_norm": "banana prata com quarenta e um por cento de desconto a um quilometro e meio de voce baixa o encarte ai o link ta na bio",
+   "cer": 0.0,
+   "cer_with_spaces": 0.0,
+   "wer": 0.0,
+   "key_terms": {
+    "encarte ai": 1.0,
+    "quilometro": 1.0,
+    "desconto": 1.0,
+    "baixa": 1.0
+   },
+   "last_word_heard": true
+  },
+  "pauses": {
+   "lead_s": 0.336,
+   "tail_s": 0.064,
+   "count": 2,
+   "total_s": 0.904,
+   "max_s": 0.504,
+   "long_pauses_over_1s": 0
+  },
+  "rate": {
+   "words": 26,
+   "syllables_est": 43,
+   "speech_span_s": 8.52,
+   "words_per_s": 3.052,
+   "syll_per_s": 5.047,
+   "articulation_syll_per_s": 5.646
+  },
+  "pitch": {
+   "median_hz": 186.1,
+   "std_st": 3.465,
+   "range_st_p5_p95": 12.145,
+   "voiced_ratio": 0.692
+  },
+  "mos_utmos": 2.527,
+  "accent": {
+   "phones": "b ɐ n ɐ̃ n ɐ p ɾ a t ɐ k u ŋ k w a ɾ eɪ ŋ t ɐ i u ŋ p u ɾ s eɪ ŋ t ʊ d ɨ d ɨ ʃ k o ŋ t ʊ ɐ u ŋ k i l o m e t ɹ ʊ i m eɪ ʊ d ɨ v o s e b aɪ ʃ ɐ w i ŋ k a ɾ t ɨ ɐ i ʊ l i ŋ t a n ɐ b i ʊ",
+   "affricates": 0,
+   "expected_br_sites": 3,
+   "affricate_ratio": 0.0,
+   "close_central_vowel_ɨ": 4
+  },
+  "raw_name": "rapido_default_B",
+  "rtf_cpu": 1.3933042239715165
+ },
+ {
+  "wav": "voice/samples/qwen3tts-1.7b-voicedesign_male_A.wav",
+  "text": "Fazer mercado em Petrópolis é um desafio. Cada mercado com seu encarte, sua oferta, seu horário. O Encarte Aí junta tudo num lugar só: você compara os preços e vai direto na melhor oferta.",
+  "duration_s": 13.12,
+  "sample_rate": 24000,
+  "artifacts": {
+   "clip_ratio": 0.0,
+   "peak_dbfs": -4.05,
+   "spectral_flatness_speech": 0.0258,
+   "tail_rms_db_rel": -58.72,
+   "truncated_suspect": false
+  },
+  "lang_id": {
+   "top": "pt",
+   "top_prob": 0.9966,
+   "pt_prob": 0.9966
+  },
+  "asr": {
+   "model": "medium",
+   "transcript": "Fazer mercado em Petrópolis é um desafio. Cada mercado com seu encarte e sua oferta a seu horário. O encarte aí junta tudo num lugar só. Você compara os preços e vai direto na melhor oferta.",
+   "ref_norm": "fazer mercado em petropolis e um desafio cada mercado com seu encarte sua oferta seu horario o encarte ai junta tudo num lugar so voce compara os precos e vai direto na melhor oferta",
+   "hyp_norm": "fazer mercado em petropolis e um desafio cada mercado com seu encarte e sua oferta a seu horario o encarte ai junta tudo num lugar so voce compara os precos e vai direto na melhor oferta",
+   "cer": 0.0134,
+   "cer_with_spaces": 0.022,
+   "wer": 0.0588,
+   "key_terms": {
+    "encarte ai": 1.0,
+    "petropolis": 1.0,
+    "oferta": 1.0
+   },
+   "last_word_heard": true
+  },
+  "pauses": {
+   "lead_s": 0.072,
+   "tail_s": 0.2,
+   "count": 4,
+   "total_s": 1.872,
+   "max_s": 0.704,
+   "long_pauses_over_1s": 0
+  },
+  "rate": {
+   "words": 34,
+   "syllables_est": 68,
+   "speech_span_s": 12.848,
+   "words_per_s": 2.646,
+   "syll_per_s": 5.293,
+   "articulation_syll_per_s": 6.195
+  },
+  "pitch": {
+   "median_hz": 179.8,
+   "std_st": 4.127,
+   "range_st_p5_p95": 13.52,
+   "voiced_ratio": 0.599
+  },
+  "mos_utmos": 3.86,
+  "accent": {
+   "phones": "f a z e m e r k a d ʊ i ŋ p e t ɾ o p ʊ l i z ɛ ʊ d i z a f i u k a d ɐ m e r k a d ʊ k o ŋ s e w i ŋ k a r t i s u ɔ f ɛ r t ɐ s e o ɾ a ɾ j ʊ u i ŋ k a r t i a i ʒ u ŋ t ɐ t u d u n u l u ɡ a r s o v o s e k o m p a ɾ o ʃ p ɾ e s ʊ s i v aɪ d i ɾ ɛ t ʊ n a m e ʎ o ɾ o f ɛ r t ɐ",
+   "affricates": 0,
+   "expected_br_sites": 3,
+   "affricate_ratio": 0.0,
+   "close_central_vowel_ɨ": 0
+  },
+  "raw_name": "qwen3_vd-male_A",
+  "rtf_cpu": 36.21054106369252
+ },
+ {
+  "wav": "voice/samples/qwen3tts-1.7b-voicedesign_male_B.wav",
+  "text": "Banana prata com quarenta e um por cento de desconto, a um quilômetro e meio de você. Baixa o Encarte Aí. O link tá na bio!",
+  "duration_s": 9.04,
+  "sample_rate": 24000,
+  "artifacts": {
+   "clip_ratio": 0.0,
+   "peak_dbfs": -4.78,
+   "spectral_flatness_speech": 0.0179,
+   "tail_rms_db_rel": -219.08,
+   "truncated_suspect": false
+  },
+  "lang_id": {
+   "top": "pt",
+   "top_prob": 0.9973,
+   "pt_prob": 0.9973
+  },
+  "asr": {
+   "model": "medium",
+   "transcript": "Banana Prata com 41% de desconto a 1,5 km de você. Baixa o encarte aí. O link tá na bio.",
+   "ref_norm": "banana prata com quarenta e um por cento de desconto a um quilometro e meio de voce baixa o encarte ai o link ta na bio",
+   "hyp_norm": "banana prata com quarenta e um por cento de desconto a um quilometro e meio de voce baixa o encarte ai o link ta na bio",
+   "cer": 0.0,
+   "cer_with_spaces": 0.0,
+   "wer": 0.0,
+   "key_terms": {
+    "encarte ai": 1.0,
+    "quilometro": 1.0,
+    "desconto": 1.0,
+    "baixa": 1.0
+   },
+   "last_word_heard": true
+  },
+  "pauses": {
+   "lead_s": 0.064,
+   "tail_s": 0.128,
+   "count": 2,
+   "total_s": 0.416,
+   "max_s": 0.24,
+   "long_pauses_over_1s": 0
+  },
+  "rate": {
+   "words": 26,
+   "syllables_est": 43,
+   "speech_span_s": 8.848,
+   "words_per_s": 2.939,
+   "syll_per_s": 4.86,
+   "articulation_syll_per_s": 5.1
+  },
+  "pitch": {
+   "median_hz": 227.8,
+   "std_st": 4.107,
+   "range_st_p5_p95": 10.18,
+   "voiced_ratio": 0.736
+  },
+  "mos_utmos": 3.258,
+  "accent": {
+   "phones": "b a n a n a p r a t a k o ŋ k w a ɾ e n t aɪ j u p u r s e n t o d i d i s k o n t u a u ŋ k i l o m e t r u i m e j u d i v o s e b aɪ ʃ aʊ w i ŋ k a r t e a i u l i ŋ k t a n a b i o",
+   "affricates": 0,
+   "expected_br_sites": 3,
+   "affricate_ratio": 0.0,
+   "close_central_vowel_ɨ": 0
+  },
+  "raw_name": "qwen3_vd-male_B",
+  "rtf_cpu": 92.59001913323867
+ },
+ {
+  "wav": "voice/samples/voxcpm2_design-male_A.wav",
+  "text": "Fazer mercado em Petrópolis é um desafio. Cada mercado com seu encarte, sua oferta, seu horário. O Encarte Aí junta tudo num lugar só: você compara os preços e vai direto na melhor oferta.",
+  "duration_s": 11.36,
+  "sample_rate": 48000,
+  "artifacts": {
+   "clip_ratio": 0.0,
+   "peak_dbfs": -5.59,
+   "spectral_flatness_speech": 0.0222,
+   "tail_rms_db_rel": -87.92,
+   "truncated_suspect": false
+  },
+  "lang_id": {
+   "top": "pt",
+   "top_prob": 0.9945,
+   "pt_prob": 0.9945
+  },
+  "asr": {
+   "model": "medium",
+   "transcript": "Fazer mercado em Petrópolis é um desafio. Cada mercado com seu encarte, sua oferta, seu horário. O encarte aí junta tudo num lugar só. Você compara os preços e vai direto na melhor oferta.",
+   "ref_norm": "fazer mercado em petropolis e um desafio cada mercado com seu encarte sua oferta seu horario o encarte ai junta tudo num lugar so voce compara os precos e vai direto na melhor oferta",
+   "hyp_norm": "fazer mercado em petropolis e um desafio cada mercado com seu encarte sua oferta seu horario o encarte ai junta tudo num lugar so voce compara os precos e vai direto na melhor oferta",
+   "cer": 0.0,
+   "cer_with_spaces": 0.0,
+   "wer": 0.0,
+   "key_terms": {
+    "encarte ai": 1.0,
+    "petropolis": 1.0,
+    "oferta": 1.0
+   },
+   "last_word_heard": true
+  },
+  "pauses": {
+   "lead_s": 0.032,
+   "tail_s": 0.128,
+   "count": 3,
+   "total_s": 0.704,
+   "max_s": 0.312,
+   "long_pauses_over_1s": 0
+  },
+  "rate": {
+   "words": 34,
+   "syllables_est": 68,
+   "speech_span_s": 11.2,
+   "words_per_s": 3.036,
+   "syll_per_s": 6.071,
+   "articulation_syll_per_s": 6.479
+  },
+  "pitch": {
+   "median_hz": 127.9,
+   "std_st": 2.644,
+   "range_st_p5_p95": 8.24,
+   "voiced_ratio": 0.63
+  },
+  "mos_utmos": 2.74,
+  "accent": {
+   "phones": "f a z e m e r k a d ʊ eɪ ŋ p e t ɹ ɔ p u l i z e u d i z a f i ʊ k a d ɐ m e r k a d ʊ k o ŋ s e w i ŋ k a r t ɨ s u aʊ f ɛ r t ɐ s ɨ o ɾ a ɾ j ʊ u eɪ ŋ k a ɾ t ɨ ɐ i ʒ u ŋ t ɐ t u d ʊ n u ŋ l u ɡ a r s o v o s e k o m p a ɾ ʊ ʃ p ɾ e s ʊ z i v aɪ d i ɾ ɛ t ʊ n a m e ʎ ɔ ɾ o f ɛ r t ɐ",
+   "affricates": 0,
+   "expected_br_sites": 3,
+   "affricate_ratio": 0.0,
+   "close_central_vowel_ɨ": 3
+  },
+  "raw_name": "voxcpm2_vd-male_A",
+  "rtf_cpu": 28.63337021898216
+ },
+ {
+  "wav": "voice/samples/voxcpm2_design-male_B.wav",
+  "text": "Banana prata com quarenta e um por cento de desconto, a um quilômetro e meio de você. Baixa o Encarte Aí. O link tá na bio!",
+  "duration_s": 5.92,
+  "sample_rate": 48000,
+  "artifacts": {
+   "clip_ratio": 0.0,
+   "peak_dbfs": -2.6,
+   "spectral_flatness_speech": 0.0119,
+   "tail_rms_db_rel": -46.81,
+   "truncated_suspect": false
+  },
+  "lang_id": {
+   "top": "pt",
+   "top_prob": 0.994,
+   "pt_prob": 0.994
+  },
+  "asr": {
+   "model": "medium",
+   "transcript": "Banana Prata com 41% de desconto a um quilômetro e meio de você. Baixa o encarte aí. O link está na bio.",
+   "ref_norm": "banana prata com quarenta e um por cento de desconto a um quilometro e meio de voce baixa o encarte ai o link ta na bio",
+   "hyp_norm": "banana prata com quarenta e um por cento de desconto a um quilometro e meio de voce baixa o encarte ai o link esta na bio",
+   "cer": 0.0213,
+   "cer_with_spaces": 0.0168,
+   "wer": 0.0385,
+   "key_terms": {
+    "encarte ai": 1.0,
+    "quilometro": 1.0,
+    "desconto": 1.0,
+    "baixa": 1.0
+   },
+   "last_word_heard": true
+  },
+  "pauses": {
+   "lead_s": 0.04,
+   "tail_s": 0.096,
+   "count": 0,
+   "total_s": 0,
+   "max_s": 0.0,
+   "long_pauses_over_1s": 0
+  },
+  "rate": {
+   "words": 26,
+   "syllables_est": 43,
+   "speech_span_s": 5.784,
+   "words_per_s": 4.495,
+   "syll_per_s": 7.434,
+   "articulation_syll_per_s": 7.434
+  },
+  "pitch": {
+   "median_hz": 198.3,
+   "std_st": 4.377,
+   "range_st_p5_p95": 16.045,
+   "voiced_ratio": 0.847
+  },
+  "mos_utmos": 2.686,
+  "accent": {
+   "phones": "v a n a n ɐ p ɹ a t ɐ k u ŋ k w a ɾ eɪ ŋ n t eɪ u ŋ p u ɾ s e ŋ t ɹ ʊ d ɨ d i ʃ k o ŋ t ʊ ɐ u ŋ k i l o m e t ɹ ʊ i m eɪ j ʊ d ɨ v o s e b a ʃ u i ŋ k a tʃ ɐ i u l i ŋ k i t a n ɐ b i",
+   "affricates": 1,
+   "expected_br_sites": 3,
+   "affricate_ratio": 0.333,
+   "close_central_vowel_ɨ": 2
+  },
+  "raw_name": "voxcpm2_vd-male_B",
+  "rtf_cpu": 39.127532936431265
+ },
+ {
+  "wav": "voice/samples/chatterbox_ref-kokoropfdora_ex05-cfg05_A.wav",
+  "text": "Fazer mercado em Petrópolis é um desafio. Cada mercado com seu encarte, sua oferta, seu horário. O Encarte Aí junta tudo num lugar só: você compara os preços e vai direto na melhor oferta.",
+  "duration_s": 11.32,
+  "sample_rate": 24000,
+  "artifacts": {
+   "clip_ratio": 0.0,
+   "peak_dbfs": -2.14,
+   "spectral_flatness_speech": 0.0089,
+   "tail_rms_db_rel": -44.64,
+   "truncated_suspect": false
+  },
+  "lang_id": {
+   "top": "pt",
+   "top_prob": 0.9971,
+   "pt_prob": 0.9971
+  },
+  "asr": {
+   "model": "medium",
+   "transcript": "Fazer mercado em Petrópolis é um desafio. Cada mercado com seu encarte, sua oferta, seu horário, o encarte aí junta tudo num lugar só, você compara os preços e vai direto na melhor oferta.",
+   "ref_norm": "fazer mercado em petropolis e um desafio cada mercado com seu encarte sua oferta seu horario o encarte ai junta tudo num lugar so voce compara os precos e vai direto na melhor oferta",
+   "hyp_norm": "fazer mercado em petropolis e um desafio cada mercado com seu encarte sua oferta seu horario o encarte ai junta tudo num lugar so voce compara os precos e vai direto na melhor oferta",
+   "cer": 0.0,
+   "cer_with_spaces": 0.0,
+   "wer": 0.0,
+   "key_terms": {
+    "encarte ai": 1.0,
+    "petropolis": 1.0,
+    "oferta": 1.0
+   },
+   "last_word_heard": true
+  },
+  "pauses": {
+   "lead_s": 0.136,
+   "tail_s": 0.464,
+   "count": 2,
+   "total_s": 0.632,
+   "max_s": 0.328,
+   "long_pauses_over_1s": 0
+  },
+  "rate": {
+   "words": 34,
+   "syllables_est": 68,
+   "speech_span_s": 10.72,
+   "words_per_s": 3.172,
+   "syll_per_s": 6.343,
+   "articulation_syll_per_s": 6.741
+  },
+  "pitch": {
+   "median_hz": 177.7,
+   "std_st": 3.503,
+   "range_st_p5_p95": 9.49,
+   "voiced_ratio": 0.73
+  },
+  "mos_utmos": 3.609,
+  "accent": {
+   "phones": "f ɐ z e ɾ m e r k a d eɪ ŋ p e t ɾ ɔ p o l i z ɐ̃ʊ̃ ŋ z ɨ z a f i ʊ k a d ɐ m r k a d ʊ k o m s e w i ŋ k a r t ɨ s u aʊ l f ɛ r t ɐ s e w o ɾ a ɾ j ʊ u eɪ ŋ k a r t i ɐ i ʒ u ŋ t ɐ t u d n u l u ɡ a r s ɔ v o s e k u m p a ɾ ʊ s p ɾ e s ʊ z i v aɪ d i ɾ ɛ t ʊ n ɐ m e n ɔ ɾ o f ɛ ɾ t ɐ",
+   "affricates": 0,
+   "expected_br_sites": 3,
+   "affricate_ratio": 0.0,
+   "close_central_vowel_ɨ": 2
+  },
+  "raw_name": "chatterbox_ref-kokoro_pf_dora_ex05_cfg05_A",
+  "rtf_cpu": 5.809500802953336
+ },
+ {
+  "wav": "voice/samples/chatterbox_ref-kokoropfdora_ex05-cfg05_B.wav",
+  "text": "Banana prata com quarenta e um por cento de desconto, a um quilômetro e meio de você. Baixa o Encarte Aí. O link tá na bio!",
+  "duration_s": 7.92,
+  "sample_rate": 24000,
+  "artifacts": {
+   "clip_ratio": 0.0,
+   "peak_dbfs": -2.81,
+   "spectral_flatness_speech": 0.0077,
+   "tail_rms_db_rel": -56.23,
+   "truncated_suspect": false
+  },
+  "lang_id": {
+   "top": "pt",
+   "top_prob": 0.9975,
+   "pt_prob": 0.9975
+  },
+  "asr": {
+   "model": "medium",
+   "transcript": "Banana Prata com 41% de desconto a 1,5 km de você. Baixe o encarte aí. O link tá na bio.",
+   "ref_norm": "banana prata com quarenta e um por cento de desconto a um quilometro e meio de voce baixa o encarte ai o link ta na bio",
+   "hyp_norm": "banana prata com quarenta e um por cento de desconto a um quilometro e meio de voce baixe o encarte ai o link ta na bio",
+   "cer": 0.0106,
+   "cer_with_spaces": 0.0084,
+   "wer": 0.0385,
+   "key_terms": {
+    "encarte ai": 1.0,
+    "quilometro": 1.0,
+    "desconto": 1.0,
+    "baixa": 0.8
+   },
+   "last_word_heard": true
+  },
+  "pauses": {
+   "lead_s": 0.088,
+   "tail_s": 0.904,
+   "count": 2,
+   "total_s": 0.536,
+   "max_s": 0.296,
+   "long_pauses_over_1s": 0
+  },
+  "rate": {
+   "words": 26,
+   "syllables_est": 43,
+   "speech_span_s": 6.928,
+   "words_per_s": 3.753,
+   "syll_per_s": 6.207,
+   "articulation_syll_per_s": 6.727
+  },
+  "pitch": {
+   "median_hz": 177.7,
+   "std_st": 5.876,
+   "range_st_p5_p95": 20.45,
+   "voiced_ratio": 0.719
+  },
+  "mos_utmos": 3.556,
+  "accent": {
+   "phones": "b ɐ n n ɐ p ɾ a t ɐ k o ŋ k w a ɾ e ŋ n t aɪ u ŋ p ʊ ɹ s e n t ʊ d ɨ d i s k o ŋ t ʊ ɐ ʊ ŋ k i l o m i t ɹ i m eɪ j u d ʊ v o s e b aɪ ʃ u i ŋ k aɪ tʃ aɪ i u l i ŋ k i t a n ɐ b i u",
+   "affricates": 1,
+   "expected_br_sites": 3,
+   "affricate_ratio": 0.333,
+   "close_central_vowel_ɨ": 1
+  },
+  "raw_name": "chatterbox_ref-kokoro_pf_dora_ex05_cfg05_B",
+  "rtf_cpu": 5.924115397713401
+ },
+ {
+  "wav": "voice/samples/chatterbox_ref-kokoropmalex_ex05-cfg05_A.wav",
+  "text": "Fazer mercado em Petrópolis é um desafio. Cada mercado com seu encarte, sua oferta, seu horário. O Encarte Aí junta tudo num lugar só: você compara os preços e vai direto na melhor oferta.",
+  "duration_s": 12.24,
+  "sample_rate": 24000,
+  "artifacts": {
+   "clip_ratio": 0.0,
+   "peak_dbfs": -4.85,
+   "spectral_flatness_speech": 0.015,
+   "tail_rms_db_rel": -41.67,
+   "truncated_suspect": false
+  },
+  "lang_id": {
+   "top": "pt",
+   "top_prob": 0.996,
+   "pt_prob": 0.996
+  },
+  "asr": {
+   "model": "medium",
+   "transcript": "Fazer mercado em Petrópolis é um desafio. Cada mercado com seu encarte, sua oferta, seu horário. O encarte aí junta tudo num lugar só, você compara os preços e vai direto na melhor oferta.",
+   "ref_norm": "fazer mercado em petropolis e um desafio cada mercado com seu encarte sua oferta seu horario o encarte ai junta tudo num lugar so voce compara os precos e vai direto na melhor oferta",
+   "hyp_norm": "fazer mercado em petropolis e um desafio cada mercado com seu encarte sua oferta seu horario o encarte ai junta tudo num lugar so voce compara os precos e vai direto na melhor oferta",
+   "cer": 0.0,
+   "cer_with_spaces": 0.0,
+   "wer": 0.0,
+   "key_terms": {
+    "encarte ai": 1.0,
+    "petropolis": 1.0,
+    "oferta": 1.0
+   },
+   "last_word_heard": true
+  },
+  "pauses": {
+   "lead_s": 0.136,
+   "tail_s": 0.776,
+   "count": 2,
+   "total_s": 0.552,
+   "max_s": 0.368,
+   "long_pauses_over_1s": 0
+  },
+  "rate": {
+   "words": 34,
+   "syllables_est": 68,
+   "speech_span_s": 11.328,
+   "words_per_s": 3.001,
+   "syll_per_s": 6.003,
+   "articulation_syll_per_s": 6.31
+  },
+  "pitch": {
+   "median_hz": 140.3,
+   "std_st": 2.812,
+   "range_st_p5_p95": 8.89,
+   "voiced_ratio": 0.628
+  },
+  "mos_utmos": 3.794,
+  "accent": {
+   "phones": "f ɐ z e ɾ m e ɾ k a d ʊ eɪ ŋ p e t ɾ ɔ p o l i s ɛ d e z a f i ʊ k a d ɐ m e ɾ k a d ʊ k u ŋ s eɪ i ŋ k a ɾ t i s u ɔ f ɛ ɾ t ɐ s e o ɾ a ɾ j ʊ w i ŋ k a ɾ t ɐ iː ʒ u ŋ t ɐ t u t ʊ n ʊ ŋ u ɡ a ɾ s ɔ v o s e k ʊ m p a ɾ ʊ ʃ p l eɪ s ʊ z i v aɪ d i ɾ ɛ t ʊ n ɐ m e ʎ ɔ ɾ o f ɛ ɾ t ɐ",
+   "affricates": 0,
+   "expected_br_sites": 3,
+   "affricate_ratio": 0.0,
+   "close_central_vowel_ɨ": 0
+  },
+  "raw_name": "chatterbox_ref-kokoro_pm_alex_ex05_cfg05_A",
+  "rtf_cpu": 5.628515244309419
+ },
+ {
+  "wav": "voice/samples/chatterbox_ref-kokoropmalex_ex05-cfg05_B.wav",
+  "text": "Banana prata com quarenta e um por cento de desconto, a um quilômetro e meio de você. Baixa o Encarte Aí. O link tá na bio!",
+  "duration_s": 7.16,
+  "sample_rate": 24000,
+  "artifacts": {
+   "clip_ratio": 0.0,
+   "peak_dbfs": -5.1,
+   "spectral_flatness_speech": 0.0111,
+   "tail_rms_db_rel": -40.58,
+   "truncated_suspect": false
+  },
+  "lang_id": {
+   "top": "pt",
+   "top_prob": 0.9989,
+   "pt_prob": 0.9989
+  },
+  "asr": {
+   "model": "medium",
+   "transcript": "Banana Prata com 41% de desconto a um quilômetro e meio de você. Baixe o encate aí. O link está na bio.",
+   "ref_norm": "banana prata com quarenta e um por cento de desconto a um quilometro e meio de voce baixa o encarte ai o link ta na bio",
+   "hyp_norm": "banana prata com quarenta e um por cento de desconto a um quilometro e meio de voce baixe o encate ai o link esta na bio",
+   "cer": 0.0426,
+   "cer_with_spaces": 0.0336,
+   "wer": 0.1154,
+   "key_terms": {
+    "encarte ai": 0.889,
+    "quilometro": 1.0,
+    "desconto": 1.0,
+    "baixa": 0.8
+   },
+   "last_word_heard": true
+  },
+  "pauses": {
+   "lead_s": 0.096,
+   "tail_s": 0.352,
+   "count": 2,
+   "total_s": 0.592,
+   "max_s": 0.36,
+   "long_pauses_over_1s": 0
+  },
+  "rate": {
+   "words": 26,
+   "syllables_est": 43,
+   "speech_span_s": 6.712,
+   "words_per_s": 3.874,
+   "syll_per_s": 6.406,
+   "articulation_syll_per_s": 7.026
+  },
+  "pitch": {
+   "median_hz": 148.2,
+   "std_st": 5.643,
+   "range_st_p5_p95": 25.2,
+   "voiced_ratio": 0.538
+  },
+  "mos_utmos": 3.733,
+  "accent": {
+   "phones": "b a n a n ɐ p ɾ a t ɐ k o ŋ k w a ɾ e n t aɪ eɪ u p o ɾ s e n t ʊ d d e ʃ k o ŋ t u a u ŋ k i l o m e t ɹ ʊ i m eɪ j ʊ d ɨ v o s e b a ʃ v i ŋ k a tʃ ɐ i u l i ŋ k i t a n a b i u",
+   "affricates": 1,
+   "expected_br_sites": 3,
+   "affricate_ratio": 0.333,
+   "close_central_vowel_ɨ": 1
+  },
+  "raw_name": "chatterbox_ref-kokoro_pm_alex_ex05_cfg05_B",
+  "rtf_cpu": 6.3454700914841125
+ },
+ {
+  "wav": "voice/samples/chatterbox_ref-qwenvdmale_ex05-cfg05_A.wav",
+  "text": "Fazer mercado em Petrópolis é um desafio. Cada mercado com seu encarte, sua oferta, seu horário. O Encarte Aí junta tudo num lugar só: você compara os preços e vai direto na melhor oferta.",
+  "duration_s": 13.6,
+  "sample_rate": 24000,
+  "artifacts": {
+   "clip_ratio": 0.0,
+   "peak_dbfs": -2.33,
+   "spectral_flatness_speech": 0.0171,
+   "tail_rms_db_rel": -52.16,
+   "truncated_suspect": false
+  },
+  "lang_id": {
+   "top": "pt",
+   "top_prob": 0.9966,
+   "pt_prob": 0.9966
+  },
+  "asr": {
+   "model": "medium",
+   "transcript": "Fazer mercado em Petrópolis é um desafio. Cada mercado com seu encarte, sua oferta, seu horário. O encarte aí junta tudo num lugar só. Você compara os preços e vai direto na melhor oferta.",
+   "ref_norm": "fazer mercado em petropolis e um desafio cada mercado com seu encarte sua oferta seu horario o encarte ai junta tudo num lugar so voce compara os precos e vai direto na melhor oferta",
+   "hyp_norm": "fazer mercado em petropolis e um desafio cada mercado com seu encarte sua oferta seu horario o encarte ai junta tudo num lugar so voce compara os precos e vai direto na melhor oferta",
+   "cer": 0.0,
+   "cer_with_spaces": 0.0,
+   "wer": 0.0,
+   "key_terms": {
+    "encarte ai": 1.0,
+    "petropolis": 1.0,
+    "oferta": 1.0
+   },
+   "last_word_heard": true
+  },
+  "pauses": {
+   "lead_s": 0.144,
+   "tail_s": 0.84,
+   "count": 3,
+   "total_s": 0.96,
+   "max_s": 0.376,
+   "long_pauses_over_1s": 0
+  },
+  "rate": {
+   "words": 34,
+   "syllables_est": 68,
+   "speech_span_s": 12.616,
+   "words_per_s": 2.695,
+   "syll_per_s": 5.39,
+   "articulation_syll_per_s": 5.834
+  },
+  "pitch": {
+   "median_hz": 192.7,
+   "std_st": 3.159,
+   "range_st_p5_p95": 8.7,
+   "voiced_ratio": 0.609
+  },
+  "mos_utmos": 3.301,
+  "accent": {
+   "phones": "f ɐ z e r m e r k a d w i p e t ɾ ɔ p ʊ l i s ɛ ʊ ŋ d e z ɐ f i ʊ k a d ɐ m e r k a d ʊ k u ŋ s eɪ i ŋ k a t ɨ s u o f ɛ r t ɐ s e o ɾ a ɾ j ʊ u eɪ ŋ k a r tʃ ɐ i ʒ u ŋ t w ɐ t u d ʊ n u l u ɡ a r s o v o s e k o m p a ɾ ʊ ʃ p ɾ e s ʊ z i v aɪ d i ɾ ɛ t ʊ n ɐ m e ʎ o ɾ o f ɛ r t ɐ",
+   "affricates": 1,
+   "expected_br_sites": 3,
+   "affricate_ratio": 0.333,
+   "close_central_vowel_ɨ": 1
+  },
+  "raw_name": "chatterbox_ref-qwen_vd_male_ex05_cfg05_A",
+  "rtf_cpu": 13.173249907353345
+ },
+ {
+  "wav": "voice/samples/chatterbox_ref-qwenvdmale_ex05-cfg05_B.wav",
+  "text": "Banana prata com quarenta e um por cento de desconto, a um quilômetro e meio de você. Baixa o Encarte Aí. O link tá na bio!",
+  "duration_s": 9.2,
+  "sample_rate": 24000,
+  "artifacts": {
+   "clip_ratio": 0.0,
+   "peak_dbfs": -4.36,
+   "spectral_flatness_speech": 0.0154,
+   "tail_rms_db_rel": -45.14,
+   "truncated_suspect": false
+  },
+  "lang_id": {
+   "top": "pt",
+   "top_prob": 0.9925,
+   "pt_prob": 0.9925
+  },
+  "asr": {
+   "model": "medium",
+   "transcript": "Banana Prata com 41% de desconto a um quilômetro e meio de você. Baixe o encarte aí. O link tá na bio.",
+   "ref_norm": "banana prata com quarenta e um por cento de desconto a um quilometro e meio de voce baixa o encarte ai o link ta na bio",
+   "hyp_norm": "banana prata com quarenta e um por cento de desconto a um quilometro e meio de voce baixe o encarte ai o link ta na bio",
+   "cer": 0.0106,
+   "cer_with_spaces": 0.0084,
+   "wer": 0.0385,
+   "key_terms": {
+    "encarte ai": 1.0,
+    "quilometro": 1.0,
+    "desconto": 1.0,
+    "baixa": 0.8
+   },
+   "last_word_heard": true
+  },
+  "pauses": {
+   "lead_s": 0.096,
+   "tail_s": 0.832,
+   "count": 3,
+   "total_s": 0.736,
+   "max_s": 0.288,
+   "long_pauses_over_1s": 0
+  },
+  "rate": {
+   "words": 26,
+   "syllables_est": 43,
+   "speech_span_s": 8.272,
+   "words_per_s": 3.143,
+   "syll_per_s": 5.198,
+   "articulation_syll_per_s": 5.706
+  },
+  "pitch": {
+   "median_hz": 200.7,
+   "std_st": 3.392,
+   "range_st_p5_p95": 9.3,
+   "voiced_ratio": 0.6
+  },
+  "mos_utmos": 3.573,
+  "accent": {
+   "phones": "b a n ɔ n ɐ p ɾ a t ɐ k o ŋ k w a ɾ eɪ ŋ t ɐ i j u ŋ p u ɾ s eɪ ŋ t ʊ d ɨ d i ʃ k o ŋ t ʊ ɐ u ŋ k i l o m e t ɹ ʊ i m eɪ j ʊ d ɨ v o s e b aɪ ʃ u eɪ ŋ k a r t i ɐ i u l i ŋ k i t a n ɐ b i",
+   "affricates": 0,
+   "expected_br_sites": 3,
+   "affricate_ratio": 0.0,
+   "close_central_vowel_ɨ": 2
+  },
+  "raw_name": "chatterbox_ref-qwen_vd_male_ex05_cfg05_B",
+  "rtf_cpu": 5.834685434465824
+ },
+ {
+  "wav": "voice/samples/chatterbox_ref-rapido_ex05-cfg05_A.wav",
+  "text": "Fazer mercado em Petrópolis é um desafio. Cada mercado com seu encarte, sua oferta, seu horário. O Encarte Aí junta tudo num lugar só: você compara os preços e vai direto na melhor oferta.",
+  "duration_s": 12.36,
+  "sample_rate": 24000,
+  "artifacts": {
+   "clip_ratio": 0.0007315264293419633,
+   "peak_dbfs": 0.0,
+   "spectral_flatness_speech": 0.0111,
+   "tail_rms_db_rel": -16.2,
+   "truncated_suspect": false
+  },
+  "lang_id": {
+   "top": "pt",
+   "top_prob": 0.9963,
+   "pt_prob": 0.9963
+  },
+  "asr": {
+   "model": "medium",
+   "transcript": "Fazer em mercado em Petrópolis é um desafio. Cada mercado, com seu encarte, sua oferta, seu horário, o encarte aí junta tudo num lugar só. Você compara os preços e vai direto na melhor oferta?",
+   "ref_norm": "fazer mercado em petropolis e um desafio cada mercado com seu encarte sua oferta seu horario o encarte ai junta tudo num lugar so voce compara os precos e vai direto na melhor oferta",
+   "hyp_norm": "fazer em mercado em petropolis e um desafio cada mercado com seu encarte sua oferta seu horario o encarte ai junta tudo num lugar so voce compara os precos e vai direto na melhor oferta",
+   "cer": 0.0134,
+   "cer_with_spaces": 0.0165,
+   "wer": 0.0294,
+   "key_terms": {
+    "encarte ai": 1.0,
+    "petropolis": 1.0,
+    "oferta": 1.0
+   },
+   "last_word_heard": true
+  },
+  "pauses": {
+   "lead_s": 0.056,
+   "tail_s": 0.0,
+   "count": 3,
+   "total_s": 1.336,
+   "max_s": 0.48,
+   "long_pauses_over_1s": 0
+  },
+  "rate": {
+   "words": 34,
+   "syllables_est": 68,
+   "speech_span_s": 12.304,
+   "words_per_s": 2.763,
+   "syll_per_s": 5.527,
+   "articulation_syll_per_s": 6.2
+  },
+  "pitch": {
+   "median_hz": 230.5,
+   "std_st": 7.076,
+   "range_st_p5_p95": 33.57,
+   "voiced_ratio": 0.304
+  },
+  "mos_utmos": 2.617,
+  "accent": {
+   "phones": "f a z ɨ ɨ m e ɾ k a d w eɪ ŋ p e t ɾ ɔ p ʊ l i z ɛ ʊ ŋ d i z ɐ f i ʊ k a d ɐ m e ɾ k a d ʊ k ŋ s eɪ w i ŋ k a ɾ t ɨ s u o f ɛ ɾ t ɐ s ɨ o ɾ a ɾ j ʊ u eɪ ŋ k a ɾ t ɐ i ʒ u ŋ t ɐ t u d ʊ n ŋ l u ɡ a ɾ s ɔ v o s e k o m p a ɾ ʊ ʃ p ɾ e s ʊ z i v aɪ d i ɾ ɛ t ʊ n ɐ m e ʎ ɔ ɾ o f ɛ ɾ t ɐ",
+   "affricates": 0,
+   "expected_br_sites": 3,
+   "affricate_ratio": 0.0,
+   "close_central_vowel_ɨ": 4
+  },
+  "raw_name": "chatterbox_ref-rapido_ex05_cfg05_A",
+  "rtf_cpu": 9.630629121292756
+ },
+ {
+  "wav": "voice/samples/chatterbox_ref-rapido_ex05-cfg05_B.wav",
+  "text": "Banana prata com quarenta e um por cento de desconto, a um quilômetro e meio de você. Baixa o Encarte Aí. O link tá na bio!",
+  "duration_s": 7.64,
+  "sample_rate": 24000,
+  "artifacts": {
+   "clip_ratio": 0.0005617364746945899,
+   "peak_dbfs": 0.0,
+   "spectral_flatness_speech": 0.0064,
+   "tail_rms_db_rel": -61.87,
+   "truncated_suspect": false
+  },
+  "lang_id": {
+   "top": "pt",
+   "top_prob": 0.9951,
+   "pt_prob": 0.9951
+  },
+  "asr": {
+   "model": "medium",
+   "transcript": "Banana Prata com 41% de desconto a 1,5 km de você. Baixe o encarte aí. O link tá na bio.",
+   "ref_norm": "banana prata com quarenta e um por cento de desconto a um quilometro e meio de voce baixa o encarte ai o link ta na bio",
+   "hyp_norm": "banana prata com quarenta e um por cento de desconto a um quilometro e meio de voce baixe o encarte ai o link ta na bio",
+   "cer": 0.0106,
+   "cer_with_spaces": 0.0084,
+   "wer": 0.0385,
+   "key_terms": {
+    "encarte ai": 1.0,
+    "quilometro": 1.0,
+    "desconto": 1.0,
+    "baixa": 0.8
+   },
+   "last_word_heard": true
+  },
+  "pauses": {
+   "lead_s": 0.056,
+   "tail_s": 0.288,
+   "count": 2,
+   "total_s": 0.816,
+   "max_s": 0.408,
+   "long_pauses_over_1s": 0
+  },
+  "rate": {
+   "words": 26,
+   "syllables_est": 43,
+   "speech_span_s": 7.296,
+   "words_per_s": 3.564,
+   "syll_per_s": 5.894,
+   "articulation_syll_per_s": 6.636
+  },
+  "pitch": {
+   "median_hz": 206.5,
+   "std_st": 2.797,
+   "range_st_p5_p95": 10.0,
+   "voiced_ratio": 0.425
+  },
+  "mos_utmos": 2.658,
+  "accent": {
+   "phones": "b ɐ n ɐ̃ n ɐ p ɾ a t ɐ k o ŋ k w ɐ ɾ eɪ ŋ t ɐ u ŋ p u ɾ s eɪ ŋ t ʊ d ɨ d i ʃ k o ŋ t ʊ ɐ u ŋ k i l o m i t ɹ ʊ i m eɪ ʊ d ɨ v o s s e b aɪ ʃ u i ŋ k a ɾ t ɐ i ʊ l i ŋ k ɨ t ɐ n ɐ b i ʊ",
+   "affricates": 0,
+   "expected_br_sites": 3,
+   "affricate_ratio": 0.0,
+   "close_central_vowel_ɨ": 3
+  },
+  "raw_name": "chatterbox_ref-rapido_ex05_cfg05_B",
+  "rtf_cpu": 7.028854361379334
+ },
+ {
+  "wav": "voice/samples/chatterbox_ref-qwenvdmale_ex07-cfg03_A.wav",
+  "text": "Fazer mercado em Petrópolis é um desafio. Cada mercado com seu encarte, sua oferta, seu horário. O Encarte Aí junta tudo num lugar só: você compara os preços e vai direto na melhor oferta.",
+  "duration_s": 13.04,
+  "sample_rate": 24000,
+  "artifacts": {
+   "clip_ratio": 0.0,
+   "peak_dbfs": -2.46,
+   "spectral_flatness_speech": 0.0163,
+   "tail_rms_db_rel": -16.41,
+   "truncated_suspect": false
+  },
+  "lang_id": {
+   "top": "pt",
+   "top_prob": 0.9941,
+   "pt_prob": 0.9941
+  },
+  "asr": {
+   "model": "medium",
+   "transcript": "Fazer mercado em Petrópolis é um desafio. Cada mercado com seu encarte, sua oferta, seu horário. O encarte aí junta tudo num lugar só, você compara os preços e vai direto na melhor oferta.",
+   "ref_norm": "fazer mercado em petropolis e um desafio cada mercado com seu encarte sua oferta seu horario o encarte ai junta tudo num lugar so voce compara os precos e vai direto na melhor oferta",
+   "hyp_norm": "fazer mercado em petropolis e um desafio cada mercado com seu encarte sua oferta seu horario o encarte ai junta tudo num lugar so voce compara os precos e vai direto na melhor oferta",
+   "cer": 0.0,
+   "cer_with_spaces": 0.0,
+   "wer": 0.0,
+   "key_terms": {
+    "encarte ai": 1.0,
+    "petropolis": 1.0,
+    "oferta": 1.0
+   },
+   "last_word_heard": true
+  },
+  "pauses": {
+   "lead_s": 0.168,
+   "tail_s": 0.0,
+   "count": 4,
+   "total_s": 1.288,
+   "max_s": 0.464,
+   "long_pauses_over_1s": 0
+  },
+  "rate": {
+   "words": 34,
+   "syllables_est": 68,
+   "speech_span_s": 12.872,
+   "words_per_s": 2.641,
+   "syll_per_s": 5.283,
+   "articulation_syll_per_s": 5.87
+  },
+  "pitch": {
+   "median_hz": 178.8,
+   "std_st": 3.232,
+   "range_st_p5_p95": 8.91,
+   "voiced_ratio": 0.649
+  },
+  "mos_utmos": 3.419,
+  "accent": {
+   "phones": "f a z e r m e r k a d i m p e t ɾ ɔ p o l i z ɑ̃ ŋ d e z a f i u k a d ɐ m e r k a d ʊ k u ŋ s eɪ w eɪ ŋ k a r tʃ i s u aʊ f ɛ r t ɐ s e o ɾ a ɾ j ʊ u i ŋ k a r tʃ ɐ i ʒ u ŋ t ɐ t u d ʊ n u ŋ l u ɡ a r s ɔ v o s e k o m p a ɾ ʊ ʃ p ɾ e s ʊ z i v aɪ d i ɾ ɛ t ʊ n ɐ m e ʎ ɔ ɾ o f ɛ r t ɐ",
+   "affricates": 2,
+   "expected_br_sites": 3,
+   "affricate_ratio": 0.667,
+   "close_central_vowel_ɨ": 0
+  },
+  "raw_name": "chatterbox_ref-qwen_vd_male_ex07_cfg03_A",
+  "rtf_cpu": 11.22238588479399
+ },
+ {
+  "wav": "voice/samples/chatterbox_ref-qwenvdmale_ex07-cfg03_B.wav",
+  "text": "Banana prata com quarenta e um por cento de desconto, a um quilômetro e meio de você. Baixa o Encarte Aí. O link tá na bio!",
+  "duration_s": 9.36,
+  "sample_rate": 24000,
+  "artifacts": {
+   "clip_ratio": 0.0,
+   "peak_dbfs": -3.43,
+   "spectral_flatness_speech": 0.0143,
+   "tail_rms_db_rel": -49.17,
+   "truncated_suspect": false
+  },
+  "lang_id": {
+   "top": "pt",
+   "top_prob": 0.9889,
+   "pt_prob": 0.9889
+  },
+  "asr": {
+   "model": "medium",
+   "transcript": "Banana Prata com 41% de desconto, a 1,5 km de você. Baixe o encarte aí. O link está na bio.",
+   "ref_norm": "banana prata com quarenta e um por cento de desconto a um quilometro e meio de voce baixa o encarte ai o link ta na bio",
+   "hyp_norm": "banana prata com quarenta e um por cento de desconto a um quilometro e meio de voce baixe o encarte ai o link esta na bio",
+   "cer": 0.0319,
+   "cer_with_spaces": 0.0252,
+   "wer": 0.0769,
+   "key_terms": {
+    "encarte ai": 1.0,
+    "quilometro": 1.0,
+    "desconto": 1.0,
+    "baixa": 0.8
+   },
+   "last_word_heard": true
+  },
+  "pauses": {
+   "lead_s": 0.088,
+   "tail_s": 0.712,
+   "count": 2,
+   "total_s": 0.712,
+   "max_s": 0.44,
+   "long_pauses_over_1s": 0
+  },
+  "rate": {
+   "words": 26,
+   "syllables_est": 43,
+   "speech_span_s": 8.56,
+   "words_per_s": 3.037,
+   "syll_per_s": 5.023,
+   "articulation_syll_per_s": 5.479
+  },
+  "pitch": {
+   "median_hz": 201.8,
+   "std_st": 3.028,
+   "range_st_p5_p95": 8.83,
+   "voiced_ratio": 0.638
+  },
+  "mos_utmos": 3.605,
+  "accent": {
+   "phones": "b a n a n a p ɾ a t ɐ k o ŋ k w a ɾ e n t ɐ i u ŋ p u r s e n t ʊ d ɨ d i ʃ k o ŋ t u a u ŋ k i l o m e t ɹ i m e j u d ɨ v o s e b aɪ ʃ u e ŋ k a r t j a i u l i ŋ k i t a n a b i u",
+   "affricates": 0,
+   "expected_br_sites": 3,
+   "affricate_ratio": 0.0,
+   "close_central_vowel_ɨ": 2
+  },
+  "raw_name": "chatterbox_ref-qwen_vd_male_ex07_cfg03_B",
+  "rtf_cpu": 13.398336752867088
+ },
+ {
+  "wav": "voice/samples/chatterbox_ref-voxcpmvdmale_ex05-cfg05_A.wav",
+  "text": "Fazer mercado em Petrópolis é um desafio. Cada mercado com seu encarte, sua oferta, seu horário. O Encarte Aí junta tudo num lugar só: você compara os preços e vai direto na melhor oferta.",
+  "duration_s": 11.72,
+  "sample_rate": 24000,
+  "artifacts": {
+   "clip_ratio": 0.0,
+   "peak_dbfs": -1.53,
+   "spectral_flatness_speech": 0.011,
+   "tail_rms_db_rel": -31.22,
+   "truncated_suspect": false
+  },
+  "lang_id": {
+   "top": "pt",
+   "top_prob": 0.9942,
+   "pt_prob": 0.9942
+  },
+  "asr": {
+   "model": "medium",
+   "transcript": "Fazer mercado em Petrópolis é um desafio. Cada mercado com seu encarte, sua oferta, seu horário. O encarte aí junta tudo num lugar só. Você compara os preços e vai direto na melhor oferta.",
+   "ref_norm": "fazer mercado em petropolis e um desafio cada mercado com seu encarte sua oferta seu horario o encarte ai junta tudo num lugar so voce compara os precos e vai direto na melhor oferta",
+   "hyp_norm": "fazer mercado em petropolis e um desafio cada mercado com seu encarte sua oferta seu horario o encarte ai junta tudo num lugar so voce compara os precos e vai direto na melhor oferta",
+   "cer": 0.0,
+   "cer_with_spaces": 0.0,
+   "wer": 0.0,
+   "key_terms": {
+    "encarte ai": 1.0,
+    "petropolis": 1.0,
+    "oferta": 1.0
+   },
+   "last_word_heard": true
+  },
+  "pauses": {
+   "lead_s": 0.096,
+   "tail_s": 0.856,
+   "count": 3,
+   "total_s": 0.736,
+   "max_s": 0.256,
+   "long_pauses_over_1s": 0
+  },
+  "rate": {
+   "words": 34,
+   "syllables_est": 68,
+   "speech_span_s": 10.768,
+   "words_per_s": 3.158,
+   "syll_per_s": 6.315,
+   "articulation_syll_per_s": 6.778
+  },
+  "pitch": {
+   "median_hz": 141.9,
+   "std_st": 2.109,
+   "range_st_p5_p95": 7.3,
+   "voiced_ratio": 0.631
+  },
+  "mos_utmos": 2.968,
+  "accent": {
+   "phones": "f ɐ z e ɾ m e ɾ k a d eɪ ŋ p e t ɹ ɔ p u l i z e ŋ d e z a f i ʊ k a d ɐ m e ɾ k a d ʊ k o ŋ s eɪ eɪ ŋ k a ɾ t ɨ s u ɔ f ɛ ɾ t ɐ s ɨ w o ɾ a ɾ j ʊ u eɪ ŋ k a t ɐ i ʒ u ŋ t ɐ t u d n u l u ɡ a s o v o s e k o m p a ɾ ʊ ʃ p ɾ e s ʊ z i v aɪ d i ɾ ɛ t ʊ n ɐ m e ʎ ɔ ɾ o f ɛ ɾ t ɐ",
+   "affricates": 0,
+   "expected_br_sites": 3,
+   "affricate_ratio": 0.0,
+   "close_central_vowel_ɨ": 2
+  },
+  "raw_name": "chatterbox_ref-voxcpm_vd_male_ex05_cfg05_A",
+  "rtf_cpu": 5.704539281923209
+ },
+ {
+  "wav": "voice/samples/chatterbox_ref-voxcpmvdmale_ex05-cfg05_B.wav",
+  "text": "Banana prata com quarenta e um por cento de desconto, a um quilômetro e meio de você. Baixa o Encarte Aí. O link tá na bio!",
+  "duration_s": 9.16,
+  "sample_rate": 24000,
+  "artifacts": {
+   "clip_ratio": 0.0,
+   "peak_dbfs": -1.88,
+   "spectral_flatness_speech": 0.0135,
+   "tail_rms_db_rel": -38.94,
+   "truncated_suspect": false
+  },
+  "lang_id": {
+   "top": "pt",
+   "top_prob": 0.9889,
+   "pt_prob": 0.9889
+  },
+  "asr": {
+   "model": "medium",
+   "transcript": "Banana Prata com 41% de desconto a um quilômetro e meio de você. Baixa o encarte aí, o link tá na bio.",
+   "ref_norm": "banana prata com quarenta e um por cento de desconto a um quilometro e meio de voce baixa o encarte ai o link ta na bio",
+   "hyp_norm": "banana prata com quarenta e um por cento de desconto a um quilometro e meio de voce baixa o encarte ai o link ta na bio",
+   "cer": 0.0,
+   "cer_with_spaces": 0.0,
+   "wer": 0.0,
+   "key_terms": {
+    "encarte ai": 1.0,
+    "quilometro": 1.0,
+    "desconto": 1.0,
+    "baixa": 1.0
+   },
+   "last_word_heard": true
+  },
+  "pauses": {
+   "lead_s": 0.08,
+   "tail_s": 0.208,
+   "count": 3,
+   "total_s": 1.232,
+   "max_s": 0.576,
+   "long_pauses_over_1s": 0
+  },
+  "rate": {
+   "words": 26,
+   "syllables_est": 43,
+   "speech_span_s": 8.872,
+   "words_per_s": 2.931,
+   "syll_per_s": 4.847,
+   "articulation_syll_per_s": 5.628
+  },
+  "pitch": {
+   "median_hz": 141.9,
+   "std_st": 2.773,
+   "range_st_p5_p95": 9.74,
+   "voiced_ratio": 0.594
+  },
+  "mos_utmos": 3.3,
+  "accent": {
+   "phones": "b a n a n ɐ p ɾ a t k o ŋ k w a ɾ e n t ɐ i u m p u r s e n t u d ɨ d e s k o ŋ t u a u ŋ k i l o m e t ɹ ʊ i m e j d i v o s e b aɪ ʃ ɔ w i ŋ k a t a i u l i ŋ k i t a n a b i u",
+   "affricates": 0,
+   "expected_br_sites": 3,
+   "affricate_ratio": 0.0,
+   "close_central_vowel_ɨ": 1
+  },
+  "raw_name": "chatterbox_ref-voxcpm_vd_male_ex05_cfg05_B",
+  "rtf_cpu": 5.910145559685719
+ },
+ {
+  "wav": "voice/samples/chatterbox_ref-voxcpmvdmale_ex07-cfg03_A.wav",
+  "text": "Fazer mercado em Petrópolis é um desafio. Cada mercado com seu encarte, sua oferta, seu horário. O Encarte Aí junta tudo num lugar só: você compara os preços e vai direto na melhor oferta.",
+  "duration_s": 12.88,
+  "sample_rate": 24000,
+  "artifacts": {
+   "clip_ratio": 0.0,
+   "peak_dbfs": -1.31,
+   "spectral_flatness_speech": 0.0158,
+   "tail_rms_db_rel": -7.93,
+   "truncated_suspect": true
+  },
+  "lang_id": {
+   "top": "pt",
+   "top_prob": 0.9835,
+   "pt_prob": 0.9835
+  },
+  "asr": {
+   "model": "medium",
+   "transcript": "Fazer mercado em Petrópolis é um desafio. Cada mercado com seu encarte, sua oferta, seu horário. O encarte aí junta tudo num lugar só. Você compara os preços e vai direto na melhor oferta.",
+   "ref_norm": "fazer mercado em petropolis e um desafio cada mercado com seu encarte sua oferta seu horario o encarte ai junta tudo num lugar so voce compara os precos e vai direto na melhor oferta",
+   "hyp_norm": "fazer mercado em petropolis e um desafio cada mercado com seu encarte sua oferta seu horario o encarte ai junta tudo num lugar so voce compara os precos e vai direto na melhor oferta",
+   "cer": 0.0,
+   "cer_with_spaces": 0.0,
+   "wer": 0.0,
+   "key_terms": {
+    "encarte ai": 1.0,
+    "petropolis": 1.0,
+    "oferta": 1.0
+   },
+   "last_word_heard": true
+  },
+  "pauses": {
+   "lead_s": 0.112,
+   "tail_s": 0.0,
+   "count": 4,
+   "total_s": 2.04,
+   "max_s": 0.768,
+   "long_pauses_over_1s": 0
+  },
+  "rate": {
+   "words": 34,
+   "syllables_est": 68,
+   "speech_span_s": 12.768,
+   "words_per_s": 2.663,
+   "syll_per_s": 5.326,
+   "articulation_syll_per_s": 6.339
+  },
+  "pitch": {
+   "median_hz": 148.6,
+   "std_st": 2.818,
+   "range_st_p5_p95": 6.115,
+   "voiced_ratio": 0.575
+  },
+  "mos_utmos": 2.712,
+  "accent": {
+   "phones": "f a z e ɾ m e r k a d ʊ eɪ m p e t ɾ o p o l i z ɛ ʊ n d e z a f i ʊ k a d ɐ m e r k a d ʊ k o ŋ s e w i ŋ k a r tʃ i s u o f ɛ r t ɐ s e o ɾ a ɾ j ʊ w i ŋ k a r tʃ ɐ i ʒ u n t ɐ t u d ʊ n u l u ɡ a r s o v o s e k o m p a ɾ ʊ ʃ p ɾ e s ʊ z i v aɪ d i ɾ ɛ t ʊ n a m e l o ɾ o f ɛ r t ɐ",
+   "affricates": 2,
+   "expected_br_sites": 3,
+   "affricate_ratio": 0.667,
+   "close_central_vowel_ɨ": 0
+  },
+  "raw_name": "chatterbox_ref-voxcpm_vd_male_ex07_cfg03_A",
+  "rtf_cpu": 5.518804277692522
+ },
+ {
+  "wav": "voice/samples/chatterbox_ref-voxcpmvdmale_ex07-cfg03_B.wav",
+  "text": "Banana prata com quarenta e um por cento de desconto, a um quilômetro e meio de você. Baixa o Encarte Aí. O link tá na bio!",
+  "duration_s": 8.76,
+  "sample_rate": 24000,
+  "artifacts": {
+   "clip_ratio": 0.0,
+   "peak_dbfs": -2.45,
+   "spectral_flatness_speech": 0.0135,
+   "tail_rms_db_rel": -42.53,
+   "truncated_suspect": false
+  },
+  "lang_id": {
+   "top": "pt",
+   "top_prob": 0.9878,
+   "pt_prob": 0.9878
+  },
+  "asr": {
+   "model": "medium",
+   "transcript": "Banana Prata com 41% de desconto a um quilômetro e meio de você. Baixe o encarte aí, o link tá na bio.",
+   "ref_norm": "banana prata com quarenta e um por cento de desconto a um quilometro e meio de voce baixa o encarte ai o link ta na bio",
+   "hyp_norm": "banana prata com quarenta e um por cento de desconto a um quilometro e meio de voce baixe o encarte ai o link ta na bio",
+   "cer": 0.0106,
+   "cer_with_spaces": 0.0084,
+   "wer": 0.0385,
+   "key_terms": {
+    "encarte ai": 1.0,
+    "quilometro": 1.0,
+    "desconto": 1.0,
+    "baixa": 0.8
+   },
+   "last_word_heard": true
+  },
+  "pauses": {
+   "lead_s": 0.08,
+   "tail_s": 0.824,
+   "count": 2,
+   "total_s": 0.84,
+   "max_s": 0.472,
+   "long_pauses_over_1s": 0
+  },
+  "rate": {
+   "words": 26,
+   "syllables_est": 43,
+   "speech_span_s": 7.856,
+   "words_per_s": 3.31,
+   "syll_per_s": 5.474,
+   "articulation_syll_per_s": 6.129
+  },
+  "pitch": {
+   "median_hz": 138.6,
+   "std_st": 2.951,
+   "range_st_p5_p95": 8.85,
+   "voiced_ratio": 0.617
+  },
+  "mos_utmos": 3.175,
+  "accent": {
+   "phones": "b ɐ n a n ɐ p ɾ a t ɐ k o ŋ k w a ɾ e ŋ t ɨ u p u ɾ s eɪ ŋ t ʊ d e d e ʃ k o ŋ t u a u ŋ k i l o m e t ɹ ʊ i m eɪ j u d ɨ v o s e b aɪ ʃ o eɪ ŋ k a r tʃ a i u l i ŋ k i t a n a b i u",
+   "affricates": 1,
+   "expected_br_sites": 3,
+   "affricate_ratio": 0.333,
+   "close_central_vowel_ɨ": 2
+  },
+  "raw_name": "chatterbox_ref-voxcpm_vd_male_ex07_cfg03_B",
+  "rtf_cpu": 5.675623188280079
+ }
+]

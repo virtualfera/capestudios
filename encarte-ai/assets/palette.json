@@ -1,0 +1,31 @@
+{
+  "_source": "Sampled (median of solid interior pixels) from the App Store icon 1024 PNG and the app UI inside the App Store screenshots (1284x2778). See BRAND.md.",
+  "brand": {
+    "green_wordmark": "#338A3E",
+    "green_ui_accent": "#3A7D44",
+    "green_icon_light": "#3CAD4C",
+    "green_icon_shade": "#2F8A3B",
+    "icon_background_dark": "#102018",
+    "orange_accent": "#F6A624",
+    "white": "#FFFFFF"
+  },
+  "ui": {
+    "discount_badge_orange": "#E67E22",
+    "favorites_heart_red": "#E74C3C",
+    "favorites_card_bg": "#FFF5F5",
+    "favorites_card_border": "#FDDADA",
+    "favorites_heart_circle": "#FFE4E4",
+    "pin_circle_pale_green": "#EAF2EB",
+    "screen_bg": "#FFFFFF",
+    "divider": "#F1F1F1",
+    "text_dark": "#2D2D2D",
+    "text_secondary": "#555555",
+    "text_muted": "#999999",
+    "appstore_print_offwhite": "#FDFDF8"
+  },
+  "third_party_content": {
+    "banner_red_vale_verde": "#D61801",
+    "chip_cream_bg": "#FAF4EC",
+    "chip_wood_bg": "#E6CDB5"
+  }
+}

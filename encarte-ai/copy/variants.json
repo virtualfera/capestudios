@@ -1,0 +1,622 @@
+{
+  "projeto": "Encarte Aí — Reels de apresentação (Cape Studios)",
+  "gerado_em": "2026-10-13",
+  "fonte": "saídas originais dos agentes do workflow (journal.jsonl), sem edição",
+  "variants": [
+    {
+      "index": 0,
+      "title": "Petropolitano não faz mercado. Faz trilha.",
+      "angle": "Crônica local e identificação. O ritual meio cômico de fazer mercado em Petrópolis: encarte no grupo do zap, panfleto na caixa do correio, rodar três mercados subindo e descendo ladeira no frio, e no fim o mais barato era o primeiro. Depois vem o alívio de ter os mercados da cidade num lugar só. Tom de conversa entre vizinhos, com humor leve e sem caricatura.",
+      "vo_script": "Petropolitano não faz mercado. Faz trilha. Encarte no grupo do zap. Panfleto na caixa do correio. Aí você roda três mercados. Sobe ladeira, desce ladeira, no frio... e o mais barato era o primeiro. Calma, vizinho. Agora tem o Encarte Aí. Os mercados da cidade, num lugar só. Procura o produto e vê onde tá mais barato. Confere as ofertas da semana. E vê qual mercado tá mais perto. Baixa aí. Link na bio. Encarte Aí.",
+      "word_count": 76,
+      "est_duration_s": 30.5,
+      "scenes": [
+        {
+          "id": "s1",
+          "start_s": 0,
+          "end_s": 2.3,
+          "vo": "Petropolitano não faz mercado. Faz trilha.",
+          "on_screen": "PETROPOLITANO NÃO FAZ MERCADO → FAZ TRILHA.",
+          "visual": "Fundo preto com o brilho verde radial respirando (#102018 → #3CAD4C), já no frame 0. PETROPOLITANO entra com glitch e RGB split de 2 ou 3 frames, e NÃO FAZ MERCADO chega voando da direita com motion blur e trava. Corte seco. FAZ TRILHA. bate no centro em Nunito Black e, por baixo, uma linha verde tracejada se desenha em zigue-zague subindo a tela, ligando três pinos de mapa como uma trilha de serra. A câmera nunca para: dolly lento para frente.",
+          "sfx": "Glitch tick no frame 0. Whoosh curto (cerca de 250 ms) quando a linha entra. Impacto grave curto com sub no FAZ TRILHA, no respiro entre as frases. O pad escuro entra do silêncio."
+        },
+        {
+          "id": "s2",
+          "start_s": 2.3,
+          "end_s": 5.6,
+          "vo": "Encarte no grupo do zap. Panfleto na caixa do correio.",
+          "on_screen": "ENCARTE NO ZAP → PANFLETO NA CAIXA",
+          "visual": "Balões de conversa verdes genéricos, sem logo do WhatsApp, sobem empilhando em 3D, cada um com um encarte de papel dentro. Depois dezenas de encartes de papel recriados, genéricos e sem marca de mercado, com etiquetas de preço, saem disparados de uma fresta de caixa de correio em direção à câmera. Eles giram, passam rente à lente com motion blur e enchem o quadro de papel.",
+          "sfx": "Três ou quatro tiques de notificação com o tom subindo, um por balão. Whoosh de papel com farfalhar e Doppler quando os encartes passam pela câmera. Leve flutter de papel no estéreo."
+        },
+        {
+          "id": "s3",
+          "start_s": 5.6,
+          "end_s": 9.2,
+          "vo": "Aí você roda três mercados. Sobe ladeira, desce ladeira, no frio...",
+          "on_screen": "3 MERCADOS → SOBE. DESCE. NO FRIO.",
+          "visual": "Os papéis abrem como cortina e a câmera mergulha numa silhueta 3D de morros em verde-escuro, a serra, com neblina de partículas na frente da lente. Três pinos de mapa genéricos (1, 2 e 3) acendem em pontos altos e baixos. Um ponto de luz percorre a trilha subindo e descendo, e a câmera acompanha a inclinação. No frio, a neblina engrossa e as letras ganham um leve fosco de vapor.",
+          "sfx": "Whoosh grave de câmera na entrada. Dois tiques rítmicos, um subindo de tom no sobe e outro descendo no desce. Vento frio em ruído filtrado no no frio. Um riser curto começa por baixo."
+        },
+        {
+          "id": "s4",
+          "start_s": 9.2,
+          "end_s": 11.8,
+          "vo": "e o mais barato era o primeiro.",
+          "on_screen": "…ERA O PRIMEIRO.",
+          "visual": "Whip-pan de volta até o pino 1. Uma etiqueta de preço verde gira até ficar de frente e acende. Congela. Tudo se esvazia por cerca de 0,6 s, só a etiqueta balançando sozinha no escuro: a pausa de comédia que vira o silêncio antes da virada.",
+          "sfx": "Whip whoosh. O riser corta seco no primeiro. Silence drop: o pad sai, fica só um tom agudo fino. Um tique solitário de comédia no balanço da etiqueta."
+        },
+        {
+          "id": "s5",
+          "start_s": 11.8,
+          "end_s": 15,
+          "vo": "Calma, vizinho. Agora tem o Encarte Aí.",
+          "on_screen": "CALMA, VIZINHO. → logo EncarteAI",
+          "visual": "CALMA, VIZINHO. revelado por um risco de luz. O texto comprime num traço horizontal de luz, que vira um orbe branco e dá um FLASH BRANCO. Do flash cai a etiqueta verde do logo, balançando no pivô da argola. O brilho de estrela gira e cintila, e o wordmark claro para fundo escuro desliza para a direita. O logo sobe num whip-up e o celular 3D preto entra dando uma volta, parando em contraluz com a tela real Onde você está? → Petrópolis, RJ.",
+          "sfx": "Riser de cerca de 1 s que para seco no flash. Zing de luz no orbe. LOGO HIT no respiro entre as frases (sub de 55 para 38 Hz + corpo saturado), com o pad voltando e mudando de acorde. Glint agudo no brilho de estrela. Whoosh grande no giro do celular."
+        },
+        {
+          "id": "s6",
+          "start_s": 15,
+          "end_s": 17.6,
+          "vo": "Os mercados da cidade, num lugar só.",
+          "on_screen": "TUDO NUM LUGAR SÓ",
+          "visual": "Os encartes de papel da cena 2 voltam voando de todos os lados, como num rebobinar, e são sugados para dentro da tela do celular, que vira a tela inicial real. Os chips de Mercados da Região saltam da tela e flutuam em 3D em volta do aparelho, só com nome e distância, sem close nos logos dos chips.",
+          "sfx": "Whoosh reverso de sucção que termina num thump grave quando o último papel entra. Pops de UI em sequência, um por chip."
+        },
+        {
+          "id": "s7",
+          "start_s": 17.6,
+          "end_s": 20.6,
+          "vo": "Procura o produto e vê onde tá mais barato.",
+          "on_screen": "ONDE TÁ MAIS BARATO",
+          "visual": "Toque na aba Buscar da tab bar real, com ondinha verde. Os cards reais de Ofertas Quentes (Banana Prata Kg 41% OFF, Bramil; Queijo Camembert 40% OFF, Assaí Atacadista) saltam da tela em 3D com leve tilt, e os selos laranja de desconto pulsam. Uma luz especular varre o vidro. Os cards entram só como exemplo de tela, sem afirmar que a oferta vale hoje.",
+          "sfx": "Clique de UI no toque. Whooshes curtos escalonados (cerca de 70 ms entre um e outro) nos cards. Shimmer agudo no pulso dos selos."
+        },
+        {
+          "id": "s8",
+          "start_s": 20.6,
+          "end_s": 24.8,
+          "vo": "Confere as ofertas da semana. E vê qual mercado tá mais perto.",
+          "on_screen": "OFERTAS DA SEMANA → O MAIS PERTO DE VOCÊ",
+          "visual": "O banner Ofertas da Semana! descola da tela, vira um card 3D e passa rente à câmera num zoom-through. A câmera inclina para um mapa 3D escuro com relevo de serra. Pinos verdes caem um a um com etiquetas de distância tiradas dos chips reais (1,2 km · 1,5 km · 3,5 km · 3,8 km), e o mais perto pulsa com brilho.",
+          "sfx": "Whoosh de zoom-through com o pad abrindo. Um tique por pino caindo, com o tom subindo. Sub suave no pino mais perto. Um riser curto encosta no fim da cena."
+        },
+        {
+          "id": "s9",
+          "start_s": 24.8,
+          "end_s": 30.5,
+          "vo": "Baixa aí. Link na bio. Encarte Aí.",
+          "on_screen": "LINK NA BIO · @encarteai.app",
+          "visual": "Tudo desfoca e o mapa encolhe num risco de luz, que vira um orbe branco: o frame mais claro do vídeo. O orbe esfria para verde e vira a etiqueta do logo com o brilho de estrela. Impacto, e o wordmark desliza para fora da etiqueta. Fica o lockup com LINK NA BIO e @encarteai.app, e opcionalmente uma linha pequena: Petrópolis é uma cidade só. Agora o mercado também. O brilho verde respira até o fim.",
+          "sfx": "Silence drop de cerca de 0,6 s sem fala, só um tom fino. Zing no orbe. LOGO HIT final, o maior da peça (sub + corpo + transiente), num trecho sem fala e com resolução de acorde. Depois bloom do pad por baixo do CTA, glint no brilho de estrela e fade-out de cerca de 450 ms."
+        }
+      ],
+      "hooks": [
+        "Fala: \"Todo petropolitano tem uma tia que manda encarte no grupo da família.\" | Tela: \"A TIA DO ENCARTE\"",
+        "Fala: \"Fazer mercado em Petrópolis é esporte radical.\" | Tela: \"MERCADO = ESPORTE RADICAL\"",
+        "Fala: \"Subiu a ladeira pra economizar... e era mais barato no primeiro mercado?\" | Tela: \"ERA MAIS BARATO NO PRIMEIRO\"",
+        "Fala: \"Petropolitano anda com casaco, guarda-chuva e encarte de mercado.\" | Tela: \"CASACO, GUARDA-CHUVA E ENCARTE\"",
+        "Fala: \"Vizinho, me fala: em qual mercado tá mais barato essa semana?\" | Tela: \"QUAL TÁ MAIS BARATO?\""
+      ],
+      "caption": "Encarte no grupo do zap, panfleto na caixa do correio, três mercados e uma ladeira no meio. Quem é de Petrópolis conhece esse roteiro.\n\nO Encarte Aí junta os encartes dos mercados da cidade num lugar só: você procura o produto, vê onde tá mais barato e qual mercado fica mais perto.\n\nBaixa aí, o link tá na bio. E marca aquele vizinho que ainda faz trilha pra ir no mercado.\n\n#petropolis #petropolisrj #cidadeimperial #serrafluminense #encarteai",
+      "cta": "Falado: \"Baixa aí. Link na bio. Encarte Aí.\" Na tela: LINK NA BIO · @encarteai.app sobre o lockup do logo. Funciona sem citar loja nem sistema.",
+      "rationale": "POR QUE CONVERTE\n1. Autosseleção no primeiro segundo. A primeira palavra é \"Petropolitano\", e quem é da cidade para o dedo porque a frase é sobre ele. \"Faz trilha\" é piada interna: Petrópolis tem ladeira e trilha de sobra. A piada fecha em cerca de 2 s, antes do corpo do vídeo.\n2. Dor reconhecível contada como crônica, sem lista de defeitos. O ritual (encarte no zap, panfleto na caixa, três mercados, ladeira, frio) é exatamente o que o morador vive. O remate \"e o mais barato era o primeiro\" é a frustração que todo mundo já teve, e é ele que gera comentário e marcação de amigo.\n3. Callback que vende sozinho. A dor termina em \"o mais barato era o primeiro\" e a primeira prova responde \"vê onde tá mais barato\". O espectador liga as duas pontas sem ouvir promessa de economia.\n4. A virada tem tom de vizinho, e não de marca. \"Calma, vizinho\" é o registro de conversa de portão. Ele também cai no silêncio de comédia, que coincide com o silence drop da referência que o cliente ama: a pausa engraçada e a pausa de cinema são o mesmo momento.\n5. Três provas concretas, todas tiradas dos FATOS: buscar produto e ver onde está mais barato, ofertas da semana, mercado mais perto com distância. Além disso, \"os mercados da cidade, num lugar só\" é o próprio posicionamento do app. Não há número de economia inventado, nem mercado depreciado, nem a palavra \"grátis\".\n6. O CTA não depende de plataforma (\"link na bio\") e termina com o nome falado limpo. \"Baixa aí… Encarte Aí\" ecoa a marca de um jeito que qualquer brasileiro fala naturalmente, sem trocadilho forçado.\n\nNOTAS DE PRODUÇÃO E DE TTS\n- São 76 palavras, cerca de 30,5 s com o silence drop e o logo final. Se o TTS falar devagar, a primeira sobra a cortar é \"no frio\" (a piada fica de pé sem ele).\n- Usei \"zap\" no lugar de \"WhatsApp\" por três motivos: é como o petropolitano fala, quase todo TTS em PT-BR pronuncia \"WhatsApp\" mal, e assim evita marca de terceiro. Pela mesma razão, os balões de conversa na tela são genéricos, sem logo. Se o TTS ler \"zap\" estranho, testar a grafia \"zápi\" só no texto enviado ao motor.\n- Não há siglas nem números falados (\"três\" já vem por extenso). Os números aparecem só na tela (3 MERCADOS, km dos chips). As reticências marcam a pausa de comédia; se o motor ignorar, trocar por ponto.\n- Os impactos e logo hits ficam só em respiros sem fala: cerca de 2,1 s, 11,0 a 11,8 s, cerca de 13,3 s e 24,8 a 26,0 s. O texto na tela entra 2 ou 3 frames antes da palavra falada, como na referência.\n- Encartes de papel e etiquetas são recriados e genéricos, sem marca de mercado. Os chips reais aparecem só pela distância e nome, porque os logos do print são dados de demonstração. Os cards de 41% e 40% OFF entram como exemplo de tela, sem dizer que a oferta vale hoje.\n- Ganchos A/B: cada um substitui a fala e o texto da cena 1 (cerca de 2 s) e emenda direto em \"Encarte no grupo do zap\".\n\nDIVERGÊNCIA PARA O ORQUESTRADOR\nO BRAND.md do repositório (/home/user/capestudios/encarte-ai/assets/BRAND.md) registra o app também na Google Play (com.encarte.ai, nota 5,0, 70 avaliações) e o preço Grátis na App Store. Isso não estava nos FATOS deste briefing, então a narração continua neutra (\"link na bio\"). Se o cliente confirmar, dá para pôr \"iPhone e Android\" e \"grátis\" só no end card, sem regravar a fala.\n\nREFERÊNCIAS\nNão há vault do Obsidian neste ambiente. A pesquisa na web confirmou que o humor local de Petrópolis gira em torno de reclamar do frio e da vida longe do centro, e isso orientou o \"no frio\" e a ladeira:\n- [Sou Petrópolis — tag frio](https://soupetropolis.com/tag/frio/page/5)\n- [Sou Petrópolis — tag inverno](https://soupetropolis.com/tag/inverno/page/6)\n- [Sou Petrópolis — entretenimento](https://soupetropolis.com/tag/entretenimento/page/2)\nO ritmo de cenas e os efeitos sonoros seguem a análise da referência do TikTok em /home/user/capestudios/encarte-ai/ref/REFERENCE.md."
+    },
+    {
+      "index": 1,
+      "title": "Encarte Aí, variante 1: Qual tá mais barato?",
+      "angle": "ECONOMIA CONCRETA / PROVA. O gancho faz a pergunta que todo petropolitano faz antes de ir ao mercado (\"qual tá mais barato essa semana?\"). A dor é o ritual local de caçar oferta (encarte de um, zap do outro, ladeira). Na virada, o app responde em demonstração. São três provas de tela, uma função por cena: buscar o produto e ver onde está mais barato, ofertas da semana com o desconto de cada uma e distância de cada mercado. O benefício fecha sem número inventado (\"direto no que compensa\") e o CTA é único: link na bio.",
+      "vo_script": "Petrópolis, qual mercado tá mais barato essa semana?\nPra saber, é encarte de um, zap do outro... e haja ladeira.\nOu faz assim: abre o Encarte Aí.\nDigita banana. Pronto: ele te diz onde tá mais barato.\nE as ofertas da semana da cidade inteira tão ali, cada uma com seu desconto.\nAinda mostra a distância de cada mercado até você.\nAí é só ir direto no que compensa.\nBaixa pelo link da bio.\nEncarte Aí.",
+      "word_count": 76,
+      "est_duration_s": 30.5,
+      "scenes": [
+        {
+          "id": "S1_gancho",
+          "start_s": 0,
+          "end_s": 3,
+          "vo": "Petrópolis, qual mercado tá mais barato essa semana?",
+          "on_screen": "PETRÓPOLIS: QUAL TÁ MAIS BARATO?",
+          "visual": "Não tem intro lenta: já no frame 0 o quadro é preto com um brilho verde radial (#3CAD4C sobre #102018) e uma etiqueta de preço de papel gigante com 'R$ ?' entra balançando no cordão, com motion blur e o mesmo pivô da argola do logo. Em volta, encartes de papel giram em 3D na direção da câmera. 'PETRÓPOLIS:' bate primeiro em Nunito Black branco. 'QUAL TÁ MAIS BARATO?' vem palavra por palavra, com 'BARATO' em verde, e cada palavra aparece 2 a 3 frames antes da fala. A câmera faz dolly-in constante.",
+          "sfx": "Impacto grave com sub (40–60 Hz) cravado no frame 0, junto com a etiqueta. Whooshes curtos de papel passando pela câmera. Tique de vidro em cada palavra do texto. O pad escuro (estilo da referência, em dó menor) entra respirando."
+        },
+        {
+          "id": "S2_dor",
+          "start_s": 3,
+          "end_s": 7.2,
+          "vo": "Pra saber, é encarte de um, zap do outro... e haja ladeira.",
+          "on_screen": "ENCARTE. ZAP. E HAJA LADEIRA.",
+          "visual": "Os encartes se empilham e se espalham pela tela no 'encarte de um'. No 'zap do outro' estouram balões de conversa verdes genéricos, sem logo de mensageiro, com selos de 'oferta!'. No 'e haja ladeira' a câmera mergulha num relevo 3D estilizado de morros escuros, com uma linha pontilhada em zigue-zague subindo e descendo entre pinos espalhados longe uns dos outros. 'E HAJA LADEIRA' aparece grande, com uma leve inclinação de rampa.",
+          "sfx": "Três whooshes rápidos de papel (flutter). Dois pings suaves de notificação, genéricos e sem o som de marca de nenhum app. No 'ladeira', um tombo de câmera com thud grave e um pitch caindo. Um riser começa a crescer no fim da cena."
+        },
+        {
+          "id": "S3_virada",
+          "start_s": 7.2,
+          "end_s": 9.8,
+          "vo": "Ou faz assim: abre o Encarte Aí.",
+          "on_screen": "OU FAZ ASSIM",
+          "visual": "Tudo congela no ar e é sugado para um risco de luz horizontal, branco com miolo verde. Flash branco no 'abre'. Um celular 3D preto brilhante cai girando de baixo e se endireita em contra-plongée, com a tela inicial real do app (screen-home-masked: Petrópolis, 'Ofertas da Semana!', Meus Favoritos, Mercados da Região, Ofertas Quentes). Um reflexo especular varre o vidro exatamente no 'Encarte Aí'.",
+          "sfx": "O riser chega ao pico e corta seco. Silêncio de 0,2 s, depois um zing agudo no flash branco. Impacto grave com sub drop quando o celular assenta e um shimmer de vidro no reflexo. O baixo do pad volta."
+        },
+        {
+          "id": "S4_prova_busca",
+          "start_s": 9.8,
+          "end_s": 13.6,
+          "vo": "Digita banana. Pronto: ele te diz onde tá mais barato.",
+          "on_screen": "ONDE TÁ MAIS BARATO",
+          "visual": "Push-in no celular e toque na aba 'Buscar' (tab bar real). Uma barra de busca sai flutuando da tela em 3D, recriada no estilo da UI (Inter, verde #3A7D44, cantos arredondados), e 'banana' é digitado letra por letra. 'Pronto': o card real 'Banana Prata Kg — 41% OFF' salta da tela em direção à câmera, inclinado em 3D, com um pino verde de check. 'ONDE TÁ MAIS BARATO' fecha a resposta ao gancho.",
+          "sfx": "Clique de UI no toque da aba. Seis tiques secos de teclado, um por letra. Pop com soco grave quando o card salta, glint metálico no check verde e um whoosh curto de saída."
+        },
+        {
+          "id": "S5_prova_ofertas",
+          "start_s": 13.6,
+          "end_s": 18.6,
+          "vo": "E as ofertas da semana da cidade inteira tão ali, cada uma com seu desconto.",
+          "on_screen": "OFERTAS DA SEMANA",
+          "visual": "Flash branco curto (70 ms) que decai para verde. O banner real 'Ofertas da Semana!' e os cards de Ofertas Quentes (banana prata, queijo camembert) entram da direita em carrossel 3D, com 70 ms de escalonamento entre eles, motion blur e profundidade de campo rasa. Os selos laranja '41% OFF' e '40% OFF' se soltam dos cards e crescem como etiquetas 3D gigantes que batem no centro, uma depois da outra. No rodapé, uma linha pequena: 'Ofertas ilustrativas da tela do app.'",
+          "sfx": "Zing no flash. Um whoosh para cada card, com o mesmo escalonamento. Dois impactos encorpados, um em cada selo de desconto, e um sparkle agudo depois de cada impacto. O pad sobe meio tom de intensidade."
+        },
+        {
+          "id": "S6_prova_distancia",
+          "start_s": 18.6,
+          "end_s": 21.9,
+          "vo": "Ainda mostra a distância de cada mercado até você.",
+          "on_screen": "1,2 KM DE VOCÊ",
+          "visual": "A câmera inclina do celular para baixo e reencontra o relevo de morros da cena 2, agora organizado. Um ponto 'você' pulsa em verde, como um radar. Pinos de mapa verdes caem um a um com etiquetas de distância vindas dos chips reais (1,2 km, 1,5 km, 3,5 km, 3,8 km). A fileira 'Mercados da Região' flutua desfocada atrás. Evitar close nos nomes e logos dos chips, porque o print parece ter dados de demonstração.",
+          "sfx": "Whoosh na inclinação da câmera. Ping de sonar no pulso do radar. Cada pino que cai leva um thump grave mais um tique. Um riser baixo começa por baixo."
+        },
+        {
+          "id": "S7_beneficio",
+          "start_s": 21.9,
+          "end_s": 24.9,
+          "vo": "Aí é só ir direto no que compensa.",
+          "on_screen": "DIRETO NO QUE COMPENSA",
+          "visual": "O zigue-zague pontilhado da ladeira (cena 2) aparece apagado e é riscado. Do ponto 'você', uma linha de luz verde dispara reta até um pino, sem nome de mercado, e o pino explode num anel de luz. A linha continua, vira um risco de luz horizontal e encolhe no centro do quadro, preparando a revelação.",
+          "sfx": "Whoosh rápido que acompanha a linha de luz. Impacto com brilho quando o anel explode no pino. O riser sobe forte até o fim da cena."
+        },
+        {
+          "id": "S8_cta",
+          "start_s": 24.9,
+          "end_s": 27,
+          "vo": "Baixa pelo link da bio.",
+          "on_screen": "LINK NA BIO",
+          "visual": "O celular 3D volta girando em meia volta e para de frente, com a tela inicial real. 'LINK NA BIO' é revelado em Nunito Black por um risco de luz que passa pelas letras. Embaixo, um selo pequeno: '★ 5,0 na App Store'. Um dedo estilizado ou um cursor de toque aponta para cima, na direção da bio.",
+          "sfx": "Whoosh no giro do celular. Shimmer de luz no risco que revela o texto. No fim, o riser é cortado seco para criar o silêncio da revelação."
+        },
+        {
+          "id": "S9_logo",
+          "start_s": 27,
+          "end_s": 30.5,
+          "vo": "Encarte Aí.",
+          "on_screen": "EncarteAI · @encarteai.app",
+          "visual": "Silêncio de 0,25 s no preto. O risco de luz se aperta num orbe branco-incandescente (o frame mais claro da peça), esfria para o verde #3CAD4C e vira a etiqueta do logo, que balança no pivô da argola com halo escuro atrás. O brilho de 4 pontas pisca e gira. O wordmark-on-dark ('Encarte' branco, 'AI' laranja #F6A624) desliza para a direita de trás da etiqueta, com motion blur. Lock-up fica parado, com '@encarteai.app' e 'LINK NA BIO' pequenos e, por último, a linha 'feito por Cape Studios' em escaneamento de luz.",
+          "sfx": "Silêncio, depois zing agudo no orbe. Impacto do logo: o hit grave mais forte da peça, com sub drop e troca de acorde, sincronizado com a fala 'Encarte Aí'. Whoosh curto no deslize do wordmark. O pad abre em acorde resolvido e brilhante, sobe 3 dB acima da voz, faz um sparkle agudo e sai em fade de 450 ms."
+        }
+      ],
+      "hooks": [
+        "Fala: 'Petrópolis, qual mercado tá mais barato essa semana?' | Tela: 'PETRÓPOLIS: QUAL TÁ MAIS BARATO?' (principal)",
+        "Fala: 'Onde tá a banana mais barata de Petrópolis essa semana?' | Tela: 'BANANA MAIS BARATA: ONDE?' (puxa direto para a demonstração da busca na cena 4)",
+        "Fala: 'Mora em Petrópolis e ainda sobe ladeira atrás de oferta? Olha isso.' | Tela: 'LADEIRA ATRÁS DE OFERTA?'",
+        "Fala: 'Para de abrir encarte de mercado em mercado.' | Tela: 'PARA DE CAÇAR ENCARTE'",
+        "Fala: 'Mesmo produto, preço diferente em cada mercado de Petrópolis.' | Tela: 'MESMO PRODUTO, OUTRO PREÇO'"
+      ],
+      "caption": "Quem mora em Petrópolis sabe: pra achar a oferta boa é encarte de um, zap do outro e muita ladeira. No Encarte Aí você digita o produto e vê onde tá mais barato, com as ofertas da semana dos mercados da cidade e a distância de cada um. Baixa pelo link da bio e testa na próxima compra do mês.\n#petropolis #petropolisrj #regiaoserrana #serrafluminense #ofertaspetropolis",
+      "cta": "Baixa pelo link da bio. Encarte Aí. (Na tela: 'LINK NA BIO' + '@encarteai.app' + selo '★ 5,0 na App Store'.)",
+      "rationale": "POR QUE CONVERTE: (1) O gancho abre com o nome da cidade, que é o que faz um petropolitano parar de rolar, e faz a pergunta de bolso que ele já se faz toda semana. Esse loop é fechado na cena 4 com as mesmas palavras ('onde tá mais barato'), por volta dos 12 s, o que segura a retenção até a primeira prova. (2) A dor é um ritual reconhecível com sotaque local sem caricatura ('encarte de um, zap do outro... e haja ladeira'). A ladeira é a geografia real da cidade, vira imagem (relevo 3D) e é paga no fim ('direto no que compensa'). Nenhum mercado é depreciado. (3) 'Ou faz assim' anuncia uma demonstração, não uma propaganda, e cada cena seguinte prova uma função que está literalmente na descrição oficial: buscar e ver onde está mais barato, ofertas da semana dos mercados de Petrópolis e distância dos mercados da região. (4) O benefício é concreto sem inventar número de economia. As porcentagens (41% e 40% OFF) aparecem só na tela, como print do app, com a linha 'Ofertas ilustrativas da tela do app', e a fala não promete que estão valendo hoje. (5) O 'Aí é só ir direto...' antes do 'Encarte Aí' final faz um eco natural do trocadilho, sem forçar, e o nome da marca é a última coisa ouvida. (6) O CTA é único e funciona com ou sem Android.\n\nNOTAS PARA TTS: são 76 palavras em frases curtas e nenhum número é falado. As reticências e os dois-pontos marcam as respirações. 'Encarte Aí' vai sempre com acento, para a máquina tonificar o 'Í'. 'zap' é lido naturalmente. Se a voz correr demais, alongar a pausa depois de 'banana.' e antes de 'Encarte Aí.'.\n\nNOTAS DE PRODUÇÃO: (a) Não existe print da tela de busca. A cena 4 deve recriar a barra de busca no estilo da UI (Inter + verde #3A7D44) e usar o card real da banana, sem apresentar isso como screenshot literal. (b) Os chips de mercado parecem dados de demonstração (logo trocado), então não dar close nos nomes. (c) Os balões de 'zap' devem ser genéricos, sem logo nem som de marca. (d) Seguir o hábito da referência: SFX 60 a 150 ms antes do pico visual, texto 2 a 3 frames antes da palavra falada e trama sonora cerca de 11 dB abaixo da voz.\n\nAVISO AO ORQUESTRADOR: o arquivo /home/user/capestudios/encarte-ai/assets/BRAND.md (coletado hoje) registra o app como DISPONÍVEL no Google Play (com.encarte.ai, nota 5,0, 70 avaliações) e grátis nas lojas. Esses dados não estão na lista de FATOS desta tarefa, por isso não entraram na fala. Se forem validados, dá para trocar o selo da cena 8 por 'Grátis para iPhone e Android' sem mexer no roteiro.\n\nREFERÊNCIAS: não há vault de roteiros no ambiente. Usei /home/user/capestudios/encarte-ai/ref/REFERENCE.md para ritmo, sincronia e mixagem e /home/user/capestudios/encarte-ai/assets/BRAND.md para paleta, fontes e ressalvas de tela, além de uma busca web rápida sobre apps de comparação de preço e o mercado de Petrópolis (ex.: bemparana.com.br, tiendeo.com.br)."
+    },
+    {
+      "index": 2,
+      "title": "Encarte Aí | Variante 2: o aplicativo que é só de Petrópolis",
+      "angle": "Descoberta/curiosidade + orgulho local. A cidade é dita na primeira palavra, para quem é daqui se reconhecer na hora. Logo em seguida vem uma revelação que gera curiosidade: \"Petrópolis tem um aplicativo só dela\", e só depois a virada, \"E é pra fazer mercado\". A dor é o ritual de toda semana, contado com a geografia da cidade: caçar encarte no zap e subir ladeira de mercado em mercado. O nome do app aparece como um segredo local (\"Agora, olha isso. Encarte Aí.\"), num momento de silêncio seguido de flash. Depois vêm três provas tiradas da descrição oficial. O fechamento é de orgulho, com a própria frase da marca (\"Petrópolis é uma cidade só. E agora, o mercado também.\"), e termina num CTA único que vale para qualquer celular.",
+      "vo_script": "Petrópolis tem um aplicativo só dela. E é pra fazer mercado.\nSabe aquela novela de toda semana? Caçar encarte por encarte no zap. Subir ladeira, de mercado em mercado.\nAgora, olha isso. Encarte Aí.\nOs encartes da cidade inteira, tudo junto.\nVocê busca o produto e vê onde tá mais barato.\nE ainda mostra a distância até cada mercado.\nPetrópolis é uma cidade só. E agora, o mercado também.\nLink na bio. Encarte Aí.",
+      "word_count": 74,
+      "est_duration_s": 31,
+      "scenes": [
+        {
+          "id": "S1_gancho",
+          "start_s": 0,
+          "end_s": 4.1,
+          "vo": "Petrópolis tem um aplicativo só dela. E é pra fazer mercado.",
+          "on_screen": "UM APP SÓ DE PETRÓPOLIS → PRA FAZER MERCADO",
+          "visual": "Frame 0 já com conteúdo, nada de tela vazia. Fundo preto (#102018 nas bordas) com brilho verde radial respirando. Um pino de mapa 3D gigante cai do alto e crava no centro com onda de choque em anel de luz verde, carregando a pílula 'Petrópolis' da tela inicial (recriada em vetor). O texto 'UM APP SÓ DE PETRÓPOLIS' em Nunito Black é revelado por um risco de luz da esquerda para a direita, com 'PETRÓPOLIS' em verde #3CAD4C. Em 2,3 s, no 'E é pra fazer mercado', o pino explode numa revoada de encartes de papel e etiquetas de preço vindo em direção à câmera, com motion blur. O texto troca para 'PRA FAZER MERCADO'.",
+          "sfx": "0,0 s: impacto grave + sub boom no pouso do pino, com faísca/brilho agudo junto. Pad escuro entra em swell. 2,3 s: whoosh largo + rajada de papel esvoaçando. Um tique seco cai em 'mercado'."
+        },
+        {
+          "id": "S2_dor_novela",
+          "start_s": 4.1,
+          "end_s": 8.4,
+          "vo": "Sabe aquela novela de toda semana? Caçar encarte por encarte no zap.",
+          "on_screen": "A NOVELA DE TODA SEMANA → ENCARTE POR ENCARTE",
+          "visual": "A câmera desliza devagar por um corredor de encartes de papel genéricos flutuando em 3D, sem logo de mercado real. Eles passam virando como se alguém deslizasse o dedo, um atrás do outro, cada vez mais rápido. Balões de conversa verdes genéricos (sem marca de aplicativo de mensagem) estouram com miniaturas de encarte. Um contador pequeno no canto sobe sozinho (1, 2, 3, 4…) para passar a sensação de repetição cansativa.",
+          "sfx": "Viradas de página ritmadas que aceleram, junto com vibrações curtas de celular genéricas. Um zumbido grave (drone em Fá) entra por baixo e a tensão vai subindo."
+        },
+        {
+          "id": "S3_dor_ladeira",
+          "start_s": 8.4,
+          "end_s": 11.2,
+          "vo": "Subir ladeira, de mercado em mercado.",
+          "on_screen": "DE MERCADO EM MERCADO",
+          "visual": "Os encartes se empilham e formam uma ladeira íngreme de papel em 3D, com a silhueta da serra ao fundo dentro do brilho verde. Um pino de mapa pequeno sobe aos pulinhos, degrau por degrau. A câmera inclina para cima e a ladeira não acaba nunca. Em 10,7 s tudo congela e escurece num corte seco.",
+          "sfx": "Um baque surdo a cada pulo do pino, com tom subindo. Um riser acompanha a subida. 10,7 s: SILENCE DROP, a trilha corta e fica só um tom agudo fino (~2,8 kHz) até 11,2 s."
+        },
+        {
+          "id": "S4_virada_revelacao",
+          "start_s": 11.2,
+          "end_s": 13.4,
+          "vo": "Agora, olha isso. Encarte Aí.",
+          "on_screen": "OLHA ISSO.",
+          "visual": "O tom fino vira um risco horizontal de luz, que se fecha num FLASH branco (11,2 s). Um celular 3D preto brilhante entra girando, vindo de longe, e para em pé num ângulo heroico. A tela acende na tela de cidade real ('Onde você está?', 'Petrópolis, RJ'), com o logo da etiqueta verde no topo. No 'Encarte Aí' (~12,4 s), a etiqueta salta da tela em 3D, balança pela argola e o brilho de estrela pisca. Um reflexo de luz varre o vidro.",
+          "sfx": "11,2 s: 'zing' do flash com rajada de ar. Whoosh grave no giro do celular e um tique no pouso. 12,4 s: IMPACTO + SUB DROP no nome, com brilho agudo na estrela piscando. O pad volta."
+        },
+        {
+          "id": "S5_prova_encartes_juntos",
+          "start_s": 13.4,
+          "end_s": 16,
+          "vo": "Os encartes da cidade inteira, tudo junto.",
+          "on_screen": "A CIDADE INTEIRA NUM APP",
+          "visual": "Os encartes de papel das primeiras cenas voltam e são sugados para dentro da tela num vórtice reverso (zoom-through). A tela passa para o Início real: o banner 'Ofertas da Semana!' e a seção 'Ofertas Quentes' saltam da tela como cards flutuando em 3D com leve inclinação. Os cards Banana Prata Kg 41% OFF e Queijo Camembert 40% OFF entram só como exemplo de tela, sem narração sobre eles.",
+          "sfx": "Whoosh reverso de sucção, um 'bump' suave na troca de tela e cliques de interface escalonados (~70 ms de intervalo) enquanto os cards aparecem."
+        },
+        {
+          "id": "S6_prova_busca_mais_barato",
+          "start_s": 16,
+          "end_s": 19.2,
+          "vo": "Você busca o produto e vê onde tá mais barato.",
+          "on_screen": "ONDE TÁ MAIS BARATO",
+          "visual": "Um toque na aba 'Buscar' faz a pílula verde deslizar. Uma barra de busca, recriada no estilo da interface (Inter, cores da paleta), digita 'banana' letra por letra. Três cards de resultado com formato de etiqueta verde entram lado a lado em 3D, com preços desfocados e sem nome de mercado, para não inventar preço nem comparar lojas reais. Um deles ganha brilho verde e o selo 'MAIS BARATO'; os outros recuam para o desfoque.",
+          "sfx": "Tiques de teclado, três whooshes curtos e rápidos e, no vencedor, um impacto brilhante: tom agudo com um soco grave curto."
+        },
+        {
+          "id": "S7_prova_distancia",
+          "start_s": 19.2,
+          "end_s": 22.2,
+          "vo": "E ainda mostra a distância até cada mercado.",
+          "on_screen": "MERCADO PERTO DE VOCÊ",
+          "visual": "A câmera recua do celular e abre num mapa 3D escuro e estilizado da serra, com curvas de nível em verde. Os pinos caem um a um com os chips reais de distância: '1,2 km', '1,5 km', '3,5 km', '3,8 km'. Mostrar só nome truncado e km, sem os logos dos chips, porque o print tem logos trocados. Um anel de 'você está aqui' pulsa no centro.",
+          "sfx": "Quatro tiques de pino no ritmo, cada um com um baque grave leve. Bips discretos nos números de km. O drone grave volta preparando o clímax."
+        },
+        {
+          "id": "S8_orgulho_local",
+          "start_s": 22.2,
+          "end_s": 26.6,
+          "vo": "Petrópolis é uma cidade só. E agora, o mercado também.",
+          "on_screen": "UMA CIDADE SÓ → E O MERCADO TAMBÉM",
+          "visual": "Os pinos se ligam com linhas de luz e formam uma única rede brilhante, que se dissolve em tipografia cinética. 'UMA CIDADE SÓ' entra pela direita com motion blur forte, perde o desfoque palavra por palavra e o espaçamento se fecha. Um whip-pan troca para 'E O MERCADO TAMBÉM', com 'MERCADO' em verde. Em 'também', o espaçamento das letras se fecha até zero, o texto vira um risco horizontal de luz branca com núcleo verde e se fecha numa esfera incandescente.",
+          "sfx": "Riser longo de 22,2 a 25,9 s e um whoosh no whip-pan do texto. 26,0 s: SILENCE DROP com tom fino. 26,4 s: 'zing' do flash na esfera."
+        },
+        {
+          "id": "S9_logo_cta",
+          "start_s": 26.6,
+          "end_s": 31,
+          "vo": "Link na bio. Encarte Aí.",
+          "on_screen": "LINK NA BIO",
+          "visual": "A esfera esfria para verde e encolhe até virar o ícone da etiqueta, que balança pela argola (pivô natural) com um halo escuro atrás e a estrela piscando, segurando a antecipação. Em ~27,9 s, LOGO HIT: o wordmark para fundo escuro (Encarte branco, AI laranja #F6A624) desliza para a direita de trás do ícone, com motion blur. Abaixo, uma pílula verde 'LINK NA BIO' com uma setinha para cima. O brilho verde respira até o fim e uma assinatura discreta da Cape Studios entra no rodapé.",
+          "sfx": "Brilho agudo quando o ícone aparece. Riser curto de 27,3 a 27,9 s. 27,9 s: LOGO HIT, o maior impacto grave da peça, com sub drop e troca de acorde. Em seguida o acorde abre (chord bloom), o pad respira e faz fade-out entre 30,5 e 31,0 s."
+        }
+      ],
+      "hooks": [
+        "Fala: \"Subiu ladeira atrás de promoção essa semana? Então olha isso.\" | Tela: \"SUBIU LADEIRA ATRÁS DE OFERTA?\"",
+        "Fala: \"Morador de Petrópolis, você já conhece o Encarte Aí?\" | Tela: \"VOCÊ JÁ CONHECE?\"",
+        "Fala: \"Em qual mercado de Petrópolis a banana tá mais barata? Tem aplicativo que te mostra.\" | Tela: \"ONDE TÁ MAIS BARATO?\"",
+        "Fala: \"Esse aplicativo é feito pra Petrópolis. Você conhecia?\" | Tela: \"FEITO PRA PETRÓPOLIS\"",
+        "Fala: \"Ainda caça encarte no zap? Em Petrópolis, não precisa mais.\" | Tela: \"AINDA CAÇA ENCARTE?\""
+      ],
+      "caption": "Petrópolis tem um aplicativo feito pros mercados daqui. Você busca o produto, vê onde tá mais barato e a distância até cada mercado. Ainda não conhece? O link do Encarte Aí tá na bio.\n\n#petropolis #petropolisrj #serrafluminense #ofertaspetropolis #encarteai",
+      "cta": "Fala: \"Link na bio. Encarte Aí.\" Tela: logo completo (etiqueta + wordmark) com a pílula \"LINK NA BIO\". É uma ação só e não depende da loja de aplicativos. O nome é a última palavra falada e cai junto com o impacto do logo.",
+      "rationale": "Por que converte:\n1. O gancho funciona como filtro de identidade. \"Petrópolis\" é a primeira palavra, então quem é daqui se reconhece antes de rolar o feed. \"Só dela\" puxa o orgulho local, e a virada \"E é pra fazer mercado\" abre uma curiosidade que só se resolve ao assistir. O texto na tela já está lá no frame 0, para quem assiste sem som.\n2. A dor é específica e local, não genérica. Caçar encarte no zap e subir ladeira de mercado em mercado é a geografia real da cidade. Fica reconhecível sem caricatura de sotaque e sem citar nem depreciar nenhum mercado.\n3. O nome do app chega no pico de atenção, logo depois de um silêncio, com flash e impacto (a mesma gramática da referência do TikTok que o cliente ama). Ele é dito duas vezes, aos 12 s e aos 28 s, para fixar na memória.\n4. As três provas vêm direto da descrição oficial: todos os encartes da cidade, buscar e ver onde está mais barato, distância até os mercados. Não há número de economia inventado. As porcentagens 41% e 40% OFF aparecem só como tela real, nunca narradas nem prometidas.\n5. O fechamento reaproveita a frase que a própria marca já usa (\"Petrópolis é uma cidade só, e agora o mercado também\"). Isso mantém a campanha coerente e transforma orgulho local em motivo para compartilhar.\n6. O CTA é único e não depende da plataforma.\n\nPensado para TTS: frases de 2 a 10 palavras, nenhum número ou sigla falados (\"aplicativo\" em vez de \"app\" na fala) e pontos finais marcando cada respiração. São 74 palavras, cerca de 31 s, já contando os dois silêncios dramáticos.\n\nNotas para a orquestração:\n(a) O kit de marca do repositório (encarte-ai/assets/BRAND.md) registra uma ficha no Google Play (com.encarte.ai). Se isso for confirmado, dá para colocar \"iPhone e Android\" na tela final, mas mantive \"link na bio\" como manda o briefing.\n(b) \"Só dela\" afirma que o app é feito para Petrópolis. Se ele expandir para outras cidades, troque por \"feito pra Petrópolis\" (gancho alternativo 4).\n(c) A tela de busca não existe nos prints. Recrie no estilo da interface, com preços desfocados.\n(d) Não há vault de referências conectado, e a busca na web não trouxe material sobre o jeito de falar petropolitano. O tempero local foi escolhido pela geografia da cidade (ladeira, serra) em vez de gíria."
+    }
+  ],
+  "verdicts": {
+    "conversao": {
+      "scores": [
+        {
+          "variant": 0,
+          "conversion": 6,
+          "humanized": 9,
+          "accuracy": 8,
+          "visual_potential": 8,
+          "total": 7.4,
+          "strengths": [
+            "O gancho que mais segura o scroll das três: \"Petropolitano não faz mercado. Faz trilha.\" Abre com identidade local e vira a piada em uns 2 s. Quem é da cidade para porque a frase fala dele.",
+            "\"...e o mais barato era o primeiro.\" é o melhor remate do pacote. A frustração é real e puxa comentário e marcação de amigo, além de deixar pronta a prova \"vê onde tá mais barato\".",
+            "É a fala mais humana das três (\"Calma, vizinho\", \"Baixa aí\", \"tá\") e não tem nenhum vício de propaganda nem número inventado.",
+            "O CTA tem verbo de ação e não depende de loja: \"Baixa aí. Link na bio. Encarte Aí.\" O eco \"aí… Aí\" fixa o nome.",
+            "A legenda tem mecânica de compartilhamento: \"marca aquele vizinho que ainda faz trilha pra ir no mercado\".",
+            "A mixagem está bem pensada: os impactos caem só nos respiros sem fala, e o silence drop coincide com a pausa de comédia (s4). É exatamente a gramática da referência.",
+            "Os motivos visuais são fortes: a trilha tracejada ligando pinos na serra, os encartes saindo disparados da caixa de correio e, em s6, os encartes rebobinados e sugados para a tela, que mostram o 'num lugar só' sem precisar falar."
+          ],
+          "must_fix": [
+            "O produto chega tarde demais para um objetivo de download. O app só aparece em \"Calma, vizinho. Agora tem o Encarte Aí.\", em 11,8–15 s, depois de 11,8 s de dor (s1–s4). Em Reels pago, a maior parte de quem começou o vídeo sai antes dos 12 s e nunca vê o app. A dor precisa caber em uns 6 s: cortar \"Panfleto na caixa do correio\" e fundir s2 com s3.",
+            "Em 3 s não fica claro o que está sendo oferecido. \"Faz trilha\" é piada pura e não diz nem preço, nem oferta, nem app. Falta pelo menos um sinal visual de encarte ou etiqueta de preço desde o frame 0, ou uma subline na tela tipo \"(ATRÁS DE OFERTA)\".",
+            "O s1 não cabe nos 2,3 s. \"Petropolitano não faz mercado. Faz trilha.\" com respiro e impacto no meio leva uns 2,6–2,8 s num TTS de ritmo natural. Esticar o s1 até ~2,8 s ou tirar o respiro.",
+            "As provas soam como os bullets da App Store lidos em voz alta: \"Procura o produto e vê onde tá mais barato. Confere as ofertas da semana. E vê qual mercado tá mais perto.\" São três imperativos em fila e o \"vê\" se repete. Precisa de uma demonstração concreta (ex.: \"Digita banana\") no lugar de uma lista.",
+            "O s5 tem efeitos demais para 3,2 s: risco de luz, orbe, FLASH, etiqueta caindo, wordmark deslizando, whip-up do logo e giro do celular com a tela de cidade. Ninguém consegue ler. Além disso, o \"LOGO HIT no respiro entre as frases\" cai antes de o nome ser falado e fica fora de sincronia com \"Encarte Aí\". Separar em dois tempos e bater o logo junto com o nome (ou logo depois dele).",
+            "No s7, o \"Toque na aba Buscar\" é seguido pelos cards de Ofertas Quentes, que são da tela Início, não da busca. E um card de \"41% OFF\" não prova \"onde tá mais barato\": desconto não é comparação entre mercados. Recriar um resultado de busca que compare de 2 a 3 mercados.",
+            "Os cards \"Banana Prata Kg 41% OFF, Bramil; Queijo Camembert 40% OFF, Assaí Atacadista\" mostram nome de varejista real ao lado de um percentual específico. O próprio briefing diz que o print parece dado de demonstração. Desfocar ou cortar os nomes das lojas nos cards.",
+            "O s9 abre com 1,2 s sem fala (silence drop de ~0,6 s mais o logo hit de 24,8 a 26,0 s) bem no ponto de menor retenção, antes do CTA. Encurtar para ~0,4 s.",
+            "O end card tem texto demais para ~2 s: \"LINK NA BIO · @encarteai.app\" mais a linha opcional \"Petrópolis é uma cidade só. Agora o mercado também.\". Tirar a linha opcional ou passá-la para a legenda. Manter o texto fora dos 35% de baixo da tela (área coberta pela interface do Reels)."
+          ]
+        },
+        {
+          "variant": 1,
+          "conversion": 8,
+          "humanized": 8,
+          "accuracy": 7,
+          "visual_potential": 8,
+          "total": 7.8,
+          "strengths": [
+            "O gancho é a pergunta que o público já se faz: \"Petrópolis, qual mercado tá mais barato essa semana?\". A cidade vem na primeira palavra, a proposta de valor fica clara em 3 s, e a etiqueta gigante \"R$ ?\" já mostra preço no frame 0.",
+            "O app aparece em ~8 s (\"Ou faz assim: abre o Encarte Aí.\"), o mais cedo das três, e a pergunta do gancho é respondida com as mesmas palavras em ~12 s (\"onde tá mais barato\"). É o melhor arco de retenção do pacote.",
+            "É a única variante que demonstra em vez de prometer: \"Digita banana. Pronto: ele te diz onde tá mais barato.\" Parece tutorial de amigo, não propaganda.",
+            "A dor é curta e local: \"encarte de um, zap do outro... e haja ladeira.\" Leva 4 s e soa natural, sem sotaque caricato.",
+            "\"Aí é só ir direto no que compensa.\" é um benefício concreto sem número inventado, espelhando o \"vá direto ao mercado com o melhor preço\" da descrição oficial, e ainda ecoa o \"Aí\" da marca.",
+            "O S7 é o melhor callback visual do pacote: o zigue-zague pontilhado da ladeira é riscado e uma linha de luz reta vai do 'você' até o pino. A proposta inteira vira uma imagem só.",
+            "O nome da marca é a última palavra falada e cai no maior impacto da peça. O hook alternativo da banana (\"Onde tá a banana mais barata de Petrópolis essa semana?\") é um ótimo A/B que leva direto à demonstração."
+          ],
+          "must_fix": [
+            "Pior linha do roteiro: \"E as ofertas da semana da cidade inteira tão ali, cada uma com seu desconto.\" São 14 palavras, \"da semana da cidade\" encadeia dois genitivos, \"tão ali\" é vago e \"cada uma com seu desconto\" é enchimento. Trocar por \"Confere as ofertas da semana dos mercados da cidade.\"",
+            "A prova do S4 não responde o gancho. Depois de \"Pronto: ele te diz onde tá mais barato\", entra um único card \"Banana Prata Kg — 41% OFF\", e desconto não é comparação entre mercados. Recriar uma lista de resultado com 2–3 mercados genéricos e um destacado como mais barato, no estilo da interface, sem nome de loja real.",
+            "No S5, os selos \"41% OFF\" e \"40% OFF\" crescem como etiquetas 3D gigantes no centro. Isso vira promessa implícita de 40% de economia, e a ressalva \"Ofertas ilustrativas da tela do app.\" no rodapé fica embaixo da interface do Reels e ninguém lê. Manter os selos no tamanho do card ou subir a ressalva para a área segura.",
+            "O selo do S8, \"★ 5,0 na App Store\", sinaliza 'só iPhone' enquanto o Android é desconhecido, o que contradiz a exigência de CTA neutro. Na versão ampla, remover; manter só num conjunto de anúncios segmentado para iOS.",
+            "\"Um dedo estilizado ou um cursor de toque aponta para cima, na direção da bio\" está errado para a interface do Reels/TikTok. O @ do perfil fica embaixo à esquerda, e a seta para cima aponta para o nada. Apontar para o @ embaixo à esquerda ou tirar.",
+            "A fala e a tela se contradizem: a narração diz \"Baixa pelo link da bio.\" e a tela mostra \"LINK NA BIO\". Unificar, de preferência como \"Baixa aí. Link na bio.\", que tem verbo e repete o 'aí'.",
+            "No S9, o \"hit grave mais forte da peça... sincronizado com a fala 'Encarte Aí'\" e o \"pad... sobe 3 dB acima da voz\" mascaram a palavra mais importante do vídeo. Colocar o hit no silêncio de 0,25 s antes ou logo depois do nome e manter o pad abaixo da voz até o nome acabar.",
+            "A linha \"feito por Cape Studios\" no lockup final compete com a marca do cliente no frame do CTA. Na versão de mídia paga, remover (ou deixar só no organic).",
+            "Há flashes brancos demais: no S3 (\"Flash branco no 'abre'\"), no S5 (\"Flash branco curto (70 ms)\") e o orbe do S9. Três flashes em 30 s gastam o efeito e criam risco fotossensível. Tirar o flash do S5.",
+            "Para TTS, \"Pronto:\" com dois-pontos costuma ser ignorado pelo motor e a frase sai corrida. Usar ponto (\"Pronto.\").",
+            "Os cards mostram \"Bramil\" e \"Assaí Atacadista\" ao lado de um percentual específico, e o print é suspeito de ser dado de demonstração. Desfocar o nome da loja nos cards."
+          ]
+        },
+        {
+          "variant": 2,
+          "conversion": 6,
+          "humanized": 7,
+          "accuracy": 5,
+          "visual_potential": 9,
+          "total": 6.6,
+          "strengths": [
+            "Tem os melhores set pieces visuais e é a mais próxima da referência estilo Spotify: no frame 0, o pino 3D gigante crava com onda de choque levando a pílula 'Petrópolis'; no S3, a ladeira íngreme é feita de encartes empilhados com um pino subindo aos pulinhos; e o fechamento é tipografia cinética que comprime num risco de luz.",
+            "\"aplicativo\" é dito no primeiro segundo, o que pré-qualifica o público: quem fica já sabe que é app.",
+            "\"Agora, olha isso.\" é um bom micro-gancho de retenção logo antes da revelação, e vem depois de um silence drop bem posicionado.",
+            "Reaproveita a frase da própria marca, \"Petrópolis é uma cidade só. E agora, o mercado também.\", o que dá coerência de campanha e um gatilho de orgulho local para compartilhar.",
+            "Trata a tela de busca com cuidado (sem inventar preço) e não narra os cards de 41%/40%.",
+            "O contador no canto subindo 1, 2, 3, 4 durante a caça de encartes transmite a repetição cansativa sem fala."
+          ],
+          "must_fix": [
+            "\"Petrópolis tem um aplicativo só dela.\" afirma uma exclusividade que nenhum fato sustenta e que os próprios prints contradizem: a tela \"Escolha sua cidade\" e o \"Não achou sua cidade? Indique aqui\" indicam multicidade, e o título \"SUA CIDADE, SEUS MERCADOS\" é genérico. Além disso, é o formato batido 'existe um app que...'. Reescrever com o gancho alternativo 4 (\"feito pra Petrópolis\") ou trocar o gancho.",
+            "\"E é pra fazer mercado.\" resolve a curiosidade com uma resposta banal aos 3,5 s. O gancho promete segredo e entrega 'mercado', e o pico de atenção murcha.",
+            "\"Sabe aquela novela de toda semana?\" é clichê de redator ('Sabe aquela...') com cara de IA, e a metáfora 'novela' não tem correspondente visual. Trocar por algo concreto como \"Toda semana é a mesma coisa:\".",
+            "O nome e a tela do app só aparecem em 11,2–13,4 s (\"Agora, olha isso. Encarte Aí.\"). São 11 s de gancho e dor antes de o produto ser visto, quase tão tarde quanto na V0.",
+            "O CTA não tem verbo: \"Link na bio. Encarte Aí.\" é a chamada mais fraca das três. Usar \"Baixa aí. Link na bio. Encarte Aí.\"",
+            "O S8 gasta 4,4 s (22,2–26,6 s) no slogan, mais um silence drop em 26,0 s, antes de qualquer CTA. Isso não converte e derruba a retenção na hora de pedir o download. Passar o slogan para texto no end card ou cortar para uma frase só, em ~2 s.",
+            "No S6, \"Três cards de resultado... com preços desfocados\" e o selo \"MAIS BARATO\" formam uma interface que não existe em nenhum print. Com o preço desfocado a prova parece falsa. Recriar no estilo exato da interface real, com valores legíveis marcados como ilustrativos ou uma comparação clara.",
+            "\"pílula verde 'LINK NA BIO' com uma setinha para cima\" está errado: o @ do perfil no Reels/TikTok fica embaixo à esquerda. E a \"assinatura discreta da Cape Studios... no rodapé\" fica embaixo da interface do Reels e polui o frame do CTA.",
+            "São duas revelações de marca com flash e sub drop (12,4 s e 27,9 s) mais dois silence drops (10,7 s e 26,0 s) numa peça de 31 s. O segundo drop, colado no CTA, cria tempo morto no pior momento."
+          ]
+        }
+      ],
+      "best_variant": 1,
+      "lines_to_steal": [
+        "[V0] Gancho para teste A/B contra o da V1: fala \"Petropolitano não faz mercado. Faz trilha.\" e tela \"PETROPOLITANO NÃO FAZ MERCADO → FAZ TRILHA.\" É o maior potencial de parar o scroll do pacote. No primeiro teste de criativo, rodar as duas aberturas com o mesmo corpo.",
+        "[V0] Remate da dor: \"...e o mais barato era o primeiro.\" Ele entra no lugar de \"e haja ladeira\" (ou logo depois) e prepara direto a demonstração \"ele te diz onde tá mais barato\".",
+        "[V0] \"Calma, vizinho.\" antes de \"Faz assim: abre o Encarte Aí.\" dá o tom de conversa de portão na virada.",
+        "[V0] CTA \"Baixa aí. Link na bio. Encarte Aí.\", que tem verbo de ação, eco do 'aí' e independe de plataforma. Substitui o \"Baixa pelo link da bio.\" da V1.",
+        "[V0] Legenda: \"E marca aquele vizinho que ainda faz trilha pra ir no mercado.\" Essa mecânica de marcação puxa o compartilhamento.",
+        "[V0 s4] Beat de comédia: a etiqueta verde balança sozinha no escuro por ~0,6 s, como silence drop antes da virada.",
+        "[V0 s6 / V2 S5] Visual: os encartes de papel das cenas de dor voltam rebobinando ou em vórtice reverso e são sugados para a tela do celular, mostrando o 'num lugar só' sem fala.",
+        "[V2 S1] Frame 0: pino 3D gigante crava com onda de choque de luz verde levando a pílula 'Petrópolis'. Fundir com a etiqueta 'R$ ?' da V1 para abrir com cidade e preço na mesma imagem.",
+        "[V2 S3] Ladeira íngreme feita de encartes empilhados, com um pino subindo aos pulinhos e a câmera inclinando sem nunca chegar ao topo. É a melhor imagem para \"haja ladeira\".",
+        "[V2 S2] Contador no canto subindo 1, 2, 3, 4 enquanto os encartes passam, para mostrar a repetição sem precisar de fala.",
+        "[V2 S6] Resultado de busca recriado com 2–3 linhas e uma destacada como a mais barata. Corrige a prova da V1, que hoje mostra só um card de desconto. Usar mercados genéricos, sem nome real.",
+        "[V2 S4] \"Agora, olha isso.\" como alternativa A/B para \"Ou faz assim:\" na virada.",
+        "[V2 S8] \"Petrópolis é uma cidade só. E agora, o mercado também.\" só como linha pequena no end card ou na legenda, nunca como 4,4 s de narração antes do CTA."
+      ],
+      "verdict": "A V1 vence porque é a única feita para converter: a proposta fica clara em 3 s (\"qual mercado tá mais barato essa semana?\"), o app aparece em ~8 s, a pergunta do gancho é respondida com as mesmas palavras em ~12 s e há uma demonstração real (\"Digita banana\"). A V0 tem o melhor gancho e o texto mais humano, mas passa 11,8 s em dor antes do produto, e num anúncio de download a maioria sai antes de ver o app. A V2 tem o visual mais bonito, mas abre com uma alegação que os próprios prints contradizem (\"aplicativo só dela\", sendo que existe a tela de escolha de cidade e o \"Indique aqui\"), fecha sem verbo no CTA e gasta 4,4 s em slogan antes de pedir o download.\n\nRoteiro final recomendado (base V1, ~77 palavras, ~30 s): \"Petrópolis, qual mercado tá mais barato essa semana? Pra saber, é encarte de um, zap do outro, sobe ladeira... e o mais barato era o primeiro. Calma, vizinho. Faz assim: abre o Encarte Aí. Digita banana. Pronto. Ele te mostra onde tá mais barato. Confere as ofertas da semana dos mercados da cidade. E vê a distância de cada mercado até você. Aí é só ir direto no que compensa. Baixa aí. Link na bio. Encarte Aí.\"\n\nAjustes obrigatórios na versão final:\n1. Recriar a tela de busca com comparação entre 2–3 mercados genéricos, porque um card de 41% OFF não prova \"mais barato\".\n2. Desfocar \"Bramil\" e \"Assaí Atacadista\" nos cards e não ampliar os selos de % para tamanho gigante.\n3. Tirar \"★ 5,0 na App Store\" da versão ampla (serve só para um conjunto de anúncios segmentado em iOS).\n4. Seta ou dedo apontando para o @ embaixo à esquerda, não para cima.\n5. O hit final vai no silêncio antes ou depois de \"Encarte Aí\", nunca por cima do nome.\n6. Tirar \"feito por Cape Studios\" da versão paga.\n7. No máximo dois flashes brancos: na virada e no logo.\n8. Todo texto, inclusive ressalvas, fora dos 35% de baixo e dos 14% de cima da tela, que ficam cobertos pela interface do Reels.\n\nPara o visual, usar os set pieces da V2: o pino gigante com 'Petrópolis' no frame 0 e a ladeira feita de encartes. Na mídia paga, testar o gancho da V0 (\"Petropolitano não faz mercado. Faz trilha.\") contra o da V1 e o hook da banana. Também vale um corte de 15 s (gancho, demonstração da busca, CTA) para escalar depois que um dos ganchos se destacar no teste."
+    },
+    "humano": {
+      "scores": [
+        {
+          "variant": 0,
+          "conversion": 7.5,
+          "humanized": 8.5,
+          "accuracy": 8,
+          "visual_potential": 8,
+          "total": 8,
+          "strengths": [
+            "Melhor ouvido das três. \"Petropolitano não faz mercado. Faz trilha.\" filtra o público na primeira palavra e cria uma piada que só se resolve na ladeira, então segura o dedo.",
+            "\"e o mais barato era o primeiro.\" é a melhor frase do lote. É a frustração que todo mundo já viveu, contada como causo, e gera comentário e marcação de amigo. O callback com \"vê onde tá mais barato\" vende sem prometer número.",
+            "\"Encarte no grupo do zap. Panfleto na caixa do correio.\" é concreto e local, sem caricatura de sotaque. \"zap\" é como o morador fala e livra o TTS de errar \"WhatsApp\".",
+            "\"Baixa aí... Encarte Aí\" faz o eco do trocadilho sem forçar, tem verbo de ação e não depende de plataforma.",
+            "Visual com narrativa própria: a trilha tracejada ligando pinos, os encartes saindo da caixa de correio, o freeze cômico da etiqueta (a pausa da piada e o silence drop da referência caem no mesmo momento) e o rebobinar dos papéis sendo sugados pro celular.",
+            "Os ganchos A/B são bons, principalmente \"Todo petropolitano tem uma tia que manda encarte no grupo da família.\"",
+            "Não tem número falado nem sigla, e não inventa economia."
+          ],
+          "must_fix": [
+            "Ritmo da s3: \"Aí você roda três mercados. Sobe ladeira, desce ladeira, no frio...\" são cerca de 23 sílabas mais reticências em 3,6 s. No ritmo natural de um TTS em PT-BR (uns 5,5 sílabas/s) não cabe sem atropelar a piada. Cortar \"no frio\" ou trocar \"Sobe ladeira, desce ladeira, no frio...\" por \"... e haja ladeira.\" (da V1), ou então esticar a cena para cerca de 4,4 s.",
+            "Excesso de \"aí\": \"Aí você roda\", \"Encarte Aí\", \"Baixa aí\" e de novo \"Encarte Aí\" dão quatro \"aí\" em 30 s, e isso dilui o trocadilho da marca. Tirar o primeiro: \"Você roda três mercados.\"",
+            "\"Calma, vizinho.\" soa como anúncio de padaria. Ninguém em Petrópolis chama desconhecido de \"vizinho\" no meio da conversa. Um locutor diria \"Calma.\" ou \"Relaxa.\" A sugestão é \"Calma. Agora tem o Encarte Aí.\"",
+            "O bloco de provas virou lista de feature lida em voz alta: \"Procura o produto e vê onde tá mais barato. Confere as ofertas da semana. E vê qual mercado tá mais perto.\" São três imperativos seguidos e o \"vê\" aparece duas vezes. Trocar pela demonstração da V1: \"Digita banana. Pronto. Ele te mostra onde tá mais barato. E qual mercado fica mais perto de você.\"",
+            "Problema de precisão na s7: a cena toca em \"Buscar\", mas mostra os cards de Ofertas Quentes (\"Banana Prata Kg 41% OFF, Bramil\") embaixo de \"ONDE TÁ MAIS BARATO\". Isso confunde desconto com menor preço e sugere que o Bramil é o mais barato, uma afirmação sobre uma rede real feita com dados de demonstração. Usar a busca recriada da V2 S6: preços desfocados, sem nome de mercado e com o selo \"MAIS BARATO\".",
+            "Sincronia na s5: o \"LOGO HIT no respiro entre as frases\" (cerca de 13,3 s) bate antes de a voz dizer \"Encarte Aí\". O impacto tem que cair no nome, não um segundo antes.",
+            "s1 tem 2,3 s para \"Petropolitano não faz mercado. Faz trilha.\" (cerca de 14 sílabas, pausa e impacto). Dar 2,7 a 2,8 s, porque \"Petropolitano\" tem seis sílabas e o TTS costuma alongar.",
+            "O nome só é falado em torno de 13,5 s e a duração real com TTS e silêncios deve passar de 32 s. Apertar o primeiro ato para fechar o \"era o primeiro\" por volta de 10 s.",
+            "Glitch e RGB split na abertura (\"PETROPOLITANO entra com glitch\") fogem da gramática da referência, que usa risco de luz limpo e flash. Trocar por um reveal com risco de luz.",
+            "TTS: \"no frio...\" e \"Calma, vizinho.\" dependem de reticências que vários motores open-source ignoram. Marcar o silêncio na timeline em vez de confiar na pontuação."
+          ]
+        },
+        {
+          "variant": 1,
+          "conversion": 8,
+          "humanized": 7,
+          "accuracy": 6,
+          "visual_potential": 8.5,
+          "total": 7.4,
+          "strengths": [
+            "É a mais orientada a download. O gancho \"Petrópolis, qual mercado tá mais barato essa semana?\" já é a promessa do produto, e o loop fecha com as mesmas palavras em \"onde tá mais barato\" por volta de 12 s.",
+            "\"encarte de um, zap do outro... e haja ladeira.\" é a frase mais idiomática das três. Tem cara de gente falando, com uma expressão carioca real.",
+            "\"Digita banana. Pronto.\" faz demonstração em vez de propaganda, e é o momento mais concreto do lote. \"Ou faz assim\" anuncia a demo de forma natural.",
+            "\"Aí é só ir direto no que compensa.\" fecha o benefício sem inventar número de economia.",
+            "Melhor ideia visual do lote: o zigue-zague da ladeira aparece apagado e é riscado, e uma linha reta de luz vai do ponto \"você\" ao pino. A dor e a solução viram uma imagem só.",
+            "A etiqueta gigante \"R$ ?\" balançando no pivô da argola do logo no frame 0 é uma abertura forte e coerente com a marca. O \"banana\" digitado letra por letra com tiques de teclado também funciona.",
+            "Marca é a última palavra falada e cai junto com o hit do logo."
+          ],
+          "must_fix": [
+            "Precisão na S4: \"Pronto: ele te diz onde tá mais barato\" vem em cima do card real \"Banana Prata Kg, 41% OFF\" (que é do Bramil) com um check verde. Isso afirma que o Bramil tem a banana mais barata, usando dado de demonstração e nome de rede real. Usar resultados com preço desfocado e sem nome de mercado, como na V2 S6.",
+            "\"E as ofertas da semana da cidade inteira tão ali, cada uma com seu desconto.\" tem 14 palavras e o \"da semana da cidade\" embola na boca do TTS. \"cada uma com seu desconto\" é exagero (nem toda oferta mostra percentual) e soa como a descrição da App Store lida em voz alta. Reescrever como \"E as ofertas da semana tão todas ali.\"",
+            "S5 transforma os demonstrativos \"41% OFF\" e \"40% OFF\" em \"etiquetas 3D gigantes que batem no centro\" e depois precisa do rodapé \"Ofertas ilustrativas da tela do app.\" Se precisa de aviso, não pode ser o herói da cena. Mostrar os cards em escala de tela, sem o slam dos percentuais.",
+            "\"Ainda mostra a distância de cada mercado até você.\" fica sem sujeito logo depois de uma frase cujo sujeito é \"as ofertas\", e no ouvido parece que as ofertas mostram a distância. Corrigir para \"E ele ainda te mostra a distância até cada mercado.\"",
+            "S8 tem o selo \"★ 5,0 na App Store\", que contradiz o CTA neutro: quem usa Android lê \"não é pra mim\". Além disso, a nota de 30 avaliações envelhece com o vídeo no ar. Tirar.",
+            "S9 tem \"'feito por Cape Studios' em escaneamento de luz\" dentro do anúncio do cliente, o que rouba o último frame do CTA. O crédito da agência vai na legenda, se for o caso.",
+            "TTS: os dois-pontos em \"Ou faz assim: abre\" e \"Pronto: ele\" são ignorados por boa parte dos motores open-source (Piper, XTTS, F5). Usar ponto: \"Ou faz assim. Abre o Encarte Aí.\" e \"Pronto. Ele te mostra...\"",
+            "S1 tem 3,0 s para cerca de 18 sílabas com entonação de pergunta, que o TTS tende a achatar. Dar 3,4 s e garantir que \"qual\" puxe a interrogação; se o motor achatar, regravar com variação de seed.",
+            "S8 tem \"dedo estilizado aponta para cima, na direção da bio\", mas no Reels e no TikTok a bio não fica em cima. Apontar para o @ ou para o avatar do perfil."
+          ]
+        },
+        {
+          "variant": 2,
+          "conversion": 6,
+          "humanized": 6.5,
+          "accuracy": 6.5,
+          "visual_potential": 8.5,
+          "total": 6.8,
+          "strengths": [
+            "\"Sabe aquela novela de toda semana?\" usa \"novela\" no sentido de saga, como o brasileiro fala de verdade.",
+            "\"Os encartes da cidade inteira, tudo junto.\" é coloquial e tira o peso de prova de produto.",
+            "Busca honesta (S6): barra recriada, preços desfocados, sem nome de mercado e com o selo \"MAIS BARATO\". É o jeito seguro de demonstrar \"onde tá mais barato\" sem afirmar nada sobre redes reais.",
+            "Visuais muito fortes: o pino gigante com a pílula \"Petrópolis\" cravando com onda de choque no frame 0, a ladeira de papel feita de encartes empilhados com o pino subindo aos pulinhos e a ladeira sem fim, o contador 1, 2, 3, 4 no canto, e os pinos que se ligam numa rede só.",
+            "Fala \"aplicativo\" em vez de \"app\", que é bom para o TTS, e não tem número falado.",
+            "Reaproveita a frase do próprio cliente (\"Petrópolis é uma cidade só...\"), o que facilita a aprovação."
+          ],
+          "must_fix": [
+            "Precisão e naturalidade: \"Petrópolis tem um aplicativo só dela.\" e o texto de tela \"UM APP SÓ DE PETRÓPOLIS\" afirmam exclusividade, o que não está nos fatos e é contrariado pela tela de cidade (\"Escolha sua cidade\", \"Não achou sua cidade? Indique aqui\"). Além disso, \"só dela\" soa traduzido. Se for manter, dizer \"Petrópolis ganhou um aplicativo de mercado.\"",
+            "Gancho fraco para conversão: \"E é pra fazer mercado.\" é um anticlímax. A curiosidade é de baixa aposta e os primeiros 4 s não têm dor nem benefício.",
+            "\"Agora, olha isso.\" é clichê de TikTok. Além disso, a S4 tem 2,2 s para cerca de 12 sílabas mais flash e giro do celular, o que esmaga a pausa dramática antes de \"Encarte Aí\". Cortar o \"Agora,\" ou dar uns 3 s.",
+            "\"E ainda mostra a distância até cada mercado.\" se prende gramaticalmente ao sujeito anterior (\"Você busca o produto e vê...\"), e no ouvido fica \"você ainda mostra a distância\". Corrigir para \"E ele ainda te mostra...\"",
+            "O CTA \"Link na bio. Encarte Aí.\" não tem verbo de ação. Falta o \"Baixa aí.\"",
+            "\"Petrópolis é uma cidade só. E agora, o mercado também.\" ocupa 4,4 s de fala abstrata entre a última prova e o CTA. Dito a frio por TTS, \"cidade só\" fica ambíguo e derruba a energia antes do pedido. Melhor colocar só como texto no end card.",
+            "\"Caçar encarte por encarte no zap.\" repete \"encarte\" de um jeito que vira trava-língua para a máquina, e a S2 coloca cerca de 25 sílabas em 4,3 s.",
+            "A S9 tem uma assinatura da Cape Studios no rodapé do anúncio do cliente. Tirar do master."
+          ]
+        }
+      ],
+      "best_variant": 0,
+      "lines_to_steal": [
+        "V1, fala (no lugar do bloco de provas da V0): \"Digita banana. Pronto. Ele te mostra onde tá mais barato.\" É demonstração concreta em vez de lista de função.",
+        "V1, fala: \"... e haja ladeira.\" Substitui \"Sobe ladeira, desce ladeira, no frio...\", é mais idiomático e economiza cerca de 8 sílabas na cena mais apertada.",
+        "V1, fala de benefício antes do CTA: \"É só ir direto no que compensa.\" (sem o \"Aí\" inicial, para não somar mais um \"aí\").",
+        "V1, visual: o zigue-zague da trilha aparece apagado e riscado, e uma linha reta de luz vai do ponto \"você\" ao pino. É o pagamento visual perfeito do gancho \"Faz trilha\" da V0.",
+        "V1, visual e som: \"banana\" digitado letra por letra na barra de busca recriada, com um tique seco de teclado por letra.",
+        "V1, gancho A/B: \"Onde tá a banana mais barata de Petrópolis essa semana?\" Puxa direto para a demo da busca.",
+        "V2, visual S6 (substitui a s7 da V0): resultados em forma de etiqueta com preço desfocado e sem nome de mercado; um ganha brilho verde e o selo \"MAIS BARATO\". Resolve o problema de precisão de mostrar \"41% OFF, Bramil\" como \"o mais barato\".",
+        "V2, visual S3 (para \"e haja ladeira\" da V0): encartes empilhados formando uma ladeira de papel, com o pino subindo aos pulinhos e uma ladeira que não acaba.",
+        "V2, visual S2: contador pequeno no canto subindo sozinho (1, 2, 3, 4) durante a caça de encartes, para dar a sensação de repetição.",
+        "V2, visual S8: os pinos se ligam com linhas de luz numa rede só, como imagem de \"Os mercados da cidade, num lugar só.\"",
+        "V2, end card só como texto (não como fala): \"Petrópolis é uma cidade só. E agora, o mercado também.\" É a frase do próprio cliente; deixar de ser opcional na s9 da V0.",
+        "V2, fala alternativa para a s6 da V0: \"Os encartes da cidade inteira, tudo junto.\" Testar contra \"Os mercados da cidade, num lugar só.\"",
+        "V2, gancho A/B: \"Sabe aquela novela de toda semana?\" como abertura alternativa de dor.",
+        "V2 e V1, sincronia: o hit final do logo cai exatamente na fala \"Encarte Aí\", a última palavra. Aplicar também ao hit da s5 da V0."
+      ],
+      "verdict": "A V0 ganha porque é a única que soa como gente contando um causo. \"Petropolitano não faz mercado. Faz trilha.\" e \"e o mais barato era o primeiro\" são as duas melhores frases do lote. A V1 é a mais vendedora e tem a melhor demonstração e o melhor pagamento visual, mas perde na precisão. Ela coloca o card \"Banana Prata 41% OFF\" (que é do Bramil) embaixo de \"onde tá mais barato\", transforma porcentagens de demonstração em herói (e por isso precisa de rodapé de aviso) e põe o selo da App Store contra o CTA neutro. O meio dela também lê como a descrição da loja. A V2 tem visuais excelentes, mas o gancho \"um aplicativo só dela\" é estranho e é contrariado pela tela de escolha de cidade. Além disso, \"olha isso\" é clichê e o CTA não tem verbo.\n\nO maior defeito da V0 é o bloco de provas em lista (\"Procura... Confere... E vê...\"). Isso se resolve com a demo da V1.\n\nFala final que recomendo, com a V0 como base (cerca de 75 palavras; nenhum número, sigla ou dois-pontos falado; um \"aí\" só para a marca e outro para o CTA):\n\"Petropolitano não faz mercado. Faz trilha. / Encarte no grupo do zap. Panfleto na caixa do correio. / Você roda três mercados... e haja ladeira. / E o mais barato era o primeiro. / [silêncio de 0,6 s] Calma. Agora tem o Encarte Aí. [hit no nome] / Os mercados da cidade, num lugar só. / Digita banana. Pronto. Ele te mostra onde tá mais barato. / E qual mercado fica mais perto de você. / É só ir direto no que compensa. / Baixa aí. Link na bio. Encarte Aí. [hit final no nome]\"\n\n\"Ofertas da semana\" sai da fala e fica no visual do banner. Se passar de 32 s, a primeira frase a cortar é \"Panfleto na caixa do correio.\"\n\nObrigatório no visual:\n- Busca recriada com preço desfocado e sem nome de rede (V2 S6).\n- Zigue-zague riscado virando linha reta (V1 S7).\n- Ladeira de papel (V2 S3).\n- Abertura com risco de luz no lugar do glitch.\n- Nenhum crédito da Cape Studios nem selo de loja no master.\n- \"Petrópolis é uma cidade só. E agora, o mercado também.\" como texto no end card.\n\nTTS:\n- Escrever \"Encarte Aí\" sempre com acento.\n- Usar ponto no lugar de reticências e dois-pontos.\n- Colocar as pausas na timeline, não na pontuação.\n- Testar \"zap\" e, se o motor ler errado, usar a grafia \"zápi\" só no texto enviado à máquina."
+    },
+    "verdade": {
+      "scores": [
+        {
+          "variant": 0,
+          "conversion": 7,
+          "humanized": 9,
+          "accuracy": 7,
+          "visual_potential": 8,
+          "total": 7.6,
+          "strengths": [
+            "Gancho mais forte das três: 'Petropolitano não faz mercado. Faz trilha.' A primeira palavra já filtra quem é da cidade, a piada fecha em uns 2 s e não deprecia ninguém.",
+            "A fala está limpa nos fatos. Cada benefício bate com a descrição oficial: 'Procura o produto e vê onde tá mais barato' (Busque produtos…), 'ofertas da semana' e 'qual mercado tá mais perto' (distância em tempo real). Não nomeia mercado, não fala número, não promete economia e não diz 'grátis'.",
+            "O callback 'e o mais barato era o primeiro' → 'vê onde tá mais barato' vende sem prometer. Quem assiste liga as duas pontas sozinho.",
+            "Os encartes da cena 2 são sugados para dentro do celular na cena 6. Esse setup/payoff visual é o melhor das três.",
+            "O CTA 'Link na bio' não depende de plataforma, e a legenda puxa marcação ('marca aquele vizinho que ainda faz trilha'), o que ajuda no alcance orgânico."
+          ],
+          "must_fix": [
+            "DURAÇÃO: são 76 palavras e 18 quebras de frase. O REFERENCE.md pede 55 a 65 palavras para 30 s (2,6 a 2,8 palavras/s falando). A estimativa de 30,5 s só fecha com o TTS a uns 3,5 palavras/s; no ritmo da referência a peça fica em 33 a 34 s, acima do teto de 32 s. A cena s3 ('Aí você roda três mercados. Sobe ladeira, desce ladeira, no frio...') coloca umas 24 sílabas em 3,6 s com três pausas, o que dá cerca de 6,7 sílabas/s: rápido demais para um TTS open-source soar humano. Cortar para cerca de 62 palavras: tirar 'no frio', 'Aí você', 'Panfleto na caixa do correio' e o 'Baixa aí.'.",
+            "s7: 'Toque na aba Buscar… Os cards reais de Ofertas Quentes (Banana Prata Kg 41% OFF, Bramil; Queijo Camembert 40% OFF, Assaí Atacadista) saltam' sob o texto 'ONDE TÁ MAIS BARATO'. Isso cola nomes de mercados reais na afirmação de 'mais barato' usando dados de print datados ou de demonstração. Além disso, um % de desconto não é comparação de preço, e Ofertas Quentes fica na aba Início, não em Buscar, então o fluxo de UI mostrado é falso. Trocar pela busca recriada da variante 2: etiquetas genéricas, preços desfocados, sem nome de mercado.",
+            "s6: 'Os chips de Mercados da Região saltam da tela e flutuam em 3D… só com nome e distância'. Isso põe em primeiro plano nomes reais (Bramil, Petro Frutas, Armazém…) com distâncias que são da localização de quem tirou o print, e o BRAND.md diz que esses chips parecem dados de demonstração com logos trocados. Nos chips flutuantes, mostrar só os km e um ícone genérico de loja.",
+            "s8: 'O banner Ofertas da Semana! descola da tela, vira um card 3D e passa rente à câmera num zoom-through'. O quadro fica cheio com a marca de terceiro Vale Verde, o que vai contra a ressalva 1 do BRAND.md, e um raster de 754 px passando a mais de 2× fica mole. Usar um card genérico 'OFERTAS DA SEMANA' recriado em vetor ou manter o banner dentro da tela.",
+            "s5 está superlotada: risco de luz → orbe → flash → queda da etiqueta → brilho de estrela → wordmark → whip-up → giro do celular → tela de cidade em 3,2 s, com fala por cima. Na referência, logo e celular sozinhos levam cerca de 2,4 s sem fala. Deixar o lockup completo só no final e fazer a s5 como etiqueta rápida + flash para dentro do celular.",
+            "O motivo de pinos e trilha aparece três vezes: zigue-zague com 3 pinos na s1, 3 pinos nos morros na s3 e pinos no mapa na s8. A s1 deve ser só tipografia, guardando o mapa para a s3 e a s8.",
+            "O produto só aparece aos 13 s, ou seja, mais de 40% da peça sem o app, num vídeo cujo objetivo é download. Encurtar a dor para o celular entrar por volta de 9 a 10 s.",
+            "Duas quedas de silêncio, na s4 (cerca de 11 s) e na s9 (cerca de 25 s), diluem o movimento-assinatura da referência. Deixar o corte total só antes do logo final e fazer a pausa cômica da s4 como um mergulho do pad.",
+            "A comédia depende de prosódia: 'e o mais barato era o primeiro' em tom seco e 'Calma, vizinho' caloroso. TTS open-source costuma achatar isso, e as reticências em 'no frio...' muitas vezes são ignoradas. Gerar cada frase como clipe separado e criar as pausas na edição, não pela pontuação.",
+            "'Baixa aí. Link na bio. Encarte Aí.' tem três fragmentos e 'aí' duas vezes em quatro palavras, o que soa picotado no TTS. Melhor fechar com a frase da marca e depois 'Link na bio. Encarte Aí.'.",
+            "Não usa na fala a frase de posicionamento do próprio cliente ('Petrópolis é uma cidade só, e agora o mercado também'); ela entra só como opcional na tela."
+          ]
+        },
+        {
+          "variant": 1,
+          "conversion": 8,
+          "humanized": 7,
+          "accuracy": 5,
+          "visual_potential": 7,
+          "total": 6.7,
+          "strengths": [
+            "Gancho de intenção: 'Petrópolis, qual mercado tá mais barato essa semana?'. Abre com a cidade e faz a pergunta de quem vai comprar, e o loop fecha com as mesmas palavras por volta de 12 s.",
+            "O app entra mais cedo das três (cerca de 7 s) e o formato é de demonstração ('Ou faz assim'), o melhor para download.",
+            "'e haja ladeira' é a expressão mais natural e local das três, e 'Digita banana. Pronto' deixa a função concreta.",
+            "Melhor metáfora visual de payoff: o zigue-zague pontilhado da ladeira é riscado e uma linha de luz reta vai do 'você' ao pino, junto com 'Aí é só ir direto no que compensa' (que ecoa 'vá direto ao mercado com o melhor preço').",
+            "A etiqueta de papel gigante com 'R$ ?' balançando no mesmo pivô de argola do logo amarra o gancho ao rig da marca."
+          ],
+          "must_fix": [
+            "S4: 'o card real Banana Prata Kg — 41% OFF salta… com um pino verde de check' + 'ONDE TÁ MAIS BARATO'. Na prática, a peça afirma que o Bramil tem a banana mais barata, com base num print datado e em dados que o BRAND.md aponta como de demonstração. É uma afirmação comparativa sobre mercado real, não comprovada. Mostrar resultados genéricos com preço desfocado e sem nome de mercado.",
+            "S5: 'Os selos laranja 41% OFF e 40% OFF se soltam dos cards e crescem como etiquetas 3D gigantes que batem no centro' transforma descontos datados no herói da cena, o que funciona como promessa de desconto. O aviso 'Ofertas ilustrativas da tela do app' no rodapé cai na área coberta pela legenda e pela interface do Instagram e do TikTok, some em cerca de 5 s e ainda é impreciso, porque são dados reais de tela e não 'ilustrativos'. Manter o % dentro do card, em escala de tela.",
+            "Fala da S5: 'cada uma com seu desconto' não está nos FATOS (é generalização), e a frase de 15 palavras ('…tão ali, cada uma com seu desconto') é a mais travada e com mais cara de anúncio do roteiro. Cortar para 'E as ofertas da semana da cidade inteira.'.",
+            "S6, texto na tela '1,2 KM DE VOCÊ': é uma distância específica mostrada como se fosse do espectador, o que é falso para quase todo mundo. Trocar por 'O MAIS PERTO DE VOCÊ' ou 'DISTÂNCIA DE CADA MERCADO'.",
+            "S8, selo '★ 5,0 na App Store': a nota é perecível (30 avaliações, 'hoje') e o selo sinaliza só iOS, o que enfraquece o CTA neutro exigido pelos FATOS. Remover.",
+            "S8: 'Um dedo estilizado… aponta para cima, na direção da bio'. No Reels o perfil fica embaixo à esquerda e no TikTok o avatar fica à direita, então uma seta para cima não aponta para nada. Remover ou apontar para o @.",
+            "S9: o impacto do logo vai 'sincronizado com a fala Encarte Aí' e o silêncio antes dele é de só 0,25 s. O sub mascara o nome da marca, e a referência pede cerca de 2 a 2,5 s sem fala para queda de silêncio → orbe → impacto do logo. Colocar o impacto no silêncio e falar o nome depois.",
+            "Os dois-pontos na fala ('Ou faz assim:', 'Pronto:') são tratados de forma inconsistente pelos motores de TTS, que costumam emendar 'Pronto ele te diz'. Usar ponto.",
+            "76 palavras, acima da faixa de 55 a 65; mesmo risco de passar de 32 s da variante 0.",
+            "'abre o Encarte Aí' pressupõe que a pessoa já tem o app instalado. É menor, mas fica estranho para quem nunca baixou."
+          ]
+        },
+        {
+          "variant": 2,
+          "conversion": 7,
+          "humanized": 7,
+          "accuracy": 7,
+          "visual_potential": 8,
+          "total": 7.2,
+          "strengths": [
+            "Melhor tratamento de compliance na prova principal: a busca recriada digita 'banana' e mostra três etiquetas genéricas com 'preços desfocados e sem nome de mercado', das quais uma ganha 'MAIS BARATO'. Prova a função sem inventar preço nem comparar lojas reais.",
+            "Fecha com a frase do próprio cliente, 'Petrópolis é uma cidade só. E agora, o mercado também.', como tipografia cinética. É a cena mais fiel ao trecho 'Listen… with a single click' da referência, e ainda dá coerência de campanha e orgulho local.",
+            "A estrutura de tempo é a mais próxima da referência: queda de silêncio antes do nome, impacto do logo em janela sem fala (cerca de 27,9 s) e chord bloom com fade no fim. As cenas estão mais bem dimensionadas por palavra do que na variante 0.",
+            "Os encartes empilhando até virar uma ladeira de papel é a imagem de dor mais original, porque junta os dois motivos (papel e geografia) numa coisa só.",
+            "Usa a tela real de cidade ('Onde você está?' → 'Petrópolis, RJ') na revelação, um asset real e local."
+          ],
+          "must_fix": [
+            "Gancho 'Petrópolis tem um aplicativo só dela.' e tela 'UM APP SÓ DE PETRÓPOLIS': é uma afirmação de exclusividade que não está nos FATOS. A própria tela de cidade que a S4 mostra 8 s depois ('Escolha sua cidade…', 'Não achou sua cidade? Indique aqui') indica que o app é multicidade, então a peça se contradiz e a frase fica falsa quando o app expandir. Usar 'feito pra Petrópolis' ou trocar o gancho.",
+            "O gancho tem 12 palavras em 4,1 s antes da primeira dor concreta e soa como anúncio de marca ('Petrópolis tem um aplicativo…'). Como scroll-stop é bem mais fraco que 'Petropolitano não faz mercado. Faz trilha.'.",
+            "S7: 'Mostrar só nome truncado e km' ainda põe nomes de mercados reais com distâncias de demonstração. Mostrar só os km.",
+            "S5: o banner 'Ofertas da Semana!' (Vale Verde, de terceiro) 'salta da tela como card flutuando em 3D' e isola uma marca de terceiro, contra a ressalva 1 do BRAND.md. Manter dentro da tela.",
+            "S9: 'pílula verde LINK NA BIO com uma setinha para cima'. No Reels e no TikTok a bio não fica em cima, então tirar a seta.",
+            "Duas quedas de silêncio (10,7 s e 26,0 s) diluem o movimento-assinatura. Transformar a primeira num mergulho do pad.",
+            "74 palavras (faixa de 55 a 65) e articulação de cerca de 3,2 palavras/s. Corta, por exemplo, 'Sabe aquela novela de toda semana?', que também é um clichê, ou 'Os encartes da cidade inteira, tudo junto.'.",
+            "O meio é lista de funcionalidade ('Você busca… E ainda mostra a distância…'), menos humano que as outras duas.",
+            "'assinatura discreta da Cape Studios' em peça do cliente precisa de aprovação do cliente."
+          ]
+        }
+      ],
+      "best_variant": 0,
+      "lines_to_steal": [
+        "V2: 'Petrópolis é uma cidade só. E agora, o mercado também.' na FALA, como tipografia cinética com MERCADO em verde, logo antes da queda de silêncio → orbe → impacto do logo. Substitui 'Confere as ofertas da semana' e 'Baixa aí.' da V0.",
+        "V2 S6: busca recriada (Inter + #3A7D44) digitando 'banana', três resultados genéricos em forma de etiqueta, preços desfocados, sem nome de mercado, um ganhando brilho verde e 'MAIS BARATO'. Substitui por inteiro a s7 da V0.",
+        "V2 S3: os encartes se empilham e viram uma ladeira de papel, com um pino pequeno subindo aos pulinhos. Pode substituir os morros da s3 da V0 e unifica os motivos papel e ladeira.",
+        "V2, timing do final: corte total de silêncio só uma vez, sem fala; impacto do logo com sub drop num trecho sem fala; depois 'Link na bio. Encarte Aí.' com chord bloom e fade de cerca de 450 ms.",
+        "V1: 'e haja ladeira' para comprimir a s3 da V0 ('Aí roda três mercados, e haja ladeira... e o mais barato era o primeiro.'). Economiza cerca de 5 palavras e é mais idiomático que 'Sobe ladeira, desce ladeira, no frio...'.",
+        "V1 S7: o zigue-zague pontilhado da ladeira é riscado e uma linha de luz verde reta sai do 'você' até um pino sem nome. É o payoff visual de 'faz trilha' e cabe junto com 'E qual mercado tá mais perto'.",
+        "V1 S1: etiqueta de papel gigante 'R$ ?' balançando no mesmo pivô de argola do logo, para usar como visual do gancho ou do teste A/B.",
+        "V1, gancho A/B: 'Petrópolis, qual mercado tá mais barato essa semana?', gancho de intenção para testar contra o gancho de identidade da V0.",
+        "V1, legenda: 'testa na próxima compra do mês', convite de baixo compromisso para o fim da legenda."
+      ],
+      "verdict": "Melhor base: VARIANTE 0. A fala é a única das três sem nenhum problema factual, tem o gancho mais forte ('Petropolitano não faz mercado. Faz trilha.') e é a mais humana. Quase todos os problemas dela estão no visual e no tempo, não no texto. A V2 é a mais segura em compliance e estrutura, mas o gancho 'aplicativo só dela' é uma afirmação de exclusividade que a própria tela de cidade contradiz. A V1 converte bem como demonstração, mas é a mais arriscada: o Bramil aparece como 'mais barato', '41%/40% OFF' viram herói gigante, '1,2 KM DE VOCÊ' e '★ 5,0 na App Store'.\n\nPROBLEMAS COMUNS ÀS TRÊS:\n(1) Todas têm 74 a 76 palavras, enquanto o REFERENCE.md pede 55 a 65 para 30 s. No ritmo da referência (2,6 a 2,8 palavras/s), passam do teto de 32 s ou forçam o TTS a acelerar, o que mata a naturalidade. Cortar para cerca de 62.\n(2) 'Link na bio' depende de o @encarteai.app ter mesmo um link (de preferência para as duas lojas) na bio, e isso não foi verificado, porque o Instagram bloqueou a coleta. No TikTok, link na bio exige conta comercial ou 1 mil seguidores. Confirmar antes de publicar.\n(3) Não existe print da tela de busca, então ela precisa ser recriada e nunca apresentada como print literal. O mapa 3D é estilização: não pode aparecer dentro da tela do celular como se fosse função do app, porque os FATOS não citam mapa.\n(4) Testar no motor de TTS como ele lê 'zap', 'tá' e 'Encarte Aí'. Gerar as frases como clipes separados e criar as pausas na edição.\n(5) Divergência para o orquestrador: o BRAND.md e o play-listing.json registram a Play Store (com.encarte.ai, 5,0, 70 avaliações, 1 mil+ downloads) e o preço Grátis. Os FATOS desta tarefa tratam o Android como DESCONHECIDO, então a fala continua neutra. 'iPhone e Android' e 'grátis' só entram no card final se o cliente validar.\n\nPRODUZIBILIDADE: tudo é viável com os assets atuais (screen-home e screen-city em 822 px, recortes de UI, icon-symbol.svg com pivô de argola e brilho de estrela, wordmark-on-dark, Nunito e Inter, paleta). Isso depende de três condições: o celular 3D é modelado proceduralmente, os encartes são texturas genéricas desenhadas em canvas, e chips, selos e cards ampliados acima de 2× são recriados em vetor.\n\nFALA FINAL SUGERIDA (V0 enxuta + roubos, cerca de 62 palavras): 'Petropolitano não faz mercado. Faz trilha. Encarte no grupo do zap. Aí roda três mercados, e haja ladeira... e o mais barato era o primeiro. Calma, vizinho. Agora tem o Encarte Aí. Procura o produto e vê onde tá mais barato. E qual mercado tá mais perto. Petrópolis é uma cidade só. E agora, o mercado também. [silêncio → orbe → impacto do logo] Link na bio. Encarte Aí.'"
+    }
+  },
+  "final_escolhido": "final.json (base V0 + esqueleto de conversão da V1 + set pieces visuais da V2)"
+}

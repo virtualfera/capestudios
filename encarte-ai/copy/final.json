@@ -1,0 +1,205 @@
+{
+  "vo_script": "Petropolitano não faz mercado.\nFaz trilha.\nEncarte no grupo do zap.\nVocê roda três mercados. Haja ladeira.\nE o mais barato era o primeiro.\nCalma.\nAgora tem o Encarte Aí.\nOs mercados da cidade, num lugar só.\nDigita banana. Pronto.\nEle te mostra onde tá mais barato.\nE qual mercado fica mais perto de você.\nÉ só ir direto no que compensa.\nBaixa aí. Link na bio.\nEncarte Aí.",
+  "vo_lines": [
+    {
+      "id": "L1",
+      "text": "Petropolitano não faz mercado.",
+      "intent": "Confiante, tom de conversa entre conhecidos, meio sorrindo; num fôlego só, sem correr. Alvo 0,10–1,80 s."
+    },
+    {
+      "id": "L2",
+      "text": "Faz trilha.",
+      "intent": "Seco e curto, punchline com sorriso no canto da boca, tom caindo no fim. Entra depois de um respiro de 0,25 s, onde mora o soco grave. Alvo 2,05–2,75 s."
+    },
+    {
+      "id": "L3",
+      "text": "Encarte no grupo do zap.",
+      "intent": "Cotidiano, rápido, leve ironia de quem já viu esse filme. Alvo 3,05–4,50 s."
+    },
+    {
+      "id": "L4",
+      "text": "Você roda três mercados. Haja ladeira.",
+      "intent": "Cansado-cômico, enumerando; respiro curto depois de 'mercados'; 'Haja ladeira' com meio suspiro. Alvo 4,85–7,45 s."
+    },
+    {
+      "id": "L5",
+      "text": "E o mais barato era o primeiro.",
+      "intent": "Deadpan: mais lento, plano, caindo no fim; o humor vem da secura. Alvo 7,70–9,70 s."
+    },
+    {
+      "id": "L6",
+      "text": "Calma.",
+      "intent": "Baixo, acolhedor, sorrindo, como quem põe a mão no ombro. Alvo 10,25–10,65 s (o flash branco cai logo depois)."
+    },
+    {
+      "id": "L7",
+      "text": "Agora tem o Encarte Aí.",
+      "intent": "Abrindo, animado sem gritar; 'Encarte Aí' com o 'Í' tônico e limpo. Alvo 10,95–12,75 s; nenhum efeito grave por cima."
+    },
+    {
+      "id": "L8",
+      "text": "Os mercados da cidade, num lugar só.",
+      "intent": "Claro, confiante, ritmo médio; pausa pequena na vírgula. Alvo 13,15–15,45 s."
+    },
+    {
+      "id": "L9",
+      "text": "Digita banana. Pronto.",
+      "intent": "Prático, demonstrando ao vivo; 'Pronto.' curto e satisfeito, depois de um respiro. Alvo 15,75–17,45 s."
+    },
+    {
+      "id": "L10",
+      "text": "Ele te mostra onde tá mais barato.",
+      "intent": "Explicativo e simpático, como quem mostra pro amigo; ênfase em 'mais barato'. Alvo 17,70–19,85 s."
+    },
+    {
+      "id": "L11",
+      "text": "E qual mercado fica mais perto de você.",
+      "intent": "Continuação leve da frase anterior (o sujeito ainda é 'ele'); ênfase em 'perto'. Alvo 20,15–22,50 s."
+    },
+    {
+      "id": "L12",
+      "text": "É só ir direto no que compensa.",
+      "intent": "Conclusivo, cúmplice, com sorriso, sem pressa. Alvo 22,80–24,80 s."
+    },
+    {
+      "id": "L13",
+      "text": "Baixa aí. Link na bio.",
+      "intent": "Convite direto e com energia, sem voz de locutor de varejo; 'Link na bio' mais firme. Alvo 25,10–26,55 s."
+    },
+    {
+      "id": "L14",
+      "text": "Encarte Aí.",
+      "intent": "Assinatura: firme, calorosa, nítida, um pouco mais lenta. Vai sozinha, depois do impacto do logo. Alvo 27,50–28,20 s."
+    }
+  ],
+  "scenes": [
+    {
+      "id": "S1_gancho",
+      "start_s": 0.0,
+      "end_s": 3.0,
+      "vo": "Petropolitano não faz mercado. Faz trilha.",
+      "on_screen": "PETROPOLITANO → FAZ TRILHA.",
+      "visual": "O frame 0 já está cheio, sem tela vazia. Fundo #07110D com o brilho verde radial (núcleo #3CAD4C, centro quente #6EE07A, bordas #102018 indo ao preto, vinheta forte) respirando a cerca de 0,9 Hz. Uma etiqueta de preço de papel genérica e gigante (papel creme, 'R$ ?' escrito à mão, sem marca nenhuma) entra do alto balançando no cordão, com motion blur, presa no mesmo pivô de argola do logo (icon-symbol.svg, centro 511,75 / 218,5). É ela que mostra preço e oferta desde o primeiro frame, e ela vai virar a etiqueta da marca na S5. Atrás dela, encartes de papel genéricos (texturas desenhadas em canvas, sem logo de mercado) giram em 3D vindo na direção da lente. Tipografia em Nunito Black, branca: 'PETROPOLITANO' entra em 0,05 s voando da direita com blur horizontal e fica nítido letra por letra, sem glitch. Em cerca de 1,9 s, no respiro depois de 'mercado', 'FAZ TRILHA.' bate embaixo, com 'TRILHA' em verde #3CAD4C, e uma linha verde tracejada em zigue-zague se desenha sob o texto, subindo a tela. É só linha, sem pinos: mapa e pinos ficam guardados para a S3 e a S8. Câmera em dolly-in constante (cerca de 3% por segundo). Todo texto da peça fica entre 14% e 65% da altura do quadro.",
+      "sfx": "0,00: light hit com sparkle (ar de 3 a 16 kHz e glint senoidal em Si bemol 5) junto com a etiqueta, 2 ou 3 frames antes do pico. O pad escuro em dó menor sobe do silêncio em cerca de 0,9 s. Entre 0,3 e 0,9 s, whooshes de papel com Doppler passando pela lente. Em cerca de 1,85 s, no respiro de 0,25 s entre 'mercado.' e 'Faz', um soco grave curto (corpo de 110 para 80 Hz, transiente e sub de no máximo 200 ms) cravado no slam de 'FAZ TRILHA.'. Entre 2,1 e 2,7 s, tiques secos bem baixos acompanhando o tracejado."
+    },
+    {
+      "id": "S2_zap",
+      "start_s": 3.0,
+      "end_s": 4.8,
+      "vo": "Encarte no grupo do zap.",
+      "on_screen": "ENCARTE NO ZAP",
+      "visual": "A câmera atravessa os papéis e entra numa pilha de balões de conversa verdes genéricos, sem logo nem ícone de aplicativo de mensagem, que sobem empilhando em 3D. Cada balão traz a miniatura de um encarte de papel. Eles passam cada vez mais rápido, como se alguém rolasse o dedo. No canto de cima, ainda dentro da área segura, um contador pequeno em Inter sobe sozinho: 1, 2, 3, 4. Ele mostra a repetição cansativa sem precisar de fala. 'ENCARTE' em verde.",
+      "sfx": "Quatro tiques de notificação genéricos (blip senoidal em notas do acorde, subindo de tom), um por balão. Nunca o som de marca de um aplicativo. Flutter de papel em estéreo, com um whoosh curto (cerca de 250 ms) a cada leva. Cliques muito baixos no contador."
+    },
+    {
+      "id": "S3_ladeira",
+      "start_s": 4.8,
+      "end_s": 7.6,
+      "vo": "Você roda três mercados. Haja ladeira.",
+      "on_screen": "3 MERCADOS. HAJA LADEIRA.",
+      "visual": "Os encartes se empilham e viram uma ladeira íngreme de papel em 3D. A silhueta da serra ao fundo também é feita de encartes empilhados, recortada contra o brilho verde. O tracejado em zigue-zague da S1 vira o caminho. Um pino de mapa verde e pequeno sobe aos pulinhos, degrau por degrau, e passa por três paradas marcadas 1, 2 e 3. Em cada parada pende uma etiqueta de papel genérica com 'R$ ?', sem número. '3 MERCADOS.' aparece com a primeira parada. Em 'Haja ladeira', a câmera inclina para cima e a ladeira nunca termina. 'LADEIRA' em verde, com uma leve inclinação de rampa.",
+      "sfx": "Whoosh grave de câmera na entrada. Um baque surdo a cada pulo do pino, com o tom subindo de parada em parada. A nota grave Fá 2 (87 Hz) entra por baixo do pad para dar tensão. Em 'Haja ladeira' começa um riser por baixo, que cresce até a S4."
+    },
+    {
+      "id": "S4_primeiro",
+      "start_s": 7.6,
+      "end_s": 10.2,
+      "vo": "E o mais barato era o primeiro.",
+      "on_screen": "…ERA O PRIMEIRO.",
+      "visual": "Whip-pan para baixo, de volta à parada 1. As três etiquetas 'R$ ?' aparecem lado a lado. A da parada 1 vira de frente e acende em verde, e as outras duas apagam. 'PRIMEIRO' em verde. Em 9,7 s o quadro se esvazia: só a etiqueta verde fica balançando sozinha no escuro por cerca de 0,5 s. É a pausa de comédia. Câmera quase parada, só com um drift lento.",
+      "sfx": "Whip whoosh (cerca de 300 ms). O riser corta seco em 'primeiro'. Na pausa, de 9,70 a 10,20 s, o pad mergulha cerca de 12 dB e o Fá grave sai, mas sem corte total: o único silence drop da peça fica guardado para o logo. Um tique cômico solitário marca o balanço da etiqueta."
+    },
+    {
+      "id": "S5_virada",
+      "start_s": 10.2,
+      "end_s": 13.1,
+      "vo": "Calma. Agora tem o Encarte Aí.",
+      "on_screen": "CALMA.",
+      "visual": "'CALMA.' é revelado por um risco de luz, pequeno, no terço de cima. A etiqueta verde de papel se endireita e vira o ícone da marca: a etiqueta verde com cartão branco e brilho de 4 pontas (icon-symbol.svg). O brilho de estrela pisca. FLASH BRANCO nº 1 em 10,80 s: rampa de 70 ms, 2 frames de hold, decaindo por #E3F5D5 até o verde. Do flash entra o celular 3D preto e brilhante, dando uma volta, e para em contra-plongée com a tela real 'Onde você está?' → 'Petrópolis, RJ' (ui/screen-city-masked.png), que já traz o lockup real do app no topo. Em 'Encarte Aí' (cerca de 12,2 s), um reflexo especular varre o vidro por cima do logo da tela, e a linha 'Petrópolis, RJ' recebe um toque com ondinha verde. O wordmark não desliza aqui: o lockup completo fica só para o final. Um halo escuro atrás do celular o descola do brilho.",
+      "sfx": "Shimmer leve em 'CALMA.'. Um riser curto de 10,30 a 10,80 s para seco no flash. Em 10,80 s, o 'zing' do flash (tom de 2,8 para 3,4 kHz com rajada de ar). Whoosh grande (cerca de 600 ms, com Doppler) no giro do celular e um tique no pouso. O pad volta num acorde novo, com cor de Ré bemol. Um glint agudo, com passa-alta, cai exatamente em 'Aí'. IMPACTO médio (corpo e sub curto de 55 para 38 Hz) em 12,80 s, no respiro logo depois do nome e nunca por cima da voz."
+    },
+    {
+      "id": "S6_num_lugar_so",
+      "start_s": 13.1,
+      "end_s": 15.7,
+      "vo": "Os mercados da cidade, num lugar só.",
+      "on_screen": "TUDO NUM LUGAR SÓ",
+      "visual": "Os encartes de papel das cenas 2 e 3 voltam de todos os lados, como num rebobinar, e são sugados para dentro da tela do celular num vórtice reverso. A tela passa de 'Onde você está?' para a tela inicial real (ui/screen-home-masked.png: Petrópolis, banner 'Ofertas da Semana!', Meus Favoritos, Mercados da Região, Ofertas Quentes). O banner fica DENTRO da tela e não ganha destaque, porque é marca de terceiro. Os chips de Mercados da Região saltam e flutuam em 3D ao redor do aparelho mostrando só a distância (1,2 km, 1,5 km, 3,5 km, 3,8 km). O nome e o logo de cada chip são mascarados, ou o chip é recriado em vetor com um ícone genérico de loja, porque os logos do print são dados de demonstração. Os cards reais Banana Prata Kg 41% OFF e Queijo Camembert 40% OFF sobem um pouco da tela em escala de card (no máximo 2×), com a linha do nome da loja desfocada. O selo laranja fica do tamanho do card, sem slam. 'LUGAR SÓ' em verde.",
+      "sfx": "Whoosh reverso de sucção terminando num bump suave (passa-alta em 120 Hz) na vírgula, por volta de 14,3 s. Pops de interface escalonados a cada 70 ms, um por chip e por card."
+    },
+    {
+      "id": "S7_busca",
+      "start_s": 15.7,
+      "end_s": 20.1,
+      "vo": "Digita banana. Pronto. Ele te mostra onde tá mais barato.",
+      "on_screen": "ONDE TÁ MAIS BARATO",
+      "visual": "Push-in com tilt para trazer a tab bar real (ui/home-tabbar.png) para cima da linha dos 65% da altura. Toque na aba 'Buscar' com ondinha verde #3A7D44. A palavra 'banana' é digitada letra por letra como tipografia flutuando logo acima do celular (Inter 600, cursor piscando). Não é print de tela de busca, porque esse print não existe. Em 'Pronto.', três etiquetas de preço genéricas (verdes, da mesma família de silhueta da etiqueta do logo, sem marca) saltam da tela em direção à câmera, escalonadas em 70 ms. Cada uma tem um pino genérico e um rótulo 'MERCADO 1', 'MERCADO 2' ou 'MERCADO 3', sem nome de mercado real. No campo de preço, 'R$' fica fixo e os dígitos rolam em motion blur sem nunca parar num valor, porque não inventamos preço. Em 'mais barato' as etiquetas se reordenam: uma balança para a frente, acende em verde e ganha o selo laranja 'MAIS BARATO' (o único uso do laranja de destaque), e as outras recuam para o desfoque. 'MAIS BARATO' do texto em verde. Nenhum card de Ofertas Quentes nesta cena, porque eles são da aba Início.",
+      "sfx": "Clique de interface no toque da aba. Seis tiques secos de teclado, um por letra. Em 'Pronto.', um pop e três whooshes curtos escalonados. Tiques muito baixos de contador rolando nos preços. Em 'barato', um impacto brilhante sem sub (glint e soco curto com passa-alta) quando a vencedora vem para a frente, e um whoosh suave das outras saindo."
+    },
+    {
+      "id": "S8_perto",
+      "start_s": 20.1,
+      "end_s": 22.75,
+      "vo": "E qual mercado fica mais perto de você.",
+      "on_screen": "O MAIS PERTO DE VOCÊ",
+      "visual": "A câmera inclina do celular para baixo, até um plano escuro sob o brilho verde, fora do celular. É estilização: nada de mapa dentro da tela, porque os fatos do app não citam mapa. No centro, um anel 'você' pulsa como radar. As distâncias dos chips reais caem como pinos verdes, um de cada vez, do mais longe para o mais perto: 3,8 km, 3,5 km, 1,5 km e, por último, 1,2 km, que pulsa mais forte. Só a distância, sem nome nem logo de mercado. A fileira de Mercados da Região fica desfocada ao fundo, dentro da tela do celular. 'PERTO' em verde.",
+      "sfx": "Whoosh na inclinação da câmera. Ping de sonar no pulso do anel. Um tique e um baque leve para cada pino, com o tom subindo. O pino mais perto ganha um sub suave em 22,55 s, no respiro depois de 'você'."
+    },
+    {
+      "id": "S9_direto",
+      "start_s": 22.75,
+      "end_s": 25.05,
+      "vo": "É só ir direto no que compensa.",
+      "on_screen": "DIRETO NO QUE COMPENSA",
+      "visual": "O zigue-zague tracejado da S1 e da S3 reaparece apagado atrás dos pinos e é riscado por um corte de luz. Do anel 'você' dispara uma linha de luz verde, reta, até o pino que está pulsando (sem nome de mercado), e o pino explode num anel de luz. A linha continua e puxa a câmera de volta para o celular. 'COMPENSA' em verde.",
+      "sfx": "Whoosh de corte rápido quando o zigue-zague é riscado. Outro whoosh acompanhando a linha de luz. Shimmer com um impacto leve (sem sub, por baixo da voz) quando o anel explode. Um riser começa por baixo e cresce até a S10."
+    },
+    {
+      "id": "S10_cta_logo",
+      "start_s": 25.05,
+      "end_s": 31.0,
+      "vo": "Baixa aí. Link na bio. / Encarte Aí.",
+      "on_screen": "LINK NA BIO · @encarteai.app",
+      "visual": "De 25,05 a 26,55 s, o celular (com a tela inicial real) dá meia-volta e para de frente no centro. 'LINK NA BIO' é revelado por um risco de luz na faixa segura de cima, com uma seta pequena apontando para baixo e à esquerda, na direção do @ do perfil (no Reels e no TikTok o @ fica embaixo, à esquerda). Nada aponta para cima e não há selo de loja nem de nota. Em 26,60 s tudo desfoca, e o espaçamento de 'LINK NA BIO' se fecha até o texto virar um risco de luz horizontal, branco com núcleo verde. Em 26,95 s o risco se aperta num orbe branco-incandescente: FLASH nº 2, o frame mais claro da peça. De 27,05 a 27,20 s o orbe esfria para o verde #3CAD4C, vira o brilho de 4 pontas, e a etiqueta do logo se desenha em volta dele, balançando no pivô da argola, com halo escuro atrás. De 27,28 a 27,48 s o wordmark-on-dark ('Encarte' branco, 'AI' laranja #F6A624) desliza para a direita, saindo de trás da etiqueta com motion blur, e logo em seguida a voz diz 'Encarte Aí'. Em 28,20 s, embaixo do lockup, a pílula verde 'LINK NA BIO' e o '@encarteai.app' em Inter surgem num scan-reveal a partir de uma linha de luz, com a seta para o @ embaixo à esquerda, tudo acima dos 35% de baixo do quadro. Em 29,10 s, depois de a pílula ficar quase 1 s sozinha na tela, entra no terço de cima (abaixo dos 14% do topo) uma linha pequena: 'Petrópolis é uma cidade só. E agora, o mercado também.', com 'mercado' em verde. O brilho respira até o fim, com fade de 30,35 a 30,80 s. Sem crédito da Cape Studios no master.",
+      "sfx": "Em 25,05 s, whoosh no giro do celular e shimmer no risco de luz de 'LINK NA BIO'. O riser da S9 chega ao pico e PARA SECO em 26,60 s: é o SILENCE DROP, o único da peça. Pad e música são cortados e fica só um tom fino de cerca de 2,8 kHz, a −25 dB. Um tique marca o colapso do espaçamento. Em 26,95 s, o 'zing' do orbe (de 2,8 para 3,4 kHz, com ar). Em 27,20 s, o LOGO HIT, o maior impacto da peça: sub de 55 para 38 Hz, corpo saturado e transiente, com cauda de hall. O pad volta trocando de acorde, e tudo isso cai num trecho sem fala, 300 ms antes do nome. Whoosh curto no deslize do wordmark. De 27,50 a 28,20 s, 'Encarte Aí' sai limpo, com o pad 11 dB abaixo. Em 28,20 s, o chord bloom (dó menor com 11ª e Dó 6, filtro abrindo em 700 ms, 3 dB acima do nível da voz), só depois que o nome terminou. Glint no brilho de estrela e brilhinhos de 8 a 12 kHz no reveal da frase final. Fade-out de 450 ms, terminando cerca de 0,2 s antes do último frame."
+    }
+  ],
+  "hooks_ab": [
+    "Fala: \"Petrópolis, qual mercado tá mais barato essa semana?\" | Tela: \"QUAL TÁ MAIS BARATO?\" (intenção, da V1; substitui L1 e L2 e precisa de 3,4 s. Se o motor achatar a pergunta, gerar de novo com outro seed. Emenda em L3)",
+    "Fala: \"Onde tá a banana mais barata de Petrópolis?\" | Tela: \"BANANA MAIS BARATA. ONDE?\" (demonstração, da V1; substitui L1 e L2 e se paga na S7, com 'Digita banana')",
+    "Fala: \"Todo petropolitano tem uma tia que manda encarte no grupo.\" | Tela: \"A TIA DO ENCARTE\" (identidade e humor, da V0; substitui L1, L2 e L3, porque já fala do encarte no grupo. Emenda em L4)",
+    "Fala: \"Em Petrópolis, fazer mercado é esporte radical.\" | Tela: \"MERCADO É ESPORTE RADICAL\" (humor, da V0; substitui L1 e L2)",
+    "Fala: \"Petrópolis ganhou um aplicativo de mercado.\" | Tela: \"PETRÓPOLIS GANHOU UM APP\" (descoberta, da V2 reescrita como o jurado humano sugeriu, sem afirmar exclusividade; substitui L1 e L2, e a curiosidade se resolve em L7)"
+  ],
+  "caption": "Petrópolis é uma cidade só. E agora, o mercado também.\n\nEncarte no grupo do zap, três mercados, uma ladeira no meio… e o mais barato era o primeiro. Quem é daqui conhece.\n\nNo Encarte Aí você busca o produto, vê onde tá mais barato e qual mercado fica mais perto de você. Os mercados da cidade, num lugar só.\n\nBaixa aí, o link tá na bio. Testa na próxima compra do mês e marca aquele amigo que ainda faz trilha pra ir no mercado.\n\n#petropolis #petropolisrj #serrafluminense #regiaoserrana #encarteai",
+  "cta": "Falado: \"Baixa aí. Link na bio.\" antes do silence drop e, depois do impacto do logo, \"Encarte Aí.\" como última palavra. Na tela: o lockup, a pílula \"LINK NA BIO\" e \"@encarteai.app\", com uma seta para o @ embaixo à esquerda. É uma ação só e não cita loja, sistema, preço nem nota, então funciona com ou sem Android confirmado.",
+  "files_written": [
+    "/home/user/capestudios/encarte-ai/copy/COPY.md",
+    "/home/user/capestudios/encarte-ai/copy/final.json",
+    "/home/user/capestudios/encarte-ai/copy/variants.json"
+  ],
+  "word_count": 69,
+  "est_duration_s": 31.0,
+  "changes_from_judges": [
+    "Base V0 (escolhida pelos jurados humano e verdade), com o esqueleto de conversão da V1 (escolhida pelo jurado conversão): demonstração da busca, callback 'mais barato' e payoff 'direto no que compensa'.",
+    "O produto chega antes: o ícone da marca aparece em 10,3 s, o celular em 10,8 s e o nome em cerca de 12 s (na V0 era 13,5 s). A dor caiu para cerca de 6,6 s: saíram 'Panfleto na caixa do correio', 'Sobe ladeira, desce ladeira, no frio' e 'Aí você'.",
+    "Preço e encarte na tela desde o frame 0 (a etiqueta de papel 'R$ ?' e os encartes voando), para deixar claro o assunto nos 3 primeiros segundos.",
+    "A S1 tem 3,0 s (antes eram 2,3 s), e o glitch de abertura virou um reveal limpo com risco de luz.",
+    "'Calma, vizinho.' virou 'Calma.'.",
+    "O bloco de provas em lista ('Procura… Confere… E vê…') virou demonstração: 'Digita banana. Pronto. Ele te mostra onde tá mais barato. E qual mercado fica mais perto de você.'",
+    "A busca não usa os cards de Ofertas Quentes, que são da aba Início. São três etiquetas genéricas 'MERCADO 1, 2, 3', com dígitos rolando que nunca param e uma 'MAIS BARATO' em destaque: nenhum preço inventado e nenhuma rede real apontada como a mais barata.",
+    "Os nomes Bramil e Assaí ficam desfocados nos cards. Os selos de 41% e 40% ficam em escala de card, sem slam e sem ressalva no rodapé.",
+    "Os chips mostram só a distância em km, sem nome nem logo. O banner da Vale Verde fica dentro da tela, sem zoom-through.",
+    "A S5 ficou enxuta (etiqueta, flash e celular). O lockup completo só aparece no final.",
+    "O impacto nunca cai por cima do nome: o glint fica no 'Aí' e o grave vai no respiro logo depois (S5) ou 300 ms antes (logo final).",
+    "No máximo dois flashes brancos (virada e logo) e um único silence drop, colado ao logo. A pausa cômica da S4 virou um mergulho do pad.",
+    "O CTA é falado antes do silence drop, que dura 0,45 s, então não há tempo morto antes do pedido. 'Baixa aí. Link na bio.' forma um clipe só, separado do nome pelo drop e pelo impacto.",
+    "Fala e tela foram unificadas: 'Baixa aí. Link na bio.' na fala e 'LINK NA BIO' na tela. A seta aponta para o @ embaixo à esquerda, não para cima.",
+    "Saíram do master o selo '★ 5,0 na App Store' e o crédito da Cape Studios.",
+    "A frase da marca ('Petrópolis é uma cidade só. E agora, o mercado também.') deixou de ser opcional: é texto obrigatório no end card (entra depois de o CTA ser lido sozinho) e é a primeira linha da legenda. Não entra na fala.",
+    "Todo texto fica entre 14% e 65% da altura, fora da interface do Reels.",
+    "69 palavras em 31,0 s (2,2 palavras/s, o ritmo da referência; cerca de 5,5 sílabas/s falando). A V0 tinha 76 palavras e passava de 32 s.",
+    "Pronto para TTS: sem dois-pontos nem reticências na fala, pausas feitas na timeline, cada respiração gerada como clipe separado (L1 a L14), números por extenso e 'Encarte Aí' sempre com acento.",
+    "Ficaram de fora as frases vetadas: 'aplicativo só dela', 'Sabe aquela novela', 'Agora, olha isso', 'cada uma com seu desconto', 'abre o Encarte Aí' e '1,2 KM DE VOCÊ'."
+  ]
+}
