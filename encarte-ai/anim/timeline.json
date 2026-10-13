@@ -1,0 +1,1080 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "duration": 30.8,
+ "fade_out": {
+  "t0": 30.35,
+  "t1": 30.8
+ },
+ "vo": [
+  {
+   "id": "L1",
+   "file": "voice/vo/final/L1.wav",
+   "start": 0.1,
+   "end": 1.99,
+   "text": "Petropolitano não faz mercado.",
+   "words": [
+    {
+     "w": "Petropolitano",
+     "t0": 0.14,
+     "t1": 1.0
+    },
+    {
+     "w": "não",
+     "t0": 1.0,
+     "t1": 1.13
+    },
+    {
+     "w": "faz",
+     "t0": 1.18,
+     "t1": 1.4
+    },
+    {
+     "w": "mercado.",
+     "t0": 1.4,
+     "t1": 1.92
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "file": "voice/vo/final/L2.wav",
+   "start": 2.2,
+   "end": 2.955,
+   "text": "Faz trilha.",
+   "words": [
+    {
+     "w": "Faz",
+     "t0": 2.22,
+     "t1": 2.43
+    },
+    {
+     "w": "trilha.",
+     "t0": 2.5,
+     "t1": 2.87
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "file": "voice/vo/final/L3.wav",
+   "start": 3.15,
+   "end": 4.645,
+   "text": "Encarte no grupo do zap.",
+   "words": [
+    {
+     "w": "Encarte",
+     "t0": 3.195,
+     "t1": 3.725
+    },
+    {
+     "w": "no",
+     "t0": 3.73,
+     "t1": 3.83
+    },
+    {
+     "w": "grupo",
+     "t0": 3.83,
+     "t1": 4.11
+    },
+    {
+     "w": "do",
+     "t0": 4.11,
+     "t1": 4.27
+    },
+    {
+     "w": "zap.",
+     "t0": 4.27,
+     "t1": 4.63
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "file": "voice/vo/final/L4.wav",
+   "start": 4.85,
+   "end": 7.645,
+   "text": "Você roda três mercados. Haja ladeira.",
+   "words": [
+    {
+     "w": "Você",
+     "t0": 4.89,
+     "t1": 5.15
+    },
+    {
+     "w": "roda",
+     "t0": 5.15,
+     "t1": 5.455
+    },
+    {
+     "w": "três",
+     "t0": 5.53,
+     "t1": 5.81
+    },
+    {
+     "w": "mercados.",
+     "t0": 5.81,
+     "t1": 6.42
+    },
+    {
+     "w": "Haja",
+     "t0": 6.77,
+     "t1": 7.03
+    },
+    {
+     "w": "ladeira.",
+     "t0": 7.03,
+     "t1": 7.555
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "file": "voice/vo/final/L5.wav",
+   "start": 7.85,
+   "end": 9.92,
+   "text": "E o mais barato era o primeiro.",
+   "words": [
+    {
+     "w": "E",
+     "t0": 7.895,
+     "t1": 7.99
+    },
+    {
+     "w": "o",
+     "t0": 7.99,
+     "t1": 8.13
+    },
+    {
+     "w": "mais",
+     "t0": 8.13,
+     "t1": 8.45
+    },
+    {
+     "w": "barato",
+     "t0": 8.45,
+     "t1": 8.985
+    },
+    {
+     "w": "era",
+     "t0": 9.09,
+     "t1": 9.21
+    },
+    {
+     "w": "o",
+     "t0": 9.21,
+     "t1": 9.255
+    },
+    {
+     "w": "primeiro.",
+     "t0": 9.31,
+     "t1": 9.835
+    }
+   ]
+  },
+  {
+   "id": "L6",
+   "file": "voice/vo/final/L6.wav",
+   "start": 10.25,
+   "end": 10.78,
+   "text": "Calma.",
+   "words": [
+    {
+     "w": "Calma.",
+     "t0": 10.295,
+     "t1": 10.695
+    }
+   ]
+  },
+  {
+   "id": "L7",
+   "file": "voice/vo/final/L7.wav",
+   "start": 11.05,
+   "end": 12.57,
+   "text": "Agora tem o Encarte Aí.",
+   "words": [
+    {
+     "w": "Agora",
+     "t0": 11.095,
+     "t1": 11.47
+    },
+    {
+     "w": "tem",
+     "t0": 11.51,
+     "t1": 11.63
+    },
+    {
+     "w": "o",
+     "t0": 11.63,
+     "t1": 11.71
+    },
+    {
+     "w": "Encarte",
+     "t0": 11.71,
+     "t1": 12.25
+    },
+    {
+     "w": "Aí.",
+     "t0": 12.25,
+     "t1": 12.485
+    }
+   ]
+  },
+  {
+   "id": "L8",
+   "file": "voice/vo/final/L8.wav",
+   "start": 12.85,
+   "end": 15.015,
+   "text": "Os mercados da cidade, num lugar só.",
+   "words": [
+    {
+     "w": "Os",
+     "t0": 12.89,
+     "t1": 13.03
+    },
+    {
+     "w": "mercados",
+     "t0": 13.03,
+     "t1": 13.49
+    },
+    {
+     "w": "da",
+     "t0": 13.49,
+     "t1": 13.63
+    },
+    {
+     "w": "cidade,",
+     "t0": 13.63,
+     "t1": 14.12
+    },
+    {
+     "w": "num",
+     "t0": 14.29,
+     "t1": 14.39
+    },
+    {
+     "w": "lugar",
+     "t0": 14.39,
+     "t1": 14.77
+    },
+    {
+     "w": "só.",
+     "t0": 14.77,
+     "t1": 14.93
+    }
+   ]
+  },
+  {
+   "id": "L9",
+   "file": "voice/vo/final/L9.wav",
+   "start": 15.25,
+   "end": 17.125,
+   "text": "Digita banana. Pronto.",
+   "words": [
+    {
+     "w": "Digita",
+     "t0": 15.295,
+     "t1": 15.825
+    },
+    {
+     "w": "banana.",
+     "t0": 15.83,
+     "t1": 16.37
+    },
+    {
+     "w": "Pronto.",
+     "t0": 16.59,
+     "t1": 17.055
+    }
+   ]
+  },
+  {
+   "id": "L10",
+   "file": "voice/vo/final/L10.wav",
+   "start": 17.35,
+   "end": 19.775,
+   "text": "Ele te mostra onde tá mais barato.",
+   "words": [
+    {
+     "w": "Ele",
+     "t0": 17.395,
+     "t1": 17.57
+    },
+    {
+     "w": "te",
+     "t0": 17.61,
+     "t1": 17.79
+    },
+    {
+     "w": "mostra",
+     "t0": 17.79,
+     "t1": 18.23
+    },
+    {
+     "w": "onde",
+     "t0": 18.23,
+     "t1": 18.445
+    },
+    {
+     "w": "tá",
+     "t0": 18.51,
+     "t1": 18.67
+    },
+    {
+     "w": "mais",
+     "t0": 18.67,
+     "t1": 18.885
+    },
+    {
+     "w": "barato.",
+     "t0": 18.91,
+     "t1": 19.685
+    }
+   ]
+  },
+  {
+   "id": "L11",
+   "file": "voice/vo/final/L11.wav",
+   "start": 19.95,
+   "end": 22.01,
+   "text": "E qual mercado fica mais perto de você.",
+   "words": [
+    {
+     "w": "E",
+     "t0": 19.995,
+     "t1": 20.065
+    },
+    {
+     "w": "qual",
+     "t0": 20.15,
+     "t1": 20.37
+    },
+    {
+     "w": "mercado",
+     "t0": 20.37,
+     "t1": 20.81
+    },
+    {
+     "w": "fica",
+     "t0": 20.83,
+     "t1": 21.03
+    },
+    {
+     "w": "mais",
+     "t0": 21.03,
+     "t1": 21.19
+    },
+    {
+     "w": "perto",
+     "t0": 21.23,
+     "t1": 21.49
+    },
+    {
+     "w": "de",
+     "t0": 21.49,
+     "t1": 21.55
+    },
+    {
+     "w": "você.",
+     "t0": 21.55,
+     "t1": 21.93
+    }
+   ]
+  },
+  {
+   "id": "L12",
+   "file": "voice/vo/final/L12.wav",
+   "start": 22.25,
+   "end": 24.22,
+   "text": "É só ir direto no que compensa.",
+   "words": [
+    {
+     "w": "É",
+     "t0": 22.29,
+     "t1": 22.47
+    },
+    {
+     "w": "só",
+     "t0": 22.47,
+     "t1": 22.69
+    },
+    {
+     "w": "ir",
+     "t0": 22.69,
+     "t1": 22.85
+    },
+    {
+     "w": "direto",
+     "t0": 22.85,
+     "t1": 23.27
+    },
+    {
+     "w": "no",
+     "t0": 23.27,
+     "t1": 23.355
+    },
+    {
+     "w": "que",
+     "t0": 23.39,
+     "t1": 23.48
+    },
+    {
+     "w": "compensa.",
+     "t0": 23.51,
+     "t1": 24.15
+    }
+   ]
+  },
+  {
+   "id": "L13",
+   "file": "voice/vo/final/L13.wav",
+   "start": 24.45,
+   "end": 25.995,
+   "text": "Baixa aí. Link na bio.",
+   "words": [
+    {
+     "w": "Baixa",
+     "t0": 24.49,
+     "t1": 24.93
+    },
+    {
+     "w": "aí.",
+     "t0": 24.93,
+     "t1": 25.045
+    },
+    {
+     "w": "Link",
+     "t0": 25.31,
+     "t1": 25.55
+    },
+    {
+     "w": "na",
+     "t0": 25.55,
+     "t1": 25.71
+    },
+    {
+     "w": "bio.",
+     "t0": 25.71,
+     "t1": 25.91
+    }
+   ]
+  },
+  {
+   "id": "L14",
+   "file": "voice/vo/final/L14.wav",
+   "start": 27.15,
+   "end": 27.95,
+   "text": "Encarte Aí.",
+   "words": [
+    {
+     "w": "Encarte",
+     "t0": 27.195,
+     "t1": 27.63
+    },
+    {
+     "w": "Aí.",
+     "t0": 27.63,
+     "t1": 27.875
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "id": "X1",
+   "t": 0.0,
+   "type": "light_hit",
+   "level_db_vs_vo": -14,
+   "pan": 0
+  },
+  {
+   "id": "X2",
+   "t": 1.99,
+   "type": "whoosh",
+   "level_db_vs_vo": -8,
+   "pan": -0.4
+  },
+  {
+   "id": "X3",
+   "t": 2.06,
+   "type": "impact_small",
+   "level_db_vs_vo": -4,
+   "pan": 0
+  },
+  {
+   "id": "X4",
+   "t": 2.95,
+   "type": "whoosh_big",
+   "level_db_vs_vo": -6,
+   "pan": 0.3
+  },
+  {
+   "id": "X5",
+   "t": 3.22,
+   "type": "notif_blip",
+   "level_db_vs_vo": -12,
+   "pan": -0.3
+  },
+  {
+   "id": "X6",
+   "t": 3.56,
+   "type": "notif_blip",
+   "level_db_vs_vo": -12,
+   "pan": 0.2
+  },
+  {
+   "id": "X7",
+   "t": 3.9,
+   "type": "notif_blip",
+   "level_db_vs_vo": -12,
+   "pan": -0.1
+  },
+  {
+   "id": "X8",
+   "t": 4.24,
+   "type": "notif_blip",
+   "level_db_vs_vo": -12,
+   "pan": 0.3
+  },
+  {
+   "id": "X9",
+   "t": 4.7,
+   "type": "whoosh",
+   "level_db_vs_vo": -7,
+   "pan": 0.5
+  },
+  {
+   "id": "X10",
+   "t": 5.53,
+   "type": "pop",
+   "level_db_vs_vo": -13,
+   "pan": -0.3
+  },
+  {
+   "id": "X11",
+   "t": 5.83,
+   "type": "pop",
+   "level_db_vs_vo": -13,
+   "pan": 0
+  },
+  {
+   "id": "X12",
+   "t": 6.13,
+   "type": "pop",
+   "level_db_vs_vo": -13,
+   "pan": 0.3
+  },
+  {
+   "id": "X13",
+   "t": 6.7,
+   "type": "whoosh",
+   "level_db_vs_vo": -10,
+   "pan": 0
+  },
+  {
+   "id": "X14",
+   "t": 7.66,
+   "type": "whoosh_big",
+   "level_db_vs_vo": -7,
+   "pan": -0.5
+  },
+  {
+   "id": "X15",
+   "t": 7.85,
+   "type": "riser",
+   "level_db_vs_vo": -12,
+   "pan": 0
+  },
+  {
+   "id": "X16",
+   "t": 9.31,
+   "type": "light_hit",
+   "level_db_vs_vo": -9,
+   "pan": 0
+  },
+  {
+   "id": "X17",
+   "t": 10.27,
+   "type": "shimmer",
+   "level_db_vs_vo": -12,
+   "pan": 0
+  },
+  {
+   "id": "X18",
+   "t": 10.3,
+   "type": "riser_short",
+   "level_db_vs_vo": -10,
+   "pan": 0
+  },
+  {
+   "id": "X19",
+   "t": 10.85,
+   "type": "flash_zing",
+   "level_db_vs_vo": -5,
+   "pan": 0
+  },
+  {
+   "id": "X20",
+   "t": 10.88,
+   "type": "impact_small",
+   "level_db_vs_vo": -5,
+   "pan": 0
+  },
+  {
+   "id": "X21",
+   "t": 11.0,
+   "type": "whoosh",
+   "level_db_vs_vo": -10,
+   "pan": 0.2
+  },
+  {
+   "id": "X22",
+   "t": 12.25,
+   "type": "glint",
+   "level_db_vs_vo": -14,
+   "pan": 0
+  },
+  {
+   "id": "X23",
+   "t": 12.75,
+   "type": "reverse_swell",
+   "level_db_vs_vo": -9,
+   "pan": 0
+  },
+  {
+   "id": "X24",
+   "t": 13.9,
+   "type": "pop",
+   "level_db_vs_vo": -8,
+   "pan": 0
+  },
+  {
+   "id": "X25",
+   "t": 14.36,
+   "type": "tick",
+   "level_db_vs_vo": -14,
+   "pan": 0
+  },
+  {
+   "id": "X26",
+   "t": 15.18,
+   "type": "whoosh",
+   "level_db_vs_vo": -9,
+   "pan": -0.3
+  },
+  {
+   "id": "X27",
+   "t": 15.34,
+   "type": "ui_click",
+   "level_db_vs_vo": -8,
+   "pan": 0
+  },
+  {
+   "id": "X28",
+   "t": 15.86,
+   "type": "type_tick",
+   "level_db_vs_vo": -16,
+   "pan": 0
+  },
+  {
+   "id": "X29",
+   "t": 15.94,
+   "type": "type_tick",
+   "level_db_vs_vo": -16,
+   "pan": 0
+  },
+  {
+   "id": "X30",
+   "t": 16.02,
+   "type": "type_tick",
+   "level_db_vs_vo": -16,
+   "pan": 0
+  },
+  {
+   "id": "X31",
+   "t": 16.1,
+   "type": "type_tick",
+   "level_db_vs_vo": -16,
+   "pan": 0
+  },
+  {
+   "id": "X32",
+   "t": 16.18,
+   "type": "type_tick",
+   "level_db_vs_vo": -16,
+   "pan": 0
+  },
+  {
+   "id": "X33",
+   "t": 16.26,
+   "type": "type_tick",
+   "level_db_vs_vo": -16,
+   "pan": 0
+  },
+  {
+   "id": "X34",
+   "t": 16.58,
+   "type": "pop",
+   "level_db_vs_vo": -9,
+   "pan": 0
+  },
+  {
+   "id": "X35",
+   "t": 16.7,
+   "type": "whoosh_small",
+   "level_db_vs_vo": -12,
+   "pan": -0.5
+  },
+  {
+   "id": "X36",
+   "t": 16.8,
+   "type": "whoosh_small",
+   "level_db_vs_vo": -12,
+   "pan": 0
+  },
+  {
+   "id": "X37",
+   "t": 16.9,
+   "type": "whoosh_small",
+   "level_db_vs_vo": -12,
+   "pan": 0.5
+  },
+  {
+   "id": "X38",
+   "t": 18.62,
+   "type": "light_hit",
+   "level_db_vs_vo": -9,
+   "pan": 0.3
+  },
+  {
+   "id": "X39",
+   "t": 19.8,
+   "type": "whoosh_big",
+   "level_db_vs_vo": -8,
+   "pan": 0
+  },
+  {
+   "id": "X40",
+   "t": 20.05,
+   "type": "sonar_ping",
+   "level_db_vs_vo": -12,
+   "pan": 0
+  },
+  {
+   "id": "X41",
+   "t": 20.45,
+   "type": "thud",
+   "level_db_vs_vo": -12,
+   "pan": -0.4
+  },
+  {
+   "id": "X42",
+   "t": 20.8,
+   "type": "thud",
+   "level_db_vs_vo": -12,
+   "pan": 0.3
+  },
+  {
+   "id": "X43",
+   "t": 21.15,
+   "type": "thud",
+   "level_db_vs_vo": -12,
+   "pan": -0.2
+  },
+  {
+   "id": "X44",
+   "t": 21.5,
+   "type": "thud",
+   "level_db_vs_vo": -12,
+   "pan": 0.4
+  },
+  {
+   "id": "X45",
+   "t": 22.15,
+   "type": "whoosh",
+   "level_db_vs_vo": -10,
+   "pan": 0
+  },
+  {
+   "id": "X46",
+   "t": 22.8,
+   "type": "whoosh_line",
+   "level_db_vs_vo": -9,
+   "pan": 0.2
+  },
+  {
+   "id": "X47",
+   "t": 23.5,
+   "type": "shimmer",
+   "level_db_vs_vo": -10,
+   "pan": 0.2
+  },
+  {
+   "id": "X48",
+   "t": 24.3,
+   "type": "whoosh_big",
+   "level_db_vs_vo": -8,
+   "pan": 0
+  },
+  {
+   "id": "X49",
+   "t": 25.27,
+   "type": "shimmer",
+   "level_db_vs_vo": -12,
+   "pan": 0
+  },
+  {
+   "id": "X50",
+   "t": 25.3,
+   "type": "riser",
+   "level_db_vs_vo": -9,
+   "pan": 0
+  },
+  {
+   "id": "X51",
+   "t": 26.15,
+   "type": "silence_drop",
+   "level_db_vs_vo": -24,
+   "pan": 0
+  },
+  {
+   "id": "X52",
+   "t": 26.43,
+   "type": "reverse_swell",
+   "level_db_vs_vo": -8,
+   "pan": 0
+  },
+  {
+   "id": "X53",
+   "t": 26.65,
+   "type": "logo_hit",
+   "level_db_vs_vo": -1,
+   "pan": 0
+  },
+  {
+   "id": "X54",
+   "t": 26.66,
+   "type": "flash_zing",
+   "level_db_vs_vo": -6,
+   "pan": 0
+  },
+  {
+   "id": "X55",
+   "t": 28.0,
+   "type": "shimmer",
+   "level_db_vs_vo": -14,
+   "pan": 0
+  },
+  {
+   "id": "X56",
+   "t": 29.2,
+   "type": "glint",
+   "level_db_vs_vo": -16,
+   "pan": 0
+  }
+ ],
+ "music": {
+  "key": "C minor",
+  "sections": [
+   {
+    "t0": 0.0,
+    "t1": 2.05,
+    "chord": "Cm",
+    "notes": [
+     "C3",
+     "G3",
+     "C4",
+     "Eb4",
+     "G4"
+    ],
+    "filter": "closed",
+    "level_db_vs_vo": -12
+   },
+   {
+    "t0": 2.05,
+    "t1": 4.7,
+    "chord": "Cm/F",
+    "notes": [
+     "C3",
+     "G3",
+     "C4",
+     "Eb4",
+     "G4"
+    ],
+    "filter": "closed",
+    "level_db_vs_vo": -11
+   },
+   {
+    "t0": 4.7,
+    "t1": 7.7,
+    "chord": "Abmaj7",
+    "notes": [
+     "Ab2",
+     "Eb3",
+     "C4",
+     "Eb4",
+     "G4"
+    ],
+    "filter": "closed",
+    "level_db_vs_vo": -11
+   },
+   {
+    "t0": 7.7,
+    "t1": 9.92,
+    "chord": "Cm",
+    "notes": [
+     "C3",
+     "G3",
+     "C4",
+     "Eb4",
+     "G4"
+    ],
+    "filter": "closed",
+    "level_db_vs_vo": -11
+   },
+   {
+    "t0": 9.92,
+    "t1": 10.85,
+    "chord": "Cm",
+    "notes": [
+     "C3",
+     "G3",
+     "C4",
+     "Eb4"
+    ],
+    "filter": "closed",
+    "level_db_vs_vo": -24
+   },
+   {
+    "t0": 10.85,
+    "t1": 15.2,
+    "chord": "Ebadd9",
+    "notes": [
+     "Eb3",
+     "Bb3",
+     "Eb4",
+     "F4",
+     "G4",
+     "Bb4"
+    ],
+    "filter": "opening",
+    "level_db_vs_vo": -10
+   },
+   {
+    "t0": 15.2,
+    "t1": 19.8,
+    "chord": "Abmaj9",
+    "notes": [
+     "Ab2",
+     "Eb3",
+     "C4",
+     "G4",
+     "Bb4"
+    ],
+    "filter": "open",
+    "level_db_vs_vo": -11
+   },
+   {
+    "t0": 19.8,
+    "t1": 24.3,
+    "chord": "Fm9",
+    "notes": [
+     "F2",
+     "C3",
+     "Ab3",
+     "Eb4",
+     "G4"
+    ],
+    "filter": "open",
+    "level_db_vs_vo": -11
+   },
+   {
+    "t0": 24.3,
+    "t1": 26.15,
+    "chord": "Bbsus",
+    "notes": [
+     "Bb2",
+     "F3",
+     "Bb3",
+     "Eb4",
+     "F4"
+    ],
+    "filter": "opening",
+    "level_db_vs_vo": -10
+   },
+   {
+    "t0": 26.65,
+    "t1": 30.8,
+    "chord": "Ebadd9",
+    "notes": [
+     "Eb2",
+     "Bb2",
+     "Eb3",
+     "G3",
+     "Bb3",
+     "F4",
+     "G4",
+     "Bb4"
+    ],
+    "filter": "open",
+    "level_db_vs_vo": -6
+   }
+  ],
+  "bass": [
+   {
+    "t0": 2.05,
+    "t1": 4.7,
+    "note": "F2"
+   },
+   {
+    "t0": 4.7,
+    "t1": 7.7,
+    "note": "Ab1"
+   },
+   {
+    "t0": 7.7,
+    "t1": 9.92,
+    "note": "C2"
+   },
+   {
+    "t0": 10.85,
+    "t1": 15.2,
+    "note": "Eb2"
+   },
+   {
+    "t0": 15.2,
+    "t1": 19.8,
+    "note": "Ab1"
+   },
+   {
+    "t0": 19.8,
+    "t1": 24.3,
+    "note": "F1"
+   },
+   {
+    "t0": 24.3,
+    "t1": 26.15,
+    "note": "Bb1"
+   },
+   {
+    "t0": 26.65,
+    "t1": 30.3,
+    "note": "Eb1"
+   }
+  ],
+  "duck_under_vo_db": -6,
+  "silence_drop": {
+   "t0": 26.15,
+   "t1": 26.65
+  },
+  "bloom": {
+   "t0": 27.95,
+   "t1": 28.8
+  },
+  "fade": {
+   "t0": 29.9,
+   "t1": 30.75
+  }
+ }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "encarte-ai-reel",
+  "private": true,
+  "type": "module",
+  "description": "Encarte Aí 9:16 motion reel (Three.js, deterministic, rendered headless)",
+  "dependencies": {
+    "playwright-core": "1.56.1",
+    "three": "0.160.0"
+  }
+}
