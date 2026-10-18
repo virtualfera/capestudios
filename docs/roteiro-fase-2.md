@@ -4,25 +4,28 @@ A construção roda no **Claude Code do seu computador**, conectado ao Roblox St
 alcança o Studio. Cada sessão abaixo é **um módulo**: abra uma sessão nova (ou use `/clear`), cole o prompt
 curto e valide no Studio antes de ir para a próxima. O `CLAUDE.md` e o GDD carregam o contexto sozinhos.
 
-## Setup (uma vez, ~15 min)
+## Setup (uma vez, ~15 min, sem terminal)
 
-1. **Baixar o projeto** (terminal, na pasta onde quer guardar):
-   ```
-   git clone https://github.com/virtualfera/capestudios.git
-   cd capestudios
-   git checkout claude/keen-wozniak-nlcsoo
-   ```
-2. **Ligar o MCP no Studio** (Studio atualizado):
-   Assistant → `…` → **Manage MCP Servers** → ligar **Enable Studio as MCP server**.
-3. **Conectar o Claude Code**, de preferência pelo *Quick connect*: Assistant Settings → MCP Servers →
-   Quick connect → ligar **Claude Code**. Se não aparecer, use o comando no terminal:
-   - Windows: `claude mcp add --transport stdio Roblox_Studio -- cmd.exe /c %LOCALAPPDATA%\Roblox\mcp.bat`
-   - macOS: `claude mcp add --transport stdio Roblox_Studio -- /Applications/RobloxStudio.app/Contents/MacOS/StudioMCP`
-4. **Conferir:** reinicie o Studio e o Claude Code. Dentro do `claude`, rode `/mcp`: deve aparecer
-   `Roblox_Studio` conectado. No Studio, a bolinha verde em Manage MCP Servers.
-5. **Criar o place:** File → New → Baseplate → salvar no Roblox como *Steal a Monster (DEV)*. Pode ficar na
-   sua conta pessoal por enquanto. A versão final é publicada no grupo com *File → Publish to Roblox As* → grupo.
-6. Abrir o `claude` **dentro da pasta `capestudios`**.
+O Claude pela web (claude.ai no navegador) roda na nuvem e não alcança o Studio. É preciso o **app do Claude
+para Windows** rodando no mesmo PC que o Studio.
+
+1. **Instalar o app do Claude:** abrir `claude.ai/download`, baixar a versão para Windows, instalar e entrar
+   com a mesma conta da web. Se o app pedir para instalar o *Git*, aceitar (é gratuito).
+2. **Baixar o projeto:** abrir o link
+   `https://github.com/virtualfera/capestudios/archive/refs/heads/claude/keen-wozniak-nlcsoo.zip`, ir em
+   Downloads, clicar com o botão direito no ZIP → **Extrair tudo** → **Extrair**. Mover a pasta extraída
+   para **Documentos**.
+3. **Ligar o Studio:** Roblox Studio → **New** → **Baseplate**. Abrir o **Assistant** → `…` →
+   **Manage MCP Servers** → ligar **Enable Studio as MCP server**. Em *Quick connect*, ligar as opções do
+   **Claude** que aparecerem. Deixar o Studio aberto.
+4. **Reiniciar o app do Claude** (fechar de vez e abrir de novo).
+5. **Abrir o projeto no app:** entrar na área **Code**, escolher trabalhar **no computador (Local)** e
+   selecionar a pasta do projeto em Documentos.
+6. **Primeira mensagem** (o Claude local faz a parte técnica):
+   `Verifique se o MCP do Roblox Studio (Roblox_Studio) está conectado. Se não estiver, configure para mim no Windows e me diga em passos bem simples o que eu preciso clicar. Depois rode list_roblox_studios e confirme que encontrou meu Studio aberto.`
+   Comando manual, caso ele precise: `claude mcp add --transport stdio Roblox_Studio -- cmd.exe /c %LOCALAPPDATA%\Roblox\mcp.bat`
+7. **Salvar o place:** File → Save to Roblox como *Steal a Monster (DEV)*. Pode ficar na conta pessoal por
+   enquanto. A versão final é publicada no grupo com *File → Publish to Roblox As* → grupo.
 
 ## Dicas de economia durante a construção
 
