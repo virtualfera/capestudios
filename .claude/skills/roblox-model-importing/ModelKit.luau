@@ -34,6 +34,7 @@ ModelKit.Rarities = {
 	Legendary = { color = Color3.fromRGB(255, 190, 40), light = 2 },
 	Mythic = { color = Color3.fromRGB(255, 60, 90), light = 3 },
 	Secret = { color = Color3.fromRGB(255, 255, 255), light = 3 },
+	["???"] = { color = Color3.fromRGB(40, 0, 60), light = 3 },
 }
 
 -- Efeitos ligados por um tempo (atributo Duration) quando o marker dispara.
@@ -275,7 +276,7 @@ end
 
 -- Resumo curto do modelo, para não precisar ler a árvore inteira via MCP.
 function ModelKit.inspect(model)
-	local c = { parts = 0, meshes = 0, bones = 0, motors = 0, welds = 0, anims = 0, sounds = 0, emitters = 0 }
+	local c = { parts = 0, meshes = 0, bones = 0, motors = 0, welds = 0, anims = 0, sounds = 0, emitters = 0, scripts = 0 }
 	for _, d in model:GetDescendants() do
 		if d:IsA("BasePart") then
 			c.parts += 1
@@ -294,12 +295,14 @@ function ModelKit.inspect(model)
 			c.sounds += 1
 		elseif d:IsA("ParticleEmitter") then
 			c.emitters += 1
+		elseif d:IsA("LuaSourceContainer") then
+			c.scripts += 1
 		end
 	end
 	local root = findRoot(model)
 	local fx = model:FindFirstChild("FX")
 	return string.format(
-		"%s [%s] root=%s size=%.1f parts=%d meshes=%d bones=%d motors=%d welds=%d anims=%d sounds=%d emitters=%d fxGroups=%d animator=%s",
+		"%s [%s] root=%s size=%.1f parts=%d meshes=%d bones=%d motors=%d welds=%d anims=%d sounds=%d emitters=%d scripts=%d fxGroups=%d animator=%s",
 		model.Name,
 		model.ClassName,
 		root and root.Name or "NONE",
@@ -312,18 +315,31 @@ function ModelKit.inspect(model)
 		c.anims,
 		c.sounds,
 		c.emitters,
+		c.scripts,
 		fx and #fx:GetChildren() or 0,
 		tostring(findAnimator(model) ~= nil)
 	)
 end
 
 -- kind: "prop" | "weapon" | "creature" | "pet". Retorna relatório de 1 linha.
+-- stripScripts = true remove todos os scripts (obrigatório em modelos grátis da Creator Store).
 function ModelKit.setup(model, opts)
 	opts = opts or {}
 	local kind = opts.kind or (if model:IsA("Tool") then "weapon" else "prop")
 	local root = findRoot(model)
 	assert(root, "ModelKit: modelo sem BasePart")
 	local report = { model.Name, "kind=" .. kind, "root=" .. root.Name }
+
+	if opts.stripScripts then
+		local removed = 0
+		for _, d in model:GetDescendants() do
+			if d:IsA("LuaSourceContainer") then
+				d:Destroy()
+				removed += 1
+			end
+		end
+		table.insert(report, "scriptsRemovidos=" .. removed)
+	end
 
 	if kind == "prop" then
 		for _, d in model:GetDescendants() do

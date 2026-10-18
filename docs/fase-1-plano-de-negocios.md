@@ -1,6 +1,6 @@
 # Fase 1 — Estudo Preliminar e Plano de Negócios
 
-Status: rascunho para decisão. Aguardando as respostas do questionário (seção 8) para fechar o GDD.
+Status: decidido. O usuário escolheu o **Conceito A** como primeiro teste de mercado → ver `docs/gdd-steal-a-monster.md`.
 Valores em **Robux** (não em reais). Números de receita são **hipóteses de exemplo**, não previsões.
 
 ---

@@ -18,9 +18,16 @@ scripts do zero. Toda a lógica vive em `ModelKit.luau` (nesta pasta).
 3. Um modelo por chamada. Resposta final ao usuário: o relatório de 1 linha + pendências.
 4. Se algo falhar, corrigir o **ModelKit.luau no repositório** (e reinstalar), não fazer remendo avulso no Studio.
 
+## Ferramentas do MCP (embutido no Studio)
+
+- `list_roblox_studios` → pegar o `studio_id` (toda chamada precisa dele).
+- `execute_luau` com `datamodel_type` = Edit → rodar o ModelKit.
+- `generate_mesh` → gerar monstro/prop por texto. `search_asset` / `insert_asset` → Creator Store.
+- `inspect_instance` só se `MK.inspect` não bastar. `screen_capture` só no fim, se o usuário quiser ver.
+
 ## Passo 0 — ModelKit instalado?
 
-Via MCP (ferramenta de executar código no Studio):
+Via `execute_luau` (Edit):
 
 ```lua
 local s = game.ReplicatedStorage:FindFirstChild("Shared")
@@ -28,7 +35,7 @@ print(s and s:FindFirstChild("ModelKit") and "OK" or "FALTA")
 ```
 
 Se `FALTA`: criar `ReplicatedStorage.Shared` (Folder) e um ModuleScript `ModelKit` com o conteúdo de
-`ModelKit.luau` (via Rojo, se o projeto usar, ou setando `.Source` pelo MCP). Também garantir um
+`ModelKit.luau` (via `multi_edit`, que cria o script se o caminho não existir). Também garantir um
 LocalScript em `StarterPlayerScripts` com:
 
 ```lua
@@ -38,14 +45,15 @@ require(game.ReplicatedStorage.Shared.ModelKit).autoBind()
 Observação: a Command Bar guarda o `require` em cache. Após atualizar o módulo, rodar
 `MK = require(game.ReplicatedStorage.Shared.ModelKit:Clone())` para pegar a versão nova.
 
-## Passo 1 — Importar (humano)
+## Passo 1 — Trazer o modelo
 
-O Claude não importa arquivos do disco do usuário. O humano faz:
-
-- `.glb/.fbx`: **File → Import 3D** (3D Importer). Rig com ossos → marcar como rig no importador.
-- Creator Store: o MCP pode inserir por asset id (ferramenta de inserir modelo).
-- Modelos `.glb` de criaturas/dragões vêm de ferramentas 3D (geração 3D do próprio Roblox, Meshy, Tripo,
-  Blender). Props simples (cristais, pedras, cercas, portões) **não precisam de .glb**: gerar direto em Luau.
+- **Gerado (padrão do projeto, custo zero):** `generate_mesh` com prompt curto em inglês:
+  `"<monstro>, semi-realistic stylized, vibrant colors, chunky readable silhouette, game asset, <bioma> theme"`.
+  Gerar, conferir com o usuário, e só então rodar o setup.
+- **Creator Store:** `search_asset` → `insert_asset`. **Sempre** `stripScripts = true` no setup (modelos grátis podem ter backdoor).
+- **Arquivo `.glb/.fbx`:** o Claude não importa arquivos do disco. O humano usa **File → Import 3D**
+  (rig com ossos → marcar como rig no importador).
+- Props simples (cristais, pedras, cercas, portões) **não precisam de malha**: gerar direto em Luau com Parts.
 
 ## Passo 2 — Convenções que o modelo deve seguir
 
@@ -83,8 +91,10 @@ Atributos reconhecidos:
 ```lua
 local MK = require(game.ReplicatedStorage.Shared.ModelKit)
 print(MK.inspect(workspace.Dragon_Fire))
-print(MK.setup(workspace.Dragon_Fire, { kind = "creature", rarity = "Mythic" }))
+print(MK.setup(workspace.Dragon_Fire, { kind = "creature", rarity = "Mythic", stripScripts = true }))
 ```
+
+Se `inspect` mostrar `scripts>0` num modelo que não foi feito por nós, o `stripScripts = true` é obrigatório.
 
 | kind | O que faz |
 |---|---|
