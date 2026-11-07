@@ -1,0 +1,524 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Cape — Repara no dedo</title>
+<script src="../assets/layout.js"></script>
+<style>
+@font-face{font-family:"AntonL";src:url(../assets/fonts/Anton.woff2) format("woff2")}
+@font-face{font-family:"PlayfairL";src:url(../assets/fonts/PlayfairItalic700.woff2) format("woff2");font-style:italic;font-weight:700}
+@font-face{font-family:"MontL";src:url(../assets/fonts/Montserrat800.woff2) format("woff2");font-weight:800}
+html,body{margin:0;padding:0;background:#0c0d10}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;background:#0c0d10;font-family:"Inter",sans-serif;color:#fff}
+#glow{position:absolute;inset:0}
+#world{position:absolute;left:0;top:0;width:1080px;height:1920px;transform-origin:0 0}
+#phone{position:absolute;left:164px;top:164px;width:752px;height:1592px;border-radius:102px;background:#1a1b1f;
+  box-shadow:0 0 0 2px #2b2d33 inset,0 0 0 1px #000,0 50px 140px rgba(0,0,0,.65)}
+#screen{position:absolute;left:16px;top:16px;width:720px;height:1560px;border-radius:86px;overflow:hidden;background:#000;isolation:isolate}
+#island{position:absolute;left:254px;top:20px;width:212px;height:62px;border-radius:31px;background:#000;z-index:50}
+.page{position:absolute;left:0;top:0;width:720px;height:1560px;overflow:hidden;display:none}
+.feedwrap{position:absolute;left:0;top:-90px;width:720px;height:1740px;overflow:hidden}
+.strip{position:absolute;left:0;top:90px;width:720px;transform-origin:0 0;will-change:transform}
+.sticky,.status{position:absolute;left:0;top:0;width:720px;display:block}
+.dim{position:absolute;inset:0;background:#000;opacity:0}
+.reel{position:absolute;inset:0;display:none}
+.reelbg{position:absolute;inset:-60px;width:840px;height:1680px;object-fit:cover;filter:blur(34px) brightness(.42) saturate(1.15)}
+.cover{position:absolute;overflow:hidden}
+.cover img{position:absolute;left:0;top:0;width:100%;height:100%;object-fit:cover;transform-origin:50% 45%}
+.reelui{position:absolute;left:0;top:0;width:720px;height:1560px}
+.reelui .who{position:absolute;left:34px;top:1168px;display:flex;align-items:center;gap:16px;font:600 27px "Inter";color:#fff;text-shadow:0 2px 8px rgba(0,0,0,.5)}
+.reelui .who img{width:58px;height:58px;border-radius:50%}
+.reelui .bar{position:absolute;left:0;top:1508px;width:720px;height:4px;background:rgba(255,255,255,.25)}
+.reelui .bar i{position:absolute;left:0;top:0;height:4px;background:#fff;width:0}
+/* folha de agendamento (Hospital) */
+.sheet{position:absolute;left:0;top:0;width:720px;height:940px;background:#fff;border-radius:34px 34px 0 0;color:#111;display:none}
+.sheet .handle{position:absolute;left:330px;top:14px;width:60px;height:7px;border-radius:4px;background:#d5d8dc}
+.sheet .head{position:absolute;left:40px;top:52px;display:flex;align-items:center;gap:18px}
+.sheet .head img{width:76px;height:76px;border-radius:50%;box-shadow:0 0 0 1px #e3e6ea}
+.sheet .head b{display:block;font:700 27px "Inter"}
+.sheet .head span{display:block;font:500 22px "Inter";color:#6b7280;margin-top:4px}
+.sheet .title{position:absolute;left:40px;top:172px;font:800 46px "Inter";letter-spacing:-1px}
+.sheet .field{position:absolute;left:40px;width:640px;height:96px;border-radius:20px;background:#f1f4f7;display:flex;align-items:center;justify-content:space-between;padding:0 28px;box-sizing:border-box;font:600 27px "Inter"}
+.sheet .field em{font-style:normal;color:#0B77C0;font-weight:600}
+.sheet .btn{position:absolute;left:40px;top:712px;width:640px;height:100px;border-radius:50px;background:#0B77C0;color:#fff;display:flex;align-items:center;justify-content:center;font:700 31px "Inter"}
+/* DM (W&S) */
+.dm{position:absolute;inset:0;background:#000;display:none}
+.dm .head{position:absolute;left:0;top:84px;width:720px;height:110px;display:flex;align-items:center;gap:18px;padding-left:30px;box-sizing:border-box;border-bottom:1px solid #1c1d21}
+.dm .head .back{font:300 64px "Inter";line-height:1;margin-top:-8px}
+.dm .head img{width:66px;height:66px;border-radius:50%}
+.dm .head b{display:block;font:700 28px "Inter"}
+.dm .head .typing{display:block;font:500 22px "Inter";color:#9aa0a6;margin-top:3px;opacity:0}
+.dm .center{position:absolute;left:0;top:280px;width:720px;text-align:center}
+.dm .center img{width:170px;height:170px;border-radius:50%}
+.dm .center b{display:block;font:700 34px "Inter";margin-top:20px}
+.dm .center span{display:block;font:500 24px "Inter";color:#9aa0a6;margin-top:8px}
+.dm .center .vp{display:inline-block;margin-top:26px;padding:16px 34px;border-radius:16px;background:#26272b;font:600 24px "Inter"}
+.dm .composer{position:absolute;left:24px;top:940px;width:672px;height:88px;border-radius:44px;background:#1e1f23;display:flex;align-items:center;gap:18px;padding:0 14px;box-sizing:border-box}
+.dm .composer .camb{width:62px;height:62px;border-radius:50%;background:#3d7bf7;flex:none}
+.dm .composer .txt{height:22px;border-radius:11px;background:#4a4c52;width:0}
+.dm .composer .caret{width:3px;height:40px;background:#3d7bf7;margin-left:-12px}
+.kbd{position:absolute;left:0;top:1050px;width:720px;height:510px;background:#1d1d1f}
+.key{position:absolute;height:88px;border-radius:12px;background:#4b4b4f;color:#fff;font:400 38px "Inter";display:flex;align-items:center;justify-content:center;box-shadow:0 2px 0 #111}
+.key.dark{background:#2e2e31;font-size:26px}
+/* aneis do Arteiro */
+#rings{position:absolute;inset:0;display:none}
+#rings i{position:absolute;border-radius:50%}
+/* HUD */
+#hud{position:absolute;inset:0;pointer-events:none}
+#topgrad{position:absolute;left:0;top:0;width:1080px;height:820px;background:linear-gradient(180deg,rgba(0,0,0,.62),rgba(0,0,0,.35) 55%,rgba(0,0,0,0))}
+#pill{position:absolute;top:148px;left:540px;height:66px;border-radius:33px;background:rgba(12,13,16,.78);border:1.5px solid rgba(255,255,255,.18);
+  display:flex;align-items:center;gap:16px;padding:0 24px 0 22px;transform:translateX(-50%);box-sizing:border-box}
+#pill .sd{width:14px;height:14px;border-radius:50%}
+#pill .lab{position:relative;width:150px;height:66px;overflow:hidden}
+#pill .lab span{position:absolute;left:0;top:0;width:150px;height:66px;line-height:66px;font:800 29px "Inter";letter-spacing:5px;text-align:left}
+#dots{display:flex;gap:9px}
+#dots i{width:13px;height:13px;border-radius:50%;background:rgba(255,255,255,.28)}
+.big{font-family:"Inter Display","Inter";font-weight:900;letter-spacing:-4px;line-height:1;color:#fff;text-shadow:0 8px 40px rgba(0,0,0,.55)}
+.pw{display:inline-block;background:#fff;color:#0c0d10;border-radius:28px;padding:10px 30px 18px;text-shadow:none;box-shadow:0 14px 40px rgba(0,0,0,.35)}
+#hook{position:absolute;left:0;top:0;width:1080px}
+#hook .l1{position:absolute;left:0;width:1080px;top:300px;text-align:center;font-size:140px}
+#hook .l2{position:absolute;left:0;width:1080px;top:460px;text-align:center;font-size:140px}
+#final{position:absolute;left:0;top:0;width:1080px}
+#final .l1{position:absolute;left:0;width:1080px;top:470px;text-align:center;font-size:124px}
+#final .l2{position:absolute;left:0;width:1080px;top:618px;text-align:center;font-size:124px}
+#final .w{display:inline-block}
+#sig{position:absolute;left:0;width:1080px;top:815px;text-align:center;font:600 28px "Inter";letter-spacing:12px;color:rgba(255,255,255,.78);text-transform:lowercase}
+#caps{position:absolute;left:0;top:1190px;width:1080px;height:200px}
+.cap{position:absolute;left:0;width:1080px;top:0;text-align:center;display:none}
+.cap .pl{display:inline-block;padding:14px 28px 16px;border-radius:22px;line-height:1.05;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+.cap-intensa .pl{background:#6E2B3D;color:#FBF5F2;font:800 52px "Inter";letter-spacing:-1px}
+.cap-intensa .kw{font:italic 700 60px "PlayfairL";color:#F3BCC5;letter-spacing:0}
+.cap-hospital .pl{background:#0B77C0;color:#fff;font:800 50px "MontL";letter-spacing:-1px}
+.cap-hospital .pl.kp{background:#7FB539}
+.cap-ws .pl{background:#1F2A38;color:#fff;font:800 50px "Inter";letter-spacing:-1px}
+.cap-ws .pl.kp{background:#F5821F;font:400 96px "AntonL";letter-spacing:1px;padding:10px 34px 12px}
+#touch,.ghost{position:absolute;left:0;top:0;width:96px;height:96px;margin:-48px 0 0 -48px;border-radius:50%;display:none}
+#touch{background:rgba(255,255,255,.30);border:3px solid rgba(255,255,255,.95);box-sizing:border-box;box-shadow:0 0 0 1.5px rgba(0,0,0,.28),0 10px 28px rgba(0,0,0,.4)}
+.ghost{background:rgba(255,255,255,.22)}
+#flash{position:absolute;inset:0;background:#fff;opacity:0}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute">
+  <defs id="fdefs"></defs>
+</svg>
+<div id="stage">
+  <div id="glow"></div>
+  <div id="world">
+    <div id="phone">
+      <div id="screen">
+        <div id="island"></div>
+      </div>
+    </div>
+  </div>
+  <div id="hud">
+    <div id="topgrad"></div>
+    <div id="pill"><i class="sd"></i><div class="lab"><span id="labOld"></span><span id="labNew"></span></div><div id="dots"><i></i><i></i><i></i><i></i></div></div>
+    <div id="caps"></div>
+    <div id="hook"><div class="l1 big" id="h1">Repara no</div><div class="l2 big"><span class="pw" id="h2">dedo.</span></div></div>
+    <div id="final"><div class="l1 big"><span class="w" id="w1">Você</span> <span class="w" id="w2">também</span></div>
+      <div class="l2 big"><span class="pw w" id="w3">parou.</span></div><div id="sig">cape studios</div></div>
+    <div id="ghosts"></div>
+    <div id="touch"></div>
+    <div id="flash"></div>
+  </div>
+</div>
+<script>
+"use strict";
+const L = window.LAYOUT, C = L.clients;
+const S0 = 720 / 1290, FPS = 30, DUR = 26;
+const A = "../assets/";
+
+/* ---------- utilidades ---------- */
+const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
+const lerp = (a, b, k) => a + (b - a) * k;
+const prog = (t, t0, t1) => clamp((t - t0) / (t1 - t0));
+const E = {
+  lin: k => k,
+  oc: k => 1 - Math.pow(1 - k, 3),
+  ic: k => k * k * k,
+  ioc: k => k < .5 ? 4 * k * k * k : 1 - Math.pow(-2 * k + 2, 3) / 2,
+  io: k => k < .5 ? 2 * k * k : 1 - Math.pow(-2 * k + 2, 2) / 2,
+  oq: k => 1 - (1 - k) * (1 - k),
+  ob: k => { const c1 = 1.4, c3 = c1 + 1; return 1 + c3 * Math.pow(k - 1, 3) + c1 * Math.pow(k - 1, 2); },
+};
+function hermite(track, t) { // track: [[t,y,v],...]
+  if (t <= track[0][0]) return track[0][1];
+  for (let i = 0; i < track.length - 1; i++) {
+    const [t0, y0, v0] = track[i], [t1, y1, v1] = track[i + 1];
+    if (t <= t1) {
+      const h = t1 - t0, s = (t - t0) / h, s2 = s * s, s3 = s2 * s;
+      return (2 * s3 - 3 * s2 + 1) * y0 + (s3 - 2 * s2 + s) * h * v0 + (-2 * s3 + 3 * s2) * y1 + (s3 - s2) * h * v1;
+    }
+  }
+  return track[track.length - 1][1];
+}
+function rgb(h) { return [parseInt(h.slice(1, 3), 16), parseInt(h.slice(3, 5), 16), parseInt(h.slice(5, 7), 16)]; }
+function mix(c1, c2, k) { const a = rgb(c1), b = rgb(c2); return a.map((v, i) => Math.round(lerp(v, b[i], k))); }
+
+/* ---------- linha do tempo (segundos; 120 BPM, batida = 0,5 s) ---------- */
+const T = {
+  A: { stop: 2.5, exp: [2.5, 2.9], out: [5.5, 6.0] },
+  B: { in: [5.5, 6.0], stop: 8.0, exp: [8.0, 8.4], col: [10.0, 10.35], top: [10.0, 10.6], tap: 11.0, sheet: [11.0, 11.4], out: [11.6, 12.0] },
+  C: { in: [11.6, 12.0], stop: 14.0, exp: [14.0, 14.4], col: [15.6, 15.95], top: [15.6, 16.1], tap: 16.5, dm: [16.5, 16.85], typing: 17.0, out: [17.6, 18.0] },
+  D: { in: [17.6, 18.0], col: [19.3, 19.65], drop: 20.0, exp: [20.0, 20.22], ring: [21.6, 22.4] },
+  F: { words: [22.5, 23.0, 23.5], sig: 24.0, out: 25.0, seam: 25.3 },
+};
+const KEYS = [16.95, 17.07, 17.2, 17.32, 17.46, 17.57];
+
+/* ---------- rolagem (y em px do print original, topo da tela) ---------- */
+const vA = 700, dA = 26 - T.F.seam;                 // velocidade do gancho e duracao da arrancada do loop
+const Y0A = 3480, YsA = C.intensa.rowTops[0] - 900;
+const Y0B = C.hospital.stripEnd - 2796 + 60, YsB = C.hospital.rowTops[1] - 900;
+const Y0C = C.ws.stripEnd - 2796 + 60, YsC = C.ws.rowTops[1] - 900;
+const YD = C.arteiro.rowTops[0] - 900;
+const trA = [[1.5, Y0A - vA * 1.5, -vA], [2.5, YsA, 0]];
+const trB = [[6.0, Y0B, 0], [7.0, Y0B - 420, -600], [8.0, YsB, 0], [10.0, YsB, 0], [10.6, 0, 0]];
+const trC = [[12.0, Y0C, 0], [13.1, Y0C - 450, -500], [14.0, YsC, 0], [15.6, YsC, 0], [16.1, 0, 0]];
+function yA(t) {
+  if (t >= T.F.seam) { const u = t - T.F.seam; return Y0A + vA * dA / 2 - vA * u * u / (2 * dA); }
+  if (t >= 6.0) return Y0A + vA * dA / 2;
+  if (t <= 1.5) return Y0A - vA * t;
+  return hermite(trA, t);
+}
+const yFn = { A: yA, B: t => hermite(trB, t), C: t => hermite(trC, t), D: () => YD };
+const vel = (k, t) => (yFn[k](t + 1e-3) - yFn[k](t - 1e-3)) / 2e-3;
+
+/* ---------- camera ---------- */
+const CAM = [
+  [0, 540, 1080, 2.2], [1.5, 540, 1080, 2.2], [2.4, 540, 960, 1.0, "ioc"], [2.5, 540, 960, 1.0], [2.7, 540, 960, 1.035, "oc"],
+  [5.5, 540, 960, 1.035], [6.0, 540, 1010, 1.15, "ioc"], [7.0, 540, 1010, 1.15], [7.9, 540, 960, 1.0, "ioc"],
+  [8.0, 540, 960, 1.0], [8.2, 540, 960, 1.035, "oc"], [10.0, 540, 960, 1.035], [10.5, 540, 960, 1.0, "ioc"],
+  [11.6, 540, 960, 1.0], [12.0, 540, 1010, 1.15, "ioc"], [13.0, 540, 1010, 1.15], [13.9, 540, 960, 1.0, "ioc"],
+  [14.0, 540, 960, 1.0], [14.2, 540, 960, 1.035, "oc"], [15.6, 540, 960, 1.035], [16.0, 540, 960, 1.0, "ioc"],
+  [18.0, 540, 960, 1.0], [19.3, 540, 960, 1.05, "io"], [19.6, 540, 960, 1.0, "ioc"], [19.999, 540, 960, 1.0],
+  [20.0, 540, 960, 1.08], [20.6, 540, 960, 1.0, "oc"], [25.0, 540, 960, 1.0], [25.8, 540, 1080, 2.2, "ioc"], [26, 540, 1080, 2.2],
+];
+function cam(t) {
+  if (t <= CAM[0][0]) return { cx: CAM[0][1], cy: CAM[0][2], z: CAM[0][3] };
+  for (let i = 0; i < CAM.length - 1; i++) {
+    const a = CAM[i], b = CAM[i + 1];
+    if (t <= b[0]) { const k = (E[b[4]] || E.lin)(prog(t, a[0], b[0])); return { cx: lerp(a[1], b[1], k), cy: lerp(a[2], b[2], k), z: lerp(a[3], b[3], k) }; }
+  }
+  const l = CAM[CAM.length - 1]; return { cx: l[1], cy: l[2], z: l[3] };
+}
+const proj = (sx, sy, c) => [(180 + sx - c.cx) * c.z + 540, (180 + sy - c.cy) * c.z + 960];
+
+/* ---------- dedo (coordenadas da tela do celular) ---------- */
+// tipo d = arrasto (aparece, arrasta, solta); h = toque/segurar. tau: no loop, t>=22.4 vira t-26
+const G = [
+  { k: "h", a: -3.6, b: -0.7, p: [392, 780], press: true, release: false, loop: true },
+  { k: "d", a: -0.7, b: -0.44, p: [392, 780], q: [400, 990], press: false, loop: true },
+  { k: "d", a: -0.2, b: 0.06, p: [404, 760], q: [410, 975], press: true, loop: true },
+  { k: "d", a: 0.30, b: 0.56, p: [386, 790], q: [392, 1000], press: true, loop: true },
+  { k: "d", a: 0.80, b: 1.06, p: [398, 770], q: [404, 985], press: true, loop: true },
+  { k: "d", a: 1.30, b: 1.62, p: [380, 560], q: [410, 1180], press: true, loop: true },
+  { k: "h", a: 2.38, b: 2.62, p: [360, 662], press: true },
+  { k: "d", a: 6.02, b: 6.28, p: [420, 700], q: [428, 930], press: true },
+  { k: "d", a: 6.52, b: 6.78, p: [410, 720], q: [418, 950], press: true },
+  { k: "d", a: 6.98, b: 7.30, p: [400, 520], q: [430, 1150], press: true },
+  { k: "h", a: 7.88, b: 8.10, p: [119, 662], press: true },
+  { k: "h", a: 10.86, b: 11.0, p: [237, 555], press: true },
+  { k: "d", a: 12.08, b: 12.34, p: [430, 720], q: [436, 930], press: true },
+  { k: "d", a: 12.58, b: 12.84, p: [420, 700], q: [426, 920], press: true },
+  { k: "d", a: 13.0, b: 13.32, p: [410, 540], q: [440, 1150], press: true },
+  { k: "h", a: 13.88, b: 14.10, p: [119, 662], press: true },
+  { k: "h", a: 16.38, b: 16.5, p: [329, 634], press: true },
+  { k: "h", a: 19.82, b: 20.05, p: [119, 662], press: true },
+];
+let KEYPOS = []; // preenchido no init (teclas do DM)
+function fingerAt(t) {
+  const tau = t >= 22.4 ? t - 26 : t;
+  const list = G.slice();
+  KEYS.forEach((kt, i) => list.push({ k: "h", a: kt - 0.035, b: kt + 0.04, p: KEYPOS[i] || [360, 1300], press: true, small: true }));
+  for (const g of list) {
+    const tt = g.loop ? tau : t;
+    if (tt < g.a - 0.001 || tt > g.b + 0.14) continue;
+    let pos = g.p, sc = 1, op = 1;
+    if (g.k === "d") { const k = E.oq(prog(tt, g.a, g.b)); pos = [lerp(g.p[0], g.q[0], k), lerp(g.p[1], g.q[1], k)]; }
+    if (g.press && tt < g.a + 0.08) { const k = E.oc(prog(tt, g.a, g.a + 0.08)); sc = lerp(1.35, 1, k); op = k; }
+    if (tt > g.b) { if (g.release === false) continue; const k = prog(tt, g.b, g.b + 0.14); sc = lerp(1, 1.4, k); op = 1 - k; }
+    return { pos, sc: sc * (g.small ? 0.8 : 1), op, g, tt };
+  }
+  return null;
+}
+
+/* ---------- monta o DOM ---------- */
+const screen = document.getElementById("screen");
+const fdefs = document.getElementById("fdefs");
+function filt(id) {
+  fdefs.insertAdjacentHTML("beforeend", `<filter id="${id}" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="0 0"/></filter>`);
+  return fdefs.lastElementChild.firstElementChild;
+}
+function el(tag, cls, parent, html) { const e = document.createElement(tag); if (cls) e.className = cls; if (html) e.innerHTML = html; parent.appendChild(e); return e; }
+function reel(parent, tile, client, user) {
+  const r = el("div", "reel", parent);
+  const bg = el("img", "reelbg", r); bg.src = A + tile;
+  const cv = el("div", "cover", r); const im = el("img", "", cv); im.src = A + tile;
+  const ui = el("div", "reelui", r, `<div class="who"><img src="${A}${client}_avatar.png"><span>${user}</span></div><div class="bar"><i></i></div>`);
+  return { r, bg, cv, im, ui, fill: ui.querySelector(".bar i") };
+}
+const P = {};
+function page(key, client, user) {
+  const pg = el("div", "page", screen);
+  const fw = el("div", "feedwrap", pg); const st = el("img", "strip", fw); st.src = A + client + "_strip.png";
+  const sticky = el("img", "sticky", pg); sticky.src = A + client + "_sticky.png";
+  const dim = el("div", "dim", pg);
+  const rl = reel(pg, client + "_tile.png", client, user);
+  const status = el("img", "status", pg); status.src = A + client + "_status.png";
+  const fV = filt("mbv" + key), fH = filt("mbh" + key);
+  P[key] = { pg, fw, st, sticky, dim, rl, status, fV, fH, client, c: C[client] };
+  return P[key];
+}
+page("D", "arteiro", "lojaarteiro");
+page("C", "ws", "ws_coworking");
+page("B", "hospital", "hospitaldeolhosdrtannure");
+const rings = el("div", "", screen); rings.id = "rings";
+const RING = ["#B0494C", "#E7872E", "#F1CA51", "#8EB050", "#1798AE", "#2F72AA"];
+RING.forEach(c => { const i = el("i", "", rings); i.style.background = c; });
+page("A", "intensa", "intensa_odontologia_afetiva");
+screen.appendChild(document.getElementById("island"));
+// drone do Arteiro (reel extra)
+P.D.drone = reel(P.D.pg, "arteiro_drone.png", "arteiro", "lojaarteiro");
+P.D.pg.insertBefore(P.D.drone.r, P.D.rl.r);
+P.D.pg.appendChild(P.D.status);
+// folha de agendamento
+const sheet = el("div", "sheet", P.B.pg, `<div class="handle"></div>
+  <div class="head"><img src="${A}hospital_avatar.png"><div><b>Hospital de Olhos Dr. Tannure</b><span>beacons.ai/hospitaldeolhostn</span></div></div>
+  <div class="title">Agende sua consulta</div>
+  <div class="field" style="top:270px"><span>Especialidade</span><em>Selecionar ›</em></div>
+  <div class="field" style="top:386px"><span>Data</span><em>Selecionar ›</em></div>
+  <div class="field" style="top:502px"><span>Horário</span><em>Selecionar ›</em></div>
+  <div class="btn">Continuar</div>`);
+P.B.pg.appendChild(P.B.status);
+// DM
+const dm = el("div", "dm", P.C.pg, `<div class="head"><span class="back">‹</span><img src="${A}ws_avatar.png"><div><b>W&amp;S Coworking</b><span class="typing">digitando…</span></div></div>
+  <div class="center"><img src="${A}ws_avatar.png"><b>W&amp;S Coworking</b><span>ws_coworking · Instagram</span><div class="vp">Ver perfil</div></div>
+  <div class="composer"><div class="camb"></div><div class="txt"></div><div class="caret"></div></div><div class="kbd"></div>`);
+const dmStatus = el("img", "status", dm); dmStatus.src = A + "ws_status.png";
+const kbd = dm.querySelector(".kbd");
+const KROWS = ["qwertyuiop", "asdfghjkl", "zxcvbnm"], KW = 62, KG = 10;
+const keyEl = {};
+KROWS.forEach((row, r) => {
+  const n = row.length, w = n * KW + (n - 1) * KG, x0 = (720 - w) / 2;
+  [...row].forEach((ch, i) => { const k = el("div", "key", kbd, ch); k.style.left = (x0 + i * (KW + KG)) + "px"; k.style.top = (18 + r * 108) + "px"; k.style.width = KW + "px"; keyEl[ch] = k; });
+});
+[["⇧", 8, 234, 90], ["⌫", 622, 234, 90], ["123", 8, 342, 120], ["espaço", 138, 342, 444], ["enviar", 592, 342, 120]].forEach(([s, x, y, w]) => {
+  const k = el("div", "key dark", kbd, s); k.style.left = x + "px"; k.style.top = y + "px"; k.style.width = w + "px"; keyEl[s] = k;
+});
+const TYPED = ["h", "k", "espaço", "r", "n", "a"];
+KEYPOS = TYPED.map(ch => { const k = keyEl[ch]; return [parseFloat(k.style.left) + parseFloat(k.style.width) / 2, 1050 + parseFloat(k.style.top) + 44]; });
+const txtBar = dm.querySelector(".txt"), typing = dm.querySelector(".typing");
+
+// legendas
+const CAPS = [
+  { c: "intensa", a: 3.0, b: 4.2, h: `<span class="pl">Você perdeu um <span class="kw">dente</span></span>` },
+  { c: "intensa", a: 4.2, b: 5.5, h: `<span class="pl"><span class="kw">lá atrás?</span></span>` },
+  { c: "hospital", a: 8.5, b: 9.2, h: `<span class="pl">Como você sabe</span>` },
+  { c: "hospital", a: 9.2, b: 10.0, h: `<span class="pl">que</span> <span class="pl kp">enxerga bem?</span>` },
+  { c: "ws", a: 14.45, b: 15.0, h: `<span class="pl">Tem gente que precisa de</span>` },
+  { c: "ws", a: 15.0, b: 15.6, h: `<span class="pl kp">PORTA.</span>` },
+];
+const capsBox = document.getElementById("caps");
+CAPS.forEach(cp => { cp.e = el("div", "cap cap-" + cp.c, capsBox, cp.h); });
+const ghostsBox = document.getElementById("ghosts");
+const ghosts = [0, 1, 2, 3].map(() => el("div", "ghost", ghostsBox));
+
+/* ---------- estados por tempo ---------- */
+const ACCENT = { A: "#D9667F", B: "#7FB539", C: "#F5821F", D: "#F1CA51" };
+const GLOW = [[0, "#6E2B3D"], [5.5, "#6E2B3D"], [6.0, "#0B77C0"], [11.6, "#0B77C0"], [12.0, "#F5821F"], [17.6, "#F5821F"], [18.0, "#E7872E"],
+  [21.6, "#E7872E"], [22.4, "#3a3d46"], [25.0, "#3a3d46"], [25.8, "#6E2B3D"], [26, "#6E2B3D"]];
+function glowAt(t) { for (let i = 0; i < GLOW.length - 1; i++) { const a = GLOW[i], b = GLOW[i + 1]; if (t <= b[0]) return mix(a[1], b[1], E.io(prog(t, a[0], b[0]))); } return rgb("#6E2B3D"); }
+
+function pageX(key, t) {
+  const sw = (a, b) => E.ioc(prog(t, a, b));
+  if (key === "A") return t < 6.0 ? -720 * sw(T.A.out[0], T.A.out[1]) : 0;
+  if (key === "B") return t < T.B.in[1] ? 720 * (1 - sw(...T.B.in)) : -720 * sw(...T.B.out);
+  if (key === "C") return t < T.C.in[1] ? 720 * (1 - sw(...T.C.in)) : -720 * sw(...T.C.out);
+  if (key === "D") return t < T.D.in[1] ? 720 * (1 - sw(...T.D.in)) : 0;
+}
+function pageVisible(key, t) {
+  if (key === "A") return t < 6.0 || t >= T.D.ring[0];
+  if (key === "B") return t >= T.B.in[0] && t < T.B.out[1];
+  if (key === "C") return t >= T.C.in[0] && t < T.C.out[1];
+  if (key === "D") return t >= T.D.in[0] && t < T.D.ring[1];
+}
+const tileRect = (p, y) => { const r = p.c.target; return [r[0] * S0, (r[1] - y) * S0, r[2] * S0, r[3] * S0]; };
+const droneRect = (p, y) => { const r = p.c.drone; return [r[0] * S0, (r[1] - y) * S0, r[2] * S0, r[3] * S0]; };
+const R1 = [0, 170, 720, 960];
+function reelProg(key, t) { // 0 = tile na grade, 1 = tela cheia
+  if (key === "A") return t < T.A.exp[0] ? 0 : t < 6.0 ? E.oc(prog(t, ...T.A.exp)) : 0;
+  if (key === "B") return t < T.B.exp[0] ? 0 : t < T.B.col[0] ? E.oc(prog(t, ...T.B.exp)) : 1 - E.ioc(prog(t, ...T.B.col));
+  if (key === "C") return t < T.C.exp[0] ? 0 : t < T.C.col[0] ? E.oc(prog(t, ...T.C.exp)) : 1 - E.ioc(prog(t, ...T.C.col));
+  if (key === "D") return t < T.D.exp[0] ? 0 : E.oc(prog(t, ...T.D.exp));
+}
+function setReel(R, rect0, k, t, tStart, tEnd) {
+  if (k <= 0.0001) { R.r.style.display = "none"; return; }
+  R.r.style.display = "block";
+  const x = lerp(rect0[0], R1[0], k), y = lerp(rect0[1], R1[1], k), w = lerp(rect0[2], R1[2], k), h = lerp(rect0[3], R1[3], k);
+  Object.assign(R.cv.style, { left: x + "px", top: y + "px", width: w + "px", height: h + "px", borderRadius: (k < 1 ? 6 * (1 - k) : 0) + "px" });
+  R.bg.style.opacity = clamp(k * 1.4);
+  R.ui.style.opacity = clamp((k - 0.7) / 0.3);
+  R.im.style.transform = `scale(${1 + 0.06 * prog(t, tStart, tEnd)})`;
+  R.fill.style.width = (720 * prog(t, tStart, tEnd)) + "px";
+}
+function setBlur(f, sx, sy) { f.setAttribute("stdDeviation", `${sx.toFixed(2)} ${sy.toFixed(2)}`); }
+
+function labelAt(t) { // ANTES / AGORA conforme a fronteira entre posts antigos e novos passa pelo meio da tela
+  const key = t < 5.75 || t >= 25.0 ? "A" : t < 11.8 ? "B" : t < 17.8 ? "C" : "D";
+  if (key === "D") return { key, lab: "AGORA" };
+  const p = P[key], y = yFn[key](t), mid = (cam(t).cy - 180) / S0; // meio do quadro, em px do print
+  return { key, lab: (y + mid > p.c.oldStart) ? "ANTES" : "AGORA" };
+}
+const FLIPS = []; // instantes em que o rotulo muda (pre-calculado)
+(function () { let prev = labelAt(0); for (let i = 1; i <= DUR * 600; i++) { const t = i / 600, cur = labelAt(t); if (cur.lab !== prev.lab) FLIPS.push({ t, lab: cur.lab, from: prev.lab }); prev = cur; } })();
+
+const $ = id => document.getElementById(id);
+window.seek = function (t) {
+  t = ((t % DUR) + DUR) % DUR;
+  const c = cam(t);
+  $("world").style.transform = `translate(540px,960px) scale(${c.z}) translate(${-c.cx}px,${-c.cy}px)`;
+  const g = glowAt(t);
+  $("glow").style.background = `radial-gradient(ellipse 70% 52% at 50% 50%, rgba(${g},0.42), rgba(${g},0.10) 55%, rgba(12,13,16,0) 80%)`;
+
+  for (const key of ["A", "B", "C", "D"]) {
+    const p = P[key], vis = pageVisible(key, t);
+    p.pg.style.display = vis ? "block" : "none";
+    if (!vis) continue;
+    const y = yFn[key](t);
+    p.st.style.transform = `translate3d(0,${(-y * S0).toFixed(2)}px,0)`;
+    p.sticky.style.display = y > p.c.headerH - p.c.stickyH ? "block" : "none";
+    const v = Math.abs(vel(key, t)) * S0 / FPS;            // px de tela por quadro
+    let extra = 0;
+    if (key === "A" && t >= T.D.ring[0]) extra = 6 * (1 - E.io(prog(t, T.F.out, T.F.out + 0.5)));
+    setBlur(p.fV, 0, Math.min(34, v * 0.42));
+    p.fw.style.filter = `url(#mbv${key})` + (extra > 0.05 ? ` blur(${extra.toFixed(2)}px)` : "");
+    const x = pageX(key, t), vx = Math.abs(pageX(key, t + 1 / 60) - pageX(key, t - 1 / 60)) * FPS / 2 / FPS * 2;
+    p.pg.style.transform = `translate3d(${x.toFixed(2)}px,0,0)`;
+    setBlur(p.fH, Math.min(30, vx * 0.5), 0);
+    p.pg.style.filter = vx > 0.5 ? `url(#mbh${key})` : "none";
+    // reels
+    const k = reelProg(key, t);
+    const rr = key === "D" ? tileRect(p, y) : tileRect(p, y);
+    const ends = { A: [T.A.exp[1], T.A.out[0]], B: [T.B.exp[1], T.B.col[0]], C: [T.C.exp[1], T.C.col[0]], D: [T.D.exp[1], T.D.ring[0]] }[key];
+    setReel(p.rl, rr, k, t, ends[0], ends[1]);
+    p.dim.style.opacity = 0;
+  }
+  // Arteiro: drone em tela cheia ate recolher
+  {
+    const p = P.D, vis = pageVisible("D", t);
+    if (vis) { const k = t < T.D.col[0] ? 1 : 1 - E.ioc(prog(t, ...T.D.col)); setReel(p.drone, droneRect(p, YD), k, t, 17.6, T.D.col[0]); p.drone.r.style.display = k > 0.0001 ? "block" : "none"; }
+    // punch do VENDIDO
+    if (t >= T.D.drop) { const s = 1 + 0.05 * (1 - E.oc(prog(t, T.D.drop, T.D.drop + 0.45))); p.rl.cv.style.transform = `scale(${s})`; } else p.rl.cv.style.transform = "none";
+  }
+  // folha do Hospital
+  { const k = E.oc(prog(t, ...T.B.sheet)); sheet.style.display = t >= T.B.sheet[0] ? "block" : "none"; sheet.style.transform = `translateY(${lerp(1560, 640, k)}px)`; if (t >= T.B.sheet[0]) P.B.dim.style.opacity = 0.45 * k; }
+  // DM da W&S
+  { const k = E.oc(prog(t, ...T.C.dm)); dm.style.display = t >= T.C.dm[0] ? "block" : "none"; dm.style.transform = `translateX(${lerp(720, 0, k)}px)`;
+    const ty = prog(t, T.C.typing, T.C.typing + 0.18); typing.style.opacity = ty; typing.style.transform = `translateY(${8 * (1 - E.oc(ty))}px)`;
+    let n = 0; KEYS.forEach(kt => { if (t >= kt) n++; }); txtBar.style.width = (n * 26) + "px";
+    TYPED.forEach((ch, i) => { const on = t >= KEYS[i] && t < KEYS[i] + 0.09; keyEl[ch].style.background = on ? (ch === "espaço" ? "#5c5c61" : "#8a8a90") : ""; });
+  }
+  // anel do Arteiro + revelacao final
+  {
+    const on = t >= T.D.ring[0] && t < T.D.ring[1];
+    rings.style.display = on ? "block" : "none";
+    const r = 1900 * E.ioc(prog(t, ...T.D.ring)), cx = 360, cy = 650, bw = 38;
+    if (on) [...rings.children].forEach((e, i) => { const R = r + (6 - i) * bw; Object.assign(e.style, { left: (cx - R) + "px", top: (cy - R) + "px", width: 2 * R + "px", height: 2 * R + "px" }); });
+    P.A.pg.style.clipPath = on ? `circle(${r.toFixed(1)}px at ${cx}px ${cy}px)` : "none";
+    if (t >= T.D.ring[0]) P.A.dim.style.opacity = 0.6 * (1 - E.io(prog(t, T.F.out, T.F.out + 0.5)));
+  }
+  // pílula ANTES/AGORA + bolinhas
+  {
+    const L0 = labelAt(t);
+    let shown = 1;
+    if (t >= T.D.ring[0] && t < 25.4) shown = 1 - E.oc(prog(t, T.D.ring[0], T.D.ring[0] + 0.2));
+    if (t >= 25.4) shown = E.oc(prog(t, 25.4, 25.65));
+    const pill = $("pill");
+    pill.style.opacity = shown; pill.style.transform = `translateX(-50%) translateY(${-14 * (1 - shown)}px)`;
+    let last = null; for (const f of FLIPS) if (f.t <= t && t - f.t < 0.3) last = f;
+    const lo = $("labOld"), ln = $("labNew");
+    ln.textContent = L0.lab;
+    if (last) { const k = E.oc(prog(t, last.t, last.t + 0.22)); lo.textContent = last.from; lo.style.transform = `translateY(${-66 * k}px)`; lo.style.opacity = 1 - k; ln.style.transform = `translateY(${66 * (1 - k)}px)`; ln.style.opacity = k; }
+    else { lo.textContent = ""; ln.style.transform = "none"; ln.style.opacity = 1; }
+    pill.querySelector(".sd").style.background = L0.lab === "ANTES" ? "#8b9097" : ACCENT[L0.key];
+    const n = { A: 1, B: 2, C: 3, D: 4 }[L0.key];
+    [...$("dots").children].forEach((d, i) => d.style.background = i < n ? "#fff" : "rgba(255,255,255,.28)");
+  }
+  // gancho
+  {
+    const tg = $("topgrad"); tg.style.opacity = t < 2.3 ? 1 : t < 25.4 ? 1 - prog(t, 2.3, 2.6) : E.io(prog(t, 25.4, 25.8));
+    const kin1 = E.oc(prog(t, 0.1, 0.36)), kin2 = E.oc(prog(t, 0.28, 0.5)), kout = E.ic(prog(t, 2.3, 2.55));
+    const vis = t >= 0.1 && t < 2.55;
+    $("hook").style.display = vis ? "block" : "none";
+    $("h1").style.opacity = kin1 * (1 - kout); $("h1").style.transform = `translateY(${34 * (1 - kin1) - 50 * kout}px)`;
+    $("h2").style.opacity = clamp(prog(t, 0.28, 0.36)) * (1 - kout); $("h2").style.transform = `translateY(${-50 * kout}px) scale(${lerp(0.82, 1, kin2)})`;
+  }
+  // final
+  {
+    const vis = t >= T.F.words[0] && t < T.F.out + 0.3;
+    $("final").style.display = vis ? "block" : "none";
+    const ko = E.ic(prog(t, T.F.out, T.F.out + 0.25));
+    ["w1", "w2", "w3"].forEach((id, i) => { const k = E.oc(prog(t, T.F.words[i], T.F.words[i] + 0.2)); const e = $(id); e.style.opacity = clamp(prog(t, T.F.words[i], T.F.words[i] + 0.08)) * (1 - ko); e.style.transform = `translateY(${-30 * (1 - k) + 26 * ko}px)` + (id === "w3" ? ` scale(${lerp(0.85, 1, E.oc(prog(t, T.F.words[2], T.F.words[2] + 0.24)))})` : ""); });
+    const ks = E.oc(prog(t, T.F.sig, T.F.sig + 0.3)); $("sig").style.opacity = ks * (1 - ko); $("sig").style.transform = `translateY(${12 * (1 - ks) + 20 * ko}px)`;
+  }
+  // legendas (so entrada; saem no corte)
+  for (const cp of CAPS) {
+    const on = t >= cp.a && t < cp.b; cp.e.style.display = on ? "block" : "none";
+    if (on) { const k = E.oc(prog(t, cp.a, cp.a + 0.14)); cp.e.style.opacity = clamp(prog(t, cp.a, cp.a + 0.07)); cp.e.style.transform = `translateY(${18 * (1 - k)}px) scale(${lerp(0.96, 1, k)})`; }
+  }
+  // dedo
+  {
+    const f = fingerAt(t), tc = $("touch");
+    if (!f) { tc.style.display = "none"; ghosts.forEach(g => g.style.display = "none"); }
+    else {
+      const [fx, fy] = proj(f.pos[0], f.pos[1], c);
+      Object.assign(tc.style, { display: "block", left: fx + "px", top: fy + "px", opacity: f.op, transform: `scale(${f.sc})` });
+      ghosts.forEach((gh, i) => {
+        const dt = (i + 1) / FPS, f2 = fingerAt(t - dt);
+        if (f.g.k !== "d" || !f2 || f2.g !== f.g || f.tt > f.g.b) { gh.style.display = "none"; return; }
+        const [gx, gy] = proj(f2.pos[0], f2.pos[1], cam(t - dt));
+        Object.assign(gh.style, { display: "block", left: gx + "px", top: gy + "px", opacity: 0.32 * (1 - i / 4) * f.op, transform: `scale(${0.92 - i * 0.1})` });
+      });
+    }
+  }
+  // flash do drop
+  $("flash").style.opacity = t >= T.D.drop ? 0.5 * (1 - E.oc(prog(t, T.D.drop, T.D.drop + 0.16))) : 0;
+};
+
+/* ---------- eventos para o audio ---------- */
+window.events = function () {
+  const ev = [];
+  // estalos de rolagem: um a cada 150 px de conteudo, so com o feed a mostra
+  for (const key of ["A", "B", "C"]) {
+    let acc = 0, prev = yFn[key](0);
+    for (let i = 1; i <= DUR * 1000; i++) {
+      const t = i / 1000, y = yFn[key](t), dy = Math.abs(y - prev); prev = y;
+      if (!pageVisible(key, t) || reelProg(key, t) > 0.3) { acc = 0; continue; }
+      if (key === "A" && t > 6 && t < T.F.seam) { acc = 0; continue; }
+      acc += dy; if (acc >= 150) { acc -= 150; ev.push({ t, type: "tick", v: Math.abs(vel(key, t)) }); }
+    }
+  }
+  FLIPS.forEach(f => { if (!(f.t >= 21.6 && f.t < 25.4)) ev.push({ t: f.t, type: "flip" }); });
+  G.forEach(g => { if (g.k === "d") ev.push({ t: ((g.a % DUR) + DUR) % DUR, type: "flick", big: (g.q[1] - g.p[1]) > 400 }); });
+  [T.A.stop, T.B.stop, T.C.stop].forEach(t => ev.push({ t, type: "stop" }));
+  [T.A.exp[0], T.B.exp[0], T.C.exp[0]].forEach(t => ev.push({ t, type: "expand" }));
+  [1.5, 6.98, 13.0].forEach(t => ev.push({ t, type: "rewind" }));
+  [T.A.out[0], T.B.out[0], T.C.out[0]].forEach(t => ev.push({ t, type: "swipe" }));
+  [T.B.col[0], T.C.col[0], T.D.col[0]].forEach(t => ev.push({ t, type: "collapse" }));
+  [T.B.tap, T.C.tap].forEach(t => ev.push({ t, type: "tap" }));
+  ev.push({ t: 19.86, type: "press" });
+  ev.push({ t: T.B.sheet[0], type: "sheet" }, { t: T.C.dm[0], type: "slide" });
+  KEYS.forEach(t => ev.push({ t, type: "key" }));
+  ev.push({ t: T.D.drop, type: "drop" }, { t: T.D.ring[0], type: "ring" });
+  T.F.words.forEach(t => ev.push({ t, type: "word" }));
+  ev.push({ t: T.F.sig, type: "sig" }, { t: 22.4, type: "rest" });
+  CAPS.forEach(cp => ev.push({ t: cp.a, type: "cap" }));
+  ev.push({ t: 0.1, type: "hook" }, { t: 0.28, type: "hookpill" });
+  return ev.sort((a, b) => a.t - b.t);
+};
+window.ready = Promise.all([...document.images].map(i => i.decode().catch(() => null))).then(() => document.fonts.ready).then(() => true);
+window.seek(new URLSearchParams(location.search).has("t") ? parseFloat(new URLSearchParams(location.search).get("t")) : 0);
+</script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+out/frames/
+out/audio_raw.wav
+out/audio_norm.wav
+out/loudnorm_pass1.txt
+out/render.log
+out/qa/
+__pycache__/
