@@ -3,21 +3,20 @@
 Prioridade: fechar os buracos do calendário com o que **já existe** (takes gravados, roteiros aprovados) antes de gravar coisa nova.
 Cada linha aponta para o formato e para o projeto no repositório.
 
-## Já pronto para revisar e postar (prévias geradas pelo motor)
-| Cliente | Vídeo | Arquivo | Antes de postar |
+## Primeiro passo
+- **Pedir o vídeo de localização do Arteiro (caminho do arco-íris)** a quem o produziu no Mac. É a referência do formato de
+  localização para todos os clientes. Salvar em `clientes/arteiro/referencias/` e decupar em `formatos/localizacao.md`.
+
+## Story mudo: 4 pautas prontas para editar (texto real, já checado)
+| Cliente | Modelo | Projeto | Antes de postar |
 |---|---|---|---|
-| Arteiro | Localização (drone) | `entregas/arteiro/Arteiro_Localizacao_previa_v1.mp4` | trocar o frame pelo take real do drone (v2) + endereço |
-| Arteiro | Story mudo "3 andares" | `entregas/arteiro/Arteiro_Story_TresAndares_previa_v1.mp4` | conferir se as peças ainda estão na loja |
-| Hospital | Localização | `entregas/hospital-tannure/HospitalTannure_Localizacao_previa_v1.mp4` | confirmar Av. Ipiranga, 298 → liberar rua no cartão |
-| Hospital / Dr. William | Story caixinha de dúvidas (catarata) | `entregas/hospital-tannure/Hospital_Story_CaixinhaCatarata_previa_v1.mp4` | colar o sticker de pergunta no app |
-| Intensa | Localização | `entregas/intensa/Intensa_Localizacao_previa_v1.mp4` | pedir sala/andar no Pátio Petrópolis |
-| Intensa | Story pergunta-resposta (paladar) | `entregas/intensa/Intensa_Story_PerguntaPaladar_previa_v1.mp4` | ok: texto do roteiro já postado |
-| W&S | Localização | `entregas/ws-coworking/WS_Localizacao_previa_v1.mp4` | pedir endereço + confirmar @ |
-| W&S | Story checklist | `entregas/ws-coworking/WS_Story_Checklist_previa_v1.mp4` | ok |
+| Arteiro | lista "São 3 andares. Já subiu todos?" | `projetos/arteiro/story-tres-andares.json` | conferir se as peças ainda estão na loja |
+| Hospital / Dr. William | caixinha de dúvidas (catarata) | `projetos/hospital-tannure/story-caixinha-catarata.json` | colar o sticker de pergunta no app |
+| Intensa | pergunta-resposta (paladar) | `projetos/intensa/story-pergunta-paladar.json` | ok, texto já postado |
+| W&S | checklist do bom coworking | `projetos/ws-coworking/story-checklist.json` | ok |
 
 ## Próximos vídeos com material que já está no Drive (só editar)
-1. **Arteiro: Localização v2 com o drone real.** DRONE ARTEIRO (24/06), takes `..._0447` (o mais longo, 371 MB) e `..._0453`.
-   Projeto: `projetos/arteiro/localizacao.json`, bloco `_versao_final`.
+1. **Localização dos outros clientes** no padrão do vídeo do caminho do arco-íris (depois de decupar a referência).
 2. **Arteiro: Tour 3 andares (fora da Black).** Gravação 04/11 (IMG_5656–5684) + takes de apoio de outubro. Formato `tour-espaco`.
 3. **Arteiro: Garimpo do 3º andar.** Reaproveitar `arteiro terceiro andar.mp4` (pia inglesa, molduras de demolição): vídeo de serviço/produto.
 4. **Intensa: série "o que a dentadura tira de você".** Expandir o reel do paladar em 3 stories mudos (`pergunta-resposta`) com

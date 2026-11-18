@@ -1,8 +1,11 @@
 # Cape Studios — como o Claude trabalha aqui
 
 A Cape é uma produtora/agência de conteúdo de Petrópolis (RJ). Equipe: Fred (fotógrafo e editor) e o time de estratégia/roteiro.
-Este repositório é a **máquina de produção de vídeo** da Cape: fichas dos clientes, formatos de vídeo testados,
-motor de motion/edição e os projetos de cada vídeo.
+
+**Quem lê isto é o Claude do Fred.** O Fred é o editor: ele produz no computador dele, com os takes originais.
+Este repositório existe para você (Claude do Fred) entender os clientes, os formatos e o padrão da Cape, e produzir
+junto com ele: fichas dos clientes, formatos de referência, um motor de motion e uma pauta do que fazer.
+Os vídeos em `exemplos/` só demonstram o motor; **não são entregas** e não vão para cliente.
 
 Para produzir qualquer vídeo de cliente, **use a skill `video-cliente`** (`.claude/skills/video-cliente/SKILL.md`).
 
@@ -13,7 +16,8 @@ Para produzir qualquer vídeo de cliente, **use a skill `video-cliente`** (`.cla
 2. **Nunca inventar dado.** Endereço, preço, desconto, número de anos, nome de pessoa, resultado clínico: só se estiver numa fonte.
    Cada fato em `clientes/<slug>/marca.json` tem `fonte`. Faltou? Escreva `CONFIRMAR` e pergunte — não chute.
 3. **Sempre com referência.** Antes de criar, olhe o que o cliente já posta (`clientes/<slug>/referencias/`) e o formato de
-   referência em `formatos/`. Mantenha a identidade: Arteiro = anéis arco-íris + condensada + amarelo;
+   referência em `formatos/`. Se o vídeo de referência de um formato não estiver no repositório (ex.: localização com o
+   caminho do arco-íris), **peça o arquivo antes de produzir**. Não substitua a referência por outra coisa. Mantenha a identidade: Arteiro = anéis arco-íris + condensada + amarelo;
    Hospital = azul/verde-limão + gradiente; Intensa = vinho/blush + Playfair itálico; W&S = laranja/marinho + caixa laranja.
 4. **Saúde (Hospital, Dr. William, Intensa):** só afirmações que já estão em roteiro aprovado ou gravado pelo profissional.
    Sem promessa de resultado, sem antes/depois de paciente sem autorização.
@@ -30,7 +34,8 @@ clientes/<slug>/referencias/   frames/posts reais usados como referência e fund
 formatos/                      catálogo de formatos (o que é, estrutura, tempos, quando usar, o que gravar)
 motor/                         templates de motion (HTML) + render (Playwright) + montagem (ffmpeg)
 projetos/<slug>/*.json         um arquivo por vídeo: textos, takes, áudio, saída
-entregas/<slug>/               MP4 + capa .jpg prontos (prévias e finais)
+entregas/<slug>/               saídas do Fred (MP4 + capa); fora do git
+exemplos/                      demonstração do motor (não é entrega)
 brutos/                        takes originais baixados do Drive (NÃO vai pro git — ver .gitignore)
 ```
 

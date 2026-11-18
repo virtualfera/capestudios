@@ -8,6 +8,8 @@ description: Produz vídeos de clientes da Cape Studios (reels, stories mudos, l
 Objetivo: tirar o Fred do "não sei o que produzir" com vídeos **específicos de cada cliente**, bem acabados,
 em formatos já testados, e manter o calendário editorial em dia.
 
+Você é o Claude do Fred (editor da Cape) e produz junto com ele, no computador dele, com os takes originais.
+
 ## 0. Antes de tudo
 - Leia `CLAUDE.md` (regras) e `clientes/<slug>/marca.json` (fatos com fonte, cores, rosto, CTA, pastas do Drive).
 - Veja as referências reais em `clientes/<slug>/referencias/` e o formato escolhido em `formatos/`.
@@ -17,7 +19,7 @@ Pergunte: **qual fato real deste cliente ainda não virou vídeo?** Depois escol
 
 | Formato | Arquivo | Quando | Precisa de |
 |---|---|---|---|
-| Localização | `formatos/localizacao.md` | todo cliente com espaço físico, 1x por trimestre + fixar nos destaques | drone ou fachada + 2-3 takes de chegada |
+| Localização | `formatos/localizacao.md` | todo cliente com espaço físico; referência = vídeo do Arteiro com o caminho do arco-íris (pedir o arquivo) | referência decupada + takes de chegada/fachada |
 | Tour do espaço | `formatos/tour-espaco.md` | lançamento, novidade no espaço, sazonal | takes de cada ambiente, rosto apresentando |
 | Vídeo do serviço | `formatos/video-servico.md` | explicar 1 serviço/produto por vídeo | rosto + B-roll do serviço + motion de apoio |
 | Story mudo | `formatos/story-mudo.md` | testar formato novo, pauta de dúvida, aquecimento | só texto (opcional foto) — sai em minutos |
@@ -37,8 +39,7 @@ Crie `projetos/<slug>/<nome>.json` (copie um existente do mesmo formato). Campos
 - `clipes`: takes reais em `brutos/<slug>/...` com `in`/`dur` (quando houver) — o motion vai por cima, com transparência
 - `audio`: `narracao`, `trilha` (`trilha_db`), `som_clipes`. Sem `audio` = mudo (padrão de story)
 
-Takes vêm do Drive (IDs em `marca.json → drive`). Baixe para `brutos/` (fora do git). Arquivos de vídeo
-do Drive são grandes demais para baixar pelo conector dentro de uma sessão na nuvem: rode no PC do Fred ou peça os takes.
+Takes vêm do Drive (IDs em `marca.json → drive`), sincronizado no computador do Fred. Copie ou aponte para `brutos/` (fora do git).
 
 ## 4. Checar antes de renderizar
 `python3 -I motor/montar.py <projeto> --checar` → 6 quadros-chave. Monte a folha (`motor/ferramentas/folha.py`) e **olhe**:

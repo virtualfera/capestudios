@@ -8,7 +8,7 @@ Template: `motor/templates/story.html` (`dados.modelo`) · 12–16 s · 9:16 · 
 
 ## Modelos
 
-| Modelo | Estrutura | Melhor para | Prévia pronta |
+| Modelo | Estrutura | Melhor para | Pauta pronta |
 |---|---|---|---|
 | `lista` | título → itens numerados (1 por tela, barra de progresso) → fecho + CTA | tours, "3 coisas que só tem aqui", andares, etapas | Arteiro: "São 3 andares. Já subiu todos?" |
 | `pergunta-resposta` | bolha de DM com dúvida real → resposta em 3 batidas → CTA | saúde, mito x verdade, objeção de compra | Intensa: "Por que a comida perde o gosto com a dentadura?" |
@@ -26,4 +26,4 @@ Template: `motor/templates/story.html` (`dados.modelo`) · 12–16 s · 9:16 · 
 - Conferir antes de postar se a peça/condição citada ainda vale (ex.: peças do tour do Arteiro).
 
 ## Histórico
-- 18/11/2026: prévias v1, uma por cliente (4 modelos).
+- 18/11/2026: 4 pautas prontas (uma por cliente). Exemplo renderizado do modelo `lista` em `exemplos/`.

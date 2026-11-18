@@ -1,35 +1,38 @@
 # Formato: LOCALIZAÇÃO
 
-Modelo: o vídeo do drone do Arteiro ("você sabe que aqui no Arteiro…"). Vale para **todos os clientes com espaço físico**.
-Função: tirar a dúvida "onde fica / como chego / vale a ida" e virar destaque fixo no perfil.
+**Vídeo de referência: o vídeo de localização do Arteiro com o "caminho do arco-íris"**, produzido no Mac de quem montou o vídeo original na Cape (não é do Fred).
+⚠ **Ele ainda não está no Drive nem neste repositório.** Antes de produzir qualquer localização, peça o arquivo e
+salve em `clientes/arteiro/referencias/localizacao-caminho-arco-iris.mp4` (ou no Drive, em EDITOR CAPE / Arteiro).
+Depois decupe: anote cena a cena (tempo, o que aparece, como o caminho de arco-íris se move, texto, áudio) na seção
+"Decupagem da referência" abaixo. **Nenhum vídeo de localização sai antes dessa decupagem.**
 
-Template: `motor/templates/localizacao.html` · Duração: 15 s · 9:16 · funciona mudo, com legenda ou com narração.
+Vale para **todos os clientes com espaço físico**, sempre adaptado à identidade de cada um (o arco-íris é do Arteiro;
+nos outros, o caminho usa as cores da marca).
 
-## Estrutura (tempos para 15 s; escalam com `dados.dur`)
+## Decupagem da referência
+_(preencher depois de assistir o vídeo original)_
 
-| Tempo | Bloco | O que aparece | Regra |
-|---|---|---|---|
-| 0–3 s | Gancho | 2–4 linhas, palavra-chave em `*acento*` | Fala do lugar, não da marca. Ex.: "Já passou por esse prédio de *containers* em Itaipava?" |
-| 3–6 s | Pin | Pin com o logo cai no ponto exato do take (`dados.pin.x/y`), ondas, rótulo nome + bairro | O pin aponta para o prédio real |
-| 6–11 s | O que te espera | 3–4 chips com ícone (`dados.fatos`) | Só fatos com fonte (estacionamento, andares, desde quando…) |
-| 11–15 s | Cartão final | Logo com anel, nome, endereço, cidade, CTA, @ | Rua/número só com `endereco_confirmado: true` |
+| Tempo | O que aparece | Movimento/motion | Texto na tela | Áudio |
+|---|---|---|---|---|
+| | | | | |
 
-## O que gravar (Fred)
-1. **Drone**: aproximação lenta até a fachada (10–15 s, sem giro brusco) + 1 plano alto mostrando a rua/acesso.
-2. **Chegada**: POV do carro/entrada do estacionamento (3–5 s).
-3. **Porta**: abrir a porta / entrar (3 s), luz do dia.
-4. (Opcional) **Rosto** dizendo 1 frase de convite (vira narração e lower-third).
+## Estrutura base (até ter a decupagem, usar como ponto de partida)
+| Bloco | Conteúdo | Regra |
+|---|---|---|
+| Gancho | o lugar, não a marca | específico do cliente |
+| Caminho | o trajeto até o lugar (na referência, o caminho de arco-íris) | trajeto real |
+| Chegada | fachada, pin, nome e bairro | o pin aponta para o prédio real |
+| O que te espera | 3 ou 4 fatos com fonte (estacionamento, andares…) | nada inventado |
+| Cartão final | logo, endereço, CTA | rua e número só se o endereço estiver confirmado |
 
+O template `motor/templates/localizacao.html` hoje cobre gancho, pin, fatos e cartão final. **O caminho de arco-íris não
+está implementado**: ele precisa ser construído a partir da referência. Os exemplos em `exemplos/` mostram só o motor
+funcionando e não reproduzem a referência.
+
+## O que gravar
 | Cliente | Situação | Falta |
 |---|---|---|
-| Arteiro | drone já gravado (DRONE ARTEIRO, 24/06) + gravação 04/11 | escolher os takes e baixar para `brutos/arteiro/`; endereço completo |
-| Hospital Tannure | sem take de fachada | gravar fachada/entrada Av. Ipiranga (confirmar endereço) |
-| Intensa | sem take | entrada do Pátio Petrópolis + corredor até a clínica (pedir sala/andar) |
-| W&S | sem take | fachada da Unidade Bauhaus + recepção (pedir endereço) |
-
-## Versão final com takes
-No projeto, mova `_versao_final.clipes`/`audio` para o nível de cima (ver `projetos/arteiro/localizacao.json`).
-Ajuste `dados.pin` olhando um quadro do take (`--checar`). O motion vai por cima com transparência.
-
-## Histórico
-- 18/11/2026 — prévias v1 (motion) dos 4 clientes. Arteiro usa frame do drone; os outros, versão só-marca até gravar a fachada.
+| Arteiro | já existe o vídeo de referência + drone (DRONE ARTEIRO, 24/06) | subir a referência; endereço completo |
+| Hospital Tannure | sem take de fachada | fachada e entrada (confirmar o endereço Av. Ipiranga, 298) |
+| Intensa | sem take | entrada do Pátio Petrópolis e caminho até a clínica (pedir sala/andar) |
+| W&S | sem take | fachada da Unidade Bauhaus e recepção (pedir endereço) |
