@@ -1,0 +1,6 @@
+{
+  "name": "capestudios-motor",
+  "private": true,
+  "description": "Motor de motion da Cape (render dos templates em motor/templates)",
+  "dependencies": { "playwright": "1.63.0" }
+}

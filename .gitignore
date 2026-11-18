@@ -1,5 +1,5 @@
+.DS_Store
+__pycache__/
 brutos/
 entregas/
-__pycache__/
 node_modules/
-.DS_Store

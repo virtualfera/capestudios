@@ -4,8 +4,9 @@ Prioridade: fechar os buracos do calendário com o que **já existe** (takes gra
 Cada linha aponta para o formato e para o projeto no repositório.
 
 ## Primeiro passo
-- **Pedir o vídeo de localização do Arteiro (caminho do arco-íris)** a quem o produziu no Mac. É a referência do formato de
-  localização para todos os clientes. Salvar em `clientes/arteiro/referencias/` e decupar em `formatos/localizacao.md`.
+- **Assistir ao vídeo de referência "Como chegar no Arteiro"** (`clientes/arteiro/referencias/localizacao-como-chegar-arco-iris.mp4`)
+  e ler a decupagem em `formatos/localizacao.md`. Ele é o padrão de localização para todos os clientes.
+- Descobrir com quem fez o vídeo qual ferramenta gerou o mapa 3D e a rota de arco-íris, e registrar em `formatos/localizacao.md`.
 
 ## Story mudo: 4 pautas prontas para editar (texto real, já checado)
 | Cliente | Modelo | Projeto | Antes de postar |
@@ -16,7 +17,7 @@ Cada linha aponta para o formato e para o projeto no repositório.
 | W&S | checklist do bom coworking | `projetos/ws-coworking/story-checklist.json` | ok |
 
 ## Próximos vídeos com material que já está no Drive (só editar)
-1. **Localização dos outros clientes** no padrão do vídeo do caminho do arco-íris (depois de decupar a referência).
+1. **Localização ("Como chegar") dos outros clientes** no padrão do vídeo do Arteiro: precisa de drone da fachada, trajeto e horários de cada um.
 2. **Arteiro: Tour 3 andares (fora da Black).** Gravação 04/11 (IMG_5656–5684) + takes de apoio de outubro. Formato `tour-espaco`.
 3. **Arteiro: Garimpo do 3º andar.** Reaproveitar `arteiro terceiro andar.mp4` (pia inglesa, molduras de demolição): vídeo de serviço/produto.
 4. **Intensa: série "o que a dentadura tira de você".** Expandir o reel do paladar em 3 stories mudos (`pergunta-resposta`) com
@@ -29,7 +30,6 @@ Cada linha aponta para o formato e para o projeto no repositório.
 - **Arteiro**: Robson dizendo 1 frase de convite na porta (fecha a localização com a voz dele).
 
 ## Perguntas para os clientes (bloqueiam a versão final)
-- Arteiro: endereço completo da loja.
 - Hospital: endereço confirmado + @ oficial do hospital + o que pode ser filmado lá dentro.
 - Intensa: sala/andar no Pátio Petrópolis + nome da dentista para o lower-third.
 - W&S: endereço da Unidade Bauhaus + @ oficial + "sem assinar contrato" ainda vale?

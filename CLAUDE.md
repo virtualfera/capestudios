@@ -16,8 +16,8 @@ Para produzir qualquer vídeo de cliente, **use a skill `video-cliente`** (`.cla
 2. **Nunca inventar dado.** Endereço, preço, desconto, número de anos, nome de pessoa, resultado clínico: só se estiver numa fonte.
    Cada fato em `clientes/<slug>/marca.json` tem `fonte`. Faltou? Escreva `CONFIRMAR` e pergunte — não chute.
 3. **Sempre com referência.** Antes de criar, olhe o que o cliente já posta (`clientes/<slug>/referencias/`) e o formato de
-   referência em `formatos/`. Se o vídeo de referência de um formato não estiver no repositório (ex.: localização com o
-   caminho do arco-íris), **peça o arquivo antes de produzir**. Não substitua a referência por outra coisa. Mantenha a identidade: Arteiro = anéis arco-íris + condensada + amarelo;
+   referência em `formatos/`. Se o vídeo de referência de um formato não estiver no repositório, **peça o arquivo antes de produzir**
+   (a localização já tem: `clientes/arteiro/referencias/localizacao-como-chegar-arco-iris.mp4`). Não substitua a referência por outra coisa. Mantenha a identidade: Arteiro = anéis arco-íris + condensada + amarelo;
    Hospital = azul/verde-limão + gradiente; Intensa = vinho/blush + Playfair itálico; W&S = laranja/marinho + caixa laranja.
 4. **Saúde (Hospital, Dr. William, Intensa):** só afirmações que já estão em roteiro aprovado ou gravado pelo profissional.
    Sem promessa de resultado, sem antes/depois de paciente sem autorização.
@@ -59,5 +59,5 @@ python3 -I motor/ferramentas/folha.py <pasta_quadros> folha.png          # folha
 open motor/templates/localizacao.html?t=4&guias                          # ver um instante + zonas seguras
 ```
 
-Requisitos: Node 18+ com `playwright` (Chromium), Python 3 com Pillow, ffmpeg. Opcional: `opencv-python-headless`
+Instalação no Mac: ver `README.md`. Requisitos: Node 18+ (`npm install` + `npx playwright install chromium`), Python 3 com Pillow, ffmpeg. Opcional: `opencv-python-headless`
 (para `motor/ferramentas/limpar_legenda.py`).

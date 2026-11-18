@@ -11,28 +11,86 @@
     "destaque": "#f5c400",
     "texto": "#ffffff",
     "texto_sobre_destaque": "#111111",
-    "anel": ["#e2332b", "#f08a24", "#f5c400", "#5fb547", "#1aa6a0", "#2f6fd0", "#7a4bc2", "#e0569b"]
+    "anel": [
+      "#e2332b",
+      "#f08a24",
+      "#f5c400",
+      "#5fb547",
+      "#1aa6a0",
+      "#2f6fd0",
+      "#7a4bc2",
+      "#e0569b"
+    ]
   },
-  "fontes": { "titulo": "AntonL", "texto": "Inter", "acento": "AntonL" },
+  "fontes": {
+    "titulo": "AntonL",
+    "texto": "Inter",
+    "acento": "AntonL"
+  },
   "estilo_acento": "caixa-destaque",
   "logo": "marca/logo.png",
   "local": {
     "nome_curto": "Arteiro",
     "bairro": "Itaipava",
     "cidade": "Petrópolis · RJ",
-    "endereco": null,
-    "endereco_confirmado": false,
-    "nota": "Endereço completo NÃO está nos nossos documentos. Pedir ao cliente antes de publicar qualquer vídeo de localização com rua e número."
+    "endereco": "Estr. União e Indústria, 9155",
+    "endereco_confirmado": true,
+    "nota": "Endereço, horários e trajeto tirados do vídeo de referência 'como chegar' (clientes/arteiro/referencias/localizacao-como-chegar-arco-iris.mp4), produzido pela Cape.",
+    "horarios": [
+      "Seg a sáb · 9h às 18h",
+      "Domingo · 10h às 15h"
+    ],
+    "trajeto_rio": [
+      "Vindo do Rio, sobe a serra pela BR-040",
+      "Pega a saída 62 (Itaipava / Nogueira-Corrêas)",
+      "Segue pela União e Indústria, sentido Itaipava, uns 3 km",
+      "A loja fica do outro lado da pista, do lado da Escola João de Barro",
+      "Você passa por ela, faz o retorno no Horto e volta uns 400 metros",
+      "É o prédio do telhado azul"
+    ]
   },
   "fatos": [
-    { "icone": "predio", "texto": "3 andares de loja", "fonte": "Transcrição Arteiro-Tour-Tres-Andares-v3-A.mp4" },
-    { "icone": "carro", "texto": "Estacionamento próprio", "fonte": "Transcrição Arteiro-Tour-Tres-Andares-v3-A.mp4" },
-    { "icone": "martelo", "texto": "Fabricação própria", "fonte": "Bio do Instagram" },
-    { "icone": "estrela", "texto": "Há 50 anos colorindo ambientes", "fonte": "Bio do Instagram" },
-    { "icone": "cafe", "texto": "Tem café te esperando", "fonte": "Transcrições Black (\"vem tomar um café com a gente\")" }
+    {
+      "icone": "carro",
+      "texto": "Estacionamento próprio, atrás da loja",
+      "fonte": "Vídeo de referência como-chegar (Cape)"
+    },
+    {
+      "icone": "check",
+      "texto": "Vaga para cadeirante",
+      "fonte": "Vídeo de referência como-chegar (Cape)"
+    },
+    {
+      "icone": "cafe",
+      "texto": "Café passado na hora te esperando na chegada",
+      "fonte": "Vídeo de referência como-chegar (Cape)"
+    },
+    {
+      "icone": "relogio",
+      "texto": "Seg a sáb 9h–18h · Dom 10h–15h",
+      "fonte": "Vídeo de referência como-chegar (Cape)"
+    },
+    {
+      "icone": "predio",
+      "texto": "3 andares de loja",
+      "fonte": "Transcrição Arteiro-Tour-Tres-Andares-v3-A.mp4"
+    },
+    {
+      "icone": "martelo",
+      "texto": "Fabricação própria",
+      "fonte": "Bio do Instagram"
+    },
+    {
+      "icone": "estrela",
+      "texto": "Há 50 anos colorindo ambientes",
+      "fonte": "Bio do Instagram / vídeo de referência"
+    }
   ],
-  "rosto": { "nome": "Robson Garrido", "cargo": "Curadoria e Decoração" },
-  "cta_padrao": "Salva esse vídeo e vem garimpar com calma",
+  "rosto": {
+    "nome": "Robson Garrido",
+    "cargo": "Curadoria e Decoração"
+  },
+  "cta_padrao": "Salva e manda pra quem vem com você",
   "tom": "Personagem fixo (Robson) falando pra câmera, caloroso, de quem recebe em casa. Nunca 'influenciadora descobrindo o lugar'.",
   "drive": {
     "pasta_editor": "1Cdb-d4juG_6BVEXHB3glPtlmYJpPPR8q",

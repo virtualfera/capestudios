@@ -1,38 +1,70 @@
-# Formato: LOCALIZAÇÃO
+# Formato: LOCALIZAÇÃO ("Como chegar")
 
-**Vídeo de referência: o vídeo de localização do Arteiro com o "caminho do arco-íris"**, produzido no Mac de quem montou o vídeo original na Cape (não é do Fred).
-⚠ **Ele ainda não está no Drive nem neste repositório.** Antes de produzir qualquer localização, peça o arquivo e
-salve em `clientes/arteiro/referencias/localizacao-caminho-arco-iris.mp4` (ou no Drive, em EDITOR CAPE / Arteiro).
-Depois decupe: anote cena a cena (tempo, o que aparece, como o caminho de arco-íris se move, texto, áudio) na seção
-"Decupagem da referência" abaixo. **Nenhum vídeo de localização sai antes dessa decupagem.**
+**Vídeo de referência:** `clientes/arteiro/referencias/localizacao-como-chegar-arco-iris.mp4`
+(57,6 s · 720×1280 · 30 fps · −14 LUFS · prévia produzida no Mac da Cape).
+Folha com 1 quadro por segundo: `clientes/arteiro/referencias/localizacao-como-chegar-arco-iris_decupagem.jpg`.
 
-Vale para **todos os clientes com espaço físico**, sempre adaptado à identidade de cada um (o arco-íris é do Arteiro;
-nos outros, o caminho usa as cores da marca).
+**Assista ao vídeo inteiro antes de fazer qualquer localização.** Este é o padrão para todos os clientes com espaço físico.
 
-## Decupagem da referência
-_(preencher depois de assistir o vídeo original)_
+## A ideia
+Um GPS afetivo: um **mapa 3D claro em low-poly** (fundo creme, árvores, prédios brancos) com uma **rota em arco-íris**
+(as cores do anel do logo do Arteiro) que leva quem vem do Rio até a porta. O mapa entrega a informação e o drone real
+prova que o lugar existe. Fecha com um cartão que vale salvar (endereço, horário e café).
 
-| Tempo | O que aparece | Movimento/motion | Texto na tela | Áudio |
-|---|---|---|---|---|
-| | | | | |
+## Decupagem (tempos aproximados)
 
-## Estrutura base (até ter a decupagem, usar como ponto de partida)
-| Bloco | Conteúdo | Regra |
-|---|---|---|
-| Gancho | o lugar, não a marca | específico do cliente |
-| Caminho | o trajeto até o lugar (na referência, o caminho de arco-íris) | trajeto real |
-| Chegada | fachada, pin, nome e bairro | o pin aponta para o prédio real |
-| O que te espera | 3 ou 4 fatos com fonte (estacionamento, andares…) | nada inventado |
-| Cartão final | logo, endereço, CTA | rua e número só se o endereço estiver confirmado |
+| Tempo | Imagem | Motion | Legenda falada (palavra a palavra, branca, centro) |
+|---|---|---|---|
+| 0–2 s | Interior da loja (sofá listrado, cômodas, luminárias) | corte seco | "vem visitar a gente" |
+| 2–3 s | Drone alto da fachada (telhado azul, letreiro ARTEIRO) | descida leve | "salva esse vídeo" |
+| 3–4 s | Drone mais aberto, pin com o logo cai sobre a loja | pin + ondas | "direitinho como chegar" |
+| 4–5 s | **Transição drone → mapa 3D**: o mesmo ponto vira mapa low-poly, anel de arco-íris pulsa em volta do pin | match-cut | "direitinho como chegar" |
+| 5–6 s | Mapa: câmera sobe e mostra a região | zoom out | — |
+| 6–9 s | Rota de arco-íris corre pela estrada (carro low-poly na frente) | câmera persegue o carro | "vindo do rio" · "sobe a serra pela BR-040" |
+| 9–11 s | **Placa verde da rodovia** "SAÍDA 62 · Itaipava · Nogueira-Corrêas" vira tela cheia | push-in na placa | "e pega a saída 62" |
+| 12–13 s | Carro na alça de saída | — | "…de Itaipava" |
+| 14–19 s | Vista aérea: rota pela União e Indústria, rio ao lado | travelling aéreo | "daí é só seguir" · "pela União e Indústria" · "sentido Itaipava" · "uns 3 quilômetros" |
+| 20–25 s | Zoom no trecho: rótulos "Arteiro", "Escola João de Barro", "Horto · retorno" | rótulos em pílula branca com bolinha colorida | "um detalhe" · "do outro lado da pista" · "do lado da escola" · "João de Barro" |
+| 26–32 s | Rota passa pela loja, sobe até o Horto, faz o retorno e volta | rota desenha o U | "você passa por ela" · "faz o retorno lá no Horto" · "e volta uns 400 metros" |
+| 33 s | Pin com anel de arco-íris gigante (círculos concêntricos) | explosão de anéis | "pronto" |
+| 34 s | **Transição mapa → drone**: o prédio 3D vira a foto do drone | match-cut | "pronto" |
+| 35–38 s | Drone na fachada, pin sobre o telhado | descida | "chegou" · "é o prédio do telhado azul" |
+| 39–43 s | Drone de cima: rótulo "Estacionamento da loja" com ícone P | pílula azul | "veio de carro" · "o estacionamento é nosso" · "aqui atrás" · "e tem vaga pra cadeirante" |
+| 44 s | Corredor de container azul (interior) | — | — |
+| 45–58 s | **Cartão final** sobre interiores coloridos que se alternam: logo com anel, "há 50 anos colorindo ambientes" (serifa itálica), endereço, horário, café, botão | linhas sobem uma a uma; fundo troca a cada ~2 s | "de segunda a sábado" · "das nove às seis" · "e domingo" · "das dez às três" · "e tem cafezinho te esperando" · "pra quem vem com você" |
 
-O template `motor/templates/localizacao.html` hoje cobre gancho, pin, fatos e cartão final. **O caminho de arco-íris não
-está implementado**: ele precisa ser construído a partir da referência. Os exemplos em `exemplos/` mostram só o motor
-funcionando e não reproduzem a referência.
+### Cartão final (texto exato)
+- `há 50 anos colorindo ambientes` (serifa itálica, cinza)
+- 📍 **Estr. União e Indústria, 9155**: Itaipava · Petrópolis
+- 🕘 **Seg a sáb · 9h às 18h**: Domingo · 10h às 15h
+- ☕ **Café passado na hora**: te esperando na chegada
+- Botão preto: 🔖 **Salva e manda pra quem vem com você**
+- Fundo do cartão: creme claro (#f7f3ee aprox.), faixa de arco-íris fina separando a foto do cartão.
 
-## O que gravar
+### Elementos fixos do formato
+- Selo no topo esquerdo durante o vídeo todo: pílula escura "Como chegar no Arteiro" com mini-logo.
+- Legenda: palavra-chave grande, branca com sombra, no centro da tela, trocando junto da fala.
+- A narração é humana e fala como quem explica a um amigo ("um detalhe", "pronto", "chegou").
+
+## Como adaptar para outro cliente
+1. **Trajeto real**, perguntado ao cliente ou conferido no mapa: de onde vem a maioria (Rio pela BR-040? centro de Petrópolis?),
+   qual saída, qual referência ("do lado da escola"), se tem retorno.
+2. **Cor da rota** = paleta da marca (Hospital: azul → verde-limão; Intensa: vinho → blush; W&S: laranja → marinho).
+   O arco-íris é só do Arteiro.
+3. **Drone/fachada real** no começo e na chegada (match-cut mapa ↔ drone no mesmo enquadramento).
+4. **Cartão final** com dados confirmados: endereço, horário, 1 mimo/diferencial real, CTA "salva e manda pra quem vem com você".
+5. **Nada de fato inventado** (ver `clientes/<slug>/marca.json`).
+
+## Ferramenta do mapa 3D
+⚠ **Não está documentado com qual ferramenta o mapa 3D e a rota de arco-íris foram feitos.** Antes de adaptar, pergunte a quem
+produziu o vídeo de referência e registre aqui (ferramenta, projeto/arquivo-fonte, como trocar o trajeto e a cor da rota).
+O template `motor/templates/localizacao.html` do motor **não** faz o mapa: ele cobre pin, fatos e cartão em 2D, sem rota.
+Os vídeos em `exemplos/` foram feitos antes de a referência aparecer e **não seguem este formato**.
+
+## O que gravar por cliente
 | Cliente | Situação | Falta |
 |---|---|---|
-| Arteiro | já existe o vídeo de referência + drone (DRONE ARTEIRO, 24/06) | subir a referência; endereço completo |
-| Hospital Tannure | sem take de fachada | fachada e entrada (confirmar o endereço Av. Ipiranga, 298) |
-| Intensa | sem take | entrada do Pátio Petrópolis e caminho até a clínica (pedir sala/andar) |
-| W&S | sem take | fachada da Unidade Bauhaus e recepção (pedir endereço) |
+| Arteiro | referência pronta (prévia) | aprovar e publicar; usar como modelo |
+| Hospital Tannure | sem drone | drone da fachada + entrada; confirmar o endereço Av. Ipiranga, 298 e os horários; trajeto |
+| Intensa | sem drone | drone do Pátio Petrópolis + caminho até a clínica; sala/andar; horários; trajeto |
+| W&S | sem drone | drone da Unidade Bauhaus + recepção; endereço; horários; trajeto |
