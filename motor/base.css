@@ -1,0 +1,39 @@
+/* Estilos comuns dos templates Cape — 1080x1920 (9:16) */
+@font-face { font-family: "AntonL"; src: url(fontes/Anton.woff2) format("woff2"); }
+@font-face { font-family: "PlayfairL"; src: url(fontes/PlayfairItalic700.woff2) format("woff2"); font-style: italic; font-weight: 700; }
+@font-face { font-family: "MontL"; src: url(fontes/Montserrat800.woff2) format("woff2"); font-weight: 800; }
+
+html, body { margin: 0; padding: 0; background: var(--fundo); }
+html.transparente, html.transparente body { background: transparent !important; }
+#stage { position: relative; width: 1080px; height: 1920px; overflow: hidden; color: var(--txt); font-family: var(--f-texto); }
+html.transparente #stage { background: transparent !important; }
+
+/* Zonas seguras do Instagram (Reels/Stories): topo 220px, base 380px, lateral direita 150px.
+   Nada importante fora de x 80..930, y 220..1540. Ative ?guias para ver. */
+.guias { position: absolute; inset: 0; pointer-events: none; z-index: 999; }
+.guias::before { content: ""; position: absolute; left: 80px; top: 220px; width: 850px; height: 1320px; outline: 3px dashed rgba(255, 0, 140, .8); }
+
+/* ---- Acento por marca ---- */
+.acento { white-space: nowrap; }
+body[data-estilo="caixa-destaque"] .acento { background: var(--dest); color: var(--txt-dest); padding: 0 .16em; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+body[data-estilo="gradiente"] .acento { background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+body[data-estilo="italico-serifa"] .acento { font-family: var(--f-acento); font-style: italic; font-weight: 700; color: var(--pri); text-transform: none; letter-spacing: 0; }
+body[data-estilo="caixa-laranja"] .acento { background: var(--pri); color: #fff; padding: 0 .18em; }
+
+/* ---- Legendas (narração) ---- */
+.legenda { position: absolute; left: 50%; top: 1330px; width: 860px; transform: translateX(-50%); text-align: center; z-index: 60; opacity: 0; }
+.legenda span { display: inline; font: 800 54px/1.22 var(--f-texto); color: #fff; padding: .08em .28em; border-radius: 10px;
+  background: rgba(0, 0, 0, .55); box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+body[data-estilo="italico-serifa"] .legenda span { background: rgba(255, 255, 255, .9); color: var(--txt); }
+body[data-estilo="gradiente"] .legenda span { background: rgba(255, 255, 255, .92); color: var(--txt); }
+.legenda .acento { padding: 0 .1em; }
+
+/* ---- Lower-third (nome + cargo do rosto) ---- */
+.lt { position: absolute; left: 80px; top: 1180px; z-index: 55; }
+.lt .n { display: inline-block; font: 800 46px/1 var(--f-texto); background: var(--sec); color: var(--txt); padding: 16px 22px 14px; }
+.lt .c { display: block; width: max-content; font: 600 32px/1 var(--f-texto); background: var(--pri); color: var(--txt-dest); padding: 12px 22px; margin-top: 4px; }
+body[data-cliente="arteiro"] .lt .n { background: #fff; color: #111; }
+body[data-cliente="arteiro"] .lt .c { background: var(--dest); color: #111; }
+body[data-cliente="hospital-tannure"] .lt .c, body[data-cliente="intensa"] .lt .c, body[data-cliente="ws-coworking"] .lt .c { color: #fff; }
+
+.ico { width: 1em; height: 1em; flex: none; }

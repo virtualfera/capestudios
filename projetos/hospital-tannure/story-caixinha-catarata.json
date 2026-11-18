@@ -1,0 +1,18 @@
+{
+  "cliente": "hospital-tannure",
+  "template": "story",
+  "saida": "entregas/hospital-tannure/Hospital_Story_CaixinhaCatarata_previa_v1.mp4",
+  "_fonte": "Perguntas já publicadas no formato DM do @drwilliamtannure (ficha Dr-William-Tannure.md). No app: colar o sticker de pergunta REAL por cima do quadro 'Escreva aqui'.",
+  "dados": {
+    "modelo": "caixinha",
+    "titulo": "Perguntas que\n*vocês* mandaram",
+    "itens": [
+      "Para que tanto colírio após a cirurgia?",
+      "Catarata pode ser causada por medicamento?",
+      "Operei um olho e vejo as cores diferente. Por quê?"
+    ],
+    "caixa": "Qual é a sua dúvida sobre catarata?",
+    "fecho": "O Dr. William\nresponde em *vídeo*",
+    "cta": "Mande pela caixinha"
+  }
+}

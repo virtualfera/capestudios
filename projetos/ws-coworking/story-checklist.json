@@ -1,0 +1,19 @@
+{
+  "cliente": "ws-coworking",
+  "template": "story",
+  "saida": "entregas/ws-coworking/WS_Story_Checklist_previa_v1.mp4",
+  "_fonte": "Itens do post 'O que não pode faltar num bom coworking' + planejamento de agosto (salas P/M/G) + post sala de eventos.",
+  "dados": {
+    "modelo": "checklist",
+    "titulo": "O que não pode faltar num *bom coworking*",
+    "itens": [
+      "Área de trabalho com mesas",
+      "Cadeiras ergonômicas",
+      "Boa internet",
+      "Sala privativa",
+      "Sala de eventos"
+    ],
+    "fecho": "Tem tudo isso no\n*centro* de Petrópolis",
+    "cta": "Agenda uma visita pelo direct"
+  }
+}

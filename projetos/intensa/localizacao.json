@@ -1,0 +1,17 @@
+{
+  "cliente": "intensa",
+  "template": "localizacao",
+  "saida": "entregas/intensa/Intensa_Localizacao_previa_v1.mp4",
+  "dados": {
+    "dur": 15,
+    "gancho": "Primeira consulta?\nA gente fica no\n*Pátio Petrópolis*",
+    "pin": { "x": 560, "y": 980 },
+    "titulo_fatos": "Quem te recebe",
+    "fatos": [
+      { "icone": "estrela", "texto": "17 anos de implantes" },
+      { "icone": "coracao", "texto": "Odontologia afetiva" },
+      { "icone": "predio", "texto": "Dentro do Pátio Petrópolis" }
+    ],
+    "cta": "Toque no link da bio e dê o primeiro passo"
+  }
+}

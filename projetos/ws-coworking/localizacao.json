@@ -1,0 +1,17 @@
+{
+  "cliente": "ws-coworking",
+  "template": "localizacao",
+  "saida": "entregas/ws-coworking/WS_Localizacao_previa_v1.mp4",
+  "dados": {
+    "dur": 15,
+    "gancho": "Sua empresa com\n*endereço*\nno centro de Petrópolis",
+    "pin": { "x": 560, "y": 980 },
+    "titulo_fatos": "O que tem lá",
+    "fatos": [
+      { "icone": "porta", "texto": "Salas privativas P, M e G" },
+      { "icone": "mesa", "texto": "Sala de eventos" },
+      { "icone": "pin", "texto": "Centro de Petrópolis" }
+    ],
+    "cta": "Chama no direct e agenda uma visita"
+  }
+}

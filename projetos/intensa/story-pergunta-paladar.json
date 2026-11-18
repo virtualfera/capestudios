@@ -1,0 +1,17 @@
+{
+  "cliente": "intensa",
+  "template": "story",
+  "saida": "entregas/intensa/Intensa_Story_PerguntaPaladar_previa_v1.mp4",
+  "_fonte": "Resposta tirada do roteiro já aprovado e postado (dentadura x protocolo, pasta Postagens). Nada novo de conteúdo clínico.",
+  "dados": {
+    "modelo": "pergunta-resposta",
+    "pergunta": "Por que a comida perde o gosto com a dentadura?",
+    "resposta": [
+      "A dentadura de cima cobre *todo o céu da boca*.",
+      "Essa placa de acrílico *amortece a textura* e tampa receptores do paladar.",
+      "Com o *protocolo fixo*, o céu da boca fica livre."
+    ],
+    "fecho": "Quer saber se\né *pra você*?",
+    "cta": "Toque no link da bio"
+  }
+}

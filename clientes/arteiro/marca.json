@@ -1,0 +1,45 @@
+{
+  "slug": "arteiro",
+  "nome": "Arteiro",
+  "nome_completo": "Loja Arteiro",
+  "instagram": "@lojaarteiro",
+  "registro": "descoberta-personagem",
+  "cores": {
+    "fundo": "#0b0b0d",
+    "primaria": "#ffffff",
+    "secundaria": "#151518",
+    "destaque": "#f5c400",
+    "texto": "#ffffff",
+    "texto_sobre_destaque": "#111111",
+    "anel": ["#e2332b", "#f08a24", "#f5c400", "#5fb547", "#1aa6a0", "#2f6fd0", "#7a4bc2", "#e0569b"]
+  },
+  "fontes": { "titulo": "AntonL", "texto": "Inter", "acento": "AntonL" },
+  "estilo_acento": "caixa-destaque",
+  "logo": "marca/logo.png",
+  "local": {
+    "nome_curto": "Arteiro",
+    "bairro": "Itaipava",
+    "cidade": "Petrópolis · RJ",
+    "endereco": null,
+    "endereco_confirmado": false,
+    "nota": "Endereço completo NÃO está nos nossos documentos. Pedir ao cliente antes de publicar qualquer vídeo de localização com rua e número."
+  },
+  "fatos": [
+    { "icone": "predio", "texto": "3 andares de loja", "fonte": "Transcrição Arteiro-Tour-Tres-Andares-v3-A.mp4" },
+    { "icone": "carro", "texto": "Estacionamento próprio", "fonte": "Transcrição Arteiro-Tour-Tres-Andares-v3-A.mp4" },
+    { "icone": "martelo", "texto": "Fabricação própria", "fonte": "Bio do Instagram" },
+    { "icone": "estrela", "texto": "Há 50 anos colorindo ambientes", "fonte": "Bio do Instagram" },
+    { "icone": "cafe", "texto": "Tem café te esperando", "fonte": "Transcrições Black (\"vem tomar um café com a gente\")" }
+  ],
+  "rosto": { "nome": "Robson Garrido", "cargo": "Curadoria e Decoração" },
+  "cta_padrao": "Salva esse vídeo e vem garimpar com calma",
+  "tom": "Personagem fixo (Robson) falando pra câmera, caloroso, de quem recebe em casa. Nunca 'influenciadora descobrindo o lugar'.",
+  "drive": {
+    "pasta_editor": "1Cdb-d4juG_6BVEXHB3glPtlmYJpPPR8q",
+    "pasta_drone": "14t9nfHi6x5dpaBvFFl0fflgzuR4pPcQA",
+    "pasta_gravacao_04_11": "15gbTghxgA-sMJtRdJObW4q9KpxKJRX4U",
+    "pasta_black_novembro": "1q5rDvdz1brb8VrccL0ObQfpPaqgXPQ04",
+    "ficha_cliente": "1059-rtPww8XH4qynb4ucwpJwwCkAHwbSy2Ls1MLJ8U0",
+    "catalogo_produtos": "1GRa4q5dxlmq7MzG7cVCHG-FOPNA9e5CnKIctgCai3lI"
+  }
+}

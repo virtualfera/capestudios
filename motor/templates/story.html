@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Cape · Story mudo</title>
+<link rel="stylesheet" href="../base.css">
+<style>
+/* ===== STORY MUDO =====
+   Vídeo pensado para rodar SEM som: todo o sentido está no texto e no movimento.
+   Modelos (dados.modelo): pergunta-resposta · caixinha · lista · checklist
+   Serve para testar formatos novos nos stories antes de virar reels gravado. */
+#stage { background: var(--fundo); }
+.fundo { position: absolute; inset: 0; background: radial-gradient(120% 80% at 50% 30%, color-mix(in srgb, var(--fundo) 88%, #fff) 0%, var(--fundo) 55%, color-mix(in srgb, var(--fundo) 80%, #000) 100%); }
+.fundo img.lg { position: absolute; width: 1700px; height: 1700px; left: -310px; top: 1050px; border-radius: 50%; opacity: .06; object-fit: cover; }
+.fundo img.foto { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.fundo .grade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,.55), rgba(0,0,0,.25) 40%, rgba(0,0,0,.7)); }
+body[data-cliente="arteiro"] .fundo { background: radial-gradient(120% 80% at 50% 30%, #1c1c20 0%, #0b0b0d 60%); }
+
+.tag { position: absolute; left: 80px; top: 230px; display: flex; align-items: center; gap: 18px; z-index: 20; font: 700 34px/1 var(--f-texto); color: var(--txt); }
+.tag img { width: 78px; height: 78px; border-radius: 50%; object-fit: cover; box-shadow: 0 0 0 4px var(--pri); }
+body[data-cliente="arteiro"] .tag img { box-shadow: 0 0 0 4px #fff; }
+.titulo { position: absolute; left: 80px; top: 360px; width: 900px; z-index: 20; font: 800 78px/1.08 var(--f-titulo); color: var(--txt); letter-spacing: -1px; }
+.titulo .pal { display: inline-block; }
+body[data-cliente="arteiro"] .titulo { font: 400 112px/1.02 var(--f-titulo); text-transform: uppercase; letter-spacing: 0; }
+body[data-estilo="caixa-laranja"] .titulo { text-transform: uppercase; }
+body[data-estilo="italico-serifa"] .titulo .acento { font-size: 1.1em; }
+
+/* bolha de DM / pergunta */
+.bolha { position: absolute; left: 80px; width: 860px; box-sizing: border-box; padding: 36px 44px; border-radius: 46px 46px 46px 12px; background: #fff; color: #161616;
+  font: 700 54px/1.2 var(--f-texto); box-shadow: 0 24px 60px rgba(0,0,0,.22); z-index: 25; transform-origin: 0 100%; }
+.bolha small { display: block; font: 600 28px/1 var(--f-texto); color: #8a8a8a; margin-bottom: 16px; letter-spacing: .5px; }
+
+/* cartões de resposta / lista */
+.cartao { position: absolute; left: 80px; width: 920px; box-sizing: border-box; z-index: 24; }
+.cartao .num { font: 400 230px/0.9 var(--f-titulo); color: var(--pri); }
+body[data-cliente="arteiro"] .cartao .num { font-family: "AntonL"; }
+.cartao .ct { font: 800 72px/1.1 var(--f-titulo); color: var(--txt); margin-top: 12px; }
+body[data-cliente="arteiro"] .cartao .ct { font: 400 104px/1.02 var(--f-titulo); text-transform: uppercase; }
+.cartao .tx { font: 600 50px/1.3 var(--f-texto); color: var(--txt); opacity: .92; margin-top: 26px; }
+.resp { position: absolute; left: 80px; width: 900px; z-index: 24; font: 700 76px/1.22 var(--f-texto); color: var(--txt); }
+.resp .pal { display: inline-block; }
+body[data-estilo="italico-serifa"] .resp .acento { font-size: 1.12em; }
+.barra { position: absolute; left: 80px; top: 1500px; width: 860px; height: 8px; border-radius: 4px; background: color-mix(in srgb, var(--txt) 18%, transparent); z-index: 30; overflow: hidden; }
+.barra i { position: absolute; left: 0; top: 0; bottom: 0; background: var(--pri); }
+body[data-cliente="arteiro"] .barra i { background: var(--dest); }
+
+/* caixinha (mock do sticker de pergunta — no app, colar o sticker real por cima) */
+.caixa { position: absolute; left: 110px; width: 860px; border-radius: 40px; overflow: hidden; background: #fff; box-shadow: 0 30px 70px rgba(0,0,0,.25); z-index: 26; }
+.caixa .h { padding: 48px; text-align: center; font: 800 56px/1.15 var(--f-texto); color: #fff; background: var(--grad, var(--pri)); }
+.caixa .c { margin: 38px; padding: 38px; border-radius: 22px; background: #f1f3f6; font: 600 42px/1 var(--f-texto); color: #9aa0a6; }
+.duv { position: absolute; left: 80px; max-width: 880px; box-sizing: border-box; padding: 30px 38px; border-radius: 34px; background: #fff; color: var(--txt); font: 700 50px/1.22 var(--f-texto); box-shadow: 0 16px 40px rgba(15,39,71,.14); z-index: 25; }
+.duv::before { content: "“"; color: var(--pri); font: 800 60px/0 var(--f-titulo); margin-right: 6px; position: relative; top: 14px; }
+
+/* checklist */
+.item { position: absolute; left: 80px; width: 900px; display: flex; align-items: center; gap: 30px; z-index: 24; font: 700 54px/1.15 var(--f-texto); color: var(--txt); }
+.item .box { width: 92px; height: 92px; border-radius: 22px; border: 6px solid var(--pri); flex: none; display: grid; place-items: center; box-sizing: border-box; }
+.item .box svg { width: 60px; height: 60px; }
+.item .box path { stroke: #fff; stroke-width: 3.2; fill: none; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 24; }
+
+/* fechamento */
+.fecho { position: absolute; left: 80px; width: 900px; top: 860px; z-index: 40; }
+.fecho .tx { font: 800 84px/1.12 var(--f-titulo); color: var(--txt); }
+body[data-cliente="arteiro"] .fecho .tx { font: 400 140px/1  var(--f-titulo); text-transform: uppercase; }
+.fecho .cta { display: inline-block; margin-top: 48px; padding: 32px 52px; border-radius: 999px; background: var(--pri); color: #fff; font: 800 46px/1.1 var(--f-texto); }
+body[data-cliente="arteiro"] .fecho .cta { background: var(--dest); color: #111; }
+</style>
+<script src="../runtime.js"></script>
+</head>
+<body>
+<div id="stage"></div>
+<script>
+window.SPEC_EXEMPLO = {
+  marca: { slug: 'ws-coworking', nome: 'W&S Coworking', cores: { fundo: '#14203a', primaria: '#f28a1c', secundaria: '#fff', destaque: '#f28a1c', texto: '#fff' }, fontes: { titulo: 'MontL', texto: 'Inter', acento: 'MontL' }, estilo_acento: 'caixa-laranja' },
+  dados: { modelo: 'checklist', titulo: 'O que não pode faltar num *bom coworking*', itens: ['Mesas de verdade', 'Cadeira ergonômica', 'Internet boa'], fecho: 'Tem tudo isso aqui', cta: 'Agenda uma visita' }, base_dir: ''
+};
+
+window.CENA = (() => {
+  let D, M, dur, R = {}, plano = [];
+  const st = () => document.getElementById('stage');
+
+  function entrarPalavras(ws, t, t0, passo = 0.07) {
+    ws.forEach((w, i) => { const a = U.p(t, t0 + i * passo, t0 + i * passo + 0.4); w.style.opacity = U.eOut(a); w.style.transform = `translateY(${(1 - U.eBack(a)) * 50}px)`; });
+  }
+
+  const MODELOS = {
+    // Pergunta real (DM) -> resposta em batidas -> CTA
+    'pergunta-resposta'(s) {
+      R.bolha = U.el('div', 'bolha', s, `<small>${D.rotulo_pergunta || 'Pergunta que a gente mais ouve'}</small>${textoComAcento(D.pergunta)}`);
+      R.bolha.style.top = '420px';
+      const batidas = D.resposta || [];
+      let t = 3.4;
+      R.resps = batidas.map(b => { const e = U.el('div', 'resp', s); e.style.top = '900px'; const ws = palavras(e, b); const ini = t; const fim = t + (D.tempo_batida || 3.2); t = fim; return { e, ws, ini, fim }; });
+      R.fechoIni = t; return t + 3.4;
+    },
+    // Caixinha de dúvidas: perguntas reais já respondidas + espaço para o sticker
+    caixinha(s) {
+      R.tit = U.el('div', 'titulo', s); R.titW = palavras(R.tit, D.titulo);
+      R.duvs = (D.itens || []).map((q, i) => { const e = U.el('div', 'duv', s, textoComAcento(q)); e.style.top = (720 + i * 190) + 'px'; return e; });
+      R.caixa = U.el('div', 'caixa', s, `<div class="h">${D.caixa || 'Manda a sua dúvida'}</div><div class="c">Escreva aqui…</div>`);
+      R.caixa.style.top = '820px';
+      R.caixaIni = 1.4 + R.duvs.length * 1.6 + 1.6;
+      R.fechoIni = R.caixaIni + 4.2; return R.fechoIni + 0.01;
+    },
+    // Lista numerada (cada item uma "cena")
+    lista(s) {
+      R.tit = U.el('div', 'titulo', s); R.titW = palavras(R.tit, D.titulo);
+      let t = 2.6;
+      R.cards = (D.itens || []).map((it, i) => {
+        const c = U.el('div', 'cartao', s, `<div class="num">${it.num || i + 1}</div><div class="ct">${textoComAcento(it.titulo)}</div>${it.texto ? `<div class="tx">${textoComAcento(it.texto)}</div>` : ''}`);
+        c.style.top = '560px';
+        const ini = t, fim = t + (D.tempo_item || 3.0); t = fim; return { c, ini, fim };
+      });
+      R.barra = U.el('div', 'barra', s, '<i></i>');
+      R.fechoIni = t; return t + 3.4;
+    },
+    // Checklist que vai sendo marcado
+    checklist(s) {
+      R.tit = U.el('div', 'titulo', s); R.titW = palavras(R.tit, D.titulo);
+      R.itens = (D.itens || []).map((tx, i) => {
+        const e = U.el('div', 'item', s, `<div class="box"><svg viewBox="0 0 24 24"><path d="M4 12.5l5 5L20 6.5"/></svg></div><span>${textoComAcento(tx)}</span>`);
+        e.style.top = (700 + i * 140) + 'px'; return e;
+      });
+      R.chkIni = 2.4; R.chkPasso = D.tempo_item || 1.1;
+      R.fechoIni = R.chkIni + R.itens.length * R.chkPasso + 1.6; return R.fechoIni + 3.4;
+    },
+  };
+
+  return {
+    get dur() { return dur; },
+    async montar(spec) {
+      M = spec.marca; D = spec.dados; const s = st();
+      const f = U.el('div', 'fundo', s);
+      if (D.foto) { U.el('img', 'foto', f).src = caminho(D.foto); U.el('div', 'grade', f); }
+      else { R.lg = U.el('img', 'lg', f); R.lg.src = caminho(M.logo); }
+      R.tag = U.el('div', 'tag', s, `<img src="${caminho(M.logo)}"><span>${M.nome}</span>`);
+      dur = D.dur || MODELOS[D.modelo](s);
+      if (D.dur) MODELOS[D.modelo](s);
+      R.fecho = U.el('div', 'fecho', s);
+      R.fechoTx = U.el('div', 'tx', R.fecho); R.fechoW = palavras(R.fechoTx, D.fecho || '');
+      R.cta = U.el('div', 'cta', R.fecho, D.cta || M.cta_padrao);
+      if (new URLSearchParams(location.search).has('guias')) U.el('div', 'guias', s);
+      await carregarImagens([caminho(M.logo), D.foto && caminho(D.foto)]);
+      await document.fonts.ready;
+      // miolo começa abaixo do título real (não sobrepõe) e centraliza no espaço útil até y=1500
+      if (R.tit) {
+        const fimTit = R.tit.offsetTop + R.tit.offsetHeight + 80;
+        const blocos = R.cards ? R.cards.map(r => r.c) : R.itens || R.duvs || [];
+        if (R.cards) { const h = Math.max(...R.cards.map(r => r.c.offsetHeight)); const y = Math.max(fimTit, fimTit + (1480 - fimTit - h) / 2 - 60); R.cards.forEach(r => r.c.style.top = y + 'px'); }
+        if (R.itens) { const passo = 150, h = R.itens.length * passo; const y = Math.max(fimTit, fimTit + (1480 - fimTit - h) / 2); R.itens.forEach((e, i) => e.style.top = (y + i * passo) + 'px'); }
+        if (R.duvs) { let y = fimTit + 40; R.duvs.forEach(e => { e.style.top = y + 'px'; y += e.offsetHeight + 34; }); R.caixa.style.top = Math.max(fimTit + 60, (fimTit + 1480 - R.caixa.offsetHeight) / 2) + 'px'; }
+      }
+    },
+    desenhar(t) {
+      if (R.lg) R.lg.style.transform = `rotate(${t * 2.2}deg)`;
+      const tg = U.eOut(U.p(t, 0, .5)); R.tag.style.opacity = tg; R.tag.style.transform = `translateY(${(1 - tg) * -20}px)`;
+      const F = R.fechoIni;
+
+      if (D.modelo === 'pergunta-resposta') {
+        const a = U.p(t, .3, .8), enc = U.eInOut(U.p(t, 3.0, 3.5));
+        R.bolha.style.opacity = U.eOut(a) * (1 - U.p(t, F - .3, F) * .0);
+        R.bolha.style.transform = `scale(${(0.6 + 0.4 * U.eBack(a)) * (1 - 0.18 * enc)}) translateY(${-enc * 80}px)`;
+        R.resps.forEach(r => { const vis = t >= r.ini - .05 && t < r.fim; r.e.style.display = vis ? 'block' : 'none'; if (vis) { entrarPalavras(r.ws, t, r.ini, .06); const sai = U.p(t, r.fim - .25, r.fim); r.e.style.opacity = 1 - sai; } });
+        R.bolha.style.display = t < F ? 'block' : 'none';
+      }
+      if (R.titW) { entrarPalavras(R.titW, t, .4); R.tit.style.opacity = 1 - U.p(t, F - .3, F); }
+      if (D.modelo === 'caixinha') {
+        R.duvs.forEach((e, i) => { const a = U.p(t, 1.4 + i * 1.6, 1.9 + i * 1.6); const sai = U.p(t, R.caixaIni - .4, R.caixaIni); e.style.opacity = U.eOut(a) * (1 - sai); e.style.transform = `translateX(${(1 - U.eBack(a)) * -120}px) rotate(${(i % 2 ? 1 : -1) * 1.2}deg) translateY(${-sai * 60}px)`; });
+        const c = U.p(t, R.caixaIni, R.caixaIni + .6); R.caixa.style.opacity = U.eOut(c) * (1 - U.p(t, F - .3, F)); R.caixa.style.transform = `scale(${.7 + .3 * U.eBack(c)})`;
+      }
+      if (D.modelo === 'lista') {
+        R.cards.forEach(r => { const vis = t >= r.ini && t < r.fim; r.c.style.display = vis ? 'block' : 'none'; if (vis) { const a = U.p(t, r.ini, r.ini + .5), sai = U.p(t, r.fim - .3, r.fim); r.c.style.opacity = U.eOut(a) * (1 - sai); r.c.style.transform = `translateX(${(1 - U.eOut(a)) * 160 - U.eIn(sai) * 160}px)`; } });
+        const ini = R.cards.length ? R.cards[0].ini : 0; R.barra.querySelector('i').style.width = (U.p(t, ini, F) * 100) + '%'; R.barra.style.opacity = 1 - U.p(t, F - .3, F);
+      }
+      if (D.modelo === 'checklist') {
+        R.itens.forEach((e, i) => { const t0 = R.chkIni + i * R.chkPasso; const a = U.p(t, t0, t0 + .4), k = U.p(t, t0 + .35, t0 + .75); e.style.opacity = U.eOut(a) * (1 - U.p(t, F - .3, F)); e.style.transform = `translateX(${(1 - U.eBack(a)) * -100}px)`;
+          const b = e.querySelector('.box'); b.style.background = k > 0 ? 'var(--pri)' : 'transparent'; b.style.transform = `scale(${1 + .18 * Math.sin(k * Math.PI)})`; e.querySelector('path').style.strokeDashoffset = 24 * (1 - U.eOut(k)); });
+      }
+      // fechamento
+      const fk = U.p(t, F, F + .5);
+      R.fecho.style.display = fk > 0 ? 'block' : 'none';
+      if (fk > 0) { entrarPalavras(R.fechoW, t, F); const c = U.p(t, F + .7, F + 1.2); R.cta.style.opacity = U.eOut(c); R.cta.style.transform = `scale(${.8 + .2 * U.eBack(c)})`; }
+    },
+  };
+})();
+</script>
+</body>
+</html>

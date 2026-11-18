@@ -1,0 +1,29 @@
+{
+  "cliente": "arteiro",
+  "template": "story",
+  "saida": "entregas/arteiro/Arteiro_Story_TresAndares_previa_v1.mp4",
+  "_fonte": "Transcrições Arteiro-Tour-Tres-Andares-v3-A.mp4 e 'arteiro terceiro andar.mp4'. Conferir se as peças citadas ainda estão na loja antes de postar.",
+  "dados": {
+    "modelo": "lista",
+    "titulo": "São *3 andares*.\nJá subiu todos?",
+    "itens": [
+      {
+        "num": "1º",
+        "titulo": "Mesa de *Natal*",
+        "texto": "Louças vermelhas e verdes, quebra-nozes e adornos artesanais"
+      },
+      {
+        "num": "2º",
+        "titulo": "Conjunto *Coca-Cola*",
+        "texto": "Poltronas com listras vermelho e branco"
+      },
+      {
+        "num": "3º",
+        "titulo": "Só *garimpo*",
+        "texto": "Molduras em madeira de demolição e peças únicas"
+      }
+    ],
+    "fecho": "Vem subir\nos *três*",
+    "cta": "Estacionamento próprio · Itaipava"
+  }
+}

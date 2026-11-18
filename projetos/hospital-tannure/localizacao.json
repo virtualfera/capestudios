@@ -1,0 +1,29 @@
+{
+  "cliente": "hospital-tannure",
+  "template": "localizacao",
+  "saida": "entregas/hospital-tannure/HospitalTannure_Localizacao_previa_v1.mp4",
+  "dados": {
+    "dur": 15,
+    "gancho": "Consulta marcada?\nSalva *como chegar*",
+    "pin": {
+      "x": 560,
+      "y": 980
+    },
+    "titulo_fatos": "Antes de sair de casa",
+    "fatos": [
+      {
+        "icone": "estrela",
+        "texto": "Desde 1978 em Petrópolis"
+      },
+      {
+        "icone": "olho",
+        "texto": "Catarata e retina"
+      },
+      {
+        "icone": "pin",
+        "texto": "No Centro"
+      }
+    ],
+    "cta": "Agende sua consulta pelo link da bio"
+  }
+}

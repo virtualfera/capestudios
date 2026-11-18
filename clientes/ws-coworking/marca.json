@@ -1,0 +1,43 @@
+{
+  "slug": "ws-coworking",
+  "nome": "W&S Coworking",
+  "nome_completo": "W&S Coworking",
+  "instagram": "@wscoworking",
+  "instagram_confirmar": true,
+  "registro": "confianca-empresario",
+  "cores": {
+    "fundo": "#14203a",
+    "primaria": "#f28a1c",
+    "secundaria": "#ffffff",
+    "destaque": "#f28a1c",
+    "texto": "#ffffff",
+    "texto_sobre_destaque": "#ffffff",
+    "marinho": "#1d2b4a"
+  },
+  "fontes": { "titulo": "MontL", "texto": "Inter", "acento": "MontL" },
+  "estilo_acento": "caixa-laranja",
+  "logo": "marca/logo.png",
+  "local": {
+    "nome_curto": "W&S Coworking",
+    "bairro": "Centro",
+    "cidade": "Petrópolis · RJ",
+    "unidade": "Unidade Bauhaus",
+    "endereco": null,
+    "endereco_confirmado": false,
+    "nota": "Planejamento de agosto diz 'centro de Petrópolis' e o post da sala de eventos diz 'Unidade Bauhaus'. Rua e número: pedir ao cliente."
+  },
+  "fatos": [
+    { "icone": "porta", "texto": "Salas privativas P, M e G", "fonte": "Planejamento de conteúdo WS (agosto)" },
+    { "icone": "mesa", "texto": "Sala de eventos", "fonte": "Post 'Sala de eventos — Unidade Bauhaus'" },
+    { "icone": "pin", "texto": "No centro de Petrópolis", "fonte": "Planejamento de conteúdo WS (agosto)" },
+    { "icone": "check", "texto": "Sem assinar contrato nenhum", "fonte": "Post do feed — confirmar condição atual" }
+  ],
+  "rosto": { "nome": null, "cargo": "Sócio · W&S", "nota": "Nome do rosto do perfil não está nas fichas — confirmar." },
+  "cta_padrao": "Chama no direct e agenda uma visita",
+  "tom": "Autoridade humana, de empresário para empresário. 'Terceirizar a dor de cabeça'. Direto, sem jargão.",
+  "drive": {
+    "pasta_editor": "1FPdImO1XbizpLxeyAh2JRH61IhXYdzDj",
+    "planejamento_agosto": "1KwBVw-NtWFjmPND5kymSV9d8wNKyVLTGFTgaVvUGArc",
+    "calendario_maio": "1LjdNC6dhnigEi7mQ8PM1Stb1eqVVjtJyrHK6pLL2I_I"
+  }
+}

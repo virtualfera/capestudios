@@ -1,0 +1,45 @@
+{
+  "slug": "hospital-tannure",
+  "nome": "Hospital de Olhos Dr. Tannure",
+  "nome_completo": "Hospital de Olhos Dr. Tannure",
+  "instagram": "@hospitaldeolhosdrtannure",
+  "instagram_confirmar": true,
+  "registro": "confianca",
+  "cores": {
+    "fundo": "#eaf4fb",
+    "primaria": "#1f5fbf",
+    "secundaria": "#ffffff",
+    "destaque": "#8cc63f",
+    "texto": "#0f2747",
+    "texto_sobre_destaque": "#0f2747",
+    "gradiente_acento": ["#1f6fe0", "#27b6d6"]
+  },
+  "fontes": { "titulo": "MontL", "texto": "Inter", "acento": "MontL" },
+  "estilo_acento": "gradiente",
+  "logo": "marca/logo.png",
+  "local": {
+    "nome_curto": "Hospital de Olhos",
+    "bairro": "Centro",
+    "cidade": "Petrópolis · RJ",
+    "endereco": "Av. Ipiranga, 298",
+    "endereco_confirmado": false,
+    "nota": "Endereço vindo de diretórios públicos (bula.com.br, telelistas). Confirmar com o hospital antes de publicar."
+  },
+  "fatos": [
+    { "icone": "estrela", "texto": "Desde 1978", "fonte": "Logo do hospital" },
+    { "icone": "olho", "texto": "Catarata e retina", "fonte": "Bio do Dr. William Tannure (diretor médico)" },
+    { "icone": "pin", "texto": "No Centro de Petrópolis", "fonte": "Diretórios públicos — confirmar" }
+  ],
+  "rosto": { "nome": "Dr. William Tannure", "cargo": "Diretor Médico · Oftalmologista" },
+  "cta_padrao": "Agende sua consulta pelo link da bio",
+  "tom": "Técnico/Confiança. Educativo, calmo, sem alarmismo. Nada de promessa de resultado. Sem estilo influenciadora.",
+  "regras_extras": [
+    "Conteúdo médico: só afirmações que já estão em roteiros aprovados pelo hospital ou que o médico gravou.",
+    "Nunca prometer resultado de cirurgia nem usar antes/depois de paciente sem autorização escrita."
+  ],
+  "drive": {
+    "pasta_editor_dr_william": "1pFfwWui0zSxlt9YkqBf3CUy2uv0cwWTh",
+    "ficha_dr_william": "15nKg8scNLyPPUZHlnbL_Xiptvk5-z6gZKAkd3BpXO0U",
+    "aprovacao_setembro": "1aa_txI40RGen0Vx9Jx38Wc27N19W43qf"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "intensa",
+  "nome": "Intensa",
+  "nome_completo": "Intensa Odontologia Afetiva",
+  "instagram": "@intensa_odontologia_afetiva",
+  "registro": "confianca",
+  "cores": {
+    "fundo": "#f6ece9",
+    "primaria": "#6e2436",
+    "secundaria": "#ffffff",
+    "destaque": "#e9c3c6",
+    "texto": "#3a1520",
+    "texto_sobre_destaque": "#6e2436",
+    "ouro_rose": "#c99a8e"
+  },
+  "fontes": { "titulo": "Inter", "texto": "Inter", "acento": "PlayfairL" },
+  "estilo_acento": "italico-serifa",
+  "logo": "marca/logo.png",
+  "local": {
+    "nome_curto": "Intensa",
+    "bairro": "Pátio Petrópolis",
+    "cidade": "Petrópolis · RJ",
+    "endereco": null,
+    "endereco_confirmado": false,
+    "nota": "Sabemos pela ficha que fica no Pátio Petrópolis. Sala/andar e endereço completo: pedir à clínica."
+  },
+  "fatos": [
+    { "icone": "estrela", "texto": "17 anos de implantes", "fonte": "Bio do Instagram" },
+    { "icone": "predio", "texto": "No Pátio Petrópolis", "fonte": "Ficha Intensa-Odontologia-Afetiva.md" },
+    { "icone": "coracao", "texto": "Odontologia afetiva", "fonte": "Nome / posicionamento" }
+  ],
+  "rosto": { "nome": null, "cargo": "Dentista responsável", "nota": "Nome da dentista não está nas fichas — confirmar antes de usar lower-third." },
+  "cta_padrao": "Toque no link da bio e dê o primeiro passo",
+  "tom": "Técnico/Confiança com afeto. Gancho de alerta controlado (mito x verdade), sempre resolvido com informação real.",
+  "aprovados": [
+    {
+      "tema": "Dentadura x protocolo fixo (paladar)",
+      "fonte": "Transcrição do reel postado (Drive, pasta Postagens, arquivo 'postado')",
+      "texto": "A dentadura superior precisa cobrir todo o céu da boca para criar vácuo e tentar ficar presa. Essa placa de acrílico amortece a textura e tampa milhares de receptores gustativos. Com o protocolo de implantes fixos, o céu da boca fica completamente livre."
+    }
+  ],
+  "drive": {
+    "roteiros": "12-lxbiu1II67BGXLThCES7ivPt9MO7nXC01i2QNhfI8",
+    "ficha_cliente": "1-lBwbAlakFeDFnyC4BMdeTjzBWBfgoda2mZxaghxPrM"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "cliente": "arteiro",
+  "template": "localizacao",
+  "saida": "entregas/arteiro/Arteiro_Localizacao_previa_v1.mp4",
+  "dados": {
+    "dur": 15,
+    "fundo": "clientes/arteiro/referencias/drone-fachada-limpa.png",
+    "gancho": "Já passou por\nesse prédio de\n*containers*\nem Itaipava?",
+    "pin": {
+      "x": 610,
+      "y": 700
+    },
+    "titulo_fatos": "O que te espera lá dentro",
+    "fatos": [
+      {
+        "icone": "predio",
+        "texto": "3 andares de loja"
+      },
+      {
+        "icone": "martelo",
+        "texto": "Fabricação própria"
+      },
+      {
+        "icone": "carro",
+        "texto": "Estacionamento próprio"
+      },
+      {
+        "icone": "cafe",
+        "texto": "E um café te esperando"
+      }
+    ],
+    "cta": "Salva esse vídeo e vem garimpar com calma"
+  },
+  "_versao_final": {
+    "clipes": [
+      {
+        "src": "brutos/arteiro/drone/dji_fly_20260624_115106_0447.mp4",
+        "in": 4.0,
+        "dur": 6.0
+      },
+      {
+        "src": "brutos/arteiro/drone/dji_fly_20260624_115454_0453.mp4",
+        "in": 2.0,
+        "dur": 5.5
+      },
+      {
+        "src": "brutos/arteiro/gravacao-04-11/IMG_5671.MOV",
+        "in": 1.0,
+        "dur": 3.5
+      }
+    ],
+    "audio": {
+      "narracao": "brutos/arteiro/narracao-robson-localizacao.wav",
+      "trilha": "brutos/trilhas/ESCOLHER.mp3",
+      "trilha_db": -20
+    },
+    "nota": "Mover 'clipes' e 'audio' para o nível de cima quando os brutos estiverem baixados (ver formatos/localizacao.md)."
+  }
+}
