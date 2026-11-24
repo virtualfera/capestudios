@@ -18,6 +18,7 @@ Projeto (caminhos relativos à raiz do repositório):
 Nunca sobrescreve uma saída existente: suba a versão (v2, v3...).
 """
 import json, os, subprocess, sys, shutil, tempfile
+from pathlib import Path
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FPS = 30
@@ -36,16 +37,18 @@ def carregar(proj_path):
     proj = json.load(open(proj_path, encoding='utf-8'))
     cdir = os.path.join(RAIZ, 'clientes', proj['cliente'])
     marca = json.load(open(os.path.join(cdir, 'marca.json'), encoding='utf-8'))
-    marca['logo'] = os.path.join(cdir, marca['logo'])
+    # caminhos viram file:// URI (funciona no Windows, Mac e Linux)
+    uri = lambda p: Path(p).resolve().as_uri()
+    marca['logo'] = uri(os.path.join(cdir, marca['logo']))
     dados = proj.get('dados', {})
-    for k in ('fundo',):
+    for k in ('fundo', 'foto'):
         if dados.get(k):
-            dados[k] = abs_(dados[k])
+            dados[k] = uri(abs_(dados[k]))
     for cena in dados.get('cenas', []):
         if cena.get('foto'):
-            cena['foto'] = abs_(cena['foto'])
+            cena['foto'] = uri(abs_(cena['foto']))
     tem_clipes = bool(proj.get('clipes'))
-    spec = {'template': proj['template'], 'marca': marca, 'dados': dados, 'base_dir': RAIZ, 'transparente': tem_clipes}
+    spec = {'template': proj['template'], 'marca': marca, 'dados': dados, 'base_dir': Path(RAIZ).as_uri(), 'transparente': tem_clipes}
     return proj, spec
 
 

@@ -1,0 +1,237 @@
+﻿GUIA DO FRED: CAPE STUDIOS
+(versão bloco de notas do PDF "Guia-do-Fred-Cape.pdf")
+Guia do Fred
+Como instalar o Claude no seu Acer Nitro e produzir os vídeos da Cape,
+a começar pelo "Como chegar" para todos os clientes, os atuais e os próximos.
+
+  1. O que é isto
+  2. Instalar no Acer Nitro (Windows)
+  3. Primeiro uso do Claude
+  4. O formato "Como chegar": a referência
+  5. Passo a passo para fazer um "Como chegar"
+  6. Roteiro-molde da narração
+  7. Situação de cada cliente
+  8. "Como chegar" para clientes novos
+  9. Outras ideias de vídeo
+  10. Checklist antes de entregar
+  11. Se der erro
+
+==============================
+1. O que é isto
+==============================
+
+A Cape montou um repositório no GitHub (virtualfera/capestudios) com tudo o que um editor precisa para produzir sem travar: as fichas de cada cliente (cores, fontes, fatos reais com fonte, endereço, rosto, CTA), os formatos de vídeo que já funcionam (com a referência decupada), uma pauta do que fazer agora e um motor que gera motion (cards, pins, cartão final, stories só com texto).
+Você abre o Claude Code dentro dessa pasta no seu notebook. Ele lê as instruções sozinho (CLAUDE.md) e passa a conhecer os clientes e as regras da Cape: nada genérico, nunca inventar dado, sempre partir de referência. Você continua editando no seu programa (Premiere, DaVinci, CapCut). O Claude roteiriza, decupa, organiza os takes, gera motion e confere.
+
+==============================
+2. Instalar no Acer Nitro (Windows 10/11)
+==============================
+
+Abra o menu Iniciar, digite PowerShell e abra. Cole um bloco por vez e espere terminar.
+
+PASSO 1: Programas básicos (Git, Node, Python e FFmpeg)
+winget install --id Git.Git -e
+winget install --id OpenJS.NodeJS.LTS -e
+winget install --id Python.Python.3.12 -e
+winget install --id Gyan.FFmpeg -e
+ Feche e abra o PowerShell de novo para ele reconhecer os programas.
+
+PASSO 2: Claude Code
+irm https://claude.ai/install.ps1 | iex
+ Feche e abra o PowerShell de novo.
+
+PASSO 3: Baixar o repositório da Cape (cria a pasta Documentos\capestudios)
+cd $HOME\Documents
+git clone https://github.com/virtualfera/capestudios.git
+cd capestudios
+git checkout claude/producao-videos-clientes-6xsw3f
+ A última linha só é necessária enquanto o material não estiver no main.
+
+PASSO 4: Motor de vídeo (dentro da pasta capestudios)
+npm install
+npx playwright install chromium
+py -m pip install pillow opencv-python-headless
+
+PASSO 5: Abrir o Claude
+claude
+ Na primeira vez ele pede para entrar com a conta Claude da Cape. Depois disso é só usar.
+Sem terminal? Instale o app Claude para Windows, abra a aba Code e escolha a pasta Documentos\capestudios. Os passos 1, 3 e 4 continuam necessários para o motor de vídeo.
+
+--- Todo dia
+cd $HOME\Documents\capestudios
+git pull
+claude
+
+git pull traz o que o time atualizou (fichas, formatos, pauta). Takes brutos ficam em brutos\ e vídeos prontos em entregas\. Essas duas pastas não sobem para o GitHub, porque são pesadas. Quando o Claude melhorar uma ficha ou um formato, peça para ele "commitar e dar push" para o resto do time receber.
+
+==============================
+3. Primeiro uso do Claude
+==============================
+
+Peça em português normal. Bons primeiros pedidos:
+  - "Lê o CLAUDE.md e a PAUTA-FRED.md e me diz o que eu produzo esta semana."
+  - "Assiste a referência de localização do Arteiro (está em clientes/arteiro/referencias) e me explica o formato."
+  - "Monta o roteiro do Como chegar da Intensa e a lista do que falta perguntar a eles."
+  - "Gera o story mudo da Intensa (projetos/intensa/story-pergunta-paladar.json) e me mostra os quadros antes de renderizar."
+  - "Organiza os takes da pasta brutos/arteiro por cena e me sugere a ordem do corte."
+
+Comandos do motor no Windows (o Claude roda por você, mas é bom saber):
+py -I motor\montar.py projetos\arteiro\localizacao.json --checar   # 6 quadros para revisar (segundos)
+py -I motor\montar.py projetos\arteiro\localizacao.json            # MP4 1080x1920, 30 fps, -14 LUFS + capa
+
+==============================
+4. O formato "Como chegar": a referência
+==============================
+
+Arquivo: clientes/arteiro/referencias/localizacao-como-chegar-arco-iris.mp4 (57 s). Assista inteiro antes de começar. A decupagem completa, cena a cena, está em formatos/localizacao.md.
+[imagem: quadros do vídeo de referência, ver o PDF]
+
+Interior → drone com pin → mapa 3D com anel de arco-íris → BR-040 → placa da saída 62 → trecho final com rótulos → anel "pronto" → drone "chegou" → estacionamento → cartão final.
+A ideia: um GPS afetivo. Um mapa 3D claro, em low-poly, com uma rota nas cores da marca (no Arteiro, o arco-íris do logo) que leva quem vem do Rio até a porta. O mapa entrega a informação, o drone real prova que o lugar existe e o cartão final é o que a pessoa salva.
+  • Tempo | Bloco | O que acontece
+  • 0–4 s | Convite | Interior bonito, drone da fachada, pin cai na loja. "vem visitar a gente / salva esse vídeo / direitinho como chegar"
+  • 4–5 s | Mergulho | Match-cut: o drone vira o mapa 3D no mesmo enquadramento. Anel colorido pulsa no pin.
+  • 6–13 s | Rodovia | Carro low-poly na rota colorida. "vindo do Rio, sobe a serra pela BR-040". Placa verde da saída em tela cheia.
+  • 14–19 s | Estrada local | Vista aérea da rota pela via. "daí é só seguir… uns 3 quilômetros"
+  • 20–32 s | O detalhe | Zoom com rótulos (loja, referência, retorno). "do outro lado da pista, do lado da escola… faz o retorno… volta uns 400 metros"
+  • 33–38 s | Chegou | Anel gigante "pronto" e match-cut mapa → drone. "é o prédio do telhado azul"
+  • 39–43 s | Estacionamento | Drone de cima com rótulo "Estacionamento da loja". "o estacionamento é nosso… vaga pra cadeirante"
+  • 45–58 s | Cartão final | Interiores se alternando atrás do cartão: endereço, horário, mimo (café) e botão "Salva e manda pra quem vem com você".
+Fixos: selo "Como chegar no [cliente]" no topo esquerdo o vídeo todo; legenda palavra a palavra, branca e no centro; narração de quem explica a um amigo ("um detalhe", "pronto", "chegou").
+Pendente: ainda não sabemos com qual ferramenta o mapa 3D e a rota de arco-íris foram feitos. Pergunte a quem produziu a referência, pegue o arquivo-fonte e anote em formatos/localizacao.md. Sem isso, cada mapa novo começa do zero.
+
+==============================
+5. Passo a passo para fazer um "Como chegar"
+==============================
+
+PASSO 1: Coletar os dados com o cliente (mensagem pronta no fim desta seção). Sem endereço e trajeto confirmados, não começa.
+
+PASSO 2: Conferir o trajeto no Google Maps: saída da BR-040, nome da via, distância, lado da pista, retorno, referência visível (escola, posto, placa).
+
+PASSO 3: Gravar (1 manhã, luz boa):
+  - Drone: aproximação lenta da fachada (10–15 s); plano alto parado no mesmo enquadramento do mapa (para o match-cut); de cima do estacionamento.
+  - Rua: placa da saída da rodovia (se for seguro), a referência ("a escola"), o retorno.
+  - Dentro: 4–6 planos bonitos de 2–3 s para o fundo do cartão final, mais 1 plano de abertura.
+  - Rosto (opcional): 1 frase de convite na porta.
+
+PASSO 4: Roteiro: peça ao Claude para preencher o roteiro-molde (seção 6) com os dados do cliente. Leia em voz alta: tem que soar como alguém explicando a um amigo.
+
+PASSO 5: Narração: gravar no celular num quarto silencioso (ou a voz do rosto do cliente). Duas tomadas.
+
+PASSO 6: Mapa 3D + rota: na mesma ferramenta da referência, com a rota nas cores da marca e rótulos em pílula branca.
+
+PASSO 7: Montagem no seu editor seguindo os tempos da seção 4. Legenda palavra a palavra. O cartão final pode sair do motor (motor/templates/localizacao.html) com os dados da ficha.
+
+PASSO 8: Exportar em 1080×1920, 30 fps, H.264, áudio a −14 LUFS. Nome: Cliente_ComoChegar_v1.mp4. Nunca sobrescrever: a próxima versão é v2.
+
+PASSO 9: Checklist da seção 10. Subir em EDITOR CAPE / cliente no Drive.
+
+--- Mensagem pronta para pedir os dados ao cliente
+Oi! Vamos fazer o vídeo "Como chegar" de vocês (aquele com o mapa e o drone).
+Pode me confirmar:
+1. Endereço completo (rua, número, complemento/sala)
+2. Horário de funcionamento (dias e horas)
+3. De onde vem a maioria dos clientes (Rio? centro? outra cidade?)
+4. Algum detalhe que confunde quem chega pela primeira vez (lado da pista, retorno, entrada escondida)?
+5. Tem estacionamento? Próprio ou conveniado? Vaga para cadeirante?
+6. Um mimo ou diferencial de quem chega (café, água, recepção)?
+7. Podemos passar o drone na sexta de manhã?
+
+==============================
+6. Roteiro-molde da narração
+==============================
+
+Partes entre colchetes vêm da ficha ou do cliente. O ritmo é o da referência: frases curtas, uma informação por vez.
+Vem visitar a gente.
+Salva esse vídeo, que eu vou te mostrar direitinho como chegar.
+Vindo do [ORIGEM], [TRECHO DA RODOVIA]
+e pega a saída [NÚMERO/NOME DA SAÍDA].
+Daí é só seguir pela [VIA], sentido [BAIRRO], uns [DISTÂNCIA].
+Um detalhe: [O QUE CONFUNDE: lado da pista / referência / entrada].
+[MANOBRA: faz o retorno em X e volta Y metros].
+Pronto. Chegou: é [MARCA VISUAL DO PRÉDIO].
+Veio de carro? [ESTACIONAMENTO + ACESSIBILIDADE].
+A gente abre [DIAS E HORÁRIOS].
+E tem [MIMO] te esperando… pra quem vem com você.
+
+Saúde (Hospital, Intensa): o "Como chegar" é logístico, então pode. Só não prometa nada de tratamento. Ex.: "no dia da cirurgia, venha com acompanhante", desde que o próprio hospital confirme a orientação.
+
+==============================
+7. Situação de cada cliente
+==============================
+
+  • Cliente | Já temos | Falta | Cor da rota
+  • Arteiro | Referência pronta (prévia). Endereço, horários, trajeto, estacionamento, vaga PcD e café. | Aprovar e publicar. Fixar nos destaques. | Arco-íris do logo
+  • Hospital de Olhos Dr. Tannure | "Desde 1978". Endereço em diretórios públicos: Av. Ipiranga, 298, Centro. | Confirmar endereço e horários, trajeto (vindo de onde?), estacionamento, o que pode ser filmado, drone. | Azul → verde-limão
+  • Intensa | Fica no Pátio Petrópolis. 17 anos de implantes. | Sala/andar, caminho de dentro do Pátio até a clínica, estacionamento do Pátio, horários, drone. | Vinho → blush
+  • W&S Coworking | Centro de Petrópolis, Unidade Bauhaus, salas P/M/G, sala de eventos. | Endereço, horário de acesso, estacionamento, @ oficial, drone. | Laranja → marinho
+Tudo isso também está em clientes/<cliente>/marca.json. Quando o cliente confirmar, peça ao Claude para atualizar a ficha com a fonte.
+
+==============================
+8. "Como chegar" para clientes novos
+==============================
+
+O formato é um produto que a Cape pode vender para qualquer negócio que depende de visita: lojas, restaurantes, pousadas, clínicas, salões, escolas, eventos. Em Itaipava e Petrópolis ele resolve uma dor real: o turista que vem do Rio e se perde na União e Indústria.
+
+--- Por que fica rápido de produzir
+  - O trecho Rio → BR-040 → serra é igual para todo mundo. Faça a animação da rodovia uma vez e reaproveite; só a saída e a "última milha" mudam.
+  - Cartão final, pin, selo "Como chegar no…" e legendas são do motor: troca só a ficha do cliente.
+  - Uma manhã de gravação por cliente (drone + 6 planos internos).
+
+--- Como apresentar para um cliente novo
+  1. Mostre o do Arteiro (com autorização deles).
+  2. Diga o que resolve: "menos gente perdida e mais gente salvando e mandando para quem vai junto".
+  3. Combine o pacote: Como chegar + 3 stories mudos + capa para os destaques.
+  4. Use a mensagem da seção 5 para coletar os dados.
+
+--- Para criar a ficha de um cliente novo
+"Claude, cria a ficha do cliente novo [NOME] em clientes/[slug]/marca.json,
+com base no Instagram @[perfil] e nestas informações: [...]. Marca como
+CONFIRMAR tudo o que não tiver fonte."
+
+==============================
+9. Outras ideias de vídeo
+==============================
+
+--- Variações do "Como chegar"
+  - Vindo de outro lugar: do centro de Petrópolis, de Juiz de Fora, a pé do ponto de ônibus.
+  - Por dentro (15 s): da porta até o ponto principal (balcão, recepção, cadeira).
+  - Melhor hora para vir: dia mais tranquilo e horário de café. Só com informação do cliente.
+  - Versão story mudo (sem narração): só legenda e mapa, para os destaques "Como chegar".
+
+--- Por cliente
+  • Cliente | Ideias
+  • Arteiro | Tour dos 3 andares fora da Black; "Garimpo do 3º andar" (pia inglesa, molduras de demolição); Robson recebendo na porta; presentes de Natal por faixa de preço (com preços do cliente); antes e depois de restauro do galpão.
+  • Hospital / Dr. William | "No dia da sua cirurgia: chegada, recepção, acompanhante" (logístico, validado pelo hospital); série DM-pergunta → resposta do Dr. William (já é o formato dele); caixinha de dúvidas de catarata (story pronto no repositório).
+  • Intensa | "Sua primeira consulta: do estacionamento do Pátio até a cadeira"; série "o que a dentadura tira de você" em stories (texto de roteiros já aprovados); a história "O que o fogo não levou" (conversar com a clínica antes).
+  • W&S | "Primeiro dia no W&S": chegada, recepção, Wi-Fi e sala; abrir as portas das salas P, M e G; sala de eventos montada vs. vazia; checklist do bom coworking (story pronto).
+
+--- Stories mudos (laboratório de formatos)
+Vídeos sem áudio para testar formatos antes de gravar reel. O motor tem 4 modelos: lista, pergunta-resposta, caixinha e checklist. Já existe uma pauta pronta para cada cliente em projetos/. O que segurar a audiência por 24 h vira reel gravado com o rosto do cliente.
+
+==============================
+10. Checklist antes de entregar
+==============================
+
+  - Todo fato tem fonte (ficha, cliente ou vídeo já aprovado). Nada inventado.
+  - Endereço e horário confirmados pelo cliente.
+  - Se o texto serviria para outro negócio só trocando o nome, reescrever.
+  - Cores, fontes e logo da marca certos (ver ficha).
+  - Texto dentro da zona segura: nada nos 220 px de cima, nos 380 px de baixo nem nos 150 px da direita.
+  - Nenhuma palavra sozinha na linha, nada sobreposto.
+  - Legenda batendo com a fala.
+  - 1080×1920, 30 fps, áudio a −14 LUFS, música licenciada.
+  - Nome com versão (_v1, _v2…), nunca sobrescrever.
+  - Saúde: nenhuma promessa de resultado, nenhum paciente sem autorização.
+
+==============================
+11. Se der erro
+==============================
+
+  • Erro | O que fazer
+  • winget não é reconhecido | Atualize o "Instalador de Aplicativo" pela Microsoft Store e abra o PowerShell de novo.
+  • npm: "execução de scripts foi desabilitada" | Rode Set-ExecutionPolicy -Scope CurrentUser RemoteSigned, confirme com S e tente de novo.
+  • git, node, ffmpeg ou claude não encontrado logo após instalar | Feche e abra o PowerShell. Se continuar, reinicie o notebook.
+  • python3 não existe | No Windows use py (ex.: py -I motor\montar.py …).
+  • Qualquer outra coisa | Cole a mensagem de erro inteira para o Claude e peça para ele resolver.
+Repositório: github.com/virtualfera/capestudios · Arquivos-chave: CLAUDE.md, PAUTA-FRED.md, formatos/localizacao.md, clientes/*/marca.json

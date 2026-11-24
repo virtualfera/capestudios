@@ -94,8 +94,10 @@ function montarLegendas(stage, legendas) {
 
 function caminho(rel) {
   if (!rel) return null;
-  if (/^(https?:|file:|data:|\/)/.test(rel)) return rel.startsWith('/') ? 'file://' + rel : rel;
-  return 'file://' + (window.SPEC.base_dir || '') + '/' + rel;
+  if (/^(https?:|file:|data:)/.test(rel)) return rel;
+  if (rel.startsWith('/')) return 'file://' + rel;
+  const base = window.SPEC.base_dir || '';
+  return (base.startsWith('file:') ? base : 'file://' + base) + '/' + rel;
 }
 
 async function carregarImagens(urls) {

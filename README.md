@@ -9,58 +9,30 @@ Máquina de produção de vídeo da Cape Studios. Comece por:
 
 ---
 
-## Fred: como começar no seu Mac (uma vez só)
+## Fred: como começar (Windows, Acer Nitro)
 
-**1. Instale as ferramentas.** Abra o app **Terminal** e cole um bloco por vez:
+O passo a passo completo está em **`docs/Guia-do-Fred-Cape.pdf`** (mesma coisa em texto: `docs/Guia-do-Fred-Cape.txt`).
+Resumo, no PowerShell:
 
-```bash
-# Homebrew (gerenciador de programas do Mac). Pule se já tiver.
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-# git, node, ffmpeg e python
-brew install git node ffmpeg python
-
-# Claude Code (o Claude que trabalha dentro da pasta)
-curl -fsSL https://claude.ai/install.sh | bash
-```
-
-**2. Baixe o repositório** (vai criar a pasta `capestudios` dentro de Documentos):
-
-```bash
-cd ~/Documents
+```powershell
+winget install --id Git.Git -e
+winget install --id OpenJS.NodeJS.LTS -e
+winget install --id Python.Python.3.12 -e
+winget install --id Gyan.FFmpeg -e
+# feche e abra o PowerShell
+irm https://claude.ai/install.ps1 | iex
+# feche e abra o PowerShell
+cd $HOME\Documents
 git clone https://github.com/virtualfera/capestudios.git
 cd capestudios
-git checkout claude/producao-videos-clientes-6xsw3f   # enquanto o material não estiver no main
-```
-
-**3. Instale o motor de vídeo** (dentro da pasta `capestudios`):
-
-```bash
+git checkout claude/producao-videos-clientes-6xsw3f
 npm install
 npx playwright install chromium
-pip3 install pillow opencv-python-headless
-```
-
-**4. Abra o Claude na pasta:**
-
-```bash
+py -m pip install pillow opencv-python-headless
 claude
 ```
 
-Na primeira vez ele pede para entrar com a conta da Cape no Claude. Depois disso o `CLAUDE.md` já está carregado.
-Teste com: *"lê o CLAUDE.md e a PAUTA-FRED.md e me diz o que eu produzo hoje"*.
+No dia a dia: `git pull` e depois `claude`, dentro da pasta. `brutos/` e `entregas/` não vão para o GitHub.
+No Windows, use `py` no lugar de `python3` nos comandos do `CLAUDE.md`.
 
-> Prefere sem terminal? No **app Claude para Mac**, abra a aba **Code** e escolha a pasta `capestudios`.
-> Os passos 1 a 3 continuam necessários para o motor de vídeo funcionar.
-
-## No dia a dia
-
-```bash
-cd ~/Documents/capestudios
-git pull          # pega o que o time atualizou (fichas, formatos, pauta)
-claude            # abre o Claude
-```
-
-- Takes brutos ficam em `brutos/` e vídeos prontos em `entregas/`. **Nenhum dos dois vai para o GitHub** (são pesados).
-- Quando o Claude atualizar uma ficha ou um formato (ex.: uma decupagem nova), peça para ele **commitar e dar push**
-  para o time receber no próximo `git pull`.
+Para regerar o guia depois de editar `docs/guia-fred.html`: peça ao Claude para "gerar o PDF e o txt do guia".

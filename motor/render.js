@@ -4,6 +4,7 @@
 const { chromium } = require('playwright');
 const fs = require('fs');
 const path = require('path');
+const { pathToFileURL } = require('url');
 
 (async () => {
   const [specPath, out, ...args] = process.argv.slice(2);
@@ -18,7 +19,7 @@ const path = require('path');
   page.on('pageerror', e => { console.error('ERRO NA PAGINA:', e.message); process.exitCode = 2; });
   page.on('console', m => { if (m.type() === 'error') console.error('PAGE:', m.text()); });
   await page.addInitScript(s => { window.SPEC = s; }, spec);
-  await page.goto('file://' + tpl);
+  await page.goto(pathToFileURL(tpl).href);
   await page.evaluate(() => window.prontos);
   const dur = await page.evaluate(() => window.duracao());
 

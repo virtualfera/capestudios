@@ -59,5 +59,5 @@ python3 -I motor/ferramentas/folha.py <pasta_quadros> folha.png          # folha
 open motor/templates/localizacao.html?t=4&guias                          # ver um instante + zonas seguras
 ```
 
-Instalação no Mac: ver `README.md`. Requisitos: Node 18+ (`npm install` + `npx playwright install chromium`), Python 3 com Pillow, ffmpeg. Opcional: `opencv-python-headless`
+Instalação (o Fred usa Windows): ver `docs/Guia-do-Fred-Cape.pdf` e `README.md`. No Windows, `py` no lugar de `python3`. Requisitos: Node 18+ (`npm install` + `npx playwright install chromium`), Python 3 com Pillow, ffmpeg. Opcional: `opencv-python-headless`
 (para `motor/ferramentas/limpar_legenda.py`).
